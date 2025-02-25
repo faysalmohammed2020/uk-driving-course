@@ -128,7 +128,7 @@ const Footer: React.FC = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="bg-yellow-600 py-4 text-center text-gray-800">
+      <div className="py-4 text-center text-white">
         <p>
           Design by{" "}
           <Link href="https://www.pcoukonline.com" className="text-red-600 hover:underline">
