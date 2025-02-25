@@ -16,22 +16,39 @@ const HomePage: React.FC = () => {
   return (
     <div className="bg-gray-100">
       {/* Hero Section */}
-      <div
-        className="relative w-full h-[500px] flex items-center justify-center bg-cover bg-center"
-        style={{ backgroundImage: "url('/hero-background.jpg')" }}
-      >
-        <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="text-center text-white z-10">
-          <h1 className="text-4xl font-bold">What is SERU?</h1>
-          <p className="mt-4 max-w-2xl mx-auto">
-            SERU stands for Safety, Equality, and Regulatory Understanding. TFL
-            SERU Assessment Test is computer-based...
+      <div className="relative w-full h-[650px] flex items-center justify-center">
+        {/* Background Video */}
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          src="/images/video_hero.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
+
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black opacity-60"></div>
+
+        {/* Text Content */}
+        <div className="text-center text-white z-10 px-4">
+          <h1 className="text-6xl font-bold">Master the SERU Test</h1>
+          <p className="mt-4 max-w-3xl mx-auto text-lg">
+            Prepare yourself for the TFL SERU Assessment with our comprehensive
+            course designed to help you understand
+            <span className="font-semibold">
+              {" "}
+              Safety, Equality, and Regulatory Understanding
+            </span>
+            . Our course covers everything you need to pass the computer-based
+            test and become a certified PCO driver.
           </p>
+
           <div className="mt-6 flex gap-4 justify-center">
-            <button className="bg-red-500 px-6 py-3 rounded-lg text-white">
+            <button className="bg-yellow-600 px-6 py-3 rounded-lg text-white font-semibold hover:bg-yellow-700 transition duration-300 shadow-md">
               Enroll Now
             </button>
-            <button className="bg-green-500 px-6 py-3 rounded-lg text-white">
+            <button className="bg-transparent border-2 border-white px-6 py-3 rounded-lg text-white font-semibold hover:bg-white hover:text-black transition duration-300 shadow-md">
               Try Free
             </button>
           </div>

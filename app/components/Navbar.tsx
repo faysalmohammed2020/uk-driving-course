@@ -143,15 +143,15 @@ const Navbar = () => {
       <div className="hidden md:flex justify-end items-center py-3 px-4 bg-blue-900 text-white space-x-6 text-sm">
         <div className="flex items-center space-x-1">
           <PhoneIcon fontSize="small" />
-          <span>+44 11 2233 4455</span>
+          <span>+88 01842781978</span>
         </div>
         <div className="flex items-center space-x-1">
           <PhoneIcon fontSize="small" />
-          <span>+44 1122 333 444</span>
+          <span>+88 01842781978</span>
         </div>
         <div className="flex items-center space-x-1">
           <EmailIcon fontSize="small" />
-          <span>info@londoncarlicence.co.uk</span>
+          <span>talat@birdsofeden.me</span>
         </div>
       </div>
 
@@ -160,7 +160,7 @@ const Navbar = () => {
         {/* Logo and Title */}
         <Link href="/" className="flex flex-col">
           <Typography variant="h4" className="text-white font-bold">
-            UK PCO
+            Birds Of Eden
           </Typography>
           <Typography variant="caption" className="text-gray-300 text-sm">
             LICENCE AND TRAINING CENTRE
