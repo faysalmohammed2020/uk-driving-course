@@ -2,6 +2,8 @@
 import React from "react";
 import { FaFileAlt } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import RecentBlogs from "./RecentBlogs";
+import Footer from "./Footer";
 const mockTests = [
     { id: 1, title: "SERU Grammer Mock Test – 2" },
     { id: 2, title: "SERU Grammer Mock Test – 1" },
@@ -48,6 +50,7 @@ const HomePage: React.FC = () => {
         </button>
       </div>
     </section>
+
 
     <section className="bg-blue-900 text-white py-12 text-center">
       <h2 className="text-3xl font-bold">Topographical Theory Test</h2>
@@ -103,10 +106,10 @@ const HomePage: React.FC = () => {
         </div>
       </div>
 
+      <RecentBlogs/>
+
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-10 text-center">
-        <p>&copy; 2025 SERUonline. All Rights Reserved.</p>
-      </footer>
+      <Footer />
     </div>
   );
 };
