@@ -8,6 +8,8 @@ import OurCourses from "./OurCourses";
 import SomethingAboutUs from "./SomethingAboutUs";
 import GetInTouch from "./GetInTouch";
 import StatisticsSection from "./StatisticsSection";
+import StepsSection from './StepSections';
+import PromiseSection from './PromiseSection';
 const mockTests = [
   { id: 1, title: "SERU Grammer Mock Test – 2" },
   { id: 2, title: "SERU Grammer Mock Test – 1" },
@@ -56,7 +58,12 @@ const HomePage: React.FC = () => {
         </div>
       </div>
 
+      <StepsSection/>
+
       <SomethingAboutUs />
+
+
+
 
       {/* Stats Section */}
 
@@ -112,6 +119,8 @@ const HomePage: React.FC = () => {
           </button>
         </div>
       </section>
+
+      <PromiseSection/>
 
      <StatisticsSection />
 
