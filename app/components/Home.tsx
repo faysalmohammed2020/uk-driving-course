@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import OurCourses from "./OurCourses";
 import SomethingAboutUs from "./SomethingAboutUs";
 import GetInTouch from "./GetInTouch";
+import StatisticsSection from "./StatisticsSection";
 const mockTests = [
   { id: 1, title: "SERU Grammer Mock Test – 2" },
   { id: 2, title: "SERU Grammer Mock Test – 1" },
@@ -112,16 +113,7 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
-      <div className="flex justify-center gap-10 py-10 bg-white">
-        <div className="text-center">
-          <h2 className="text-2xl font-bold">500+</h2>
-          <p>Real Exam Questions</p>
-        </div>
-        <div className="text-center">
-          <h2 className="text-2xl font-bold">100%</h2>
-          <p>Pass Rate</p>
-        </div>
-      </div>
+     <StatisticsSection />
 
       <OurCourses />
 
