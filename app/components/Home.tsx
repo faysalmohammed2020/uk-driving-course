@@ -6,6 +6,7 @@ import RecentBlogs from "./RecentBlogs";
 import Footer from "./Footer";
 import OurCourses from "./OurCourses";
 import SomethingAboutUs from "./SomethingAboutUs";
+import GetInTouch from "./GetInTouch";
 const mockTests = [
   { id: 1, title: "SERU Grammer Mock Test – 2" },
   { id: 2, title: "SERU Grammer Mock Test – 1" },
@@ -108,6 +109,8 @@ const HomePage: React.FC = () => {
       <OurCourses />
 
       <RecentBlogs />
+
+      <GetInTouch />
 
       {/* Footer */}
       <Footer />
