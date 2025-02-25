@@ -11,7 +11,7 @@
 // import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
 // const Navbar = () => {
-    
+
 //   return (
 //     <AppBar position="static" className="bg-blue-800 shadow-md">
 //       {/* Top Contact Bar */}
@@ -94,9 +94,6 @@
 
 // export default Navbar;
 
-
-
-
 "use client";
 
 import React, { useState } from "react";
@@ -127,6 +124,17 @@ const Navbar = () => {
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
+  };
+
+  const [guidelineAnchorEl, setGuidelineAnchorEl] =
+    useState<null | HTMLElement>(null);
+
+  const handleGuidelineMenuOpen = (event: React.MouseEvent<HTMLElement>) => {
+    setGuidelineAnchorEl(event.currentTarget);
+  };
+
+  const handleGuidelineMenuClose = () => {
+    setGuidelineAnchorEl(null);
   };
 
   return (
@@ -193,9 +201,71 @@ const Navbar = () => {
           <Link href="/blog" className="text-white hover:text-yellow-300">
             Blog
           </Link>
-          <Link href="/guideline" className="text-white hover:text-yellow-300">
-            Guideline
+          {/* Guideline with Submenu */}
+          <Link
+            href="#"
+            onClick={handleGuidelineMenuOpen}
+            className="text-white hover:text-yellow-300 flex items-center"
+          >
+            Guideline <ArrowDropDownIcon fontSize="small" />
           </Link>
+          <Menu
+            anchorEl={guidelineAnchorEl}
+            open={Boolean(guidelineAnchorEl)}
+            onClose={handleGuidelineMenuClose}
+            MenuListProps={{ onMouseLeave: handleGuidelineMenuClose }}
+            className="mt-2"
+            anchorOrigin={{
+              vertical: "bottom",
+              horizontal: "left",
+            }}
+            transformOrigin={{
+              vertical: "top",
+              horizontal: "left",
+            }}
+          >
+            <MenuItem onClick={handleGuidelineMenuClose}>
+              <Link
+                href="/guideline/overview"
+                className="text-black hover:text-blue-700"
+              >
+                PCO Application
+              </Link>
+            </MenuItem>
+            <MenuItem onClick={handleGuidelineMenuClose}>
+              <Link
+                href="/guideline/rules"
+                className="text-black hover:text-yellow-300"
+              >
+                PCO Medical
+              </Link>
+            </MenuItem>
+            <MenuItem onClick={handleGuidelineMenuClose}>
+              <Link
+                href="/guideline/safety"
+                className="text-black hover:text-yellow-300"
+              >
+                PCO Renewals
+              </Link>
+            </MenuItem>
+            <MenuItem onClick={handleGuidelineMenuClose}>
+              <Link
+                href="/guideline/faq"
+                className="text-black hover:text-yellow-300"
+              >
+                CRB (DBS)
+              </Link>
+            </MenuItem>
+            <MenuItem onClick={handleGuidelineMenuClose}>
+              <Link
+                href="/guideline/faq"
+                className="text-black hover:text-yellow-300"
+              >
+                Topographical Test
+              </Link>
+            </MenuItem>
+          </Menu>
+
           <Link href="/about" className="text-white hover:text-yellow-300">
             About Us
           </Link>
@@ -294,15 +364,6 @@ const Navbar = () => {
 
 export default Navbar;
 
-
-
-
-
-
-
-
-
-
 // "use client";
 
 // import React, { useState, useEffect } from "react";
@@ -397,16 +458,6 @@ export default Navbar;
 // };
 
 // export default Navbar;
-
-
-
-
-
-
-
-
-
-
 
 // "use client";
 
