@@ -27,8 +27,8 @@ const Footer: React.FC = () => {
                 className="rounded-full"
               />
             </div>
-            <h4 className="text-2xl font-bold">PCOUKonline.com</h4>
-            <p className="text-gray-300">PCO Uk Driver Online Course</p>
+            <h4 className="text-2xl font-bold">birdsofeden.com</h4>
+            <p className="text-gray-300">Birds Of Eden Online Course</p>
           </div>
 
           {/* Links */}
@@ -78,19 +78,19 @@ const Footer: React.FC = () => {
             <h4 className="text-xl font-bold mb-4">Contact Us</h4>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <span className="block">📧 info@pcoukonline.com</span>
+                <span className="block">📧 talat@birdsofeden.me</span>
               </li>
               <li>
                 <span className="block">📞 0123456789</span>
               </li>
               <li>
-                <span className="block">📍 PCO UK Training Centre, UK House, 123-456 New Street, Wood Green, London 8B-3C.</span>
+                <span className="block">📍 Birds Of Eden Training Center, Tower 71, Ecb Chattar, Mirpur, Dhaka</span>
               </li>
             </ul>
 
             <h4 className="text-xl font-bold mt-6 mb-2">Learning Support</h4>
             <span className="block text-gray-300">
-              customercare@pcoukonline.com
+              customercare@birdsofeden.me
             </span>
           </div>
 
@@ -132,9 +132,9 @@ const Footer: React.FC = () => {
         <p>
           Design by{" "}
           <Link href="https://www.pcoukonline.com" className="text-red-600 hover:underline">
-            PCO UK Online
+            Birds Of Eden
           </Link>{" "}
-          | © 2025 - PCO UK Online All Rights Reserved.
+          | © 2025 - Birds Of Eden All Rights Reserved.
         </p>
       </div>
     </footer>
