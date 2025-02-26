@@ -3,16 +3,19 @@ import React from "react";
 import { FaFileAlt } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import GetInTouch from "../components/GetInTouch";
-import { blogs, courses, promises, statistics, steps } from "./data/home";
+import {
+  blogs,
+  courses,
+  mockTests,
+  promises,
+  statistics,
+  steps,
+} from "./data/home";
 import Image from "next/image";
 import { FaAward } from "react-icons/fa";
 import Link from "next/link";
+import BlogCard from "../components/BlogCard";
 
-const mockTests = [
-  { id: 1, title: "SERU Grammer Mock Test – 2" },
-  { id: 2, title: "SERU Grammer Mock Test – 1" },
-  { id: 3, title: "Theory Mock Test 6" },
-];
 const HomePage: React.FC = () => {
   return (
     <div className="bg-gray-100">
@@ -150,6 +153,7 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
+      {/* Mock Test Section */}
       <section className="bg-sky-900 text-white py-12 text-center">
         <h2 className="text-3xl font-bold">Topographical Theory Test</h2>
         <p className="mt-2 text-lg">
@@ -319,32 +323,7 @@ const HomePage: React.FC = () => {
           {/* Blog Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {blogs.map((blog, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
-              >
-                <div className="overflow-hidden rounded-t-lg">
-                  <Image
-                    src={blog.image}
-                    alt={blog.title}
-                    className="w-full h-48 object-cover"
-                    width={500}
-                    height={300}
-                  />
-                </div>
-                <div className="p-4">
-                  <h3 className="text-lg font-semibold text-gray-800">
-                    {blog.title}
-                  </h3>
-                  <p className="text-gray-600 mt-2">{blog.description}</p>
-                  <Link
-                    href={blog.link}
-                    className="text-indigo-600 font-semibold mt-4 inline-block hover:underline"
-                  >
-                    READ MORE »
-                  </Link>
-                </div>
-              </div>
+              <BlogCard key={index} blog={blog} />
             ))}
           </div>
 

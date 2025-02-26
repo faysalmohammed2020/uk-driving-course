@@ -1,4 +1,3 @@
-
 "use client";
 
 import React, { useState } from "react";
@@ -103,7 +102,7 @@ const Navbar = () => {
           <Link href="/course" className="text-white hover:text-yellow-300">
             Course
           </Link>
-          <Link href="/blog" className="text-white hover:text-yellow-300">
+          <Link href="/blogs" className="text-white hover:text-yellow-300">
             Blog
           </Link>
           {/* Guideline with Submenu */}
@@ -218,7 +217,7 @@ const Navbar = () => {
             Course
           </Link>
           <Link
-            href="/blog"
+            href="/blogs"
             className="block text-white hover:text-yellow-300 px-4"
             onClick={toggleMobileMenu}
           >
@@ -268,4 +267,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
