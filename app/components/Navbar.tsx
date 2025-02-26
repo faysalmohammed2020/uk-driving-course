@@ -266,10 +266,10 @@ const Navbar = () => {
             </MenuItem>
           </Menu>
 
-          <Link href="/about" className="text-white hover:text-yellow-300">
+          <Link href="/about-us" className="text-white hover:text-yellow-300">
             About Us
           </Link>
-          <Link href="/contact" className="text-white hover:text-yellow-300">
+          <Link href="/contacts" className="text-white hover:text-yellow-300">
             Contact Us
           </Link>
         </div>
