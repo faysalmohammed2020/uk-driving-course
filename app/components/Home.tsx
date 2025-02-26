@@ -88,7 +88,7 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
-      <section className="bg-blue-900 text-white py-12 text-center">
+      <section className="bg-sky-900 text-white py-12 text-center">
         <h2 className="text-3xl font-bold">Topographical Theory Test</h2>
         <p className="mt-2 text-lg">
           We strongly advise you to read the handbook before starting our
