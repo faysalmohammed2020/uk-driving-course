@@ -4,7 +4,6 @@ import Footer from "../../components/Footer";
 const ContactPage = () => {
   return (
     <>
-      <Navbar />
       <div className="bg-gray-100 text-gray-900 py-16 px-6">
         <div className="max-w-7xl mx-auto">
           {/* Contact Header */}
@@ -81,7 +80,6 @@ const ContactPage = () => {
           </section>
         </div>
       </div>
-      <Footer />
     </>
   );
 };
