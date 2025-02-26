@@ -1,5 +1,6 @@
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import GetInTouch from "@/app/components/GetInTouch";
 
 const AboutPage = () => {
   return (
@@ -150,17 +151,9 @@ const AboutPage = () => {
           </div>
         </section>
 
-        {/* Contact Section */}
-        <section className="bg-orange-500 text-white text-center py-16 px-6">
-          <h2 className="text-4xl font-extrabold">Get in Touch</h2>
-          <p className="max-w-3xl mx-auto mt-6 text-lg">
-            We offer tailored guidance and efficient processing for private hire
-            driver licences. Book your consultation today.
-          </p>
-          <button className="mt-6 px-8 py-3 bg-black text-white rounded-lg text-lg font-semibold">
-            Schedule an Appointment
-          </button>
-        </section>
+        <GetInTouch />
+
+       
       </div>
     </>
   );
