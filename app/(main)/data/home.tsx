@@ -125,24 +125,28 @@ export const courses = [
 // Sample Blog Data
 export const blogs = [
   {
+    id: 1,
     title: "SERU Training For PCO Drivers",
     description: "The SERU training course (Safety, Equality, and Regularity Understanding) offered",
     image: "/images/blog1.webp",
     link: "/blogs/seru-training",
   },
   {
+    id: 2,
     title: "Topographical Skills Test: A Key Requirement for PCO Driver Training",
     description: "Becoming a Private Hire or Taxi Driver in London involves",
     image: "/images/blog2.avif",
     link: "/blogs/topographical-test",
   },
   {
+    id: 3,
     title: "PCO Electric Vehicle Advantages",
     description: "Driving in London is becoming more expensive day by day,",
     image: "/images/blog3.jpg",
     link: "/blogs/electric-vehicles",
   },
   {
+    id: 4,
     title: "PCO Driver Training in London",
     description: "The SERU training course (Safety, Equality, and Regularity Understanding) offered",
     image: "/images/blog4.webp",

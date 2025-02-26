@@ -55,6 +55,7 @@ import { blogspageblogs } from "../data/home";
 import BlogCard from "@/app/components/BlogCard";
 import Link from "next/link";
 import Image from "next/image";
+import GetInTouch from "@/app/components/GetInTouch";
 
 const BlogsPage = () => {
   // Pagination State
@@ -193,6 +194,7 @@ const BlogsPage = () => {
           </div>
         </div>
       </section>
+      <GetInTouch/>
     </div>
   );
 };
