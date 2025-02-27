@@ -99,7 +99,7 @@ const Navbar = () => {
               </Link>
             </MenuItem>
           </Menu>
-          <Link href="/course" className="text-white hover:text-yellow-300">
+          <Link href="/courses" className="text-white hover:text-yellow-300">
             Course
           </Link>
           <Link href="/blogs" className="text-white hover:text-yellow-300">
