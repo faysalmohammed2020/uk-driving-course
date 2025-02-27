@@ -1,4 +1,5 @@
 // import Image from "next/image";
+"use client"
 import React from "react";
 import { FaFileAlt } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
@@ -166,7 +167,7 @@ const HomePage: React.FC = () => {
                 <h3 className="font-semibold">{test.title}</h3>
                 <FaFileAlt className="text-gray-500 text-2xl" />
               </div>
-              <button className="mt-4 bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg font-bold hover:bg-yellow-500 transition">
+              <button  onClick={startExam} className="mt-4 bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg font-bold hover:bg-yellow-500 transition">
                 Start Now
               </button>
             </div>

@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "question": "What is the minimum age required to apply for a London PHV driver’s licence?",
+    "options": ["18", "21", "25", "30"],
+    "answer": "21"
+  },
+  {
+    "id": 2,
+    "question": "Which document is required to prove the right to live and work in the UK?",
+    "options": [
+      "National Insurance Card",
+      "Passport",
+      "Utility Bill",
+      "Driving Licence"
+    ],
+    "answer": "Passport"
+  },
+  {
+    "id": 3,
+    "question": "What is the purpose of the Topographical Skills Assessment?",
+    "options": [
+      "To test driving skills",
+      "To check vehicle maintenance knowledge",
+      "To assess route planning and map reading",
+      "To evaluate customer service skills"
+    ],
+    "answer": "To assess route planning and map reading"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following is a condition for obtaining a PHV driver’s licence?",
+    "options": [
+      "Owning a vehicle",
+      "Passing an English language test",
+      "Working for a licensed operator",
+      "Paying a congestion charge"
+    ],
+    "answer": "Passing an English language test"
+  },
+  {
+    "id": 5,
+    "question": "Which organization conducts the enhanced criminal records check for PHV drivers?",
+    "options": ["DVLA", "DBS", "TfL", "HMRC"],
+    "answer": "DBS"
+  },
+  {
+    "id": 6,
+    "question": "What is required to be worn by a PHV driver while on duty?",
+    "options": [
+      "Uniform",
+      "Name tag",
+      "Photographic ID badge",
+      "Reflective vest"
+    ],
+    "answer": "Photographic ID badge"
+  },
+  {
+    "id": 7,
+    "question": "Which of the following is a mandatory medical requirement for PHV drivers?",
+    "options": [
+      "Group 1 DVLA standards",
+      "Group 2 DVLA standards",
+      "Fitness test",
+      "Vision test only"
+    ],
+    "answer": "Group 2 DVLA standards"
+  },
+  {
+    "id": 8,
+    "question": "How often must PHV drivers over the age of 65 have a medical assessment?",
+    "options": [
+      "Every year",
+      "Every 2 years",
+      "Every 3 years",
+      "Every 5 years"
+    ],
+    "answer": "Every year"
+  },
+  {
+    "id": 9,
+    "question": "Which agency is responsible for licensing PHV drivers in London?",
+    "options": ["DVLA", "TfL", "DBS", "HMRC"],
+    "answer": "TfL"
+  },
+  {
+    "id": 10,
+    "question": "What should a driver do if they lose their PHV driver’s badge?",
+    "options": [
+      "Continue working without it",
+      "Report it to TfL immediately",
+      "Apply for a new licence",
+      "Borrow one from another driver"
+    ],
+    "answer": "Report it to TfL immediately"
+  },
+  {
+    "id": 11,
+    "question": "Which of the following behaviors is considered unacceptable for PHV drivers?",
+    "options": [
+      "Wearing a uniform",
+      "Helping disabled passengers",
+      "Making personal comments about passengers",
+      "Using GPS for navigation"
+    ],
+    "answer": "Making personal comments about passengers"
+  },
+  {
+    "id": 12,
+    "question": "Under the Equality Act 2010, PHV drivers must not discriminate based on:",
+    "options": [
+      "Hair color",
+      "Gender identity",
+      "Clothing choice",
+      "Car model"
+    ],
+    "answer": "Gender identity"
+  },
+  {
+    "id": 13,
+    "question": "Which type of insurance is mandatory for PHVs?",
+    "options": [
+      "Third-party only",
+      "Comprehensive insurance",
+      "Hire or reward insurance",
+      "Life insurance"
+    ],
+    "answer": "Hire or reward insurance"
+  },
+  {
+    "id": 14,
+    "question": "Where are PHV drivers prohibited from picking up passengers?",
+    "options": ["Bus stops", "Taxi ranks", "Red routes", "Parking bays"],
+    "answer": "Taxi ranks"
+  },
+  {
+    "id": 15,
+    "question": "What must a PHV driver do if they develop a new medical condition?",
+    "options": [
+      "Ignore it",
+      "Continue working without informing anyone",
+      "Report it to TfL immediately",
+      "Take a break from driving"
+    ],
+    "answer": "Report it to TfL immediately"
+  },
+  {
+    "id": 16,
+    "question": "Which of the following is considered a hate crime?",
+    "options": [
+      "Speeding",
+      "Parking violation",
+      "Verbal abuse based on race",
+      "Using a mobile phone while driving"
+    ],
+    "answer": "Verbal abuse based on race"
+  },
+  {
+    "id": 17,
+    "question": "Which safety device is recommended for lone PHV drivers?",
+    "options": [
+      "Airbags",
+      "GPS tracker",
+      "Lone worker device",
+      "Reflective vest"
+    ],
+    "answer": "Lone worker device"
+  },
+  {
+    "id": 18,
+    "question": "What is required for PHVs to enter the Congestion Charge zone?",
+    "options": [
+      "Special permit",
+      "Daily charge payment",
+      "Wheelchair accessibility",
+      "Operator's approval"
+    ],
+    "answer": "Daily charge payment"
+  },
+  {
+    "id": 19,
+    "question": "What is the purpose of CCTV in PHVs?",
+    "options": [
+      "Entertainment for passengers",
+      "Navigation assistance",
+      "Evidence in case of disputes",
+      "To avoid congestion charges"
+    ],
+    "answer": "Evidence in case of disputes"
+  },
+  {
+    "id": 20,
+    "question": "Which organization provides safeguarding awareness training for PHV drivers?",
+    "options": ["TfL", "DVLA", "HMRC", "DBS"],
+    "answer": "TfL"
+  }
+]
