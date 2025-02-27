@@ -5,6 +5,11 @@
             "enroll": "Enroll Now",
             "TryFree": "Try Free", 
             "description":"Prepare yourself for the TFL SERU Assessment with our comprehensive course designed to help you understand Safety, Equality, and Regulatory Understanding. Our course covers everything you need to pass the computer-based test and become a certified PCO driver."
+        },
+        "SomethingAboutUs":{
+            "SomethingAboutUsTitle":"Completing your PCO licence will be hassle free.",
+            "SAUD": "For only £545 with all fees included, we are the cheapest and one of London's only all in one PCO Licence centres where you can complete your topographical training, TPH 204 medical check and have your TFL PCO application correctly filled in and filed by us. We completely take the headache and stress out of the PCO application process.",
+            "Yrs":"8 yrs"
         }
     }
     

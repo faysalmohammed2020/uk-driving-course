@@ -1,8 +1,6 @@
 // import Image from "next/image";
 "use client"
 import React from "react";
-import { FaFileAlt } from "react-icons/fa";
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import GetInTouch from "../../components/GetInTouch";
 import {
   blogs,
@@ -15,15 +13,12 @@ import {
 import Image from "next/image";
 import { FaAward } from "react-icons/fa";
 import Link from "next/link";
-<<<<<<< HEAD:app/(main)/page.tsx
-import BlogCard from "../components/BlogCard";
-import { useRouter } from "next/navigation";
-import MockTestSection from "../components/MockTestSection";
-=======
+import MockTestSection from "../../components/MockTestSection";
+
 import BlogCard from "../../components/BlogCard";
 import { useTranslations } from "next-intl";
 
->>>>>>> 5e8b1890133952d8cb4833ccc42a837b8e2269e7:app/(main)/[locale]/page.tsx
+
 
 const HomePage: React.FC = () => {
   const t =useTranslations()
@@ -101,21 +96,16 @@ const HomePage: React.FC = () => {
             {/* Right Column - Content */}
             <div>
               <h2 className="text-4xl font-bold text-gray-800 mb-4">
-                Completing your PCO licence will be hassle free.
+                {t('home.SomethingAboutUs.SomethingAboutUsTitle')}
               </h2>
               <p className="text-gray-600 mb-6">
-                For only £545 with all fees included, we are the cheapest and
-                one of London's only all in one PCO Licence centres where you
-                can complete your topographical training, TPH 204 medical check
-                and have your TFL PCO application correctly filled in and filed
-                by us. We completely take the headache and stress out of the PCO
-                application process.
+              {t('home.SomethingAboutUs.SAUD')}
               </p>
 
               <div className="flex items-center mb-6">
                 <FaAward className="text-teal-600 text-3xl mr-4" />
                 <div>
-                  <h4 className="text-2xl font-bold text-gray-800">8 Yrs+</h4>
+                  <h4 className="text-2xl font-bold text-gray-800">{t('home.SomethingAboutUs.Yrs')}</h4>
                   <p className="text-gray-600">Professional Experience!</p>
                 </div>
               </div>
