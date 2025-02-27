@@ -3,6 +3,7 @@ import { CalendarCheck, Stethoscope, MapPinned, Workflow } from "lucide-react";
 import { FaBook, FaFlag, FaCompass } from "react-icons/fa";
 
 export const statistics = [
+  
   {
     icon: <FaBook className="text-6xl text-sky-800" />,
     value: "800+",

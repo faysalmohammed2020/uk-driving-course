@@ -2,7 +2,7 @@
 import React from "react";
 import { FaFileAlt } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import GetInTouch from "../components/GetInTouch";
+import GetInTouch from "../../components/GetInTouch";
 import {
   blogs,
   courses,
@@ -14,9 +14,12 @@ import {
 import Image from "next/image";
 import { FaAward } from "react-icons/fa";
 import Link from "next/link";
-import BlogCard from "../components/BlogCard";
+import BlogCard from "../../components/BlogCard";
+import { useTranslations } from "next-intl";
+
 
 const HomePage: React.FC = () => {
+  const t =useTranslations()
   return (
     <div className="bg-gray-100">
       {/* Hero Section */}
@@ -36,24 +39,17 @@ const HomePage: React.FC = () => {
 
         {/* Text Content */}
         <div className="text-center text-white z-10 px-4">
-          <h1 className="text-6xl font-bold">Master the SERU Test</h1>
+          <h1 className="text-6xl font-bold">{t('home.hero.title')}</h1>
           <p className="mt-4 max-w-3xl mx-auto text-lg">
-            Prepare yourself for the TFL SERU Assessment with our comprehensive
-            course designed to help you understand
-            <span className="font-semibold">
-              {" "}
-              Safety, Equality, and Regulatory Understanding
-            </span>
-            . Our course covers everything you need to pass the computer-based
-            test and become a certified PCO driver.
+            {t('home.hero.description')}
           </p>
 
           <div className="mt-6 flex gap-4 justify-center">
             <button className="bg-yellow-600 px-6 py-3 rounded-lg text-white font-semibold hover:bg-yellow-700 transition duration-300 shadow-md">
-              Enroll Now
+              {t('home.hero.enroll')}
             </button>
             <button className="bg-transparent border-2 border-white px-6 py-3 rounded-lg text-white font-semibold hover:bg-white hover:text-black transition duration-300 shadow-md">
-              Try Free
+              {t('home.hero.TryFree')}
             </button>
           </div>
         </div>

@@ -1,6 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
+import { useLocale } from "next-intl";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
@@ -13,32 +15,26 @@ import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import MenuIcon from "@mui/icons-material/Menu";
+import TranslateIcon from "@mui/icons-material/Translate";
 
 const Navbar = () => {
-  const [anchorEl, setAnchorEl] = useState<HTMLAnchorElement | null>(null);
+  const router = useRouter();
+  const locale = useLocale();
+  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [languageAnchorEl, setLanguageAnchorEl] = useState<null | HTMLElement>(null);
 
-  const handleMenuOpen = (event: React.MouseEvent<HTMLAnchorElement>) => {
-    setAnchorEl(event.currentTarget);
+  const handleLanguageMenuOpen = (event: React.MouseEvent<HTMLElement>) => {
+    setLanguageAnchorEl(event.currentTarget);
   };
 
-  const handleMenuClose = () => {
-    setAnchorEl(null);
+  const handleLanguageMenuClose = () => {
+    setLanguageAnchorEl(null);
   };
 
-  const toggleMobileMenu = () => {
-    setMobileMenuOpen(!mobileMenuOpen);
-  };
-
-  const [guidelineAnchorEl, setGuidelineAnchorEl] =
-    useState<null | HTMLElement>(null);
-
-  const handleGuidelineMenuOpen = (event: React.MouseEvent<HTMLElement>) => {
-    setGuidelineAnchorEl(event.currentTarget);
-  };
-
-  const handleGuidelineMenuClose = () => {
-    setGuidelineAnchorEl(null);
+  const changeLanguage = (lang: string) => {
+    router.push(`/${lang}`);
+    handleLanguageMenuClose();
   };
 
   return (
@@ -56,6 +52,19 @@ const Navbar = () => {
         <div className="flex items-center space-x-1">
           <EmailIcon fontSize="small" />
           <span>talat@birdsofeden.me</span>
+        </div>
+
+        {/* Language Selector */}
+        <div>
+          <IconButton onClick={handleLanguageMenuOpen} className="text-white">
+            <TranslateIcon />
+          </IconButton>
+          <Menu anchorEl={languageAnchorEl} open={Boolean(languageAnchorEl)} onClose={handleLanguageMenuClose}>
+            <MenuItem onClick={() => changeLanguage("en")}>English</MenuItem>
+            <MenuItem onClick={() => changeLanguage("bn")}>Bengali</MenuItem>
+            <MenuItem onClick={() => changeLanguage("ur")}>Urdu</MenuItem>
+            <MenuItem onClick={() => changeLanguage("hi")}>Hindi</MenuItem>
+          </Menu>
         </div>
       </div>
 
@@ -76,100 +85,12 @@ const Navbar = () => {
           <Link href="/" className="text-white hover:text-yellow-300">
             Home
           </Link>
-          <Link
-            href="#"
-            onClick={handleMenuOpen}
-            className="text-white hover:text-yellow-300 flex items-center"
-          >
-            Theory Test <ArrowDropDownIcon fontSize="small" />
-          </Link>
-          <Menu
-            anchorEl={anchorEl}
-            open={Boolean(anchorEl)}
-            onClose={handleMenuClose}
-          >
-            <MenuItem onClick={handleMenuClose}>
-              <Link href="/theory/general" className="text-black">
-                General Test
-              </Link>
-            </MenuItem>
-            <MenuItem onClick={handleMenuClose}>
-              <Link href="/theory/special" className="text-black">
-                Special Test
-              </Link>
-            </MenuItem>
-          </Menu>
           <Link href="/course" className="text-white hover:text-yellow-300">
             Course
           </Link>
           <Link href="/blogs" className="text-white hover:text-yellow-300">
             Blog
           </Link>
-          {/* Guideline with Submenu */}
-          <Link
-            href="#"
-            onClick={handleGuidelineMenuOpen}
-            className="text-white hover:text-yellow-300 flex items-center"
-          >
-            Guideline <ArrowDropDownIcon fontSize="small" />
-          </Link>
-          <Menu
-            anchorEl={guidelineAnchorEl}
-            open={Boolean(guidelineAnchorEl)}
-            onClose={handleGuidelineMenuClose}
-            MenuListProps={{ onMouseLeave: handleGuidelineMenuClose }}
-            className="mt-2"
-            anchorOrigin={{
-              vertical: "bottom",
-              horizontal: "left",
-            }}
-            transformOrigin={{
-              vertical: "top",
-              horizontal: "left",
-            }}
-          >
-            <MenuItem onClick={handleGuidelineMenuClose}>
-              <Link
-                href="/guideline/overview"
-                className="text-black hover:text-blue-700"
-              >
-                PCO Application
-              </Link>
-            </MenuItem>
-            <MenuItem onClick={handleGuidelineMenuClose}>
-              <Link
-                href="/guideline/rules"
-                className="text-black hover:text-yellow-300"
-              >
-                PCO Medical
-              </Link>
-            </MenuItem>
-            <MenuItem onClick={handleGuidelineMenuClose}>
-              <Link
-                href="/guideline/safety"
-                className="text-black hover:text-yellow-300"
-              >
-                PCO Renewals
-              </Link>
-            </MenuItem>
-            <MenuItem onClick={handleGuidelineMenuClose}>
-              <Link
-                href="/guideline/faq"
-                className="text-black hover:text-yellow-300"
-              >
-                CRB (DBS)
-              </Link>
-            </MenuItem>
-            <MenuItem onClick={handleGuidelineMenuClose}>
-              <Link
-                href="/guideline/faq"
-                className="text-black hover:text-yellow-300"
-              >
-                Topographical Test
-              </Link>
-            </MenuItem>
-          </Menu>
-
           <Link href="/about-us" className="text-white hover:text-yellow-300">
             About Us
           </Link>
@@ -179,85 +100,37 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu Toggle */}
-        <IconButton
-          edge="start"
-          color="inherit"
-          aria-label="menu"
-          className="md:hidden"
-          onClick={toggleMobileMenu}
-        >
+        <IconButton edge="start" color="inherit" aria-label="menu" className="md:hidden" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
           <MenuIcon />
         </IconButton>
 
         {/* Mobile Navigation Menu */}
-        <div
-          className={`${
-            mobileMenuOpen ? "block" : "hidden"
-          } md:hidden absolute top-24 left-0 w-full bg-blue-800 text-white py-4 space-y-4`}
-        >
-          <Link
-            href="/"
-            className="block text-white hover:text-yellow-300 px-4"
-            onClick={toggleMobileMenu}
-          >
-            Home
-          </Link>
-          <Link
-            href="/theory"
-            className="block text-white hover:text-yellow-300 px-4"
-            onClick={toggleMobileMenu}
-          >
-            Theory Test
-          </Link>
-          <Link
-            href="/course"
-            className="block text-white hover:text-yellow-300 px-4"
-            onClick={toggleMobileMenu}
-          >
-            Course
-          </Link>
-          <Link
-            href="/blogs"
-            className="block text-white hover:text-yellow-300 px-4"
-            onClick={toggleMobileMenu}
-          >
-            Blog
-          </Link>
-          <Link
-            href="/guideline"
-            className="block text-white hover:text-yellow-300 px-4"
-            onClick={toggleMobileMenu}
-          >
-            Guideline
-          </Link>
-          <Link
-            href="/about"
-            className="block text-white hover:text-yellow-300 px-4"
-            onClick={toggleMobileMenu}
-          >
-            About Us
-          </Link>
-          <Link
-            href="/contact"
-            className="block text-white hover:text-yellow-300 px-4"
-            onClick={toggleMobileMenu}
-          >
-            Contact Us
-          </Link>
-        </div>
+        {mobileMenuOpen && (
+          <div className="absolute top-24 left-0 w-full bg-blue-800 text-white py-4 space-y-4">
+            <Link href="/" className="block text-white hover:text-yellow-300 px-4" onClick={() => setMobileMenuOpen(false)}>
+              Home
+            </Link>
+            <Link href="/course" className="block text-white hover:text-yellow-300 px-4" onClick={() => setMobileMenuOpen(false)}>
+              Course
+            </Link>
+            <Link href="/blogs" className="block text-white hover:text-yellow-300 px-4" onClick={() => setMobileMenuOpen(false)}>
+              Blog
+            </Link>
+            <Link href="/about-us" className="block text-white hover:text-yellow-300 px-4" onClick={() => setMobileMenuOpen(false)}>
+              About Us
+            </Link>
+            <Link href="/contacts" className="block text-white hover:text-yellow-300 px-4" onClick={() => setMobileMenuOpen(false)}>
+              Contact Us
+            </Link>
+          </div>
+        )}
 
         {/* Login and Sign Up Buttons */}
         <div className="hidden md:flex space-x-4">
-          <Button
-            variant="outlined"
-            className="border-white text-white hover:bg-white hover:text-blue-800 text-lg rounded-lg px-4"
-          >
+          <Button variant="outlined" className="border-white text-white hover:bg-white hover:text-blue-800 text-lg rounded-lg px-4">
             Login
           </Button>
-          <Button
-            variant="contained"
-            className="bg-emerald-700 text-white text-lg hover:bg-emerald-800 rounded-lg px-4"
-          >
+          <Button variant="contained" className="bg-emerald-700 text-white text-lg hover:bg-emerald-800 rounded-lg px-4">
             Sign Up
           </Button>
         </div>
