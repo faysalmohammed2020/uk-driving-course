@@ -15,15 +15,10 @@ import {
 import Image from "next/image";
 import { FaAward } from "react-icons/fa";
 import Link from "next/link";
-<<<<<<< HEAD:app/(main)/page.tsx
-import BlogCard from "../components/BlogCard";
-import { useRouter } from "next/navigation";
-import MockTestSection from "../components/MockTestSection";
-=======
 import BlogCard from "../../components/BlogCard";
 import { useTranslations } from "next-intl";
+import MockTestSection from "@/app/components/MockTestSection";
 
->>>>>>> 5e8b1890133952d8cb4833ccc42a837b8e2269e7:app/(main)/[locale]/page.tsx
 
 const HomePage: React.FC = () => {
   const t =useTranslations()

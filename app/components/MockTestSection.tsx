@@ -5,10 +5,10 @@ import { FaFileAlt } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 // Import all question sets
-import questions1 from "@/app/(main)/data/questions.json";
-import questions2 from "@/app/(main)/data/questions2.json";
-import questions3 from "@/app/(main)/data/questions3.json";
-import questions4 from "@/app/(main)/data/questions4.json";
+import questions1 from "@/app/(main)/[locale]/data/questions.json";
+import questions2 from "@/app/(main)/[locale]/data/questions2.json";
+import questions3 from "@/app/(main)/[locale]/data/questions3.json";
+import questions4 from "@/app/(main)/[locale]/data/questions4.json";
 
 interface MockTest {
   id: number;
@@ -31,7 +31,7 @@ const MockTestSection = () => {
   }, []);
 
   const startExam = (id: number) => {
-    router.push(`/exam/${id}`);
+    router.push(`/en/exam/${id}`);
   };
 
   return (
