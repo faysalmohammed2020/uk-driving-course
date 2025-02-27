@@ -17,6 +17,7 @@ import MockTestSection from "../../components/MockTestSection";
 
 import BlogCard from "../../components/BlogCard";
 import { useTranslations } from "next-intl";
+import MockTestSection from "@/app/components/MockTestSection";
 
 
 

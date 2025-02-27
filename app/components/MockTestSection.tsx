@@ -31,7 +31,7 @@ const MockTestSection = () => {
   }, []);
 
   const startExam = (id: number) => {
-    router.push(`/exam/${id}`);
+    router.push(`/en/exam/${id}`);
   };
 
   return (
