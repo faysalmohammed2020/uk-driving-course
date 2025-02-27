@@ -1,19 +1,40 @@
 "use client";
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
-import QuestionCard from "../../components/QuestionCard";
-import questions from "../data/questions.json";
+import { useParams, useRouter } from "next/navigation";
 
-export default function Exam() {
+// Import all question sets
+import questions1 from "@/app/(main)/data/questions.json";
+import questions2 from "@/app/(main)/data/questions2.json";
+import questions3 from "@/app/(main)/data/questions3.json";
+import questions4 from "@/app/(main)/data/questions4.json";
+
+import QuestionCard from "@/app/components/QuestionCard";
+
+const ExamPage = () => {
   const router = useRouter();
-  const [hasStarted, setHasStarted] = useState(false);
+  const params = useParams();
+  const examId = parseInt(params?.id as string);
+
+  const [selectedQuestions, setSelectedQuestions] = useState([]);
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [timeLeft, setTimeLeft] = useState(30 * 60); // 30 minutes in seconds
+  const [hasStarted, setHasStarted] = useState(false);
 
-  // Start Exam
-  const startExam = () => {
-    setHasStarted(true);
-  };
+  // Combine all question sets
+  const allQuestions = [
+    ...questions1,
+    ...questions2,
+    ...questions3,
+    ...questions4,
+  ];
+
+  // Load questions for the specific exam
+  useEffect(() => {
+    const selectedTest = allQuestions.find((test) => test.id === examId);
+    if (selectedTest) {
+      setSelectedQuestions(selectedTest.questions);
+    }
+  }, [examId]);
 
   // Timer Logic
   useEffect(() => {
@@ -34,13 +55,15 @@ export default function Exam() {
   }, [hasStarted]);
 
   // Handle Option Selection
-  const handleSelect = (id: number, option: string) => {
-    setAnswers((prev) => ({ ...prev, [id]: option }));
+  const handleSelect = (questionId: number, option: string) => {
+    setAnswers((prev) => ({ ...prev, [questionId]: option }));
   };
 
   // Handle Exam Submission
   const handleSubmit = () => {
     localStorage.setItem("answers", JSON.stringify(answers));
+    alert("Exam Submitted! Check console for answers.");
+    console.log("User Answers: ", answers);
     router.push("/exam/results");
   };
 
@@ -51,10 +74,14 @@ export default function Exam() {
     return `${mins}:${secs < 10 ? "0" : ""}${secs}`;
   };
 
+  // Start Exam
+  const startExam = () => {
+    setHasStarted(true);
+  };
+
   return (
     <div className="min-h-screen p-10 bg-gray-100">
       {!hasStarted ? (
-       
         <div className="relative bg-opacity-50 backdrop-blur-md border border-gray-200 rounded-3xl shadow-xl p-8 max-w-4xl mx-auto mt-10 text-center bg-white">
           <h1 className="text-4xl font-extrabold mb-6 text-gray-800">
             Exam Guidelines
@@ -90,7 +117,9 @@ export default function Exam() {
               </span>
             </li>
             <li className="flex items-start bg-gray-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <span className="material-icons text-red-600 text-lg font-bold mr-3">Cancel:</span>
+              <span className="material-icons text-red-600 text-lg font-bold mr-3">
+                Cancel:
+              </span>
               <span>
                 Once you submit,{" "}
                 <span className="font-semibold">
@@ -119,7 +148,6 @@ export default function Exam() {
           <div className="absolute -bottom-5 -left-5 w-32 h-32 bg-purple-200 rounded-full opacity-30 blur-lg"></div>
         </div>
       ) : (
-        // Exam Section
         <div>
           <div className="flex justify-between mb-4">
             <h1 className="text-2xl font-bold">MCQ Exam</h1>
@@ -127,7 +155,7 @@ export default function Exam() {
               Time Left: {formatTime(timeLeft)}
             </div>
           </div>
-          {questions.map((q) => (
+          {selectedQuestions.map((q) => (
             <QuestionCard
               key={q.id}
               question={q.question}
@@ -146,4 +174,6 @@ export default function Exam() {
       )}
     </div>
   );
-}
+};
+
+export default ExamPage;

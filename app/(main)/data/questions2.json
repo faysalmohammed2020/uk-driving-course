@@ -1,0 +1,218 @@
+[
+  {
+    "id": 200,
+    "title": "Question Set 2",
+    "questions": [
+      {
+        "id": 21,
+        "question": "Which vehicle feature must be checked daily before starting a PHV shift?",
+        "options": ["Fuel level", "Air conditioning", "Radio", "GPS settings"],
+        "answer": "Fuel level"
+      },
+      {
+        "id": 22,
+        "question": "What must be displayed on a PHV at all times while working?",
+        "options": [
+          "Company logo",
+          "Driver's name",
+          "Operator's details",
+          "Licence discs"
+        ],
+        "answer": "Licence discs"
+      },
+      {
+        "id": 23,
+        "question": "Which document must be carried by PHV drivers at all times?",
+        "options": [
+          "National Insurance Card",
+          "Photographic ID badge",
+          "Vehicle purchase receipt",
+          "Driver's education certificate"
+        ],
+        "answer": "Photographic ID badge"
+      },
+      {
+        "id": 24,
+        "question": "Who is responsible for ensuring that a PHV is roadworthy?",
+        "options": [
+          "The driver",
+          "The operator",
+          "The passenger",
+          "The manufacturer"
+        ],
+        "answer": "The driver"
+      },
+      {
+        "id": 25,
+        "question": "Which law regulates smoking in PHVs?",
+        "options": [
+          "Equality Act 2010",
+          "Health Act 2006",
+          "Road Traffic Act 1988",
+          "Vehicle Excise and Registration Act"
+        ],
+        "answer": "Health Act 2006"
+      },
+      {
+        "id": 26,
+        "question": "What is the maximum penalty for illegally plying for hire as a PHV driver?",
+        "options": [
+          "Fine only",
+          "Suspension of licence",
+          "Imprisonment",
+          "Revocation of licence and fine"
+        ],
+        "answer": "Revocation of licence and fine"
+      },
+      {
+        "id": 27,
+        "question": "Which of the following is required for a PHV operator’s licence?",
+        "options": [
+          "First aid certificate",
+          "Public liability insurance",
+          "Proof of business premises",
+          "Group 2 DVLA medical standard"
+        ],
+        "answer": "Proof of business premises"
+      },
+      {
+        "id": 28,
+        "question": "Which type of PHV insurance covers injury to passengers?",
+        "options": [
+          "Third-party only",
+          "Comprehensive",
+          "Public hire",
+          "Hire or reward insurance"
+        ],
+        "answer": "Hire or reward insurance"
+      },
+      {
+        "id": 29,
+        "question": "How long must PHV operators retain booking records?",
+        "options": ["3 months", "6 months", "12 months", "24 months"],
+        "answer": "12 months"
+      },
+      {
+        "id": 30,
+        "question": "Which of the following must be recorded by PHV operators?",
+        "options": [
+          "Driver's hobbies",
+          "Vehicle's mileage",
+          "Passenger's destination",
+          "Payment method"
+        ],
+        "answer": "Passenger's destination"
+      },
+      {
+        "id": 31,
+        "question": "What is the primary purpose of the Equality Act 2010 for PHV drivers?",
+        "options": [
+          "To set fare regulations",
+          "To ensure accessibility for all passengers",
+          "To regulate driver uniforms",
+          "To control vehicle emissions"
+        ],
+        "answer": "To ensure accessibility for all passengers"
+      },
+      {
+        "id": 32,
+        "question": "Which of the following is considered professional conduct for PHV drivers?",
+        "options": [
+          "Playing loud music",
+          "Wearing smart attire",
+          "Using mobile phone while driving",
+          "Engaging in personal conversations with passengers"
+        ],
+        "answer": "Wearing smart attire"
+      },
+      {
+        "id": 33,
+        "question": "Which action is required if a PHV driver changes their address?",
+        "options": [
+          "Notify the operator",
+          "Inform TfL within 21 days",
+          "Apply for a new licence",
+          "No action required"
+        ],
+        "answer": "Inform TfL within 21 days"
+      },
+      {
+        "id": 34,
+        "question": "What is the legal requirement for accepting guide dogs in PHVs?",
+        "options": [
+          "Optional",
+          "Only with extra charge",
+          "Mandatory unless exempt",
+          "At driver’s discretion"
+        ],
+        "answer": "Mandatory unless exempt"
+      },
+      {
+        "id": 35,
+        "question": "Which behaviour is required under the Code of Conduct for PHV drivers?",
+        "options": [
+          "Discussing personal opinions",
+          "Offering a professional and courteous service",
+          "Accepting tips as mandatory",
+          "Choosing routes without consulting passengers"
+        ],
+        "answer": "Offering a professional and courteous service"
+      },
+      {
+        "id": 36,
+        "question": "Which document must be renewed every three years for PHV drivers?",
+        "options": [
+          "Driving licence",
+          "Medical certificate",
+          "DBS check",
+          "Insurance policy"
+        ],
+        "answer": "DBS check"
+      },
+      {
+        "id": 37,
+        "question": "Which of the following is required to become a PHV operator?",
+        "options": [
+          "Personal vehicle",
+          "Good repute and financial standing",
+          "Residential address in London",
+          "Minimum age of 30"
+        ],
+        "answer": "Good repute and financial standing"
+      },
+      {
+        "id": 38,
+        "question": "Which information must be provided to passengers before the start of a journey?",
+        "options": [
+          "Driver's personal mobile number",
+          "Estimated fare",
+          "Home address of the driver",
+          "Operator’s tax details"
+        ],
+        "answer": "Estimated fare"
+      },
+      {
+        "id": 39,
+        "question": "Which of the following is prohibited for PHV drivers?",
+        "options": [
+          "Accepting bookings directly from passengers",
+          "Displaying company logo",
+          "Using GPS navigation",
+          "Carrying guide dogs"
+        ],
+        "answer": "Accepting bookings directly from passengers"
+      },
+      {
+        "id": 40,
+        "question": "What must be done if a passenger leaves property in the PHV?",
+        "options": [
+          "Keep it for personal use",
+          "Return it immediately to the passenger",
+          "Report it to the police or TfL",
+          "Sell it after 24 hours"
+        ],
+        "answer": "Report it to the police or TfL"
+      }
+    ]
+  }
+]

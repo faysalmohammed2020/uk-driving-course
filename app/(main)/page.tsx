@@ -17,6 +17,7 @@ import { FaAward } from "react-icons/fa";
 import Link from "next/link";
 import BlogCard from "../components/BlogCard";
 import { useRouter } from "next/navigation";
+import MockTestSection from "../components/MockTestSection";
 
 const HomePage: React.FC = () => {
   const router = useRouter();
@@ -161,7 +162,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Mock Test Section */}
-      <section className="bg-sky-900 text-white py-12 text-center">
+      {/* <section className="bg-sky-900 text-white py-12 text-center">
         <h2 className="text-3xl font-bold">Topographical Theory Test</h2>
         <p className="mt-2 text-lg">
           We strongly advise you to read the handbook before starting our
@@ -191,7 +192,9 @@ const HomePage: React.FC = () => {
             <IoIosArrowForward size={24} />
           </button>
         </div>
-      </section>
+      </section> */}
+
+      <MockTestSection/>
 
       {/* Promise Section */}
       <section className="text-center py-12 bg-white">

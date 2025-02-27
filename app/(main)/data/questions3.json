@@ -1,0 +1,228 @@
+[
+  {
+    "id": 300,
+    "title": "Question Set 3",
+    "questions": [
+      {
+        "id": 41,
+        "question": "Which of the following is NOT allowed to be displayed on a PHV?",
+        "options": [
+          "Company logo",
+          "Operator’s phone number",
+          "‘For Hire’ sign",
+          "Licence disc"
+        ],
+        "answer": "‘For Hire’ sign"
+      },
+      {
+        "id": 42,
+        "question": "What must a PHV driver do if they are unable to complete a booking?",
+        "options": [
+          "Ignore it",
+          "Inform the operator immediately",
+          "Call the passenger directly",
+          "Wait at the pickup point indefinitely"
+        ],
+        "answer": "Inform the operator immediately"
+      },
+      {
+        "id": 43,
+        "question": "Which of the following is a responsibility of PHV operators?",
+        "options": [
+          "Providing route guidance",
+          "Conducting enhanced DBS checks",
+          "Setting fare rates",
+          "Maintaining vehicle cleanliness"
+        ],
+        "answer": "Conducting enhanced DBS checks"
+      },
+      {
+        "id": 44,
+        "question": "Which of the following is required for all PHVs to operate legally?",
+        "options": [
+          "Sunroof",
+          "Air conditioning",
+          "Valid insurance for hire and reward",
+          "Leather seats"
+        ],
+        "answer": "Valid insurance for hire and reward"
+      },
+      {
+        "id": 45,
+        "question": "Which behaviour is considered unprofessional for PHV drivers?",
+        "options": [
+          "Greeting passengers",
+          "Discussing personal beliefs",
+          "Assisting with luggage",
+          "Following traffic rules"
+        ],
+        "answer": "Discussing personal beliefs"
+      },
+      {
+        "id": 46,
+        "question": "How should PHV drivers respond to customer complaints?",
+        "options": [
+          "Ignore them",
+          "Handle them professionally",
+          "Argue with the passenger",
+          "End the journey immediately"
+        ],
+        "answer": "Handle them professionally"
+      },
+      {
+        "id": 47,
+        "question": "Which of the following is NOT a requirement for PHV vehicle licensing?",
+        "options": [
+          "Passing a mechanical inspection",
+          "Having a GPS system",
+          "Displaying a licence disc",
+          "Maintaining a clean vehicle"
+        ],
+        "answer": "Having a GPS system"
+      },
+      {
+        "id": 48,
+        "question": "Which condition must be met for a PHV to legally carry passengers?",
+        "options": [
+          "Passenger must book through an operator",
+          "Driver must know the passenger personally",
+          "Fare must be paid in cash only",
+          "Journey must be under 10 miles"
+        ],
+        "answer": "Passenger must book through an operator"
+      },
+      {
+        "id": 49,
+        "question": "What is the consequence of driving a PHV without valid insurance?",
+        "options": [
+          "Warning",
+          "Licence suspension",
+          "Fine and penalty points",
+          "Community service"
+        ],
+        "answer": "Fine and penalty points"
+      },
+      {
+        "id": 50,
+        "question": "Which document is required when renewing a PHV driver’s licence?",
+        "options": [
+          "Previous year’s tax return",
+          "Proof of address",
+          "Driving test certificate",
+          "Medical fitness certificate"
+        ],
+        "answer": "Medical fitness certificate"
+      },
+      {
+        "id": 51,
+        "question": "Which of the following is a legal obligation for PHV drivers?",
+        "options": [
+          "Accepting guide dogs",
+          "Providing free rides",
+          "Wearing a uniform",
+          "Offering bottled water"
+        ],
+        "answer": "Accepting guide dogs"
+      },
+      {
+        "id": 52,
+        "question": "Which behaviour is considered professional for PHV drivers?",
+        "options": [
+          "Talking on the phone while driving",
+          "Opening doors for passengers",
+          "Playing loud music",
+          "Taking the longest route intentionally"
+        ],
+        "answer": "Opening doors for passengers"
+      },
+      {
+        "id": 53,
+        "question": "Which of the following must be provided by PHV operators to passengers?",
+        "options": [
+          "Driver’s home address",
+          "Estimated fare and driver details",
+          "Operator’s profit statement",
+          "Vehicle maintenance records"
+        ],
+        "answer": "Estimated fare and driver details"
+      },
+      {
+        "id": 54,
+        "question": "Which of the following is a safeguarding responsibility for PHV drivers?",
+        "options": [
+          "Checking passenger’s personal belongings",
+          "Reporting suspicious behavior",
+          "Refusing service to minors",
+          "Collecting passengers' contact details"
+        ],
+        "answer": "Reporting suspicious behavior"
+      },
+      {
+        "id": 55,
+        "question": "Which item must be present in a PHV for safety reasons?",
+        "options": [
+          "Fire extinguisher",
+          "Spare set of keys",
+          "Sunshade",
+          "Portable radio"
+        ],
+        "answer": "Fire extinguisher"
+      },
+      {
+        "id": 56,
+        "question": "What should a PHV driver do if involved in an accident while on duty?",
+        "options": [
+          "Continue the journey",
+          "Report it to the operator and authorities",
+          "Ignore minor damage",
+          "Fix it themselves"
+        ],
+        "answer": "Report it to the operator and authorities"
+      },
+      {
+        "id": 57,
+        "question": "Which of the following is required to maintain a PHV licence?",
+        "options": [
+          "Passing an annual driving test",
+          "Completing a periodic DBS check",
+          "Changing vehicle every 2 years",
+          "Operating only on weekends"
+        ],
+        "answer": "Completing a periodic DBS check"
+      },
+      {
+        "id": 58,
+        "question": "Which action is mandatory if a PHV driver changes their vehicle?",
+        "options": [
+          "Informing the passengers",
+          "Notifying TfL and updating licence details",
+          "Continuing to use the old licence disc",
+          "Charging higher fares"
+        ],
+        "answer": "Notifying TfL and updating licence details"
+      },
+      {
+        "id": 59,
+        "question": "Which rule applies to PHV drivers regarding mobile phone use?",
+        "options": [
+          "Allowed if on speaker mode",
+          "Only in emergencies",
+          "Prohibited while driving",
+          "Only when the engine is off"
+        ],
+        "answer": "Prohibited while driving"
+      },
+      {
+        "id": 60,
+        "question": "What should a PHV driver do if they feel unwell while driving?",
+        "options": [
+          "Continue the journey",
+          "Stop driving and inform the operator",
+          "Ask the passenger to navigate",
+          "Speed up to finish early"
+        ],
+        "answer": "Stop driving and inform the operator"
+      }
+    ]
+  }
+]
