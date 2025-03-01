@@ -105,6 +105,9 @@ const Navbar = () => {
           <Link href="/course" className="text-white hover:text-yellow-300">
             Course
           </Link>
+          <Link href="/en/guidelines" className="text-white hover:text-yellow-300">
+            Guidelines
+          </Link>
           <Link href="/blogs" className="text-white hover:text-yellow-300">
             Blog
           </Link>
