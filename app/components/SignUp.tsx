@@ -20,9 +20,6 @@ const SignUp: React.FC = () => {
           <button className="w-full flex items-center justify-center p-3 mb-3 border rounded-lg shadow-sm text-gray-700 bg-white hover:bg-gray-200">
             <FcGoogle className="mr-2 text-xl" /> Sign up with Google
           </button>
-          <button className="w-full flex items-center justify-center p-3 mb-3 border rounded-lg shadow-sm text-gray-700 bg-black text-white hover:bg-gray-800">
-            <FaApple className="mr-2 text-xl" /> Sign up with Apple ID
-          </button>
           <button className="w-full flex items-center justify-center p-3 mb-4 border rounded-lg shadow-sm text-gray-700 bg-blue-500 text-white hover:bg-blue-600">
             <FaTwitter className="mr-2 text-xl" /> Sign up with Twitter
           </button>
@@ -31,6 +28,10 @@ const SignUp: React.FC = () => {
 
           {/* Form Fields */}
           <form>
+          <div className="mb-4">
+              <label className="block text-gray-700">Name*</label>
+              <input type="text" placeholder="Enter your name" className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
+            </div>
             <div className="mb-4">
               <label className="block text-gray-700">Email*</label>
               <input type="email" placeholder="Enter your email" className="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
