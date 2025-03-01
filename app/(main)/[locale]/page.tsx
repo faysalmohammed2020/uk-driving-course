@@ -17,6 +17,7 @@ import { LineChart } from 'lucide-react';
 import { Book } from 'lucide-react';
 import { CalendarDays } from 'lucide-react';
 import { FaBook, FaFlag, FaCompass } from "react-icons/fa";
+import MockTestSection from "@/app/components/MockTestSection";
 
 
 
@@ -86,15 +87,9 @@ const HomePage: React.FC = () => {
       {/* Steps Section */}
       <section className="py-12 bg-gray-100">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">            
             {steps.map((StepSection,index) => (
-              
-            
-            {steps.map((StepSection,index) => (
-              
-            
               <div
-                key={index}
                 key={index}
                 className="flex flex-col items-center text-center p-6 bg-teal-600 text-white rounded-2xl shadow-lg transition-transform hover:scale-105"
               >
