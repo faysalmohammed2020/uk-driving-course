@@ -1,5 +1,5 @@
 // import Image from "next/image";
-"use client"
+"use client";
 import React from "react";
 import GetInTouch from "../../components/GetInTouch";
 import {
@@ -17,10 +17,8 @@ import BlogCard from "../../components/BlogCard";
 import { useTranslations } from "next-intl";
 import MockTestSection from "@/app/components/MockTestSection";
 
-
-
 const HomePage: React.FC = () => {
-  const t =useTranslations()
+  const t = useTranslations();
   return (
     <div className="bg-gray-100">
       {/* Hero Section */}
@@ -40,17 +38,17 @@ const HomePage: React.FC = () => {
 
         {/* Text Content */}
         <div className="text-center text-white z-10 px-4">
-          <h1 className="text-6xl font-bold">{t('home.hero.title')}</h1>
+          <h1 className="text-6xl font-bold">{t("home.hero.title")}</h1>
           <p className="mt-4 max-w-3xl mx-auto text-lg">
-            {t('home.hero.description')}
+            {t("home.hero.description")}
           </p>
 
           <div className="mt-6 flex gap-4 justify-center">
             <button className="bg-yellow-600 px-6 py-3 rounded-lg text-white font-semibold hover:bg-yellow-700 transition duration-300 shadow-md">
-              {t('home.hero.enroll')}
+              {t("home.hero.enroll")}
             </button>
             <button className="bg-transparent border-2 border-white px-6 py-3 rounded-lg text-white font-semibold hover:bg-white hover:text-black transition duration-300 shadow-md">
-              {t('home.hero.TryFree')}
+              {t("home.hero.TryFree")}
             </button>
           </div>
         </div>
@@ -95,16 +93,18 @@ const HomePage: React.FC = () => {
             {/* Right Column - Content */}
             <div>
               <h2 className="text-4xl font-bold text-gray-800 mb-4">
-                {t('home.SomethingAboutUs.SomethingAboutUsTitle')}
+                {t("home.SomethingAboutUs.SomethingAboutUsTitle")}
               </h2>
               <p className="text-gray-600 mb-6">
-              {t('home.SomethingAboutUs.SAUD')}
+                {t("home.SomethingAboutUs.SAUD")}
               </p>
 
               <div className="flex items-center mb-6">
                 <FaAward className="text-teal-600 text-3xl mr-4" />
                 <div>
-                  <h4 className="text-2xl font-bold text-gray-800">{t('home.SomethingAboutUs.Yrs')}</h4>
+                  <h4 className="text-2xl font-bold text-gray-800">
+                    {t("home.SomethingAboutUs.Yrs")}
+                  </h4>
                   <p className="text-gray-600">Professional Experience!</p>
                 </div>
               </div>
@@ -123,7 +123,6 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Stats Section */}
-
       <section className="text-center py-16">
         <h3 className="text-lg font-semibold text-gray-900">
           Find out more about the test
@@ -139,10 +138,13 @@ const HomePage: React.FC = () => {
           Click the button below to start the test.
         </p>
         <div className="mt-6">
-          <button className="border-2 border-blue-800 text-blue-800 px-6 py-3 rounded-lg font-semibold hover:bg-blue-800 hover:text-white transition">
-            START TEST
-          </button>
-        </div>
+        <Link
+          href="/en/exam"
+          className="border-2 border-blue-800 text-blue-800 px-6 py-3 rounded-lg font-semibold hover:bg-blue-800 hover:text-white transition inline-block"
+        >
+          START TEST
+        </Link>
+      </div>
       </section>
 
       {/* Mock Test Section */}
@@ -178,7 +180,7 @@ const HomePage: React.FC = () => {
         </div>
       </section> */}
 
-      <MockTestSection/>
+      <MockTestSection />
 
       {/* Promise Section */}
       <section className="text-center py-12 bg-white">

@@ -1,0 +1,229 @@
+[
+    {
+      "id": 900,
+      "title": "PHV Driver’s Licence - Safety, Regulations, and Customer Service",
+      "questions": [
+        {
+          "id": 161,
+          "question": "What should a PHV driver do before starting their shift?",
+          "options": [
+            "Check phone notifications",
+            "Refuel the vehicle every time",
+            "Check the vehicle’s roadworthiness",
+            "Pick up the first passenger"
+          ],
+          "answer": "Check the vehicle’s roadworthiness"
+        },
+        {
+          "id": 162,
+          "question": "Which behavior is considered unprofessional for a PHV driver?",
+          "options": [
+            "Engaging in personal conversations with passengers",
+            "Helping passengers with disabilities",
+            "Following traffic laws",
+            "Keeping the vehicle clean"
+          ],
+          "answer": "Engaging in personal conversations with passengers"
+        },
+        {
+          "id": 163,
+          "question": "What is required when renewing a PHV driver’s licence?",
+          "options": [
+            "Medical fitness certificate",
+            "Passenger feedback",
+            "Photocopy of the vehicle",
+            "Receipt of previous journeys"
+          ],
+          "answer": "Medical fitness certificate"
+        },
+        {
+          "id": 164,
+          "question": "What should a PHV driver do if they experience a medical emergency while driving?",
+          "options": [
+            "Ignore it and complete the journey",
+            "Ask the passenger to drive",
+            "Continue driving",
+            "Stop driving immediately and seek help"
+          ],
+          "answer": "Stop driving immediately and seek help"
+        },
+        {
+          "id": 165,
+          "question": "Which of the following must be checked before starting a PHV shift?",
+          "options": [
+            "Personal messages",
+            "Social media updates",
+            "Vehicle's roadworthiness",
+            "Weather forecast"
+          ],
+          "answer": "Vehicle's roadworthiness"
+        },
+        {
+          "id": 166,
+          "question": "Which of the following behaviors is unacceptable under the Code of Conduct?",
+          "options": [
+            "Making personal comments",
+            "Driving safely",
+            "Using navigation tools",
+            "Helping passengers with luggage"
+          ],
+          "answer": "Making personal comments"
+        },
+        {
+          "id": 167,
+          "question": "Which document must a PHV driver carry while on duty?",
+          "options": [
+            "Photographic ID badge",
+            "Bank statement",
+            "Birth certificate",
+            "College ID card"
+          ],
+          "answer": "Photographic ID badge"
+        },
+        {
+          "id": 168,
+          "question": "What must a PHV driver do if their licence is suspended?",
+          "options": [
+            "Drive only during non-peak hours",
+            "Continue working until notified by TfL",
+            "Stop working immediately",
+            "Work under another operator"
+          ],
+          "answer": "Stop working immediately"
+        },
+        {
+          "id": 169,
+          "question": "Which of the following is considered professional attire for PHV drivers?",
+          "options": [
+            "Smart casual clothing",
+            "Slippers",
+            "Gym wear",
+            "T-shirt and shorts"
+          ],
+          "answer": "Smart casual clothing"
+        },
+        {
+          "id": 170,
+          "question": "Which of the following is required when accepting a booking?",
+          "options": [
+            "Confirming the booking through an operator",
+            "Ensuring the passenger has the correct change",
+            "Asking the passenger for personal details",
+            "Confirming the fare in advance"
+          ],
+          "answer": "Confirming the booking through an operator"
+        },
+        {
+          "id": 171,
+          "question": "What must a PHV driver do if they change their residential address?",
+          "options": [
+            "Inform TfL within 21 days",
+            "Ignore it",
+            "Change the address on the vehicle",
+            "Only tell the operator"
+          ],
+          "answer": "Inform TfL within 21 days"
+        },
+        {
+          "id": 172,
+          "question": "Where are PHV drivers prohibited from picking up passengers?",
+          "options": [
+            "Taxi ranks",
+            "Red routes",
+            "Bus stops",
+            "All of the above"
+          ],
+          "answer": "All of the above"
+        },
+        {
+          "id": 173,
+          "question": "Which of the following is a safeguarding responsibility for PHV drivers?",
+          "options": [
+            "Ignoring suspicious behavior",
+            "Taking photos of passengers",
+            "Discussing passengers' personal details",
+            "Reporting concerns to authorities"
+          ],
+          "answer": "Reporting concerns to authorities"
+        },
+        {
+          "id": 174,
+          "question": "Which of the following is prohibited for PHV drivers?",
+          "options": [
+            "Accepting direct street hails",
+            "Using a hands-free device",
+            "Helping passengers with wheelchairs",
+            "Using GPS for navigation"
+          ],
+          "answer": "Accepting direct street hails"
+        },
+        {
+          "id": 175,
+          "question": "Which of the following must a PHV driver report to TfL?",
+          "options": [
+            "A traffic jam causing delays",
+            "A lost wallet found in the vehicle",
+            "A minor passenger complaint",
+            "A criminal conviction"
+          ],
+          "answer": "A criminal conviction"
+        },
+        {
+          "id": 176,
+          "question": "What is required to drive a PHV in a Congestion Charge Zone?",
+          "options": [
+            "Yellow badge",
+            "Special permit",
+            "Daily charge payment",
+            "Free pass from TfL"
+          ],
+          "answer": "Daily charge payment"
+        },
+        {
+          "id": 177,
+          "question": "Which insurance is mandatory for PHVs?",
+          "options": [
+            "Comprehensive insurance",
+            "Life insurance",
+            "Hire or reward insurance",
+            "Third-party only"
+          ],
+          "answer": "Hire or reward insurance"
+        },
+        {
+          "id": 178,
+          "question": "Which of the following is a legal requirement for PHV drivers?",
+          "options": [
+            "Holding a valid PHV driver’s licence",
+            "Wearing a uniform at all times",
+            "Carrying cash for change",
+            "Offering a free ride to disabled passengers"
+          ],
+          "answer": "Holding a valid PHV driver’s licence"
+        },
+        {
+          "id": 179,
+          "question": "What must a PHV driver do if they are involved in an accident while on duty?",
+          "options": [
+            "Report it to the operator and authorities",
+            "Ignore minor damage",
+            "Continue the journey",
+            "Fix it themselves"
+          ],
+          "answer": "Report it to the operator and authorities"
+        },
+        {
+          "id": 180,
+          "question": "What should a PHV driver do if a passenger requests a receipt?",
+          "options": [
+            "Ignore the request",
+            "Refuse politely",
+            "Charge extra",
+            "Provide a detailed receipt"
+          ],
+          "answer": "Provide a detailed receipt"
+        }
+      ]
+    }
+  ]
+  
