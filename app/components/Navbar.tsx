@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import { useLocale } from "next-intl";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
@@ -17,10 +16,16 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import MenuIcon from "@mui/icons-material/Menu";
 import TranslateIcon from "@mui/icons-material/Translate";
 
+const languageOptions = [
+  { code: "en", label: "English", flag: "https://flagcdn.com/w40/us.png" },
+  { code: "bn", label: "Bengali", flag: "https://flagcdn.com/w40/bd.png" },
+  { code: "ur", label: "Urdu", flag: "https://flagcdn.com/w40/pk.png" },
+  { code: "hi", label: "Hindi", flag: "https://flagcdn.com/w40/in.png" },
+];
+
 const Navbar = () => {
   const router = useRouter();
-  const locale = useLocale();
-  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+ 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [languageAnchorEl, setLanguageAnchorEl] = useState<null | HTMLElement>(null);
 
@@ -58,12 +63,17 @@ const Navbar = () => {
         <div>
           <IconButton onClick={handleLanguageMenuOpen} className="text-white">
             <TranslateIcon />
+            <ArrowDropDownIcon />
           </IconButton>
-          <Menu anchorEl={languageAnchorEl} open={Boolean(languageAnchorEl)} onClose={handleLanguageMenuClose}>
-            <MenuItem onClick={() => changeLanguage("en")}>English</MenuItem>
-            <MenuItem onClick={() => changeLanguage("bn")}>Bengali</MenuItem>
-            <MenuItem onClick={() => changeLanguage("ur")}>Urdu</MenuItem>
-            <MenuItem onClick={() => changeLanguage("hi")}>Hindi</MenuItem>
+          <Menu  anchorEl={languageAnchorEl} open={Boolean(languageAnchorEl)} onClose={handleLanguageMenuClose}>
+            <Typography variant="subtitle2" className="px-3 py-1 text-gray-500">
+              Choose Your Language
+            </Typography>
+            {languageOptions.map(({ code, label, flag }) => (
+              <MenuItem key={code} onClick={() => changeLanguage(code)}>
+                <img src={flag} alt={label} width="25" className="mr-2" /> {label}
+              </MenuItem>
+            ))}
           </Menu>
         </div>
       </div>
