@@ -96,9 +96,6 @@ const HomePage: React.FC = () => {
                 <div className="bg-white bg-opacity-20 p-4 rounded-full mb-4">
                 {icons[index]}
                 </div>
-                <div className="bg-white bg-opacity-20 p-4 rounded-full mb-4">
-                {icons[index]}
-                </div>
                 <h3 className="text-xl font-semibold mb-2">{StepSection.title} </h3>
                 <p className="text-sm">{StepSection.description}</p>
                 <div className="mt-4 text-white text-lg">→</div>
