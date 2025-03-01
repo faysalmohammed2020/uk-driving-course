@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 interface BlogCardProps {
   blog: Blog;
@@ -15,11 +16,12 @@ interface Blog {
 }
 
 const BlogCard: React.FC<BlogCardProps> = ({ blog }) => {
+  // const t =usetranslation()
   return (
     <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
       <div className="overflow-hidden rounded-t-lg">
         <Image
-          src={blog.image}
+          src={`/images/${blog.image}`}
           alt={blog.title}
           className="w-full h-48 object-cover"
           width={500}
@@ -33,7 +35,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ blog }) => {
           href={`/blogs/${blog.id}`}
           className="text-indigo-600 font-semibold mt-4 inline-block hover:underline"
         >
-          READ MORE »
+        Read More »
         </Link>
       </div>
     </div>

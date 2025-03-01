@@ -3,6 +3,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import { useTranslations } from 'next-intl';
 
 const GetInTouch: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -24,6 +25,7 @@ const GetInTouch: React.FC = () => {
     // Handle form submission logic here
     console.log("Form Submitted", formData);
   };
+  const t =useTranslations();
 
   return (
     <section className="bg-white py-16">
@@ -32,14 +34,13 @@ const GetInTouch: React.FC = () => {
           {/* Left Column - Form */}
           <div>
             <h3 className="text-green-600 font-semibold text-lg uppercase">
-              Get in Touch
+              {t('home.GIT.getInTouch')}
             </h3>
             <h2 className="text-3xl font-bold text-gray-800 mt-2">
-              Send us a message to enquire or book an appointment !
+             {t('home.GIT.gitShortTitle')}
             </h2>
             <p className="text-gray-600 mt-2 mb-6">
-              If you have any queries about us or about our services, do not
-              hesitate to ping us a question of any kind using the below form.
+             {t('home.GIT.gitMain')}
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-4">
