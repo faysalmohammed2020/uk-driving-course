@@ -25,9 +25,11 @@ const languageOptions = [
 
 const Navbar = () => {
   const router = useRouter();
- 
+
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [languageAnchorEl, setLanguageAnchorEl] = useState<null | HTMLElement>(null);
+  const [languageAnchorEl, setLanguageAnchorEl] = useState<null | HTMLElement>(
+    null
+  );
 
   const handleLanguageMenuOpen = (event: React.MouseEvent<HTMLElement>) => {
     setLanguageAnchorEl(event.currentTarget);
@@ -65,13 +67,18 @@ const Navbar = () => {
             <TranslateIcon />
             <ArrowDropDownIcon />
           </IconButton>
-          <Menu  anchorEl={languageAnchorEl} open={Boolean(languageAnchorEl)} onClose={handleLanguageMenuClose}>
+          <Menu
+            anchorEl={languageAnchorEl}
+            open={Boolean(languageAnchorEl)}
+            onClose={handleLanguageMenuClose}
+          >
             <Typography variant="subtitle2" className="px-3 py-1 text-gray-500">
               Choose Your Language
             </Typography>
             {languageOptions.map(({ code, label, flag }) => (
               <MenuItem key={code} onClick={() => changeLanguage(code)}>
-                <img src={flag} alt={label} width="25" className="mr-2" /> {label}
+                <img src={flag} alt={label} width="25" className="mr-2" />{" "}
+                {label}
               </MenuItem>
             ))}
           </Menu>
@@ -110,26 +117,52 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu Toggle */}
-        <IconButton edge="start" color="inherit" aria-label="menu" className="md:hidden" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+        <IconButton
+          edge="start"
+          color="inherit"
+          aria-label="menu"
+          className="md:hidden"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+        >
           <MenuIcon />
         </IconButton>
 
         {/* Mobile Navigation Menu */}
         {mobileMenuOpen && (
           <div className="absolute top-24 left-0 w-full bg-blue-800 text-white py-4 space-y-4">
-            <Link href="/" className="block text-white hover:text-yellow-300 px-4" onClick={() => setMobileMenuOpen(false)}>
+            <Link
+              href="/"
+              className="block text-white hover:text-yellow-300 px-4"
+              onClick={() => setMobileMenuOpen(false)}
+            >
               Home
             </Link>
-            <Link href="/course" className="block text-white hover:text-yellow-300 px-4" onClick={() => setMobileMenuOpen(false)}>
+            <Link
+              href="/course"
+              className="block text-white hover:text-yellow-300 px-4"
+              onClick={() => setMobileMenuOpen(false)}
+            >
               Course
             </Link>
-            <Link href="/blogs" className="block text-white hover:text-yellow-300 px-4" onClick={() => setMobileMenuOpen(false)}>
+            <Link
+              href="/blogs"
+              className="block text-white hover:text-yellow-300 px-4"
+              onClick={() => setMobileMenuOpen(false)}
+            >
               Blog
             </Link>
-            <Link href="/about-us" className="block text-white hover:text-yellow-300 px-4" onClick={() => setMobileMenuOpen(false)}>
+            <Link
+              href="/about-us"
+              className="block text-white hover:text-yellow-300 px-4"
+              onClick={() => setMobileMenuOpen(false)}
+            >
               About Us
             </Link>
-            <Link href="/contacts" className="block text-white hover:text-yellow-300 px-4" onClick={() => setMobileMenuOpen(false)}>
+            <Link
+              href="/contacts"
+              className="block text-white hover:text-yellow-300 px-4"
+              onClick={() => setMobileMenuOpen(false)}
+            >
               Contact Us
             </Link>
           </div>
@@ -137,10 +170,17 @@ const Navbar = () => {
 
         {/* Login and Sign Up Buttons */}
         <div className="hidden md:flex space-x-4">
-          <Button variant="outlined" className="border-white text-white hover:bg-white hover:text-blue-800 text-lg rounded-lg px-4">
+          <Button
+            variant="outlined"
+            className="border-white text-white hover:bg-white hover:text-blue-800 text-lg rounded-lg px-4"
+          >
             Login
           </Button>
-          <Button variant="contained" className="bg-emerald-700 text-white text-lg hover:bg-emerald-800 rounded-lg px-4">
+          <Button
+            variant="contained"
+            className="bg-emerald-700 text-white text-lg hover:bg-emerald-800 rounded-lg px-4"
+            onClick={() => router.push("/en/signup")}
+          >
             Sign Up
           </Button>
         </div>

@@ -17,6 +17,7 @@ import BlogCard from "../../components/BlogCard";
 import { useTranslations } from "next-intl";
 import MockTestSection from "@/app/components/MockTestSection";
 import { CalendarCheck, MapPinned, Stethoscope, Workflow } from "lucide-react";
+import SignUp from "@/app/components/SignUp";
 
 const HomePage: React.FC = () => {
   const t = useTranslations();
