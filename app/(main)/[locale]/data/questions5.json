@@ -1,0 +1,229 @@
+[
+    {
+      "id": 500,
+      "title": "PHV Driver’s Licence - Safety and Compliance",
+      "questions": [
+        {
+          "id": 81,
+          "question": "What must a PHV driver check before starting their vehicle?",
+          "options": [
+            "Passenger seating preference",
+            "Fuel level, brakes, and lights",
+            "Weather conditions",
+            "Traffic updates"
+          ],
+          "answer": "Fuel level, brakes, and lights"
+        },
+        {
+          "id": 82,
+          "question": "What is the legal blood alcohol limit for PHV drivers?",
+          "options": [
+            "0.5% BAC",
+            "0.8% BAC",
+            "0.2% BAC",
+            "0.0% BAC while driving"
+          ],
+          "answer": "0.0% BAC while driving"
+        },
+        {
+          "id": 83,
+          "question": "Which of the following must be displayed in a PHV vehicle?",
+          "options": [
+            "A list of fare charges",
+            "The driver’s licence disc",
+            "A map of London",
+            "A copy of the PHV insurance policy"
+          ],
+          "answer": "The driver’s licence disc"
+        },
+        {
+          "id": 84,
+          "question": "What should a PHV driver do if a passenger becomes aggressive?",
+          "options": [
+            "Engage in an argument",
+            "Ignore the passenger",
+            "Politely ask them to calm down and, if necessary, report it",
+            "Drop them off immediately, even if unsafe"
+          ],
+          "answer": "Politely ask them to calm down and, if necessary, report it"
+        },
+        {
+          "id": 85,
+          "question": "When is a PHV driver required to report a medical condition to TfL?",
+          "options": [
+            "Only if they stop working",
+            "If the condition affects their ability to drive",
+            "Every 5 years",
+            "Only during a licence renewal"
+          ],
+          "answer": "If the condition affects their ability to drive"
+        },
+        {
+          "id": 86,
+          "question": "Which of the following is NOT required when picking up a passenger?",
+          "options": [
+            "Confirming the passenger’s identity",
+            "Checking the destination",
+            "Requesting the passenger’s home address",
+            "Ensuring seat belts are worn"
+          ],
+          "answer": "Requesting the passenger’s home address"
+        },
+        {
+          "id": 87,
+          "question": "What should a PHV driver do if they suspect human trafficking?",
+          "options": [
+            "Ignore it",
+            "Call the police or report it to authorities",
+            "Ask the passenger directly",
+            "Discuss with other drivers"
+          ],
+          "answer": "Call the police or report it to authorities"
+        },
+        {
+          "id": 88,
+          "question": "Which of these is a legal requirement for PHV drivers?",
+          "options": [
+            "Offering discounts to disabled passengers",
+            "Keeping the vehicle clean and roadworthy",
+            "Carrying a passenger's luggage",
+            "Having a valid first-aid certificate"
+          ],
+          "answer": "Keeping the vehicle clean and roadworthy"
+        },
+        {
+          "id": 89,
+          "question": "Which type of insurance must PHV drivers have?",
+          "options": [
+            "Life insurance",
+            "Hire or reward insurance",
+            "Personal injury insurance",
+            "Fire and theft insurance"
+          ],
+          "answer": "Hire or reward insurance"
+        },
+        {
+          "id": 90,
+          "question": "Which of the following is considered discriminatory under the Equality Act 2010?",
+          "options": [
+            "Refusing a passenger based on their disability",
+            "Helping a passenger with a guide dog",
+            "Offering assistance to wheelchair users",
+            "Providing service to all passengers equally"
+          ],
+          "answer": "Refusing a passenger based on their disability"
+        },
+        {
+          "id": 91,
+          "question": "When must a PHV driver check their vehicle for lost property?",
+          "options": [
+            "Only at the end of their shift",
+            "After every journey",
+            "Once a week",
+            "Only when a passenger complains"
+          ],
+          "answer": "After every journey"
+        },
+        {
+          "id": 92,
+          "question": "What must a PHV driver do if they receive a police request while on duty?",
+          "options": [
+            "Ignore it if they have a passenger",
+            "Comply with the request immediately",
+            "Only respond when off duty",
+            "Call their operator first"
+          ],
+          "answer": "Comply with the request immediately"
+        },
+        {
+          "id": 93,
+          "question": "Which of the following is an example of poor customer service?",
+          "options": [
+            "Being polite and professional",
+            "Refusing to assist a passenger with luggage",
+            "Following traffic laws",
+            "Keeping the vehicle clean"
+          ],
+          "answer": "Refusing to assist a passenger with luggage"
+        },
+        {
+          "id": 94,
+          "question": "What is a PHV driver’s responsibility regarding seat belts?",
+          "options": [
+            "Ensuring all passengers wear seat belts",
+            "Only wearing a seat belt themselves",
+            "Letting passengers decide whether to wear a seat belt",
+            "Providing seat belts only to front-seat passengers"
+          ],
+          "answer": "Ensuring all passengers wear seat belts"
+        },
+        {
+          "id": 95,
+          "question": "What should a PHV driver do if their vehicle breaks down mid-journey?",
+          "options": [
+            "Ask the passenger to leave immediately",
+            "Ensure passenger safety and arrange an alternative vehicle",
+            "Continue driving until the destination",
+            "Ignore the issue and call for help later"
+          ],
+          "answer": "Ensure passenger safety and arrange an alternative vehicle"
+        },
+        {
+          "id": 96,
+          "question": "Which of the following is required when accepting a booking?",
+          "options": [
+            "Confirming the fare in advance",
+            "Ensuring the passenger has the correct change",
+            "Confirming the booking through an operator",
+            "Asking the passenger for personal details"
+          ],
+          "answer": "Confirming the booking through an operator"
+        },
+        {
+          "id": 97,
+          "question": "What should a PHV driver do if a passenger forgets an item in their vehicle?",
+          "options": [
+            "Keep it until the passenger calls",
+            "Return it to the operator or local police",
+            "Sell it if unclaimed",
+            "Ignore it and continue working"
+          ],
+          "answer": "Return it to the operator or local police"
+        },
+        {
+          "id": 98,
+          "question": "Which of the following is NOT allowed when operating a PHV?",
+          "options": [
+            "Using a hands-free device",
+            "Taking direct street hires",
+            "Following GPS navigation",
+            "Helping passengers with disabilities"
+          ],
+          "answer": "Taking direct street hires"
+        },
+        {
+          "id": 99,
+          "question": "What should a PHV driver do if they feel tired while driving?",
+          "options": [
+            "Continue driving carefully",
+            "Take a break and rest",
+            "Drink coffee and keep going",
+            "Reduce speed but keep driving"
+          ],
+          "answer": "Take a break and rest"
+        },
+        {
+          "id": 100,
+          "question": "What must a PHV driver do if their licence is suspended?",
+          "options": [
+            "Continue working until notified by TfL",
+            "Stop working immediately",
+            "Drive only during non-peak hours",
+            "Work under another operator"
+          ],
+          "answer": "Stop working immediately"
+        }
+      ]
+    }
+  ]
+  

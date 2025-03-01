@@ -1,0 +1,229 @@
+[
+    {
+      "id": 1000,
+      "title": "PHV Driver’s Licence - Legal Responsibilities, Safety, and Customer Service",
+      "questions": [
+        {
+          "id": 181,
+          "question": "Which action is required if a passenger requests a receipt?",
+          "options": [
+            "Refuse politely",
+            "Provide a detailed receipt",
+            "Ignore the request",
+            "Charge extra"
+          ],
+          "answer": "Provide a detailed receipt"
+        },
+        {
+          "id": 182,
+          "question": "What must a PHV driver do if they receive a penalty notice while working?",
+          "options": [
+            "Ignore it",
+            "Report it to their operator and pay if required",
+            "Wait until licence renewal to address it",
+            "Ask the passenger to pay it"
+          ],
+          "answer": "Report it to their operator and pay if required"
+        },
+        {
+          "id": 183,
+          "question": "Which behavior is considered discriminatory under the Equality Act 2010?",
+          "options": [
+            "Refusing a passenger based on their disability",
+            "Providing service to all passengers equally",
+            "Helping a passenger with a guide dog",
+            "Offering assistance to wheelchair users"
+          ],
+          "answer": "Refusing a passenger based on their disability"
+        },
+        {
+          "id": 184,
+          "question": "What must a PHV driver do if they lose their ID badge?",
+          "options": [
+            "Continue working until a replacement arrives",
+            "Report it to TfL immediately and request a replacement",
+            "Only inform their operator",
+            "Wait until licence renewal to get a new one"
+          ],
+          "answer": "Report it to TfL immediately and request a replacement"
+        },
+        {
+          "id": 185,
+          "question": "Which of the following is NOT a responsibility of a PHV driver?",
+          "options": [
+            "Following traffic laws",
+            "Keeping their vehicle roadworthy",
+            "Offering personal opinions on social issues",
+            "Providing a professional and polite service"
+          ],
+          "answer": "Offering personal opinions on social issues"
+        },
+        {
+          "id": 186,
+          "question": "What should a PHV driver do if they feel drowsy while driving?",
+          "options": [
+            "Reduce speed but keep driving",
+            "Take a break and rest",
+            "Drink coffee and continue",
+            "Ignore the fatigue and complete the journey"
+          ],
+          "answer": "Take a break and rest"
+        },
+        {
+          "id": 187,
+          "question": "What is the best way for a PHV driver to handle a passenger who becomes aggressive?",
+          "options": [
+            "Engage in an argument",
+            "Remain calm, avoid confrontation, and report it if necessary",
+            "Ignore the passenger",
+            "Drop them off immediately, regardless of location"
+          ],
+          "answer": "Remain calm, avoid confrontation, and report it if necessary"
+        },
+        {
+          "id": 188,
+          "question": "Which of the following must be reported to TfL?",
+          "options": [
+            "A change in residential address",
+            "A minor delay due to traffic",
+            "A disagreement with a passenger",
+            "A car wash appointment"
+          ],
+          "answer": "A change in residential address"
+        },
+        {
+          "id": 189,
+          "question": "Which of the following is a safeguarding responsibility for PHV drivers?",
+          "options": [
+            "Ignoring suspicious behavior",
+            "Taking photos of passengers for security",
+            "Discussing passenger details with other drivers",
+            "Reporting concerns to the appropriate authorities"
+          ],
+          "answer": "Reporting concerns to the appropriate authorities"
+        },
+        {
+          "id": 190,
+          "question": "What should a PHV driver do if a passenger requests a route change?",
+          "options": [
+            "Only allow changes for short distances",
+            "Ignore the request and follow the original route",
+            "Assess safety and legality before agreeing to the change",
+            "Refuse the request"
+          ],
+          "answer": "Assess safety and legality before agreeing to the change"
+        },
+        {
+          "id": 191,
+          "question": "Which document must be displayed in a PHV vehicle?",
+          "options": [
+            "A list of fare charges",
+            "The driver’s licence disc",
+            "A personal driving record",
+            "A certificate of insurance"
+          ],
+          "answer": "The driver’s licence disc"
+        },
+        {
+          "id": 192,
+          "question": "What must a PHV driver do if they witness an accident while driving?",
+          "options": [
+            "Ignore it and continue the journey",
+            "Report it to the emergency services if necessary",
+            "Only stop if passengers insist",
+            "Call their operator first before deciding"
+          ],
+          "answer": "Report it to the emergency services if necessary"
+        },
+        {
+          "id": 193,
+          "question": "Which insurance is required for PHV vehicles?",
+          "options": [
+            "Fire and theft insurance",
+            "Hire or reward insurance",
+            "Comprehensive insurance",
+            "Personal accident insurance"
+          ],
+          "answer": "Hire or reward insurance"
+        },
+        {
+          "id": 194,
+          "question": "What should a PHV driver do if a passenger leaves an item in the vehicle?",
+          "options": [
+            "Keep it and wait for the passenger to contact them",
+            "Report it to the operator or local police",
+            "Ignore it and continue working",
+            "Sell it after 24 hours"
+          ],
+          "answer": "Report it to the operator or local police"
+        },
+        {
+          "id": 195,
+          "question": "What must a PHV driver do before accepting a fare?",
+          "options": [
+            "Confirm the booking through an operator",
+            "Ask for payment in advance",
+            "Request personal details from the passenger",
+            "Negotiate the fare"
+          ],
+          "answer": "Confirm the booking through an operator"
+        },
+        {
+          "id": 196,
+          "question": "What must a PHV driver do if their vehicle is involved in an accident?",
+          "options": [
+            "Report it to the operator and authorities",
+            "Continue driving if no damage is visible",
+            "Fix it themselves later",
+            "Ignore it if the passenger does not complain"
+          ],
+          "answer": "Report it to the operator and authorities"
+        },
+        {
+          "id": 197,
+          "question": "What must a PHV driver do if they receive a police request while on duty?",
+          "options": [
+            "Only respond if carrying no passengers",
+            "Ignore it if not at fault",
+            "Comply with the request immediately",
+            "Wait until their shift ends to respond"
+          ],
+          "answer": "Comply with the request immediately"
+        },
+        {
+          "id": 198,
+          "question": "What must a PHV driver do if they suspect human trafficking?",
+          "options": [
+            "Report it to the police or relevant authorities",
+            "Ask the passenger directly",
+            "Ignore it unless certain",
+            "Discuss it with other drivers"
+          ],
+          "answer": "Report it to the police or relevant authorities"
+        },
+        {
+          "id": 199,
+          "question": "What must a PHV driver do when picking up a pre-booked passenger?",
+          "options": [
+            "Confirm the passenger’s identity before starting the journey",
+            "Ask for cash payment before driving",
+            "Only ask for the destination",
+            "Begin driving without verification"
+          ],
+          "answer": "Confirm the passenger’s identity before starting the journey"
+        },
+        {
+          "id": 200,
+          "question": "How should a PHV driver respond if a passenger refuses to pay?",
+          "options": [
+            "Take the passenger directly to the police station",
+            "Politely request payment and report it to the operator if necessary",
+            "Refuse to let the passenger leave the vehicle",
+            "Threaten legal action immediately"
+          ],
+          "answer": "Politely request payment and report it to the operator if necessary"
+        }
+      ]
+    }
+  ]
+  

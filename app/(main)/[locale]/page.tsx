@@ -1,5 +1,5 @@
 // import Image from "next/image";
-"use client"
+"use client";
 import React from "react";
 import GetInTouch from "../../components/GetInTouch";
 import {
@@ -22,7 +22,7 @@ import { FaBook, FaFlag, FaCompass } from "react-icons/fa";
 
 
 const HomePage: React.FC = () => {
-  const t =useTranslations();
+  const t = useTranslations();
   const steps = t.raw("home.Steps.StepSection");
   const promises = t.raw("home.promiseCards.promiseCardContent");
   const states = t.raw("home.StatesSection.StateContent");
@@ -67,17 +67,17 @@ const HomePage: React.FC = () => {
 
         {/* Text Content */}
         <div className="text-center text-white z-10 px-4">
-          <h1 className="text-6xl font-bold">{t('home.hero.title')}</h1>
+          <h1 className="text-6xl font-bold">{t("home.hero.title")}</h1>
           <p className="mt-4 max-w-3xl mx-auto text-lg">
-            {t('home.hero.description')}
+            {t("home.hero.description")}
           </p>
 
           <div className="mt-6 flex gap-4 justify-center">
             <button className="bg-yellow-600 px-6 py-3 rounded-lg text-white font-semibold hover:bg-yellow-700 transition duration-300 shadow-md">
-              {t('home.hero.enroll')}
+              {t("home.hero.enroll")}
             </button>
             <button className="bg-transparent border-2 border-white px-6 py-3 rounded-lg text-white font-semibold hover:bg-white hover:text-black transition duration-300 shadow-md">
-              {t('home.hero.TryFree')}
+              {t("home.hero.TryFree")}
             </button>
           </div>
         </div>
@@ -90,10 +90,17 @@ const HomePage: React.FC = () => {
             {steps.map((StepSection,index) => (
               
             
+            {steps.map((StepSection,index) => (
+              
+            
               <div
+                key={index}
                 key={index}
                 className="flex flex-col items-center text-center p-6 bg-teal-600 text-white rounded-2xl shadow-lg transition-transform hover:scale-105"
               >
+                <div className="bg-white bg-opacity-20 p-4 rounded-full mb-4">
+                {icons[index]}
+                </div>
                 <div className="bg-white bg-opacity-20 p-4 rounded-full mb-4">
                 {icons[index]}
                 </div>
@@ -124,26 +131,28 @@ const HomePage: React.FC = () => {
             {/* Right Column - Content */}
             <div>
               <h2 className="text-4xl font-bold text-gray-800 mb-4">
-                {t('home.SomethingAboutUs.SomethingAboutUsTitle')}
+                {t("home.SomethingAboutUs.SomethingAboutUsTitle")}
               </h2>
               <p className="text-gray-600 mb-6">
-              {t('home.SomethingAboutUs.SAUD')}
+                {t("home.SomethingAboutUs.SAUD")}
               </p>
 
               <div className="flex items-center mb-6">
                 <FaAward className="text-teal-600 text-3xl mr-4" />
                 <div>
-                  <h4 className="text-2xl font-bold text-gray-800">{t('home.SomethingAboutUs.Yrs')}</h4>
-                  <p className="text-gray-600">{t('home.SomethingAboutUs.PE')}</p>
+                  <h4 className="text-2xl font-bold text-gray-800">
+                    {t("home.SomethingAboutUs.Yrs")}
+                  </h4>
+                  <p className="text-gray-600">Professional Experience!</p>
                 </div>
               </div>
 
               <div className="flex space-x-4">
                 <button className="bg-yellow-600 text-white py-2 px-6 rounded-md shadow hover:bg-yellow-700 transition duration-300">
-                {t('home.SomethingAboutUs.BNBTN')}
+                  Book Now
                 </button>
                 <button className="border-2 border-gray-800 text-gray-800 py-2 px-6 rounded-md hover:bg-gray-800 hover:text-white transition duration-300">
-                {t('home.SomethingAboutUs.CNBTN')}
+                  Call Now
                 </button>
               </div>
             </div>
@@ -152,22 +161,28 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Stats Section */}
-
       <section className="text-center py-16">
         <h3 className="text-lg font-semibold text-gray-900">
-        {t('home.StatSection.find')}
+          Find out more about the test
         </h3>
         <h2 className="text-3xl font-bold text-blue-800 mt-2">
-        {t('home.StatSection.TopographicalTitle')}
+          Topographical Theory Practice and Mock Test
         </h2>
         <p className="mt-4 max-w-2xl mx-auto text-gray-700">
-        {t('home.StatSection.TopographicalDescription')}
+          This Topographical Theory test is provided to acquaint you with the
+          format of the official test. You are advised to familiarise with the
+          official A-Z Atlas handbook before attempting the test. The test
+          consists of 25 questions for 25 marks; each question carrying 1 mark.
+          Click the button below to start the test.
         </p>
         <div className="mt-6">
-          <button className="border-2 border-blue-800 text-blue-800 px-6 py-3 rounded-lg font-semibold hover:bg-blue-800 hover:text-white transition">
-          {t('home.StatSection.StartTest')}
-          </button>
-        </div>
+        <Link
+          href="/en/exam"
+          className="border-2 border-blue-800 text-blue-800 px-6 py-3 rounded-lg font-semibold hover:bg-blue-800 hover:text-white transition inline-block"
+        >
+          START TEST
+        </Link>
+      </div>
       </section>
 
       

@@ -42,22 +42,27 @@ const MockTestSection = () => {
       <p className="mt-2 text-lg">
       {t('home.MockTestSection.testDescription')}
       </p>
-      <div className="flex justify-center mt-8 gap-6 px-6 flex-wrap">
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-10 px-6 justify-center">
         {mockTests.map((test) => (
           <div
             key={test.id}
-            className="bg-white text-gray-900 p-6 rounded-lg shadow-lg max-w-sm w-full flex flex-col items-start"
+            className="relative bg-white text-gray-900 p-6 rounded-2xl shadow-lg transition-all duration-300 ease-in-out transform hover:-translate-y-2 hover:shadow-2xl flex flex-col items-start border border-gray-200 overflow-hidden"
           >
-            <div className="flex justify-between w-full items-center">
-              <h3 className="font-semibold">{test.title}</h3>
-              <FaFileAlt className="text-gray-500 text-2xl" />
+            <div className="flex items-center gap-3 mb-4 w-full">
+              <div className="bg-green-500 text-white p-3 rounded-lg shadow-md">
+                <FaFileAlt className="text-2xl" />
+              </div>
+              <h3 className="font-semibold text-lg text-left w-full line-clamp-2 hover:whitespace-normal hover:absolute hover:bg-white hover:p-3 hover:rounded-lg hover:shadow-lg">
+                {test.title}
+              </h3>
             </div>
-            <p className="mt-2 text-sm text-gray-700">
+            <p className="text-sm text-gray-600 text-left">
               {test.questions.length} Questions
             </p>
             <button
               onClick={() => startExam(test.id)}
-              className="mt-4 bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg font-bold hover:bg-yellow-500 transition"
+              className="mt-6 bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-700 transition-all duration-300 ease-in-out w-full shadow-md hover:shadow-xl"
             >
               Start Now
             </button>

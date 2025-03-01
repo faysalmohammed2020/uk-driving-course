@@ -1,0 +1,229 @@
+[
+    {
+      "id": 600,
+      "title": "PHV Driver’s Licence - Responsibilities and Road Safety",
+      "questions": [
+        {
+          "id": 101,
+          "question": "What is the primary duty of a PHV driver towards passengers?",
+          "options": [
+            "To drive as fast as possible",
+            "To ensure safety, comfort, and professionalism",
+            "To decide the best route without consultation",
+            "To negotiate fares with passengers"
+          ],
+          "answer": "To ensure safety, comfort, and professionalism"
+        },
+        {
+          "id": 102,
+          "question": "Which of the following is a legal requirement for PHV drivers?",
+          "options": [
+            "Wearing a company uniform",
+            "Holding a valid PHV driver’s licence",
+            "Offering discounts on fares",
+            "Providing passengers with water bottles"
+          ],
+          "answer": "Holding a valid PHV driver’s licence"
+        },
+        {
+          "id": 103,
+          "question": "What must a PHV driver do if they receive a penalty notice while driving?",
+          "options": [
+            "Ignore it",
+            "Report it to their operator and pay if required",
+            "Wait until licence renewal to address it",
+            "Ask the passenger to pay it"
+          ],
+          "answer": "Report it to their operator and pay if required"
+        },
+        {
+          "id": 104,
+          "question": "Under which circumstance can a PHV driver refuse service?",
+          "options": [
+            "If the passenger is abusive or poses a threat",
+            "If the journey is too short",
+            "If the passenger requests a different route",
+            "If the passenger is carrying luggage"
+          ],
+          "answer": "If the passenger is abusive or poses a threat"
+        },
+        {
+          "id": 105,
+          "question": "Which of the following is an example of unprofessional conduct?",
+          "options": [
+            "Speaking politely to passengers",
+            "Overcharging passengers without justification",
+            "Driving carefully and legally",
+            "Assisting passengers with mobility issues"
+          ],
+          "answer": "Overcharging passengers without justification"
+        },
+        {
+          "id": 106,
+          "question": "How should PHV drivers assist visually impaired passengers?",
+          "options": [
+            "Refuse service to those with guide dogs",
+            "Offer guidance and allow guide dogs in the vehicle",
+            "Charge extra for service animals",
+            "Ignore them and wait for another passenger"
+          ],
+          "answer": "Offer guidance and allow guide dogs in the vehicle"
+        },
+        {
+          "id": 107,
+          "question": "What is the purpose of displaying a PHV licence disc?",
+          "options": [
+            "To inform passengers of the driver’s personal details",
+            "To show proof of licensing and compliance",
+            "To indicate the driver’s preferred fares",
+            "To allow the driver to work anywhere in the UK"
+          ],
+          "answer": "To show proof of licensing and compliance"
+        },
+        {
+          "id": 108,
+          "question": "What should a PHV driver do if a passenger requests an unplanned stop?",
+          "options": [
+            "Refuse immediately",
+            "Assess safety, legality, and inform the operator if necessary",
+            "Charge extra without notifying the passenger",
+            "Only allow stops at petrol stations"
+          ],
+          "answer": "Assess safety, legality, and inform the operator if necessary"
+        },
+        {
+          "id": 109,
+          "question": "What is the consequence of failing to renew a PHV licence on time?",
+          "options": [
+            "A small fine but continued operation",
+            "Immediate suspension from work",
+            "A warning letter with no penalty",
+            "Extension until renewal is processed"
+          ],
+          "answer": "Immediate suspension from work"
+        },
+        {
+          "id": 110,
+          "question": "What should PHV drivers do if their vehicle’s insurance expires?",
+          "options": [
+            "Continue working until caught",
+            "Renew the insurance before accepting passengers",
+            "Only accept cash payments to avoid detection",
+            "Use a different vehicle without notifying authorities"
+          ],
+          "answer": "Renew the insurance before accepting passengers"
+        },
+        {
+          "id": 111,
+          "question": "What must PHV drivers do if their vehicle is involved in an accident?",
+          "options": [
+            "Immediately leave the scene",
+            "Exchange details and report to authorities if necessary",
+            "Continue the journey if the vehicle is still working",
+            "Blame the passenger if they were distracting the driver"
+          ],
+          "answer": "Exchange details and report to authorities if necessary"
+        },
+        {
+          "id": 112,
+          "question": "Which of these actions is NOT a professional expectation of PHV drivers?",
+          "options": [
+            "Keeping their vehicle clean and roadworthy",
+            "Providing a professional and polite service",
+            "Engaging in long personal conversations with passengers",
+            "Following traffic rules at all times"
+          ],
+          "answer": "Engaging in long personal conversations with passengers"
+        },
+        {
+          "id": 113,
+          "question": "When is a PHV driver allowed to use a mobile phone?",
+          "options": [
+            "Only when making personal calls",
+            "Only when using a hands-free device",
+            "While stationary at a red light",
+            "Whenever they need to check directions"
+          ],
+          "answer": "Only when using a hands-free device"
+        },
+        {
+          "id": 114,
+          "question": "Which of the following actions can lead to a PHV driver’s licence being revoked?",
+          "options": [
+            "Receiving multiple customer complaints",
+            "Having an unclean vehicle",
+            "Using a hands-free navigation system",
+            "Following speed limits too strictly"
+          ],
+          "answer": "Receiving multiple customer complaints"
+        },
+        {
+          "id": 115,
+          "question": "What should a PHV driver do if their vehicle is stolen?",
+          "options": [
+            "Wait to see if it is returned",
+            "Report it immediately to the police and their operator",
+            "Claim insurance first before reporting",
+            "Borrow another vehicle without informing authorities"
+          ],
+          "answer": "Report it immediately to the police and their operator"
+        },
+        {
+          "id": 116,
+          "question": "What must a PHV driver do before working with a new operator?",
+          "options": [
+            "Ensure they are registered with TfL",
+            "Only notify their previous employer",
+            "Stop working until a new badge is issued",
+            "Submit a complaint against their previous operator"
+          ],
+          "answer": "Ensure they are registered with TfL"
+        },
+        {
+          "id": 117,
+          "question": "Which of these is a key environmental responsibility of PHV drivers?",
+          "options": [
+            "Driving as fast as possible to reduce journey times",
+            "Minimizing unnecessary engine idling",
+            "Using the air conditioning at all times",
+            "Only driving at night to avoid traffic"
+          ],
+          "answer": "Minimizing unnecessary engine idling"
+        },
+        {
+          "id": 118,
+          "question": "How can PHV drivers reduce their carbon footprint?",
+          "options": [
+            "Driving aggressively to reach destinations quickly",
+            "Maintaining proper vehicle servicing and smooth driving",
+            "Only driving petrol vehicles",
+            "Avoiding public transport users"
+          ],
+          "answer": "Maintaining proper vehicle servicing and smooth driving"
+        },
+        {
+          "id": 119,
+          "question": "What must a PHV driver do if a passenger becomes ill during a journey?",
+          "options": [
+            "Continue driving unless asked to stop",
+            "Stop safely and offer assistance",
+            "Ignore the passenger’s condition",
+            "Drop them off immediately, regardless of location"
+          ],
+          "answer": "Stop safely and offer assistance"
+        },
+        {
+          "id": 120,
+          "question": "Which of the following must a PHV driver report to TfL?",
+          "options": [
+            "A minor argument with a passenger",
+            "A conviction or any legal penalty",
+            "A lost item found in the vehicle",
+            "A passenger changing their destination"
+          ],
+          "answer": "A conviction or any legal penalty"
+        }
+      ]
+    }
+  ]
+  

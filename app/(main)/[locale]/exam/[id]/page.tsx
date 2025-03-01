@@ -187,6 +187,18 @@ import questions1 from "@/app/(main)/[locale]/data/questions.json";
 import questions2 from "@/app/(main)/[locale]/data/questions2.json";
 import questions3 from "@/app/(main)/[locale]/data/questions3.json";
 import questions4 from "@/app/(main)/[locale]/data/questions4.json";
+import questions5 from "@/app/(main)/[locale]/data/questions5.json";
+import questions6 from "@/app/(main)/[locale]/data/questions6.json";
+import questions7 from "@/app/(main)/[locale]/data/questions7.json";
+import questions8 from "@/app/(main)/[locale]/data/questions8.json";
+import questions9 from "@/app/(main)/[locale]/data/questions9.json";
+import questions10 from "@/app/(main)/[locale]/data/questions10.json";
+
+
+
+
+
+
 
 import QuestionCard from "@/app/components/QuestionCard";
 import ResultCard from "@/app/components/ResultCard";
@@ -206,7 +218,7 @@ const ExamPage = () => {
 
   // Combine all question sets using useMemo for optimization
   const allQuestions = useMemo(
-    () => [...questions1, ...questions2, ...questions3, ...questions4],
+    () => [...questions1, ...questions2, ...questions3, ...questions4, ...questions5, ...questions6, ...questions7, ...questions8, ...questions9, ...questions10],
     []
   );
 

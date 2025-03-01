@@ -1,0 +1,196 @@
+[
+    {
+      "id": 700,
+      "title": "PHV Driver’s Licence - Passenger Safety and Ethical Conduct",
+      "questions": [
+        {
+          "id": 121,
+          "question": "What should a PHV driver do if a passenger forgets their belongings in the vehicle?",
+          "options": [
+            "Ignore it and continue working",
+            "Return it to the operator or police station",
+            "Sell the item if unclaimed",
+            "Keep it and wait for the passenger to call"
+          ],
+          "answer": "Return it to the operator or police station"
+        },
+        {
+          "id": 122,
+          "question": "What is the maximum number of passengers a PHV can legally carry?",
+          "options": [
+            "Only one at a time",
+            "As many as can fit",
+            "The number specified in the vehicle’s licence",
+            "Five passengers, regardless of vehicle type"
+          ],
+          "answer": "The number specified in the vehicle’s licence"
+        },
+        {
+          "id": 123,
+          "question": "When should a PHV driver report a traffic violation they received while on duty?",
+          "options": [
+            "Immediately to TfL and their operator",
+            "Only if caught by police",
+            "Never, unless asked",
+            "Only if a passenger witnessed it"
+          ],
+          "answer": "Immediately to TfL and their operator"
+        },
+        {
+          "id": 124,
+          "question": "Which of the following is a PHV driver required to do under the Equality Act 2010?",
+          "options": [
+            "Ensure fair and equal treatment of all passengers",
+            "Refuse service to passengers with guide dogs",
+            "Only assist passengers if they ask for help",
+            "Charge extra for passengers with disabilities"
+          ],
+          "answer": "Ensure fair and equal treatment of all passengers"
+        },
+        {
+          "id": 125,
+          "question": "Which behavior is considered unprofessional for a PHV driver?",
+          "options": [
+            "Making inappropriate jokes or personal remarks",
+            "Providing a clean and safe vehicle",
+            "Following traffic laws",
+            "Helping passengers with their luggage"
+          ],
+          "answer": "Making inappropriate jokes or personal remarks"
+        },
+        {
+          "id": 126,
+          "question": "How should a PHV driver respond if a passenger becomes abusive?",
+          "options": [
+            "Remain calm, avoid confrontation, and report it if necessary",
+            "Stop the vehicle and demand they leave immediately",
+            "Argue with the passenger",
+            "Ignore the behavior and continue driving"
+          ],
+          "answer": "Remain calm, avoid confrontation, and report it if necessary"
+        },
+        {
+          "id": 127,
+          "question": "What should a PHV driver do if they receive a customer complaint?",
+          "options": [
+            "Respond professionally and take steps to resolve the issue",
+            "Ignore it unless contacted by TfL",
+            "Argue with the passenger about the complaint",
+            "Stop driving for the day"
+          ],
+          "answer": "Respond professionally and take steps to resolve the issue"
+        },
+        {
+          "id": 128,
+          "question": "Which of the following must a PHV driver do before accepting a fare?",
+          "options": [
+            "Ensure the passenger has exact change",
+            "Only accept bookings from family and friends",
+            "Ask the passenger for cash payment upfront",
+            "Confirm the booking through an operator"
+          ],
+          "answer": "Confirm the booking through an operator"
+        },
+        {
+          "id": 129,
+          "question": "What should a PHV driver do if their vehicle develops a mechanical fault mid-journey?",
+          "options": [
+            "Stop safely and arrange alternative transport for the passenger",
+            "Ignore the issue and complete the trip",
+            "Ask the passenger to wait while they fix it",
+            "Continue driving if possible"
+          ],
+          "answer": "Stop safely and arrange alternative transport for the passenger"
+        },
+        {
+          "id": 130,
+          "question": "What is the penalty for a PHV driver operating without valid insurance?",
+          "options": [
+            "No penalty if no accident occurs",
+            "A warning letter from TfL",
+            "Immediate licence suspension and possible prosecution",
+            "A minor fine with no further action"
+          ],
+          "answer": "Immediate licence suspension and possible prosecution"
+        },
+        {
+          "id": 131,
+          "question": "Which of the following must be kept up to date for a PHV driver to continue working?",
+          "options": [
+            "Their PHV licence, insurance, and medical fitness certificate",
+            "The car's air freshener",
+            "The driver's social media account",
+            "The driver's choice of working hours"
+          ],
+          "answer": "Their PHV licence, insurance, and medical fitness certificate"
+        },
+        {
+          "id": 132,
+          "question": "When should a PHV driver refuse service to a passenger?",
+          "options": [
+            "If the passenger has a baby stroller",
+            "If the passenger is aggressive or poses a safety risk",
+            "If the passenger requests a long journey",
+            "If the passenger wants to pay by card"
+          ],
+          "answer": "If the passenger is aggressive or poses a safety risk"
+        },
+        {
+          "id": 133,
+          "question": "What must a PHV driver do if they change their phone number?",
+          "options": [
+            "Ignore it",
+            "Wait until licence renewal to update it",
+            "Inform TfL and their operator immediately",
+            "Only tell their passengers"
+          ],
+          "answer": "Inform TfL and their operator immediately"
+        },
+        {
+          "id": 134,
+          "question": "What must a PHV driver do if they witness a crime while on duty?",
+          "options": [
+            "Report it to the police as soon as possible",
+            "Ignore it",
+            "Discuss it with passengers first",
+            "Take photos and post them online"
+          ],
+          "answer": "Report it to the police as soon as possible"
+        },
+        {
+          "id": 135,
+          "question": "What is the correct action if a passenger does not have the means to pay for the journey?",
+          "options": [
+            "Politely request an alternative form of payment and report to the operator if needed",
+            "Lock the passenger in the car until they pay",
+            "Take the passenger to a police station immediately",
+            "Threaten legal action"
+          ],
+          "answer": "Politely request an alternative form of payment and report to the operator if needed"
+        },
+        {
+          "id": 136,
+          "question": "Which of the following is NOT a PHV driver's responsibility?",
+          "options": [
+            "Ensuring the vehicle is safe and roadworthy",
+            "Providing passengers with personal contact details",
+            "Providing a professional and courteous service",
+            "Following traffic laws"
+          ],
+          "answer": "Providing passengers with personal contact details"
+        },
+        {
+          "id": 137,
+          "question": "What should a PHV driver do if they receive a request for an illegal journey?",
+          "options": [
+            "Refuse and report it to the operator or authorities if necessary",
+            "Take the passenger as far as possible and then stop",
+            "Ask another driver to take the journey instead",
+            "Accept it if the fare is high enough"
+          ],
+          "answer": "Refuse and report it to the operator or authorities if necessary"
+        }
+      ]
+    }
+  ]
+  
