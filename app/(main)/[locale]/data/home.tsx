@@ -51,27 +51,19 @@ export const promises = [
 export const steps = [
   {
     icon: <CalendarCheck size={48} strokeWidth={1.5} />,
-    title: "Book Appointment",
-    description:
-      "You can begin your PCO licence by booking an appointment on a Thursday evening.",
+    
   },
   {
     icon: <Stethoscope size={48} strokeWidth={1.5} />,
-    title: "Medical Check",
-    description:
-      "You will undergo a TPH204 TFL medical test to ensure you're fit to drive. Our in-house GP will check your medical history and complete your medical.",
+    
   },
   {
     icon: <MapPinned size={48} strokeWidth={1.5} />,
-    title: "Topographical Training",
-    description:
-      "You will undergo 3 hours of Topographical skills training. We will show you the format of the test and how to navigate and read the London A-Z map.",
+    
   },
   {
     icon: <Workflow size={48} strokeWidth={1.5} />,
-    title: "Final Steps",
-    description:
-      "We will complete all necessary application forms and file your application directly to TFL. We will complete everything, making the process hassle-free and simple.",
+   
   },
 ];
 

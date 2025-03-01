@@ -9,6 +9,7 @@ import questions1 from "@/app/(main)/[locale]/data/questions.json";
 import questions2 from "@/app/(main)/[locale]/data/questions2.json";
 import questions3 from "@/app/(main)/[locale]/data/questions3.json";
 import questions4 from "@/app/(main)/[locale]/data/questions4.json";
+import { useTranslations } from 'next-intl';
 
 interface MockTest {
   id: number;
@@ -22,6 +23,7 @@ interface MockTest {
 }
 
 const MockTestSection = () => {
+   
   const router = useRouter();
   const [mockTests, setMockTests] = useState<MockTest[]>([]);
 
@@ -33,12 +35,12 @@ const MockTestSection = () => {
   const startExam = (id: number) => {
     router.push(`/en/exam/${id}`);
   };
-
+  const t =useTranslations();
   return (
     <section className="bg-sky-900 text-white py-12 text-center">
-      <h2 className="text-3xl font-bold">Topographical Theory Test</h2>
+      <h2 className="text-3xl font-bold">{t('home.MockTestSection.theoryTest')}</h2>
       <p className="mt-2 text-lg">
-        We strongly advise you to read the handbook before starting our practice tests.
+      {t('home.MockTestSection.testDescription')}
       </p>
       <div className="flex justify-center mt-8 gap-6 px-6 flex-wrap">
         {mockTests.map((test) => (
