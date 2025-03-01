@@ -16,9 +16,19 @@ import Link from "next/link";
 import BlogCard from "../../components/BlogCard";
 import { useTranslations } from "next-intl";
 import MockTestSection from "@/app/components/MockTestSection";
+import { CalendarCheck, MapPinned, Stethoscope, Workflow } from "lucide-react";
 
 const HomePage: React.FC = () => {
   const t = useTranslations();
+  const steps = t.raw("home.Steps.StepSection");
+
+  const icons: JSX.Element[] = [
+    <CalendarCheck key="calendar" size={48} strokeWidth={1.5} />,
+    <Stethoscope key="stethoscope" size={48} strokeWidth={1.5} />,
+    <MapPinned key="map" size={48} strokeWidth={1.5} />,
+    <Workflow key="workflow" size={48} strokeWidth={1.5} />,
+  ];
+
   return (
     <div className="bg-gray-100">
       {/* Hero Section */}
@@ -58,16 +68,18 @@ const HomePage: React.FC = () => {
       <section className="py-12 bg-gray-100">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {steps.map((step, index) => (
+            {steps.map((StepSection,index) => (
+              
+            
               <div
                 key={index}
                 className="flex flex-col items-center text-center p-6 bg-teal-600 text-white rounded-2xl shadow-lg transition-transform hover:scale-105"
               >
                 <div className="bg-white bg-opacity-20 p-4 rounded-full mb-4">
-                  {step.icon}
+                {icons[index]}
                 </div>
-                <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
-                <p className="text-sm">{step.description}</p>
+                <h3 className="text-xl font-semibold mb-2">{StepSection.title} </h3>
+                <p className="text-sm">{StepSection.description}</p>
                 <div className="mt-4 text-white text-lg">→</div>
               </div>
             ))}
