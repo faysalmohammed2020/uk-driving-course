@@ -5,13 +5,13 @@ import { notFound } from "next/navigation";
 import { blogspageblogs } from "../../data/home";
 
 // Type for Blog Post
-interface BlogPost {
-  id: number;
-  title: string;
-  description: string;
-  image: string;
-  content: string;
-}
+// interface BlogPost {
+//   id: number;
+//   title: string;
+//   description: string;
+//   image: string;
+//   content: string;
+// }
 
 // Generate Static Params for Dynamic Routing
 export async function generateStaticParams() {

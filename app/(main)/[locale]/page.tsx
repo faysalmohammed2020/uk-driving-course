@@ -2,11 +2,11 @@
 "use client";
 import React from "react";
 import GetInTouch from "../../components/GetInTouch";
-import {
-  blogs,
-  courses,
+// import {
+//   blogs,
+//   courses,
 
-} from "./data/home";
+// } from "./data/home";
 import Image from "next/image";
 import { FaAward } from "react-icons/fa";
 import Link from "next/link";

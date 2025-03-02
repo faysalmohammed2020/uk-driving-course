@@ -201,7 +201,7 @@ import questions10 from "@/app/(main)/[locale]/data/questions10.json";
 
 
 import QuestionCard from "@/app/components/QuestionCard";
-import ResultCard from "@/app/components/ResultCard";
+// import ResultCard from "@/app/components/ResultCard";
 
 const ExamPage = () => {
   const router = useRouter();

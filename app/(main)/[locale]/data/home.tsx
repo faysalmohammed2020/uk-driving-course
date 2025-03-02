@@ -1,5 +1,5 @@
 import { Book, CalendarDays, LineChart, Map } from "lucide-react";
-import { CalendarCheck, Stethoscope, MapPinned, Workflow } from "lucide-react";
+// import { CalendarCheck, Stethoscope, MapPinned, Workflow } from "lucide-react";
 import { FaBook, FaFlag, FaCompass } from "react-icons/fa";
 
 export const statistics = [
