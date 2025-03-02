@@ -9,12 +9,13 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import MenuIcon from "@mui/icons-material/Menu";
 import TranslateIcon from "@mui/icons-material/Translate";
+import { useTranslations } from "next-intl";
 
 const languageOptions = [
   { code: "en", label: "English", flag: "https://flagcdn.com/w40/us.png" },
@@ -23,7 +24,7 @@ const languageOptions = [
   { code: "hi", label: "Hindi", flag: "https://flagcdn.com/w40/in.png" },
 ];
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   const router = useRouter();
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -43,7 +44,7 @@ const Navbar = () => {
     router.push(`/${lang}`);
     handleLanguageMenuClose();
   };
-
+  const t = useTranslations();
   return (
     <AppBar position="static" className="bg-blue-800 shadow-md">
       {/* Top Contact Bar */}
@@ -67,11 +68,7 @@ const Navbar = () => {
             <TranslateIcon />
             <ArrowDropDownIcon />
           </IconButton>
-          <Menu
-            anchorEl={languageAnchorEl}
-            open={Boolean(languageAnchorEl)}
-            onClose={handleLanguageMenuClose}
-          >
+          <Menu anchorEl={languageAnchorEl} open={Boolean(languageAnchorEl)} onClose={handleLanguageMenuClose}>
             <Typography variant="subtitle2" className="px-3 py-1 text-gray-500">
               Choose Your Language
             </Typography>
@@ -90,32 +87,29 @@ const Navbar = () => {
         {/* Logo and Title */}
         <Link href="/" className="flex flex-col">
           <Typography variant="h4" className="text-white font-bold">
-            Birds Of Eden
+            {t('home.Navbar.Boed')}
           </Typography>
           <Typography variant="caption" className="text-gray-300 text-sm">
-            LICENCE AND TRAINING CENTRE
+            {t('home.Navbar.slogan')}
           </Typography>
         </Link>
 
         {/* Navigation Links for Desktop */}
         <div className="hidden md:flex space-x-6 text-lg">
           <Link href="/" className="text-white hover:text-yellow-300">
-            Home
+            {t('home.Navigation.Home')}
           </Link>
-          <Link href="/course" className="text-white hover:text-yellow-300">
-            Course
-          </Link>
-          <Link href="/en/guidelines" className="text-white hover:text-yellow-300">
-            Guidelines
+          <Link href="/courses" className="text-white hover:text-yellow-300">
+            {t('home.Navigation.Course')}
           </Link>
           <Link href="/blogs" className="text-white hover:text-yellow-300">
-            Blog
+            {t('home.Navigation.Blog')}
           </Link>
           <Link href="/about-us" className="text-white hover:text-yellow-300">
-            About Us
+            {t('home.Navigation.About')}
           </Link>
           <Link href="/contacts" className="text-white hover:text-yellow-300">
-            Contact Us
+            {t('home.Navigation.Contact')}
           </Link>
         </div>
 
@@ -173,18 +167,11 @@ const Navbar = () => {
 
         {/* Login and Sign Up Buttons */}
         <div className="hidden md:flex space-x-4">
-          <Button
-            variant="outlined"
-            className="border-white text-white hover:bg-white hover:text-blue-800 text-lg rounded-lg px-4"
-          >
-            Login
+          <Button variant="outlined" className="border-white text-white hover:bg-white hover:text-blue-800 text-lg rounded-lg px-4">
+            {t('home.Navbar.Login')}
           </Button>
-          <Button
-            variant="contained"
-            className="bg-emerald-700 text-white text-lg hover:bg-emerald-800 rounded-lg px-4"
-            onClick={() => router.push("/en/signup")}
-          >
-            Sign Up
+          <Button variant="contained" className="bg-emerald-700 text-white text-lg hover:bg-emerald-800 rounded-lg px-4">
+            {t('home.Navbar.Sign')}
           </Button>
         </div>
       </Toolbar>
