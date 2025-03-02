@@ -1,40 +1,30 @@
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
+
 import GetInTouch from "@/app/components/GetInTouch";
+import { useTranslations } from "next-intl";
 
 const AboutPage = () => {
+  const t =useTranslations();
   return (
     <>
       <div className="bg-white text-gray-900">
         {/* Who We Are Section */}
         <section className="text-center py-16 px-6">
-          <h2 className="text-4xl font-extrabold">Who We Are</h2>
+          <h2 className="text-4xl font-extrabold">{t('About.AboutUs.Who')}</h2>
           <p className="text-lg font-medium mt-4 max-w-3xl mx-auto">
-            Accelerating the private hire licence application process and
-            delivering high-quality training to ensure first-time exam success.
+           {t('About.AboutUs.acceleration')}
           </p>
           <div className="max-w-6xl mx-auto mt-8 grid md:grid-cols-2 gap-8 text-left">
             <p>
-              At London PCO Licence and Training Centre, we have supported over
-              500 individuals in obtaining their PHV drivers’ licence. Our 5+
-              years of expertise ensure a smooth and guided process tailored to
-              each applicant’s needs.
+            {t('About.AboutUs.support')}
             </p>
             <p>
-              A private hire driver licence offers flexibility and independence.
-              However, obtaining one requires navigating a complex application
-              process, and we provide structured assistance to simplify this
-              journey.
+            {t('About.AboutUs.flexibility')}
             </p>
             <p>
-              Our comprehensive training programs align with TFL assessments,
-              ensuring a streamlined learning experience that maximizes success
-              rates.
+            {t('About.AboutUs.training')}
             </p>
             <p>
-              We leverage cutting-edge training methodologies and real-world
-              simulations to prepare candidates effectively for TFL exams and
-              beyond.
+            {t('About.AboutUs.methodology')}
             </p>
           </div>
         </section>

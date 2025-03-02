@@ -1,0 +1,265 @@
+{
+  "home": {
+    "hero": {
+      "title": "Master the SERU Test",
+      "enroll": "Enroll Now",
+      "TryFree": "Try Free",
+      "description": "Prepare yourself for the TFL SERU Assessment with our comprehensive course designed to help you understand Safety, Equality, and Regulatory Understanding. Our course covers everything you need to pass the computer-based test and become a certified PCO driver."
+    },
+    "Steps": {
+      "StepSection": [
+        {
+          "id": 1,
+          "title": "Book Appointment",
+          "description": "You can begin your PCO licence by booking an appointment on a Thursday evening."
+        },
+        {
+          "id": 2,
+          "title": "Medical Check",
+          "description": "You will undergo a TPH204 TFL medical test to ensure you're fit to drive. Our in-house GP will check your medical history and complete your medical."
+        },
+        {
+          "id": 3,
+          "title": "Topographical Training",
+          "description": "You will undergo 3 hours of Topographical skills training. We will show you the format of the test and how to navigate and read the London A-Z map."
+        },
+        {
+          "id": 4,
+          "title": "Final Steps",
+          "description": "We will complete all necessary application forms and file your application directly to TFL. We will complete everything, making the process hassle-free and simple."
+        }
+      ]
+    },
+
+    "SomethingAboutUs": {
+      "SomethingAboutUsTitle": "Completing your PCO licence will be hassle free.",
+      "SAUD": "For only £545 with all fees included, we are the cheapest and one of London's only all in one PCO Licence centres where you can complete your topographical training, TPH 204 medical check and have your TFL PCO application correctly filled in and filed by us. We completely take the headache and stress out of the PCO application process.",
+      "Yrs": "8 yrs",
+      "PE": "Professional Experience!",
+      "BNBTN": "Book Now",
+      "CNBTN": "Call Now"
+    },
+    "StatSection": {
+      "find": "Find out more about the test",
+      "TopographicalTitle": " Topographical Theory Practice and Mock Test",
+      "TopographicalDescription": "This Topographical Theory test is provided to acquaint you with the format of the official test. You are advised to familiarise with the official A-Z Atlas handbook before attempting the test. The test consists of 25 questions for 25 marks; each question carrying 1 mark.Click the button below to start the test.",
+      "StartTest": "START TEST"
+    },
+    "MockTestSection": {
+      "theoryTest": "Topographical Theory Test",
+      "testDescription": "We strongly advise you to read the handbook before starting our practice tests."
+    },
+    "promiseSection": {
+      "promiseTitle": "OUR PROMISE",
+      "promiseDescription": "We’ve helped thousands of people pass their topographical test. Here’s how we’re going to make you pass too!"
+    },
+    "promiseCards": {
+      "promiseCardContent": [
+        {
+          "id": 1,
+          "title": "Realistic Tests",
+          "description": "All of our questions are designed to closely match real test questions. We’ll make sure that there are no surprises at the test centre."
+        },
+        {
+          "id": 2,
+          "title": "Progress Tracking",
+          "description": "Check your test results to see your progress and stay on track. Re-do the tests you’ve failed and gain confidence from the ones you’ve passed."
+        },
+        {
+          "id": 3,
+          "title": "Self Paced",
+          "description": "All of our material is available to you from the very beginning. Study at your own speed and rest assured, we’re here to help every step of the way."
+        },
+        {
+          "id": 4,
+          "title": "Convenient",
+          "description": "Read the handbook or complete our mock tests from any place, any device, any time. We are live 24/7 so you can prepare whenever you want."
+        }
+      ]
+    },
+    "StatesSection": {
+      "StateContent": [
+        {
+          "id": 1,
+          "value": "800+",
+          "label": "STUDENTS"
+        },
+        {
+          "id": 2,
+          "value": "500+",
+          "label": "REAL EXAM QUESTIONS"
+        },
+        {
+          "id": 3,
+          "value": "100%",
+          "label": "PASS RATE"
+        }
+      ]
+    },
+    "ourCourseSection": {
+      "CourseTitle": " Our Courses",
+      "CoursePlanTitle": "Pick Your Perfect Plan",
+      "CourseShortDes": "Choose the best plan that fits your needs. Our courses are designed to help you learn at your own pace.",
+      "CardHeroTitle": "MOST POPULAR",
+      "CP": "Choose Plan"
+    },
+    "Courses": {
+      "CourseCards": [
+        {
+          "title": "Basic Course",
+          "price": "2.99",
+          "duration": "per month",
+          "description": "Everything you need to get started.",
+          "features": [
+            "10 Lessons",
+            "Video Tutorials",
+            "Downloadable Resources",
+            "Community Access",
+            "Basic Support"
+          ]
+        },
+        {
+          "title": "Professional Course",
+          "price": "3.99",
+          "duration": "per month",
+          "description": "Level up with advanced features and support.",
+          "features": [
+            "20 Lessons",
+            "Advanced Video Tutorials",
+            "Exclusive Resources",
+            "Community & Forum Access",
+            "Priority Support"
+          ],
+
+          "isPopular": true
+        },
+        {
+          "title": "Expert Course",
+          "price": "7.99",
+          "duration": "per month",
+          "description": "Gain expert knowledge and premium support.",
+          "features": [
+            "30+ Lessons",
+            "Expert Video Series",
+            "1-on-1 Mentoring",
+            "Complete Resources",
+            "Dedicated Support"
+          ]
+        }
+      ]
+    },
+    "BlogSectionHeader": {
+      "header": "The Blog",
+      "shortTitle": " Our Recent News",
+      "blogHeaderDes": " Here you can keep yourself updated by reading our blogs on the various topics ranging from licenses to other relevant topics. You can also subscribe to us in order to keep yourself informed of our services.",
+      "Button": "View All",
+      "Read ": "Read More"
+    },
+    "BlogSection": {
+      "blogContent": [
+        {
+          "id": 1,
+          "title": "SERU Training For PCO Drivers",
+          "description": "The SERU training course (Safety, Equality, and Regularity Understanding) offered",
+          "image": "blog1.webp"
+        },
+        {
+          "id": 2,
+          "title": "Topographical Skills Test: A Key Requirement for PCO Driver Training",
+          "description": "Becoming a Private Hire or Taxi Driver in London involves",
+          "image": "blog2.avif"
+        },
+        {
+          "id": 3,
+          "title": "PCO Electric Vehicle Advantages",
+          "description": "Driving in London is becoming more expensive day by day,",
+          "image": "blog3.jpg"
+        },
+
+        {
+          "id": 4,
+          "title": "PCO Driver Training in London",
+          "description": "The SERU training course (Safety, Equality, and Regularity Understanding) offered",
+          "image": "blog4.webp"
+        }
+      ]
+    },
+    "GIT": {
+      "getInTouch": "Get In Touch",
+      "gitShortTitle": " Send us a message to enquire or book an appointment !",
+      "gitMain": " If you have any queries about us or about our services, do not hesitate to ping us a question of any kind using the below form."
+    },
+    "Navbar": {
+      "Boed": "Birds Of Eden",
+      "slogan": "LICENCE AND TRAINING CENTRE",
+      "Login": "Login",
+      "Sign" : "Sign Up",
+      "Blog" : "Blog"
+    },
+    "Navigation": {
+      "Home" : "Home",
+      "Course": "Course",
+      "Blog": "Blog",
+      "About": "About Us",
+      "Contact": "Contact Us",
+      "Privacy": "Privacy",
+      "Term": "Terms and Conditions",
+      "Address" : "Birds Of Eden Training Center, Tower 71, Ecb Chattar, Mirpur, Dhaka",
+      "LS" : "Learning Support",
+      "Design" : "Design By",
+      "Rights" : "Birds Of Eden All Rights Reserved"
+      
+    }
+  },
+  "Courses":{
+    "coursePage":{
+      "Seru": "SERU Assessment Online Course",
+      "includes" : "This course includes over 500 SERU assessment questions including MultiChoice, Drag & Drop, and reading & understanding exercises.",
+      "payBtn": "Pay Now £39.99",
+      "whatIncludes" : "WHAT'S INCLUDED?",
+      "over": "Over 500 real exam questions",
+      "learningMaterials": "Learning materials & Mock Tests",
+      "sectionsCovered": "All sections covered",
+      "availablePlatforms": "Available on all platforms - Mobile Phones, PCs, Tablets",
+      "access": "24/7 access",
+      "learnAtYourOwnPace": "Learn at your own pace",
+      "continueFromWhereYouLeftOff": "Continue the course from where you left off",
+      "practiceQuestions": "Practice questions with interactive answer hints",
+      "comprehensiveLearning": "10+ Hours of comprehensive learning",
+      "Learn" : "LEARN WHILE YOU WORK!",
+      "Platform" : "Our platform is perfect for all drivers - no need to take days off or attend classes. Simply buy one of our courses and learn whenever you like!",
+      "Choose" : "WHY CHOOSE US?",
+      "instructors" : "Expert Instructors",
+      "created" : "Courses created by ex-TfL assessors with 7+ years of experience.",
+      "Flex" : "Flexible Learning",
+      "study" : "Study at your own pace with 24/7 access to our resources.",
+      "watch" : "WATCH OUR INTERACTIVE COURSE OVERVIEW VIDEO BELOW!"
+    },
+   "courseContent": {
+      "features": [
+        { "id": 1, "title": "24/7 Online Course Access" },
+        { "id": 2, "title": "All TfL SERU Handbook Sections Covered" },
+        { "id": 3, "title": "Repeat as Many Times as You Want" },
+        { "id": 4, "title": "Multichoice and Sentence Completion Questions" },
+        { "id": 5, "title": "Drag and Drop Sentence Completion" },
+        { "id": 6, "title": "Three Timed Mock Tests" },
+        { "id": 7, "title": "4 Weeks of Unlimited Access" },
+        { "id": 8, "title": "10 Hours of Interactive Learning" }
+      ]
+    }
+ },
+ "About":{
+  "AboutUs": {
+    "Who" : "Who We Are",
+    "acceleration": "Accelerating the private hire licence application process and delivering high-quality training to ensure first-time exam success.",
+    "support": "At London PCO Licence and Training Centre, we have supported over 500 individuals in obtaining their PHV drivers’ licence.",
+    "experience": "Our 5+ years of expertise ensure a smooth and guided process tailored to each applicant’s needs.",
+    "flexibility": "A private hire driver licence offers flexibility and independence. However, obtaining one requires navigating a complex application process, and we provide structured assistance to simplify this journey.",
+    "training": "Our comprehensive training programs align with TFL assessments, ensuring a streamlined learning experience that maximizes success rates.",
+    "methodology": "We leverage cutting-edge training methodologies and real-world simulations to prepare candidates effectively for TFL exams and beyond.",
+    "aim": "Our Aim",
+    "commitment":" Our commitment to excellence and what sets us apart.",
+    "Expediting":"Expediting licence applications with meticulous document processing and follow-ups."
+  }
+ }
+} 

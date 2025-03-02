@@ -10,8 +10,10 @@ import {
   FaLinkedinIn,
   FaInstagram,
 } from "react-icons/fa";
+import { useTranslations } from "next-intl";
 
 const Footer: React.FC = () => {
+  const t = useTranslations();
   return (
     <footer className="bg-teal-800 text-white">
       <div className="container mx-auto px-4 py-10">
@@ -37,37 +39,37 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li>
                 <Link href="/" className="text-gray-300 hover:text-white">
-                  Home
+                  {t('home.Navigation.Home')}
                 </Link>
               </li>
               <li>
                 <Link href="/about-us" className="text-gray-300 hover:text-white">
-                  About Us
+                {t('home.Navigation.About')}
                 </Link>
               </li>
               <li>
                 <Link href="/courses" className="text-gray-300 hover:text-white">
-                  Courses
+                {t('home.Navigation.Course')}
                 </Link>
               </li>
               <li>
                 <Link href="/blog" className="text-gray-300 hover:text-white">
-                  Blog
+                 {t('home.Navigation.Blog')}
                 </Link>
               </li>
               <li>
                 <Link href="/contact" className="text-gray-300 hover:text-white">
-                  Contact Us
+                {t('home.Navigation.Contact')}
                 </Link>
               </li>
               <li>
                 <Link href="/privacy" className="text-gray-300 hover:text-white">
-                  Privacy Policy
+                  {t('home.Navigation.Privacy')}
                 </Link>
               </li>
               <li>
                 <Link href="/terms" className="text-gray-300 hover:text-white">
-                  Terms and Conditions
+                  {t('home.Navigation.Term')}
                 </Link>
               </li>
             </ul>
@@ -75,7 +77,7 @@ const Footer: React.FC = () => {
 
           {/* Contact Information */}
           <div>
-            <h4 className="text-xl font-bold mb-4">Contact Us</h4>
+            <h4 className="text-xl font-bold mb-4">{t('home.Navigation.Contact')}</h4>
             <ul className="space-y-2 text-gray-300">
               <li>
                 <span className="block">📧 talat@birdsofeden.me</span>
@@ -84,11 +86,11 @@ const Footer: React.FC = () => {
                 <span className="block">📞 0123456789</span>
               </li>
               <li>
-                <span className="block">📍 Birds Of Eden Training Center, Tower 71, Ecb Chattar, Mirpur, Dhaka</span>
+                <span className="block">📍 {t('home.Navigation.Address')}</span>
               </li>
             </ul>
 
-            <h4 className="text-xl font-bold mt-6 mb-2">Learning Support</h4>
+            <h4 className="text-xl font-bold mt-6 mb-2">{t('home.Navigation.LS')}</h4>
             <span className="block text-gray-300">
               customercare@birdsofeden.me
             </span>
@@ -130,11 +132,11 @@ const Footer: React.FC = () => {
       {/* Bottom Bar */}
       <div className="py-4 text-center text-white">
         <p>
-          Design by{" "}
+          {t('home.Navigation.Design')}{" "}
           <Link href="https://www.pcoukonline.com" className="text-red-600 hover:underline">
-            Birds Of Eden
+            {t('home.Navbar.Boed')}
           </Link>{" "}
-          | © 2025 - Birds Of Eden All Rights Reserved.
+          | © 2025 - {t('home.Navigation.Rights')}.
         </p>
       </div>
     </footer>
