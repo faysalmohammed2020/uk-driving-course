@@ -187,7 +187,10 @@
     "GIT": {
       "getInTouch": "Get In Touch",
       "gitShortTitle": " Send us a message to enquire or book an appointment !",
-      "gitMain": " If you have any queries about us or about our services, do not hesitate to ping us a question of any kind using the below form."
+      "gitMain": " If you have any queries about us or about our services, do not hesitate to ping us a question of any kind using the below form.",
+      "Have":"Have questions about the PCO Licence process or need assistance? We’re here 24/7 to help you. Reach out to us via phone, email, or visit our office.",
+      "send" : " Send Us a Message",
+      "Submit": "Submit"
     },
     "Navbar": {
       "Boed": "Birds Of Eden",
@@ -207,7 +210,8 @@
       "Address" : "Birds Of Eden Training Center, Tower 71, Ecb Chattar, Mirpur, Dhaka",
       "LS" : "Learning Support",
       "Design" : "Design By",
-      "Rights" : "Birds Of Eden All Rights Reserved"
+      "Rights" : "Birds Of Eden All Rights Reserved",
+      "social" : "Social Media"
       
     }
   },
@@ -280,7 +284,8 @@
     "Guidance" : "Expert Guidance",
     "Highly" : "Highly experienced trainers guiding you through every step of the process.",
     "SERUExam" : "SERU Exam Training",
-    "Advanced" : "Advanced TFL-guided software ensuring structured and effective learning."
+    "Advanced" : "Advanced TFL-guided software ensuring structured and effective learning.",
+    "Aim" : "Our Aim"
   }
  }
 } 

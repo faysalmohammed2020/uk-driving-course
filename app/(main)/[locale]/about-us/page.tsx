@@ -31,7 +31,7 @@ const AboutPage = () => {
 
         {/* Our Aim Section */}
         <section className="bg-orange-100 py-16 px-6 text-center">
-          <h2 className="text-4xl font-extrabold">Our Aim</h2>
+          <h2 className="text-4xl font-extrabold">{t('About.AboutUs.Aim')}</h2>
           <p className="text-lg mt-4 max-w-3xl mx-auto">
           {t('About.AboutUs.commitment')}
           </p>

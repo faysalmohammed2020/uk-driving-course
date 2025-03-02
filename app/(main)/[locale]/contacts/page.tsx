@@ -1,17 +1,17 @@
+import { useTranslations } from "next-intl";
 
 
 const ContactPage = () => {
+  const t =useTranslations();
   return (
     <>
       <div className="bg-gray-100 text-gray-900 py-16 px-6">
         <div className="max-w-7xl mx-auto">
           {/* Contact Header */}
           <section className="text-center mb-12">
-            <h2 className="text-4xl font-extrabold">Get in Touch</h2>
+            <h2 className="text-4xl font-extrabold">{t('home.GIT.getInTouch')}</h2>
             <p className="text-lg mt-4 max-w-2xl mx-auto">
-              Have questions about the PCO Licence process or need assistance?
-              We’re here 24/7 to help you. Reach out to us via phone, email, or
-              visit our office.
+            {t('home.GIT.Have')}
             </p>
           </section>
 
@@ -19,7 +19,7 @@ const ContactPage = () => {
           <section className="grid md:grid-cols-2 gap-10 items-center">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-4 text-orange-500">
-                Contact Details
+                {t('home.Navigation.Contact')}
               </h3>
               <p className="mb-2">
                 <strong>📞 Phone:</strong> 07576497335 / 02034884184
@@ -28,8 +28,7 @@ const ContactPage = () => {
                 <strong>📧 Email:</strong> info@londonpcoandtraining.co.uk
               </p>
               <p className="mb-2">
-                <strong>📍 Address:</strong> Ashley House Business Centre,
-                235-239 High Rd, London N22 8HF, United Kingdom
+                <strong>📍 Address:</strong> {t('home.Navigation.Address')}
               </p>
               <iframe
                 className="w-full h-56 mt-4 rounded-lg"
@@ -41,7 +40,7 @@ const ContactPage = () => {
             {/* Contact Form */}
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-4 text-orange-500">
-                Send Us a Message
+               {t('home.GIT.send')}
               </h3>
               <form className="space-y-4">
                 <input
@@ -72,7 +71,7 @@ const ContactPage = () => {
                   type="submit"
                   className="w-full bg-orange-500 text-white py-3 rounded-lg font-semibold hover:bg-orange-600 transition"
                 >
-                  Submit
+                   {t('home.GIT.Submit')}
                 </button>
               </form>
             </div>

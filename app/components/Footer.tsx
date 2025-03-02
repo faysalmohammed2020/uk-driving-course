@@ -98,7 +98,7 @@ const Footer: React.FC = () => {
 
           {/* Social Media */}
           <div>
-            <h4 className="text-xl font-bold mb-4">Social Media</h4>
+            <h4 className="text-xl font-bold mb-4">{t('home.Navigation.social')}</h4>
             <div className="flex space-x-4">
               <Link
                 href="#"
