@@ -135,16 +135,16 @@ const HomePage: React.FC = () => {
                   <h4 className="text-2xl font-bold text-gray-800">
                     {t("home.SomethingAboutUs.Yrs")}
                   </h4>
-                  <p className="text-gray-600">Professional Experience!</p>
+                  <p className="text-gray-600">{t("home.SomethingAboutUs.PE")}</p>
                 </div>
               </div>
 
               <div className="flex space-x-4">
                 <button className="bg-yellow-600 text-white py-2 px-6 rounded-md shadow hover:bg-yellow-700 transition duration-300">
-                  Book Now
+                {t("home.SomethingAboutUs.BNBTN")}
                 </button>
                 <button className="border-2 border-gray-800 text-gray-800 py-2 px-6 rounded-md hover:bg-gray-800 hover:text-white transition duration-300">
-                  Call Now
+                {t("home.SomethingAboutUs.CNBTN")}
                 </button>
               </div>
             </div>
@@ -155,24 +155,20 @@ const HomePage: React.FC = () => {
       {/* Stats Section */}
       <section className="text-center py-16">
         <h3 className="text-lg font-semibold text-gray-900">
-          Find out more about the test
+        {t("home.StatSection.find")}
         </h3>
         <h2 className="text-3xl font-bold text-blue-800 mt-2">
-          Topographical Theory Practice and Mock Test
+        {t("home.StatSection.TopographicalTitle")}
         </h2>
         <p className="mt-4 max-w-2xl mx-auto text-gray-700">
-          This Topographical Theory test is provided to acquaint you with the
-          format of the official test. You are advised to familiarise with the
-          official A-Z Atlas handbook before attempting the test. The test
-          consists of 25 questions for 25 marks; each question carrying 1 mark.
-          Click the button below to start the test.
+        {t("home.StatSection.TopographicalDescription")}
         </p>
         <div className="mt-6">
         <Link
           href="/en/exam"
           className="border-2 border-blue-800 text-blue-800 px-6 py-3 rounded-lg font-semibold hover:bg-blue-800 hover:text-white transition inline-block"
         >
-          START TEST
+           {t("home.StatSection.StartTest")}
         </Link>
       </div>
       </section>
