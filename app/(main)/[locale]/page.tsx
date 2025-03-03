@@ -18,6 +18,7 @@ import { Book } from 'lucide-react';
 import { CalendarDays } from 'lucide-react';
 import { FaBook, FaFlag, FaCompass } from "react-icons/fa";
 import MockTestSection from "@/app/components/MockTestSection";
+import VideoSection from "@/app/components/Video";
 
 
 
@@ -290,6 +291,9 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/*Video Section */}
+      <VideoSection/>
 
       {/* Our Recent Blogs Section */}
       <section className="py-16 bg-gray-50">

@@ -168,10 +168,14 @@ const Navbar: React.FC = () => {
         {/* Login and Sign Up Buttons */}
         <div className="hidden md:flex space-x-4">
           <Button variant="outlined" className="border-white text-white hover:bg-white hover:text-blue-800 text-lg rounded-lg px-4">
-            {t('home.Navbar.Login')}
+          <Link href="/sign-in">
+          {t('home.Navbar.Login')}
+          </Link>
           </Button>
           <Button variant="contained" className="bg-emerald-700 text-white text-lg hover:bg-emerald-800 rounded-lg px-4">
-            {t('home.Navbar.Sign')}
+           <Link href="/sign-up">
+           {t('home.Navbar.Sign')}
+           </Link>
           </Button>
         </div>
       </Toolbar>

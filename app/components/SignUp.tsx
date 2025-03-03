@@ -1,6 +1,6 @@
 import React from "react";
 import { FcGoogle } from "react-icons/fc";
-import { FaApple, FaTwitter } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 import Image from "next/image";
 
 const SignUp: React.FC = () => {
