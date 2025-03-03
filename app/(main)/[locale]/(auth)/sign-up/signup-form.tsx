@@ -59,7 +59,7 @@ const SignupForm = () => {
         },
         onSuccess: () => {
           toast.success("Login Successful");
-          router.push("/admin");
+          router.push("/");
         },
         onError: (ctx) => {
           setFormError(ctx.error.message);

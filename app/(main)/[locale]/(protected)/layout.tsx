@@ -1,8 +1,9 @@
 
+
 import { auth } from "@/lib/auth";
 // import { setRequestLocale } from "next-intl/server";
 import { headers } from "next/headers";
-import { redirect } from "next/navigation";
+import { redirect } from 'next/navigation';
 
 
 export default async function ProtectedLayout({
@@ -26,6 +27,8 @@ export default async function ProtectedLayout({
     }
 
     return (
-        { children }
+       <div>
+         { children }
+       </div>
     );
 }
