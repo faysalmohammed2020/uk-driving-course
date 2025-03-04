@@ -4,7 +4,7 @@
     "title": "Question Set 3",
     "questions": [
       {
-        "id": 41,
+        "id": 1,
         "question": "Which of the following is NOT allowed to be displayed on a PHV?",
         "options": [
           "Company logo",
@@ -15,7 +15,7 @@
         "answer": "‘For Hire’ sign"
       },
       {
-        "id": 42,
+        "id": 2,
         "question": "What must a PHV driver do if they are unable to complete a booking?",
         "options": [
           "Ignore it",
@@ -26,7 +26,7 @@
         "answer": "Inform the operator immediately"
       },
       {
-        "id": 43,
+        "id": 3,
         "question": "Which of the following is a responsibility of PHV operators?",
         "options": [
           "Providing route guidance",
@@ -37,7 +37,7 @@
         "answer": "Conducting enhanced DBS checks"
       },
       {
-        "id": 44,
+        "id": 4,
         "question": "Which of the following is required for all PHVs to operate legally?",
         "options": [
           "Sunroof",
@@ -48,7 +48,7 @@
         "answer": "Valid insurance for hire and reward"
       },
       {
-        "id": 45,
+        "id": 5,
         "question": "Which behaviour is considered unprofessional for PHV drivers?",
         "options": [
           "Greeting passengers",
@@ -59,7 +59,7 @@
         "answer": "Discussing personal beliefs"
       },
       {
-        "id": 46,
+        "id": 6,
         "question": "How should PHV drivers respond to customer complaints?",
         "options": [
           "Ignore them",
@@ -70,7 +70,7 @@
         "answer": "Handle them professionally"
       },
       {
-        "id": 47,
+        "id": 7,
         "question": "Which of the following is NOT a requirement for PHV vehicle licensing?",
         "options": [
           "Passing a mechanical inspection",
@@ -81,7 +81,7 @@
         "answer": "Having a GPS system"
       },
       {
-        "id": 48,
+        "id": 8,
         "question": "Which condition must be met for a PHV to legally carry passengers?",
         "options": [
           "Passenger must book through an operator",
@@ -92,7 +92,7 @@
         "answer": "Passenger must book through an operator"
       },
       {
-        "id": 49,
+        "id": 9,
         "question": "What is the consequence of driving a PHV without valid insurance?",
         "options": [
           "Warning",
@@ -103,7 +103,7 @@
         "answer": "Fine and penalty points"
       },
       {
-        "id": 50,
+        "id": 10,
         "question": "Which document is required when renewing a PHV driver’s licence?",
         "options": [
           "Previous year’s tax return",
@@ -114,7 +114,7 @@
         "answer": "Medical fitness certificate"
       },
       {
-        "id": 51,
+        "id": 11,
         "question": "Which of the following is a legal obligation for PHV drivers?",
         "options": [
           "Accepting guide dogs",
@@ -125,7 +125,7 @@
         "answer": "Accepting guide dogs"
       },
       {
-        "id": 52,
+        "id": 12,
         "question": "Which behaviour is considered professional for PHV drivers?",
         "options": [
           "Talking on the phone while driving",
@@ -136,7 +136,7 @@
         "answer": "Opening doors for passengers"
       },
       {
-        "id": 53,
+        "id": 13,
         "question": "Which of the following must be provided by PHV operators to passengers?",
         "options": [
           "Driver’s home address",
@@ -147,7 +147,7 @@
         "answer": "Estimated fare and driver details"
       },
       {
-        "id": 54,
+        "id": 14,
         "question": "Which of the following is a safeguarding responsibility for PHV drivers?",
         "options": [
           "Checking passenger’s personal belongings",
@@ -158,7 +158,7 @@
         "answer": "Reporting suspicious behavior"
       },
       {
-        "id": 55,
+        "id": 15,
         "question": "Which item must be present in a PHV for safety reasons?",
         "options": [
           "Fire extinguisher",
@@ -169,7 +169,7 @@
         "answer": "Fire extinguisher"
       },
       {
-        "id": 56,
+        "id": 16,
         "question": "What should a PHV driver do if involved in an accident while on duty?",
         "options": [
           "Continue the journey",
@@ -180,7 +180,7 @@
         "answer": "Report it to the operator and authorities"
       },
       {
-        "id": 57,
+        "id": 17,
         "question": "Which of the following is required to maintain a PHV licence?",
         "options": [
           "Passing an annual driving test",
@@ -191,7 +191,7 @@
         "answer": "Completing a periodic DBS check"
       },
       {
-        "id": 58,
+        "id": 18,
         "question": "Which action is mandatory if a PHV driver changes their vehicle?",
         "options": [
           "Informing the passengers",
@@ -202,7 +202,7 @@
         "answer": "Notifying TfL and updating licence details"
       },
       {
-        "id": 59,
+        "id": 19,
         "question": "Which rule applies to PHV drivers regarding mobile phone use?",
         "options": [
           "Allowed if on speaker mode",
@@ -213,7 +213,7 @@
         "answer": "Prohibited while driving"
       },
       {
-        "id": 60,
+        "id": 20,
         "question": "What should a PHV driver do if they feel unwell while driving?",
         "options": [
           "Continue the journey",
@@ -222,6 +222,288 @@
           "Speed up to finish early"
         ],
         "answer": "Stop driving and inform the operator"
+      },
+      {
+        "id": 21,
+        "question": "Which one of the following statement is correct regarding the PHV driver's badge?",
+        "options": [
+          "Your PHV driver’s badge displayed on the car windscreen",
+          "You must wear this badge at all times when you are working as a PHV driver.",
+          "You must have your badge with you at all times."
+        ],
+        "answer": "You must wear this badge at all times when you are working as a PHV driver."
+      },
+      {
+        "id": 22,
+        "question": "Which one of the following statement is correct regarding assistance dogs?",
+        "options": [
+          "Assistance dogs may always wear a jacket",
+          "Not all assistance dogs have a jacket to identify them, and assistance dogs are not always the same breed as those shown in the pictures.",
+          "Assistance dogs should be treated like pets"
+        ],
+        "answer": "Not all assistance dogs have a jacket to identify them, and assistance dogs are not always the same breed as those shown in the pictures."
+      },
+      {
+        "id": 23,
+        "question": "Can TfL take licensing action against you if you stop or park on a taxi rank?",
+        "options": [
+          "Only if parked for longer than 5 minutes",
+          "Yes",
+          "Only if you leave your vehicle unattended"
+        ],
+        "answer": "Yes"
+      },
+      {
+        "id": 24,
+        "question": "Name 2 signs of a child or vulnerable person at risk? (2 correct answers)",
+        "options": [
+          "A young person or adult who shows signs of being abused, harmed or neglected",
+          "An adult or young person who may be poorly dressed/unclean or look like they do not get enough food",
+          "An adult or young person travelling to work/school"
+        ],
+        "answer": [
+          "A young person or adult who shows signs of being abused, harmed or neglected",
+          "An adult or young person who may be poorly dressed/unclean or look like they do not get enough food"
+        ]
+      },
+      {
+        "id": 25,
+        "question": "If you witness an incident or situation that you are worried about you should?",
+        "options": [
+          "Get involved and confront the situation",
+          "Keep a note of the incident or situation including details such as dates and times, a description of what happened, the name, address and a physical description of the people involved",
+          "Leave immediately"
+        ],
+        "answer": "Keep a note of the incident or situation including details such as dates and times, a description of what happened, the name, address and a physical description of the people involved"
+      },
+      {
+        "id": 26,
+        "question": "What is a Topographical Skills assessment?",
+        "options": [
+          "A driving test with a TfL instructor",
+          "A test to check your ability to select and plan a route, read a map and identify locations",
+          "A test to check your knowledge of London"
+        ],
+        "answer": "A test to check your ability to select and plan a route, read a map and identify locations"
+      },
+      {
+        "id": 27,
+        "question": "Who is responsible for agreeing a fare with the passenger?",
+        "options": ["The driver", "The passenger", "The operator"],
+        "answer": "The operator"
+      },
+      {
+        "id": 28,
+        "question": "Which one of the following statement is correct regarding taxi ranks?",
+        "options": [
+          "PHVs can pick up or drop off passengers on a taxi rank.",
+          "PHVs should not park or wait on working taxi ranks at any time, nor pick up or drop off passengers on a taxi rank",
+          "Electric taxi charging points can also be used for charging PHVs electric vehicle."
+        ],
+        "answer": "PHVs should not park or wait on working taxi ranks at any time, nor pick up or drop off passengers on a taxi rank"
+      },
+      {
+        "id": 29,
+        "question": "Can you get a PCN if you wait for a late passenger somewhere where there are restrictions?",
+        "options": [
+          "No, as long as you have a booking",
+          "Yes, at all times",
+          "Only between 6am and 10pm"
+        ],
+        "answer": "Yes, at all times"
+      },
+      {
+        "id": 30,
+        "question": "Can a license be suspended or revoked with immediate effect?",
+        "options": ["Yes", "No"],
+        "answer": "Yes"
+      },
+      {
+        "id": 31,
+        "question": "Can you carry out private hire bookings when the vehicle licence discs are missing?",
+        "options": [
+          "No",
+          "Yes, but only if it happened within the last 7 days",
+          "Yes, but only if it happened within the last 14 days"
+        ],
+        "answer": "No"
+      },
+      {
+        "id": 32,
+        "question": "What is a vehicle inspection?",
+        "options": [
+          "An annual vehicle test done together with an MOT test",
+          "An annual vehicle test at one TfL inspection centres to prove that the vehicle meets all the licensing requirements",
+          "An annual vehicle test at your main dealer"
+        ],
+        "answer": "An annual vehicle test at one TfL inspection centres to prove that the vehicle meets all the licensing requirements"
+      },
+      {
+        "id": 33,
+        "question": "Can TfL revoke a vehicle license if your PHV driver's license has been revoked?",
+        "options": [
+          "No",
+          "Yes, if there is a risk to public safety and you are the owner of a licensed private hire vehicle",
+          "Yes, if there is risk to public safety - even if the licensed vehicle was rented"
+        ],
+        "answer": "Yes, if there is risk to public safety - even if the licensed vehicle was rented"
+      },
+      {
+        "id": 34,
+        "question": "What information must be recorded by your operator?",
+        "options": [
+          "The main destination",
+          "The agreed fare or estimated fare",
+          "The name or other identification of the driver carrying out the booking",
+          "The registration number or other identification of the vehicle that will carry out the booking",
+          "All the above"
+        ],
+        "answer": "All the above"
+      },
+      {
+        "id": 35,
+        "question": "Which one of the following statement is correct regarding accepting fares?",
+        "options": [
+          "You can accept a fare if the passenger has not booked the journey through a licensed operator",
+          "You cannot approach people on the street or outside a late-night venue to offer them private hire services.",
+          "You must can approach people outside a late night venue to offer them private hire services"
+        ],
+        "answer": "You cannot approach people on the street or outside a late-night venue to offer them private hire services."
+      },
+      {
+        "id": 36,
+        "question": "Where should you park while you wait for a booking at Heathrow Airport?",
+        "options": [
+          "A residential streets",
+          "At any local car parks",
+          "Only in an official car park or the PHV Authorised Vehicle Area"
+        ],
+        "answer": "Only in an official car park or the PHV Authorised Vehicle Area"
+      },
+      {
+        "id": 37,
+        "question": "In regards to assistance dogs which one of the following is correct?",
+        "options": [
+          "PHV driver must accept passengers with assistance dogs.",
+          "PHV driver must accept passengers with all dogs.",
+          "PHV driver must not accept passengers with assistance dogs.",
+          "It is the PHV driver's decision to accept passengers with assistance dogs or not."
+        ],
+        "answer": "PHV driver must accept passengers with assistance dogs."
+      },
+      {
+        "id": 38,
+        "question": "Does TfL have powers to set or control the fares charged by PHV operators?",
+        "options": [
+          "Yes, but only for airport trips",
+          "Yes, for all trips",
+          "No"
+        ],
+        "answer": "No"
+      },
+      {
+        "id": 39,
+        "question": "In what circumstances are you allowed to use your private car when your London licensed PHV vehicle breaks down?",
+        "options": [
+          "Only if your operator allows you to do so",
+          "Only if your operator allows you to do so and the job was pre-booked",
+          "You are not allowed to use any unlicensed vehicles to carry out bookings"
+        ],
+        "answer": "You are not allowed to use any unlicensed vehicles to carry out bookings"
+      },
+      {
+        "id": 40,
+        "question": "Which one of the following statement is correct regarding accepting bookings from an operator?",
+        "options": [
+          "Request the licence number from the operator and use the TfL's online licence checker to verify it.",
+          "You should never accept a booking from a London licensed operator.",
+          "Trust operators without checking their operator licence number."
+        ],
+        "answer": "Request the licence number from the operator and use the TfL's online licence checker to verify it."
+      },
+      {
+        "id": 41,
+        "question": "What should you do if you find any lost property?",
+        "options": [
+          "Sell it and donate money to charity",
+          "Take it back to your operator",
+          "Keep it at home until the passenger calls you"
+        ],
+        "answer": "Take it back to your operator"
+      },
+      {
+        "id": 42,
+        "question": "Does an operator need to agree a fare for the journey with the passenger or give them an accurate estimate before the journey starts?",
+        "options": [
+          "Yes all the time",
+          "No only airport journeys",
+          "Yes, but it only applies to airport bookings"
+        ],
+        "answer": "Yes all the time"
+      },
+      {
+        "id": 43,
+        "question": "Who is allowed to accept bookings?",
+        "options": [
+          "Licensed London PHV operator and any PHV driver but only in advance via email or text or phone call",
+          "Any PHV driver but only in advance via email or text or phone call",
+          "Only a licensed London PHV operator"
+        ],
+        "answer": "Only a licensed London PHV operator"
+      },
+      {
+        "id": 44,
+        "question": "Which one of the following statements is correct regarding refusing a booking?",
+        "options": [
+          "Can refuse to carry out bookings if you don't like dogs",
+          "Be polite and provide an explanation if you do decide to refuse a booking.",
+          "You must not refuse to take any booking"
+        ],
+        "answer": "Be polite and provide an explanation if you do decide to refuse a booking."
+      },
+      {
+        "id": 45,
+        "question": "Are PHV drivers allowed to pick up people from stations?",
+        "options": [
+          "No, only Taxis (black cabs) are allowed to pick up from stations",
+          "Yes, but only if they have booked you through a licensed operator",
+          "Yes, but only if there are no Taxis (black cabs) outside the station"
+        ],
+        "answer": "Yes, but only if they have booked you through a licensed operator"
+      },
+      {
+        "id": 46,
+        "question": "What information has the section on Carrying out Private Hire Journeys covered?",
+        "options": [
+          "Advice for customers on what they should do when using a private hire service.",
+          "How much you should charge for different journeys.",
+          "The basic requirements for drivers when carrying out private hire bookings."
+        ],
+        "answer": "The basic requirements for drivers when carrying out private hire bookings."
+      },
+      {
+        "id": 47,
+        "question": "Private hire services _____ an important part of London’s transport network, _____ a wide range of services for residents and visitors. This section covers the basic requirements _____ drivers when carrying out private hire bookings.",
+        "options": ["is, providing, for", "are, providing, on"],
+        "answer": "are, providing, for"
+      },
+      {
+        "id": 48,
+        "question": "TfL’s website _____ a licence checker tool which contains the _____ of all licensed private hire drivers, vehicles and operators. _____ is a public register which you and anyone else can use.",
+        "options": ["have, information, It", "has, details, This"],
+        "answer": "has, details, This"
+      },
+      {
+        "id": 49,
+        "question": "Remember, if TfL or the police get a _____ about driver behaviour, _____ will investigate and, depending on the sort of complaint they _____, it could result in licensing action or prosecution.",
+        "options": ["complaint, they, receive", "complaints, they, received"],
+        "answer": "complaint, they, receive"
+      },
+      {
+        "id": 50,
+        "question": "TfL has no _____ to set or control the fares charged by PHV operators. _____, it is important that all customers understand the fare they are _____ to be charged.",
+        "options": ["powers, However, going", "power, however, about"],
+        "answer": "powers, However, going"
       }
     ]
   }
