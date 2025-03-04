@@ -102,6 +102,9 @@ const Navbar: React.FC = () => {
           <Link href="/courses" className="text-white hover:text-yellow-300">
             {t('home.Navigation.Course')}
           </Link>
+          <Link href="/guidelines" className="text-white hover:text-yellow-300">
+            Guidelines
+          </Link>
           <Link href="/blogs" className="text-white hover:text-yellow-300">
             {t('home.Navigation.Blog')}
           </Link>
