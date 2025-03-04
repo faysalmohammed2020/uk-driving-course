@@ -9,7 +9,7 @@ import GetInTouch from "../../components/GetInTouch";
 // } from "./data/home";
 import Image from "next/image";
 import { FaAward } from "react-icons/fa";
-import Link from "next/link";
+
 import BlogCard from "../../components/BlogCard";
 import { useTranslations } from "next-intl";
 import { CalendarCheck, Map, MapPinned, Stethoscope, Workflow } from "lucide-react";
@@ -19,6 +19,7 @@ import { CalendarDays } from 'lucide-react';
 import { FaBook, FaFlag, FaCompass } from "react-icons/fa";
 import MockTestSection from "@/app/components/MockTestSection";
 import VideoSection from "@/app/components/Video";
+import { Link } from "@/i18n/navigation";
 
 
 
@@ -166,7 +167,7 @@ const HomePage: React.FC = () => {
         </p>
         <div className="mt-6">
         <Link
-          href="/en/exam"
+          href="/exam"
           className="border-2 border-blue-800 text-blue-800 px-6 py-3 rounded-lg font-semibold hover:bg-blue-800 hover:text-white transition inline-block"
         >
            {t("home.StatSection.StartTest")}
