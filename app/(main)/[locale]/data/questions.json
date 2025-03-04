@@ -197,7 +197,284 @@
         "question": "Which organization provides safeguarding awareness training for PHV drivers?",
         "options": ["TfL", "DVLA", "HMRC", "DBS"],
         "answer": "TfL"
-      }
+      },
+      {
+        "id": 21,
+        "question": "Which one of the following statement is correct regarding PHV driver responsibilities?",
+        "options": [
+          "The handbook does not include information on a PHV driver's responsibilities.",
+          "TfL expects drivers to use clean and well-maintained licensed vehicles",
+          "PHV drivers only need to obey some laws of the road"
+        ],
+        "answer": "TfL expects drivers to use clean and well-maintained licensed vehicles"
+      },
+      {
+        "id": 22,
+        "question": "Red route signs - meaning",
+        "options": [
+          "Stopping allowed for up to 10 minutes at any time",
+          "No stopping at any time",
+          "No stopping during times shown on the sign"
+        ],
+        "answer": "No stopping at any time"
+      },
+      {
+        "id": 23,
+        "question": "In regards to PHV: Tyres must be which one of the following?",
+        "options": [
+          "Incorrect speed and weight rating for the make and model of your vehicle.",
+          "Speed and weight rating for the make and model of a different vehicle.",
+          "Correct size.",
+          "Blue in colour."
+        ],
+        "answer": "Correct size."
+      },
+      {
+        "id": 24,
+        "question": "To get your licence to be a PHV driver you must be medically fit. The standards you must meet are the DVLA Group 2 medical standards. In most cases, this will mean that you will need to have a medical examination with someone (i.e. a doctor) who has access to your full medical records. You may be exempt for supplying a medical form if you?",
+        "options": [
+          "Have a full or provisional (issued after January 1997) DVLA Group 2 licence.",
+          "You have a disability.",
+          "You are a citizen or national of an EU country and have a medical form from said country."
+        ],
+        "answer": "Have a full or provisional (issued after January 1997) DVLA Group 2 licence."
+      },
+      {
+        "id": 25,
+        "question": "Keeping children and adults at risk safe from harm and abuse is?",
+        "options": [
+          "Social worker's responsibility",
+          "The Police responsibility",
+          "Everybody’s responsibility"
+        ],
+        "answer": "Everybody’s responsibility"
+      },
+      {
+        "id": 26,
+        "question": "PHV licences last for how many years before the vehicle must have another licensing inspection?",
+        "options": ["3 years", "1 year", "3.5 Years"],
+        "answer": "1 year"
+      },
+      {
+        "id": 27,
+        "question": "Which one of the following statements is correct regarding PHV driver’s badge?",
+        "options": [
+          "There are no exceptions for working without a badge.",
+          "If we give you an exemption, we will send you an exemption notice.",
+          "You must not carry the exemption notice with you at all times when working as a PHV driver."
+        ],
+        "answer": "If we give you an exemption, we will send you an exemption notice."
+      },
+      {
+        "id": 28,
+        "question": "If you lose your PHV driver\u2019s badge or licence, or somebody steals it, report it immediately to?",
+        "options": [
+          "The Police and TfL",
+          "Your operator",
+          "The TfL and operator"
+        ],
+        "answer": "The Police and TfL"
+      },
+      {
+        "id": 29,
+        "question": "The only time when you can stop on a red route to wait for passengers to use a cashpoint is between the hours of?",
+        "options": ["07:00 to 19:00", "21:00 to 5:00", "22:00 to 6:00"],
+        "answer": "22:00 to 6:00"
+      },
+      {
+        "id": 30,
+        "question": "If you put a cradled device (such as a mobile phone or sat nav) on the area on your windscreen that is covered by your windscreen wipers (known as the \u2018swept area\u2019), you are committing an offence. If you are prosecuted, you may be fined and get penalty points on your driving licence. Which one of the following statement is correct?",
+        "options": [
+          "You can put your phone cradle in any area of the car windscreen",
+          "Placing your device cradle on the windscreen swept area you are committing an offence.",
+          "Only the swept area of the windscreen can be used as a position for a mobile phone cradle."
+        ],
+        "answer": "Placing your device cradle on the windscreen swept area you are committing an offence."
+      },
+      {
+        "id": 31,
+        "question": "According to the law, a child is a person under the age of?",
+        "options": ["16 years", "18 Years", "21 Years"],
+        "answer": "18 Years"
+      },
+      {
+        "id": 32,
+        "question": "If you change your home address, you should tell TfL within?",
+        "options": ["14 days", "21 days", "30 days"],
+        "answer": "21 days"
+      },
+      {
+        "id": 33,
+        "question": "It is illegal to treat anyone unfairly based on which of the characteristics listed below?",
+        "options": [
+          "Gender identity",
+          "Race",
+          "Pregnancy and maternity",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 34,
+        "question": "When CCTV signage must be displayed?",
+        "options": [
+          "In all PHVs at all times",
+          "Only where CCTV is installed in the vehicle",
+          "Where CCTV is installed in the vehicle but it's not mandatory"
+        ],
+        "answer": "Only where CCTV is installed in the vehicle"
+      },
+      {
+        "id": 35,
+        "question": "A three-point turn or reverse parking are examples of driving?",
+        "options": ["Distractions", "Manoeuvres", "Speeds", "Violations"],
+        "answer": "Manoeuvres"
+      },
+      {
+        "id": 36,
+        "question": "As a PHV driver, you offer an extremely important service to the travelling public. You have a responsibility to make sure your passengers feel safe when they travel in your vehicle. The way that you interact with them will affect the way they will feel about their journey with you. It is important that you are professional and deal with passengers in a way that makes them feel at ease. Which one of the following statements is correct?",
+        "options": [
+          "PHVs are not part of public transport",
+          "The way that you interact with them will affect the way they will feel about their journey with you.",
+          "You must report all complaints to the police"
+        ],
+        "answer": "The way that you interact with them will affect the way they will feel about their journey with you."
+      },
+      {
+        "id": 37,
+        "question": "Which of the following is a warning sign of a child at risk?",
+        "options": [
+          "The child is intoxicated",
+          "The child looks concerned or frightened in the company of adults",
+          "The child presents as poorly dressed/unclean or malnourished.",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 38,
+        "question": "If the correct child car seat is not available, children can travel without one - but only if they travel on a rear seat without a seat belt if they are under the age of?",
+        "options": ["10 Years", "14 Years", "5 years", "3 Years"],
+        "answer": "3 Years"
+      },
+      {
+        "id": 39,
+        "question": "You should tell the Police immediately if, in between medical examinations, you develop a new medical condition that may affect your ability to drive?",
+        "options": ["True", "False"],
+        "answer": "True"
+      },
+      {
+        "id": 40,
+        "question": "Red route signs - meaning?",
+        "options": [
+          "Parking allowed for up to 2 hours",
+          "Parking is limited to the duration specified during the days and times shown",
+          "No parking at any time"
+        ],
+        "answer": "No parking at any time"
+      },
+      {
+        "id": 41,
+        "question": "TfL has no power to set or control the fares charged by PHV operators. However, it is important that all customers understand the fare they are going to be charged?",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "id": 42,
+        "question": "ULEZ stands for?",
+        "options": [
+            "Ultimate Light Electrical Zone",
+            "UnLoad East Zone",
+            "Ultra Low Emission Zone",
+            "Unicorns, Lions and Elephants Zoo"
+        ],
+        "answer": "Ultra Low Emission Zone"
+    },
+    {
+        "id": 43,
+        "question": "The licence discs must not be damaged or changed in any way. You should not remove the discs, even if you are using the vehicle for private purposes. The licence discs contain security features which mean that the discs will be permanently damaged if you try to remove them. Which one of the following statement is correct?",
+        "options": [
+            "You should not remove the discs, even if you are using the vehicle for private purposes.",
+            "You should always remove the discs, when using the vehicle for private purposes.",
+            "The discs will not be damaged if you try to remove them."
+        ],
+        "answer": "You should not remove the discs, even if you are using the vehicle for private purposes."
+    },
+    {
+        "id": 44,
+        "question": "Which of these medical conditions must you inform TFL of?",
+        "options": [
+            "Diabetes",
+            "Asthma",
+            "Athlete’s foot",
+            "Psoriasis"
+        ],
+        "answer": "Diabetes"
+    },
+    {
+        "id": 45,
+        "question": "What medical conditions may qualify a driver to get an exemption from carrying assistance dogs? (2 correct answers)",
+        "options": [
+            "Arthritis",
+            "Asthma or allergy which gets worse when near dogs",
+            "Phobia - fear of dogs",
+            "Being Muslim"
+        ],
+        "answer": ["Asthma or allergy which gets worse when near dogs", "Phobia - fear of dogs"]
+    },
+    {
+        "id": 46,
+        "question": "Leave room for cyclists at traffic lights. Drivers should not enter the advanced stop line box when the light is red. This space is for cyclists and you may be fined and get points on your driving licence. Which one of the following statement is correct?",
+        "options": [
+            "Drivers should always enter the advanced stop line box when the light is red",
+            "Drivers should not enter the advanced stop line box when the light is red",
+            "Leave little or no room for cyclists at traffic lights."
+        ],
+        "answer": "Drivers should not enter the advanced stop line box when the light is red"
+    },
+    {
+        "id": 47,
+        "question": "As a PHV driver you are expected to treat all passengers (2 correct answers)",
+        "options": [
+            "In a professional and respectful way",
+            "In a discriminatory way",
+            "Without making a judgement about any person’s personal characteristics or assuming anything about them"
+        ],
+        "answer": ["In a professional and respectful way", "Without making a judgement about any person’s personal characteristics or assuming anything about them"]
+    },
+    {
+        "id": 48,
+        "question": "During a journey passengers who are visually-impaired, elderly and those with learning disabilities should be told (2 correct answers)",
+        "options": [
+            "About any delays",
+            "About changes to the route",
+            "About the weather"
+        ],
+        "answer": ["About any delays", "About changes to the route"]
+    },
+    {
+        "id": 49,
+        "question": "Are Muslims allowed to refuse carrying trained assistance dogs?",
+        "options": [
+            "Yes, Muslims are exempt from having to carry dogs in their vehicles",
+            "Yes, but only during Ramadan",
+            "No, trained assistance dogs may accompany disabled people in PHVs managed or driven by Muslims"
+        ],
+        "answer": "No, trained assistance dogs may accompany disabled people in PHVs managed or driven by Muslims"
+    },
+    {
+        "id": 50,
+        "question": "You are also required by law to tell the DVLA if you change your address. You will then get a new driving licence with your new address on it. Details of how to do this are on the back of your DVLA licence. The address on your PHV driver’s licence should be the same as the address on your DVLA licence. Which one of the following statement is correct?",
+        "options": [
+            "Your DVLA licence should have the same address as the one on your PHV driver's licence.",
+            "You are not required by the law to tell the DVLA if you change your address.",
+            "Your driver licence does not contain your home address."
+        ],
+        "answer": "Your DVLA licence should have the same address as the one on your PHV driver's licence."
+    }
     ]
   }
 ]

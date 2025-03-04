@@ -4,13 +4,13 @@
     "title": "Question Set 2",
     "questions": [
       {
-        "id": 21,
+        "id": 1,
         "question": "Which vehicle feature must be checked daily before starting a PHV shift?",
         "options": ["Fuel level", "Air conditioning", "Radio", "GPS settings"],
         "answer": "Fuel level"
       },
       {
-        "id": 22,
+        "id": 2,
         "question": "What must be displayed on a PHV at all times while working?",
         "options": [
           "Company logo",
@@ -21,7 +21,7 @@
         "answer": "Licence discs"
       },
       {
-        "id": 23,
+        "id": 3,
         "question": "Which document must be carried by PHV drivers at all times?",
         "options": [
           "National Insurance Card",
@@ -32,7 +32,7 @@
         "answer": "Photographic ID badge"
       },
       {
-        "id": 24,
+        "id": 4,
         "question": "Who is responsible for ensuring that a PHV is roadworthy?",
         "options": [
           "The driver",
@@ -43,7 +43,7 @@
         "answer": "The driver"
       },
       {
-        "id": 25,
+        "id": 5,
         "question": "Which law regulates smoking in PHVs?",
         "options": [
           "Equality Act 2010",
@@ -54,7 +54,7 @@
         "answer": "Health Act 2006"
       },
       {
-        "id": 26,
+        "id": 6,
         "question": "What is the maximum penalty for illegally plying for hire as a PHV driver?",
         "options": [
           "Fine only",
@@ -65,7 +65,7 @@
         "answer": "Revocation of licence and fine"
       },
       {
-        "id": 27,
+        "id": 7,
         "question": "Which of the following is required for a PHV operator’s licence?",
         "options": [
           "First aid certificate",
@@ -76,7 +76,7 @@
         "answer": "Proof of business premises"
       },
       {
-        "id": 28,
+        "id": 8,
         "question": "Which type of PHV insurance covers injury to passengers?",
         "options": [
           "Third-party only",
@@ -87,13 +87,13 @@
         "answer": "Hire or reward insurance"
       },
       {
-        "id": 29,
+        "id": 9,
         "question": "How long must PHV operators retain booking records?",
         "options": ["3 months", "6 months", "12 months", "24 months"],
         "answer": "12 months"
       },
       {
-        "id": 30,
+        "id": 10,
         "question": "Which of the following must be recorded by PHV operators?",
         "options": [
           "Driver's hobbies",
@@ -104,7 +104,7 @@
         "answer": "Passenger's destination"
       },
       {
-        "id": 31,
+        "id": 11,
         "question": "What is the primary purpose of the Equality Act 2010 for PHV drivers?",
         "options": [
           "To set fare regulations",
@@ -115,7 +115,7 @@
         "answer": "To ensure accessibility for all passengers"
       },
       {
-        "id": 32,
+        "id": 12,
         "question": "Which of the following is considered professional conduct for PHV drivers?",
         "options": [
           "Playing loud music",
@@ -126,7 +126,7 @@
         "answer": "Wearing smart attire"
       },
       {
-        "id": 33,
+        "id": 13,
         "question": "Which action is required if a PHV driver changes their address?",
         "options": [
           "Notify the operator",
@@ -137,7 +137,7 @@
         "answer": "Inform TfL within 21 days"
       },
       {
-        "id": 34,
+        "id": 14,
         "question": "What is the legal requirement for accepting guide dogs in PHVs?",
         "options": [
           "Optional",
@@ -148,7 +148,7 @@
         "answer": "Mandatory unless exempt"
       },
       {
-        "id": 35,
+        "id": 15,
         "question": "Which behaviour is required under the Code of Conduct for PHV drivers?",
         "options": [
           "Discussing personal opinions",
@@ -159,7 +159,7 @@
         "answer": "Offering a professional and courteous service"
       },
       {
-        "id": 36,
+        "id": 16,
         "question": "Which document must be renewed every three years for PHV drivers?",
         "options": [
           "Driving licence",
@@ -170,7 +170,7 @@
         "answer": "DBS check"
       },
       {
-        "id": 37,
+        "id": 17,
         "question": "Which of the following is required to become a PHV operator?",
         "options": [
           "Personal vehicle",
@@ -181,7 +181,7 @@
         "answer": "Good repute and financial standing"
       },
       {
-        "id": 38,
+        "id": 18,
         "question": "Which information must be provided to passengers before the start of a journey?",
         "options": [
           "Driver's personal mobile number",
@@ -192,7 +192,7 @@
         "answer": "Estimated fare"
       },
       {
-        "id": 39,
+        "id": 19,
         "question": "Which of the following is prohibited for PHV drivers?",
         "options": [
           "Accepting bookings directly from passengers",
@@ -203,7 +203,7 @@
         "answer": "Accepting bookings directly from passengers"
       },
       {
-        "id": 40,
+        "id": 20,
         "question": "What must be done if a passenger leaves property in the PHV?",
         "options": [
           "Keep it for personal use",
@@ -212,7 +212,303 @@
           "Sell it after 24 hours"
         ],
         "answer": "Report it to the police or TfL"
-      }
+      },
+      {
+        "id": 21,
+        "question": "The following characteristics are protected under the Equality Act 2010?",
+        "options": [
+          "Age, Disability, Gender reassignment, Marriage and civil partnership, Political views, Race, Religion or belief, Sex, Sexual orientation, Pregnancy and maternity",
+          "Age, Disability, Gender reassignment, Marriage and civil partnership, Race, Religion or belief, Sex, Sexual orientation, Pregnancy and maternity",
+          "Disability, Gender reassignment, Marriage and civil partnership, Race, Religion or belief, Sex, Sexual orientation"
+        ],
+        "answer": "Age, Disability, Gender reassignment, Marriage and civil partnership, Race, Religion or belief, Sex, Sexual orientation, Pregnancy and maternity"
+      },
+      {
+        "id": 22,
+        "question": "TfL believes it is important to provide a public transport system which",
+        "options": [
+          "Is the fastest in the world",
+          "Is most expensive in the world",
+          "All people can use, so that older and disabled people have the same opportunities to travel as all other people"
+        ],
+        "answer": "All people can use, so that older and disabled people have the same opportunities to travel as all other people"
+      },
+      {
+        "id": 23,
+        "question": "Which scenarios are an example of an adult at risk? (2 correct answers)",
+        "options": [
+          "An adult who seems to be controlled by someone else or is having decisions made for them by another adult",
+          "An adult who is constantly on his phone during the journey",
+          "An adult who seems to have their money controlled by someone else"
+        ],
+        "answer": [
+          "An adult who seems to be controlled by someone else or is having decisions made for them by another adult",
+          "An adult who seems to have their money controlled by someone else"
+        ]
+      },
+      {
+        "id": 24,
+        "question": "As a driver it is important to: (2 correct answers)",
+        "options": [
+          "Be aware of children and adults at risk and be concerned about their well being",
+          "Work at least 12 hours per day",
+          "Listen to what adults and children at risk tell you and reassure them by being professional, kind and considerate"
+        ],
+        "answer": [
+          "Be aware of children and adults at risk and be concerned about their well being",
+          "Listen to what adults and children at risk tell you and reassure them by being professional, kind and considerate"
+        ]
+      },
+      {
+        "id": 25,
+        "question": "What may happen if a serious complaint is made against you or there are number of complaints, or there appears to be a pattern of poor behaviour and all the ways to improve your behaviour have been tried but have failed?",
+        "options": [
+          "TfL will report you to the DVLA and your driving licence may be revoked",
+          "TfL may have to suspend or revoke your licence",
+          "TfL has no powers to take any action"
+        ],
+        "answer": "TfL may have to suspend or revoke your licence"
+      },
+      {
+        "id": 26,
+        "question": "If you change your home address, you should tell TfL within?",
+        "options": [
+          "TfL must have both your mobile and landline phone numbers.",
+          "You do not have to tell TfL if your home address changes.",
+          "You should tell TfL if your email address or telephone number changes"
+        ],
+        "answer": "You should tell TfL if your email address or telephone number changes"
+      },
+      {
+        "id": 27,
+        "question": "If passengers choose to book a ridesharing PHV they will?",
+        "options": [
+          "Travel with someone they don\u2019t know",
+          "Pay more for the journey",
+          "Arrive faster at their destination"
+        ],
+        "answer": "Travel with someone they don\u2019t know"
+      },
+      {
+        "id": 28,
+        "question": "You as a PHV driver have the responsibility to?",
+        "options": [
+          "Have knowledge of your local area",
+          "Make sure your passengers feel safe when they travel in your vehicle",
+          "Know all routes in central London"
+        ],
+        "answer": "Make sure your passengers feel safe when they travel in your vehicle"
+      },
+      {
+        "id": 29,
+        "question": "Do operators need to keep details of complaints made to them?",
+        "options": [
+          "Yes, details of all complaints",
+          "Yes, but only details of complaints involving violent or aggressive behaviour",
+          "No"
+        ],
+        "answer": "Yes, details of all complaints"
+      },
+      {
+        "id": 30,
+        "question": "To help passengers who have a problem hearing or passengers who do not speak much English?",
+        "options": [
+          "Always have a pen and paper with you so that you can write things down",
+          "Drop them off at the nearest bus stop",
+          "Ask them to call someone who can help"
+        ],
+        "answer": "Always have a pen and paper with you so that you can write things down"
+      },
+      {
+        "id": 31,
+        "question": "Avoid any behaviour that might be understood as",
+        "options": ["Being sexual", "Being friendly", "Being worried"],
+        "answer": "Being sexual"
+      },
+      {
+        "id": 32,
+        "question": "Which one of the following statements is correct regarding the PHV driver's badge?",
+        "options": [
+          "Your PHV driver\u2019s badge displayed on the car windscreen",
+          "You must wear this badge at all times when you are working as a PHV driver.",
+          "You must have your badge with you at all times."
+        ],
+        "answer": "You must wear this badge at all times when you are working as a PHV driver."
+      },
+      {
+        "id": 33,
+        "question": "If your passenger is ill, or has a disability, and asks you to help them enter or leave your vehicle (2 correct answers)",
+        "options": [
+          "Refuse and contact the emergency services",
+          "Make sure you check exactly what help they are asking you for",
+          "Keep any physical contact to the minimum required to give the help your passenger asks for"
+        ],
+        "answer": [
+          "Make sure you check exactly what help they are asking you for",
+          "Keep any physical contact to the minimum required to give the help your passenger asks for"
+        ]
+      },
+      {
+        "id": 34,
+        "question": "Can you use a passenger's contact details to start communicating with them about anything other than the booked journey?",
+        "options": [
+          "No, it's unacceptable",
+          "Yes, but only within 48 hours from completing the journey",
+          "Yes, but only within 72 hours from completing the journey"
+        ],
+        "answer": "No, it's unacceptable"
+      },
+      {
+        "id": 35,
+        "question": "Do all assistance dogs always wear jackets?",
+        "options": ["Yes, but only winter", "Yes, at all times", "No"],
+        "answer": "No"
+      },
+      {
+        "id": 36,
+        "question": "Which one of the following statement is correct regarding assistance dogs?",
+        "options": [
+          "Assistance dogs may always wear a jacket",
+          "Not all assistance dogs have a jacket to identify them, and assistance dogs are not always the same breed as those shown in the pictures.",
+          "Assistance dogs should be treated like pets"
+        ],
+        "answer": "Not all assistance dogs have a jacket to identify them, and assistance dogs are not always the same breed as those shown in the pictures."
+      },
+      {
+        "id": 37,
+        "question": "What information has the section on Being Aware of Equality and Disability covered?",
+        "options": [
+            "It has covered how a disabled driver can obtain a PHV licence.",
+            "It has covered the regulations for operators when hiring a disabled PHV driver.",
+            "It has covered PHV driver responsibilities and how to provide the best service to all passengers."
+        ],
+        "answer": "It has covered PHV driver responsibilities and how to provide the best service to all passengers."
+    },
+    {
+        "id": 38,
+        "question": "What information has the section about Driver Behaviour covered?",
+        "options": [
+            "How TfL expects drivers to behave towards passengers and other road users",
+            "How TfL expects drivers to behave during Topographical assessments",
+            "How TfL expects operators to manage the drivers who work for them"
+        ],
+        "answer": "How TfL expects drivers to behave towards passengers and other road users"
+    },
+    {
+        "id": 39,
+        "question": "If a road marking says Taxis?",
+        "options": [
+            "You are allowed only to drop off and pick up passengers",
+            "A PHV is not a taxi you are not allowed to drop off and pick up passengers",
+            "PHV's have the same rights as taxis you are allowed to drop off and pick up passengers"
+        ],
+        "answer": "A PHV is not a taxi you are not allowed to drop off and pick up passengers"
+    },
+    {
+        "id": 40,
+        "question": "Some parts of red routes are marked for parking. Parking bays can be identified by a 'P' on the signs that accompany them. The signs will tell you when parking is allowed, how long vehicles can be parked and how soon a vehicle can stop again in the same section of road. Which one of the following statements is correct?",
+        "options": [
+            "There are no parking bays along the red routes.",
+            "Parking bays can be identified by a 'P' on the signs that accompany them.",
+            "Parking bays can be identified the cost of parking"
+        ],
+        "answer": "Parking bays can be identified by a 'P' on the signs that accompany them."
+    },
+    {
+        "id": 41,
+        "question": "What can you expect when someone has taken drugs or alcohol?",
+        "options": [
+            "They will behave normal",
+            "They will be aggressive",
+            "It can make it difficult for them to think clearly or communicate properly, and it can also affect both. In certain cases, they might act violently."
+        ],
+        "answer": "It can make it difficult for them to think clearly or communicate properly, and it can also affect both. In certain cases, they might act violently."
+    },
+    {
+        "id": 42,
+        "question": "If the passenger cannot communicate clearly to confirm their destination, or is unable to walk because of drink or drugs",
+        "options": [
+            "You must take them free of charge to the nearest hospital",
+            "You have the right to refuse to take them in your vehicle",
+            "You must report it to the police"
+        ],
+        "answer": "You have the right to refuse to take them in your vehicle"
+    },
+    {
+        "id": 43,
+        "question": "If necessary, find somewhere safe to stop the vehicle, turn off the engine, take the keys then get out of the vehicle. If the passenger is planning to hurt you, they will probably get out of the vehicle too. This gives you the opportunity to quickly get back in and lock the doors then drive away if it is safe to do so. Which one of the following statements is correct?",
+        "options": [
+            "If necessary, then don't find somewhere safe to stop the vehicle, turn off the engine, take the keys then get out of the vehicle.",
+            "If necessary, choose a secure location to stop the car, turn off the ignition, take the keys, and exit the vehicle.",
+            "If necessary, attempt to not find a secure location to stop the car, turn off the ignition, grab the keys, and exit."
+        ],
+        "answer": "If necessary, choose a secure location to stop the car, turn off the ignition, take the keys, and exit the vehicle."
+    },
+    {
+        "id": 44,
+        "question": "If there are waiting or parking restrictions, what can you do?",
+        "options": [
+            "You can stop for up to 5 minutes",
+            "You can stop for no longer than is needed for the passenger to get in or out of the vehicle",
+            "You can stop for up to 2 minutes"
+        ],
+        "answer": "You can stop for no longer than is needed for the passenger to get in or out of the vehicle"
+    },
+    {
+        "id": 45,
+        "question": "If the passenger cannot communicate clearly to confirm their destination, or is unable to walk because of drink or drugs, you have the right to refuse to take them in your vehicle. You can do this because you cannot be sure that they have given you the correct address or that they will be able to get out of your vehicle without help. Which one of the following statements is correct?",
+        "options": [
+            "You have no authority to turn away passengers.",
+            "You can do this since you can't be certain that they gave you the right address or that they will be able to exit your car without assistance.",
+            "You cannot do this because you cannot be sure that they have given you the correct address or that they will be able to get out of your vehicle without help."
+        ],
+        "answer": "You can do this since you can't be certain that they gave you the right address or that they will be able to exit your car without assistance."
+    },
+    {
+        "id": 46,
+        "question": "Once a PHV has been licensed, the registered ______ is given a vehicle licence and licence discs will be fixed to the front and rear ______ of the vehicle. The registered keeper also receives a leaflet which briefly describes the ______ of the licence.",
+        "options": [
+            "Keeper, Windscreens, Conditions",
+            "Knowledge, Doors, Car"
+        ],
+        "answer": "Keeper, Windscreens, Conditions"
+    },
+    {
+        "id": 47,
+        "question": "If your passenger ______ to change the destination of their journey, asks you to pick up extra ______, or has extra luggage, you should tell your operator as soon as it is safe for you to do so. Your operator will then be able to update the fare or estimated fare for the ______.",
+        "options": [
+            "Decides, Passengers, Journey",
+            "Licence, Charges, Passenger"
+        ],
+        "answer": "Decides, Passengers, Journey"
+    },
+    {
+        "id": 48,
+        "question": "When carrying a violent or aggressive passenger you should have a pre-planned way to excuse ______ from a difficult situation, for example, you can’t help them but ______ someone at the address you are ______ them to can sort the problem out for them.",
+        "options": [
+            "Yourself, It, Taking",
+            "Yourselves, Took, Perhaps"
+        ],
+        "answer": "Yourself, It, Taking"
+    },
+    {
+        "id": 49,
+        "question": "Tiredness can have a ______ effect on a driver as drinking alcohol and can result in ______ or serious injury. Plan your day to include regular breaks from driving and do not begin a ______ journey if you are already tired.",
+        "options": [
+            "Similar, Death, Long",
+            "Same, Kill, Journey"
+        ],
+        "answer": "Similar, Death, Long"
+    },
+    {
+        "id": 50,
+        "question": "All ridesharing ______ must be booked with a licensed London PHV operator. As a London PHV ______, you can only carry out ridesharing booking that you ______ received from a licensed London PHV operator.",
+        "options": [
+            "Journeys, Driver, Have",
+            "Trip, Taxi Driver, Has"
+        ],
+        "answer": "Journeys, Driver, Have"
+    }
     ]
   }
 ]

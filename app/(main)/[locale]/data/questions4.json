@@ -4,7 +4,7 @@
     "title": "PHV Driver’s Licence - Basic Knowledge",
     "questions": [
       {
-        "id": 61,
+        "id": 1,
         "question": "Which of the following is a requirement for all PHV vehicles?",
         "options": [
           "Tinted windows",
@@ -15,7 +15,7 @@
         "answer": "Working seat belts"
       },
       {
-        "id": 62,
+        "id": 2,
         "question": "What must a PHV driver do before starting a shift?",
         "options": [
           "Check vehicle's roadworthiness",
@@ -26,7 +26,7 @@
         "answer": "Check vehicle's roadworthiness"
       },
       {
-        "id": 63,
+        "id": 3,
         "question": "Which of the following is considered professional attire for PHV drivers?",
         "options": [
           "T-shirt and shorts",
@@ -37,13 +37,13 @@
         "answer": "Smart casual clothing"
       },
       {
-        "id": 64,
+        "id": 4,
         "question": "Who is responsible for ensuring that a PHV licence disc is displayed?",
         "options": ["The operator", "The driver", "The passenger", "TfL"],
         "answer": "The driver"
       },
       {
-        "id": 65,
+        "id": 5,
         "question": "What should a PHV driver do if they experience a medical emergency while driving?",
         "options": [
           "Continue driving",
@@ -54,7 +54,7 @@
         "answer": "Stop driving immediately and seek help"
       },
       {
-        "id": 66,
+        "id": 6,
         "question": "Which of the following behaviors is unacceptable under the Code of Conduct?",
         "options": [
           "Helping passengers with luggage",
@@ -65,7 +65,7 @@
         "answer": "Making personal comments"
       },
       {
-        "id": 67,
+        "id": 7,
         "question": "Which document must a PHV driver carry while on duty?",
         "options": [
           "Bank statement",
@@ -76,7 +76,7 @@
         "answer": "Photographic ID badge"
       },
       {
-        "id": 68,
+        "id": 8,
         "question": "What is required to drive a PHV in a Congestion Charge Zone?",
         "options": [
           "Special permit",
@@ -87,7 +87,7 @@
         "answer": "Daily charge payment"
       },
       {
-        "id": 69,
+        "id": 9,
         "question": "Which action is required if a passenger requests a receipt?",
         "options": [
           "Refuse politely",
@@ -98,7 +98,7 @@
         "answer": "Provide a detailed receipt"
       },
       {
-        "id": 70,
+        "id": 10,
         "question": "Which of the following is prohibited for PHV drivers?",
         "options": [
           "Accepting direct street hails",
@@ -109,7 +109,7 @@
         "answer": "Accepting direct street hails"
       },
       {
-        "id": 71,
+        "id": 11,
         "question": "What must a PHV driver do if they change their residential address?",
         "options": [
           "Ignore it",
@@ -120,7 +120,7 @@
         "answer": "Inform TfL within 21 days"
       },
       {
-        "id": 72,
+        "id": 12,
         "question": "Which behavior is considered unprofessional for a PHV driver?",
         "options": [
           "Maintaining cleanliness",
@@ -131,7 +131,7 @@
         "answer": "Engaging in personal conversations"
       },
       {
-        "id": 73,
+        "id": 13,
         "question": "Which of the following must be checked before starting a PHV shift?",
         "options": [
           "Social media updates",
@@ -142,13 +142,13 @@
         "answer": "Vehicle's roadworthiness"
       },
       {
-        "id": 74,
+        "id": 14,
         "question": "Which organization issues the PHV licence?",
         "options": ["DVLA", "TfL", "DBS", "HMRC"],
         "answer": "TfL"
       },
       {
-        "id": 75,
+        "id": 15,
         "question": "Which insurance is mandatory for PHVs?",
         "options": [
           "Comprehensive insurance",
@@ -159,7 +159,7 @@
         "answer": "Hire or reward insurance"
       },
       {
-        "id": 76,
+        "id": 16,
         "question": "Where are PHV drivers prohibited from picking up passengers?",
         "options": [
           "Taxi ranks",
@@ -170,7 +170,7 @@
         "answer": "All of the above"
       },
       {
-        "id": 77,
+        "id": 17,
         "question": "Which of the following is a safeguarding responsibility for PHV drivers?",
         "options": [
           "Ignoring suspicious behavior",
@@ -181,7 +181,7 @@
         "answer": "Reporting concerns to authorities"
       },
       {
-        "id": 78,
+        "id": 18,
         "question": "Which behavior is mandatory under the Equality Act 2010?",
         "options": [
           "Providing free rides",
@@ -192,7 +192,7 @@
         "answer": "Ensuring non-discriminatory service"
       },
       {
-        "id": 79,
+        "id": 19,
         "question": "Which of the following is required when renewing a PHV driver's licence?",
         "options": [
           "Medical fitness certificate",
@@ -203,7 +203,7 @@
         "answer": "Medical fitness certificate"
       },
       {
-        "id": 80,
+        "id": 20,
         "question": "What must a PHV driver do if they are involved in an accident while on duty?",
         "options": [
           "Continue the journey",
@@ -212,6 +212,315 @@
           "Fix it themselves"
         ],
         "answer": "Report it to the operator and authorities"
+      },
+      {
+        "id": 21,
+        "question": "Which one of the following statements is correct regarding placing a device on your windscreen?",
+        "options": [
+          "You can put your phone cradle in any area of the car windscreen",
+          "Placing your device cradle on the windscreen swept area you are committing an offence.",
+          "Only the swept area of the windscreen can be used as a position for a mobile phone cradle."
+        ],
+        "answer": "Placing your device cradle on the windscreen swept area you are committing an offence."
+      },
+      {
+        "id": 22,
+        "question": "How to prove that you have a B1 level of ability in the English language?",
+        "options": [
+          "By taking a safety, equality & regulatory understanding assessment at TfL",
+          "By passing a B1 test at Trinity or other local colleges",
+          "By taking a speaking and listening test at TfL"
+        ],
+        "answer": "By passing a B1 test at Trinity or other local colleges"
+      },
+      {
+        "id": 23,
+        "question": "Do you need a British Passport to apply to PHV Driver's License?",
+        "options": [
+          "Yes",
+          "No, but you must have the right to live and work in the UK",
+          "Only British or European Union Passports are accepted"
+        ],
+        "answer": "No, but you must have the right to live and work in the UK"
+      },
+      {
+        "id": 24,
+        "question": "In what circumstances can you ask the passenger to leave your vehicle?",
+        "options": [
+          "When he becomes angry or violent - even in the middle of a motorway",
+          "When he becomes angry or violent but only when it is safe to do so",
+          "When he asks you to stop at a cashpoint"
+        ],
+        "answer": "When he becomes angry or violent but only when it is safe to do so"
+      },
+      {
+        "id": 25,
+        "question": "What to do if a visually impaired passenger asks for your license number?",
+        "options": [
+          "Allow them to touch your badge, it includes text in Braille",
+          "Tell them your license number",
+          "You don't need to share your license details with passengers"
+        ],
+        "answer": "Tell them your license number"
+      },
+      {
+        "id": 26,
+        "question": "Do you need to notify TfL about convictions, cautions or arrests?",
+        "options": [
+          "No, the police will inform TfL",
+          "Yes, you must tell TfL immediately if you are arrested, charged with, convicted or cautioned for any crime. This includes any fixed notices or road traffic offences that result in penalty points on your driving license.",
+          "Yes, but only on your next renewal application"
+        ],
+        "answer": "Yes, you must tell TfL immediately if you are arrested, charged with, convicted or cautioned for any crime. This includes any fixed notices or road traffic offences that result in penalty points on your driving license."
+      },
+      {
+        "id": 27,
+        "question": "What must you do if you're disqualified from driving?",
+        "options": [
+          "Inform TfL immediately - keep your badge and license safe at home until the disqualification period ends",
+          "Inform TfL immediately and return your driver's license and badge to TfL",
+          "Stop driving only - there is no need to notify TfL"
+        ],
+        "answer": "Inform TfL immediately and return your driver's license and badge to TfL"
+      },
+      {
+        "id": 28,
+        "question": "What is a vehicle inspection?",
+        "options": [
+          "An annual vehicle test done together with an MOT test",
+          "An annual vehicle test at one TfL inspection centre to prove that the vehicle meets all the licensing requirements",
+          "An annual vehicle test at your main dealer"
+        ],
+        "answer": "An annual vehicle test at one TfL inspection centre to prove that the vehicle meets all the licensing requirements"
+      },
+      {
+        "id": 29,
+        "question": "Do all private hire vehicles need to display licence discs?",
+        "options": [
+          "Yes, there are no exemptions",
+          "No, in some exceptional circumstances the vehicle might be given an exemption",
+          "No, only vehicles older than 3 years must display licence discs"
+        ],
+        "answer": "No, in some exceptional circumstances the vehicle might be given an exemption"
+      },
+      {
+        "id": 30,
+        "question": "Can you carry out private hire bookings when the vehicle licence discs are missing?",
+        "options": [
+          "No",
+          "Yes, but only if it happened within the last 7 days",
+          "Yes, but only if it happened within the last 14 days"
+        ],
+        "answer": "No"
+      },
+      {
+        "id": 31,
+        "question": "Do you need to carry your insurance certificate with you?",
+        "options": [
+          "You should carry details of the vehicle's valid hire or reward insurance policy whenever you are working",
+          "You should carry details of the vehicle's valid hire or reward insurance policy at all times",
+          "You don't need to carry any proof of your vehicle insurance"
+        ],
+        "answer": "You should carry details of the vehicle's valid hire or reward insurance policy whenever you are working"
+      },
+      {
+        "id": 32,
+        "question": "When can a replacement vehicle licence disc be issued? (Select 2 correct answers)",
+        "options": [
+          "When you take the original discs off for holiday",
+          "When the original discs are lost or stolen",
+          "When the original discs are damaged"
+        ],
+        "answer": [
+          "When the original discs are lost or stolen",
+          "When the original discs are damaged"
+        ]
+      },
+      {
+        "id": 33,
+        "question": "Your badge was stolen - you reported this fact to the police and TfL - Can you continue working as a PHV driver?",
+        "options": [
+          "Yes, as long as you have a crime reference letter from the police",
+          "No, you cannot continue working without your badge",
+          "Yes, but you need to have your paper license with you at all times instead of the badge"
+        ],
+        "answer": "No, you cannot continue working without your badge"
+      },
+      {
+        "id": 34,
+        "question": "What does the letter which comes with your license contain?",
+        "options": [
+          "Important information about the operator you must work with",
+          "Important responsibilities as a London PHV driver, including any conditions you must meet",
+          "License will be sent on its own; there are no additional letters"
+        ],
+        "answer": "Important responsibilities as a London PHV driver, including any conditions you must meet"
+      },
+      {
+        "id": 35,
+        "question": "What is a PHV driver's badge? (Select 2 correct answers)",
+        "options": [
+          "Photographic ID that needs to be kept in your vehicle's glove box at all times",
+          "Photographic ID that must be worn at all times when you are working as a PHV driver",
+          "Photographic ID that allows your passengers to check the information sent to them by the operator they made a booking with"
+        ],
+        "answer": [
+          "Photographic ID that must be worn at all times when you are working as a PHV driver",
+          "Photographic ID that allows your passengers to check the information sent to them by the operator they made a booking with"
+        ]
+      },
+      {
+        "id": 36,
+        "question": "What does it mean when your license has been suspended?",
+        "options": [
+          "That it has been stopped for a short time and you won't be able to work during this time",
+          "That it has been cancelled and you must return it to TfL",
+          "That it has been stopped for a short time and you are only allowed to work a limited number of hours per week"
+        ],
+        "answer": "That it has been stopped for a short time and you won't be able to work during this time"
+      },
+      {
+        "id": 37,
+        "question": "Can you inform members of the public that you are available for hire without a booking?",
+        "options": [
+          "Yes, same as Taxis (black cabs)",
+          "Yes, but only after 6pm",
+          "No, PHVs are not allowed to do so"
+        ],
+        "answer": "No, PHVs are not allowed to do so"
+      },
+      {
+        "id": 38,
+        "question": "When picking up or dropping off passengers, you must not do it at? (Select 2 correct answers)",
+        "options": [
+          "Zigzag lane and pedestrian crossing",
+          "Taxi Rank",
+          "Car parks or residential streets"
+        ],
+        "answer": ["Zigzag lane and pedestrian crossing", "Taxi Rank"]
+      },
+      {
+        "id": 39,
+        "question": "What information has the section on Carrying out Private Hire Journeys covered?",
+        "options": [
+          "Advice for customers on what they should do when using a private hire service.",
+          "How much you should charge for different journeys.",
+          "The basic requirements for drivers when carrying out private hire bookings."
+        ],
+        "answer": "The basic requirements for drivers when carrying out private hire bookings."
+      },
+      {
+        "id": 40,
+        "question": "If your passenger decides to change the destination of their journey, asks you to pick up extra passengers, or has extra luggage, you should?",
+        "options": [
+          "Stop your vehicle immediately and inform your operator",
+          "Tell your operator as soon as it is safe for you to do so",
+          "Charge the passenger extra without informing your operator"
+        ],
+        "answer": "Tell your operator as soon as it is safe for you to do so"
+      },
+      {
+        "id": 41,
+        "question": "What to do if you refused to carry out a booking?",
+        "options": [
+          "Tell your operator the full reasons",
+          "Carry on and wait for another booking",
+          "Only inform the passenger about the reasons of refusal"
+        ],
+        "answer": "Tell your operator the full reasons"
+      },
+      {
+        "id": 42,
+        "question": "Are PHV drivers allowed to pick people up on the street?",
+        "options": [
+          "No, unless they have booked you through a licensed operator",
+          "Yes, without any limitation",
+          "Yes, but only on the street outside your operator's centre"
+        ],
+        "answer": "No, unless they have booked you through a licensed operator"
+      },
+      {
+        "id": 43,
+        "question": "When your passenger is disabled or travelling with assistance dogs you?",
+        "options": [
+          "Can refuse to carry out the booking if you don't like dogs",
+          "Must not refuse to take them",
+          "Can refuse to carry out the booking - only licensed taxis are required to carry disabled passengers"
+        ],
+        "answer": "Must not refuse to take them"
+      },
+      {
+        "id": 44,
+        "question": "What to do if you're suspicious about any item left behind by a passenger?",
+        "options": [
+          "Call the police immediately and follow their instructions",
+          "Throw it away on the street",
+          "Take it to your operator's office"
+        ],
+        "answer": "Call the police immediately and follow their instructions"
+      },
+      {
+        "id": 45,
+        "question": "Are you required to inform your operator about any changes to the booking, for example, if the final destination changes?",
+        "options": [
+          "No, it's not required",
+          "No, it's the passenger’s responsibility",
+          "Yes, you should let the operator know about any changes"
+        ],
+        "answer": "Yes, you should let the operator know about any changes"
+      },
+      {
+        "id": 46,
+        "question": "What are the main reasons to refuse to carry out a booking? (Select 2 correct answers)",
+        "options": [
+          "If the fare is too low",
+          "When you do not feel able or safe enough to take passengers",
+          "If the passengers are acting in a violent or offensive way"
+        ],
+        "answer": [
+          "When you do not feel able or safe enough to take passengers",
+          "If the passengers are acting in a violent or offensive way"
+        ]
+      },
+      {
+        "id": 47,
+        "question": "Section 170 of the Equality Act says that PHV drivers must accept passengers with assistance dogs and must allow the assistance dog to sit in the footwell with the passenger. PHV drivers and operators cannot refuse or charge a passenger extra because they have an assistance dog. Which one of the following statements is correct?",
+        "options": [
+          "Section 170 of the Equality Act says PHV drivers and operators cannot refuse service dog or charge a passenger with guide dog extra",
+          "Under the Equality Act, passengers with assistance dogs can be charged extra",
+          "Section 170 of the Equality Act says PHV drivers have the right to reject service dogs due to their religious beliefs."
+        ],
+        "answer": "Section 170 of the Equality Act says PHV drivers and operators cannot refuse service dog or charge a passenger with guide dog extra"
+      },
+      {
+        "id": 48,
+        "question": "If while driving around anything seems different, unusual or doesn’t feel right, or you think that someone is acting suspiciously including someone you know or a passenger, you should?",
+        "options": [
+          "Ignore it, don't waste police time",
+          "Report your concerns about suspicious activity to the confidential police anti-terrorist hotline on 0800 789 321",
+          "Report it to your operator"
+        ],
+        "answer": "Report your concerns about suspicious activity to the confidential police anti-terrorist hotline on 0800 789 321"
+      },
+      {
+        "id": 49,
+        "question": "Private hire drivers can stop to pick up or drop off passengers in many areas where there are rules in place to limit waiting or stopping. You need to remember that?",
+        "options": [
+          "PHV drivers should not stop on single yellow lines",
+          "PHV drivers should not stop in any place where they might stop other vehicles moving or be a danger to other road users",
+          "PHV drivers should never stop for longer than 1 minute to collect a passenger"
+        ],
+        "answer": "PHV drivers should not stop in any place where they might stop other vehicles moving or be a danger to other road users"
+      },
+      {
+        "id": 50,
+        "question": "What to do if you're waiting for the emergency services with an injured passenger and they suddenly become aggressive or violent towards you?",
+        "options": [
+          "Move somewhere safe, where you can still see the person until the emergency services arrive",
+          "Stay with them until the emergency services arrive despite the risk",
+          "Leave the passenger and go"
+        ],
+        "answer": "Move somewhere safe, where you can still see the person until the emergency services arrive"
       }
     ]
   }
