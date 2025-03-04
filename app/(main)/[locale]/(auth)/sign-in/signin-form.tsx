@@ -54,7 +54,7 @@ const SigninForm = () => {
         },
         onSuccess: () => {
           toast.success("Login Successful");
-          router.push("/admin");
+          router.push("/");
         },
         onError: (ctx) => {
           setFormError(ctx.error.message);
@@ -66,7 +66,7 @@ const SigninForm = () => {
   return (
     <Card>
       <CardHeader className="items-center">
-        <CardTitle className="text-2xl">Sign In</CardTitle>
+        <CardTitle className="text-2xl">Log In</CardTitle>
         <CardDescription>Enter your account details to login</CardDescription>
       </CardHeader>
       <CardContent>
