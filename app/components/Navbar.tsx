@@ -84,8 +84,8 @@ const Navbar: React.FC = () => {
 
         {/* 🖥️ Desktop Navigation */}
         <div className="hidden md:flex space-x-6 text-lg">
-          {["Home", "Course", "Blog", "About", "Contact"].map((key, index) => (
-            <Link key={index} href={["/", "/courses", "/blogs", "/about-us", "/contacts"][index]} className="text-white hover:text-yellow-300">
+          {["Home", "Course", "Guidelines", "Blog", "About", "Contact"].map((key, index) => (
+            <Link key={index} href={["/", "/courses", "/guidelines", "/blogs", "/about-us", "/contacts"][index]} className="text-white hover:text-yellow-300">
               {t(`home.Navigation.${key}`)}
             </Link>
           ))}

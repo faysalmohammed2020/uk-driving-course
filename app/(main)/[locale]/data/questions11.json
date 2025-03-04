@@ -1,0 +1,481 @@
+[
+  {
+    "id": 1,
+    "question": "Remember, TfL can only make a decision based on the information they receive, so it is important you respond to all requests for information.",
+    "options": ["must, we, our", "can, they, your", "should, she, his"],
+    "answer": "can, they, your"
+  },
+  {
+    "id": 2,
+    "question": "You should never use a passenger’s personal contact details to start communicating with them about anything other than the booked journey.",
+    "options": [
+      "You, start, booked",
+      "you, starting, book",
+      "them, continuing, planned"
+    ],
+    "answer": "You, start, booked"
+  },
+  {
+    "id": 3,
+    "question": "You should never make comments or jokes about someone’s age, race, religion, disability, sexual orientation or gender identity.",
+    "options": [
+      "never, religion, identity",
+      "ever, raligion, identification",
+      "always, belief, status"
+    ],
+    "answer": "never, religion, identity"
+  },
+  {
+    "id": 4,
+    "question": "No type of sexual behaviour between you and a passenger is ever acceptable, even if both of you agree to it.",
+    "options": [
+      "sexual, ever, agree",
+      "sexing, but, disagree",
+      "inappropriate, maybe, consent"
+    ],
+    "answer": "sexual, ever, agree"
+  },
+  {
+    "id": 5,
+    "question": "Avoid any behaviour that might be understood as being sexual, no matter how good your intentions are or how harmless you think your behaviour is.",
+    "options": ["that, how, you", "thing, will, your", "if, no, someone"],
+    "answer": "that, how, you"
+  },
+  {
+    "id": 6,
+    "question": "Which action is required if a passenger requests a receipt?",
+    "options": [
+      "Refuse politely",
+      "Provide a detailed receipt",
+      "Ignore the request",
+      "Charge extra"
+    ],
+    "answer": "Provide a detailed receipt"
+  },
+  {
+    "id": 7,
+    "question": "What must a PHV driver do if they receive a penalty notice while working?",
+    "options": [
+      "Ignore it",
+      "Report it to their operator and pay if required",
+      "Wait until licence renewal to address it",
+      "Ask the passenger to pay it"
+    ],
+    "answer": "Report it to their operator and pay if required"
+  },
+  {
+    "id": 8,
+    "question": "Which behavior is considered discriminatory under the Equality Act 2010?",
+    "options": [
+      "Refusing a passenger based on their disability",
+      "Providing service to all passengers equally",
+      "Helping a passenger with a guide dog",
+      "Offering assistance to wheelchair users"
+    ],
+    "answer": "Refusing a passenger based on their disability"
+  },
+  {
+    "id": 9,
+    "question": "PHVs are not allowed to drive in bus lanes. PHVs are not allowed to park, wait, drop off or collect passengers on a taxi rank. PHVs are not allowed to use or park on electric taxi charge points.",
+    "options": [
+      "PHVs are allowed to drive in some bus lanes",
+      "PHVs are not allowed to drive in bus lanes",
+      "Assistance dogs are not highly trained"
+    ],
+    "answer": "PHVs are not allowed to drive in bus lanes"
+  },
+  {
+    "id": 10,
+    "question": "You must never, for any reason, stop within:",
+    "options": [
+      "Pedestrian clearways & zig-zag lines",
+      "Bus stops with wide red lines",
+      "PHVs are allowed to drive in some bus lanes"
+    ],
+    "answer": "Pedestrian clearways & zig-zag lines"
+  },
+  {
+    "id": 11,
+    "question": "You can receive a Penalty Charge Notice for:",
+    "options": [
+      "Driving in a bus lane",
+      "Blocking a yellow box junction",
+      "Parking on private land"
+    ],
+    "answer": "Driving in a bus lane"
+  },
+  {
+    "id": 12,
+    "question": "Can TfL take licensing action against you if you stop or park on a taxi rank?",
+    "options": [
+      "Only if parked for longer than 5 minutes",
+      "Yes",
+      "Only if you leave your vehicle unattended"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "id": 13,
+    "question": "Name the road sign",
+    "options": [
+      "Electric vehicle charging point",
+      "Car park",
+      "Electric taxi charging point"
+    ],
+    "answer": "Electric taxi charging point"
+  },
+  {
+    "id": 14,
+    "question": "When must CCTV signage be displayed?",
+    "options": [
+      "In all PHVs at all times",
+      "Only where CCTV is installed in the vehicle",
+      "Where CCTV is installed in the vehicle but it's not mandatory"
+    ],
+    "answer": "Only where CCTV is installed in the vehicle"
+  },
+  {
+    "id": 15,
+    "question": "Do PHVs entering the Congestion Charge zone need to pay the daily charge?",
+    "options": [
+      "Yes without any exemptions",
+      "Yes unless exempt",
+      "No, all PHVs are exempt from Congestion Charge"
+    ],
+    "answer": "Yes unless exempt"
+  },
+  {
+    "id": 16,
+    "question": "Taxi ranks can only be used by licensed London taxis, not by PHVs.",
+    "options": [
+      "PHVs can only stop at a taxi rank if dropping or picking up a passenger",
+      "PHVs should not park or wait on working taxi ranks at any time, nor pick up or drop off passengers on a taxi rank",
+      "PHVs shouldn't park at the taxi ranks, but they can certainly pick up and drop off passengers there."
+    ],
+    "answer": "PHVs should not park or wait on working taxi ranks at any time, nor pick up or drop off passengers on a taxi rank"
+  },
+  {
+    "id": 17,
+    "question": "When picking up or dropping off passengers in a bus lane you must:",
+    "options": [
+      "Enter and leave the bus lane in the most direct and safe way.",
+      "Use your hazard lights",
+      "Pay careful attention to cyclists and motorcyclists"
+    ],
+    "answer": "Enter and leave the bus lane in the most direct and safe way."
+  },
+  {
+    "id": 18,
+    "question": "What are red routes?",
+    "options": [
+      "These are the main roads in London and are marked with yellow lines by the kerb and, where required, with signs",
+      "These are the main roads in London and are marked with red lines by the kerb and, where required, with signs",
+      "These are motorways"
+    ],
+    "answer": "These are the main roads in London and are marked with red lines by the kerb and, where required, with signs"
+  },
+  {
+    "id": 19,
+    "question": "Are PHVs registered as wheelchair accessible by TfL exempt from the ULEZ charge?",
+    "options": [
+      "No",
+      "Yes, but only while carrying out a booking",
+      "Yes, at all times"
+    ],
+    "answer": "Yes, but only while carrying out a booking"
+  },
+  {
+    "id": 20,
+    "question": "Are PHV drivers allowed to stop on Zig-Zag lines?",
+    "options": [
+      "Yes PHVs are allowed to stop on zig-zag lines",
+      "Yes but only between 10pm and 6am",
+      "No, PHV drivers must not stop on zig-zag lines"
+    ],
+    "answer": "No, PHV drivers must not stop on zig-zag lines"
+  },
+  {
+    "id": 21,
+    "question": "If your PHV is designated as wheelchair accessible you will?",
+    "options": [
+      "Not have to pay the congestion charge",
+      "Have to pay the congestion charge like any other PHV",
+      "Not have to pay the Congestion Charge if you are entering the zone to carry out a booking from a London licensed PHV operator"
+    ],
+    "answer": "Not have to pay the Congestion Charge if you are entering the zone to carry out a booking from a London licensed PHV operator"
+  },
+  {
+    "id": 22,
+    "question": "If you are not picking up or dropping off a passenger, you may get a PCN if you wait somewhere where there are restrictions.",
+    "options": [
+      "You may get a PCN if you wait somewhere where there are restrictions.",
+      "Sexual behaviour between you and a passenger is acceptable if both of you agree to it.",
+      "You will not get a PCN if you wait somewhere where there are restrictions."
+    ],
+    "answer": "You may get a PCN if you wait somewhere where there are restrictions."
+  },
+  {
+    "id": 23,
+    "question": "Red route signs - meaning?",
+    "options": [
+      "Stopping allowed for up to 10 minutes at any time",
+      "No stopping at any time",
+      "No stopping during times shown on the sign"
+    ],
+    "answer": "No stopping during times shown on the sign"
+  },
+  {
+    "id": 24,
+    "question": "PHVs can pick up or drop off passengers and can park or wait in a parking bay as long as?",
+    "options": [
+      "They have a valid booking",
+      "It's after 22:00",
+      "They obey the limits shown on the signs"
+    ],
+    "answer": "They obey the limits shown on the signs"
+  },
+  {
+    "id": 25,
+    "question": "ULEZ emissions standards are?",
+    "options": [
+      "Petrol PHVs must be Euro 4",
+      "Diesel PHVs must be Euro 6",
+      "Diesel PHVs must be Euro 5"
+    ],
+    "answer": "Diesel PHVs must be Euro 6"
+  },
+  {
+    "id": 26,
+    "question": "What vehicles are allowed to use most bus lanes?",
+    "options": ["Buses, PHVs, Cycles", "Buses, Taxis, Cycles", "Buses only"],
+    "answer": "Buses, Taxis, Cycles"
+  },
+  {
+    "id": 27,
+    "question": "Can you get a PCN if you wait for a late passenger somewhere where there are restrictions?",
+    "options": [
+      "No, as long as you have a booking",
+      "Yes, at all times",
+      "Only between 6am and 10pm"
+    ],
+    "answer": "Yes, at all times"
+  },
+  {
+    "id": 28,
+    "question": "PHV drivers are allowed to stop on a red route to wait for a passenger using a cash point?",
+    "options": [
+      "Between 22:00 and 06:00 but no longer than 5 minutes",
+      "Between 19:00 and 07:00 but no longer than 5 minutes",
+      "Between 22:00 and 06:00 but no longer than 2 minutes"
+    ],
+    "answer": "Between 22:00 and 06:00 but no longer than 2 minutes"
+  },
+  {
+    "id": 29,
+    "question": "If a road sign shows that access is for a taxi:",
+    "options": [
+      "You are allowed only to access if dropping off a passenger",
+      "A PHV is not a taxi - you are not allowed access",
+      "PHV's have the same rights as taxis - you are allowed access"
+    ],
+    "answer": "A PHV is not a taxi - you are not allowed access"
+  },
+  {
+    "id": 30,
+    "question": "Enter and leave the bus lane in the most direct and safe way. Pay careful attention to cyclists and motorcyclists who are able to use bus lanes and to pedestrians and bus passengers that may be getting off the bus and crossing the road.",
+    "options": [
+      "No, you can only hand out a business card with the number of your operator",
+      "Pay careful attention to cyclists and motorcyclists who are able to use bus lanes",
+      "You cannot pick up or drop off passengers in bus lanes"
+    ],
+    "answer": "Pay careful attention to cyclists and motorcyclists who are able to use bus lanes"
+  },
+  {
+    "id": 31,
+    "question": "You can pick up or drop off passengers?",
+    "options": [
+      "In most parking bays",
+      "In most bus lanes, although you should avoid this if possible as it might delay or obstruct buses",
+      "In bus stop clearways"
+    ],
+    "answer": "In most parking bays"
+  },
+  {
+    "id": 32,
+    "question": "Are PHV drivers allowed to pick up or drop off passengers on single or double red lines?",
+    "options": [
+      "Yes, but drivers must not wait for a passenger where restrictions apply",
+      "No",
+      "Yes, but only between 22:00 and 06:00"
+    ],
+    "answer": "No"
+  },
+  {
+    "id": 33,
+    "question": "PCNs can be:",
+    "options": [
+      "Given out by on-street parking attendants or enforcement officers",
+      "Can be sent to the registered keeper of the vehicle if the vehicle was caught on camera breaking the law",
+      "Given out by members of the public if you're caught breaking the law"
+    ],
+    "answer": "Given out by on-street parking attendants or enforcement officers"
+  },
+  {
+    "id": 34,
+    "question": "Electric taxi charging points can only be used for charging electric taxis. They cannot be used for charging PHVs.",
+    "options": [
+      "They can be used for charging PHVs.",
+      "They cannot be used for charging PHVs.",
+      "Electric taxi charging points can be used to charge PHVs"
+    ],
+    "answer": "They cannot be used for charging PHVs."
+  },
+  {
+    "id": 35,
+    "question": "Some parts of red routes are marked for parking. Parking bays can be identified by a 'P' on the signs that accompany them. The signs will tell you:",
+    "options": [
+      "The cost of parking",
+      "When parking is allowed and for how long",
+      "How soon a vehicle can stop again in the same section of the road"
+    ],
+    "answer": "When parking is allowed and for how long"
+  },
+  {
+    "id": 36,
+    "question": "Can you pick up or drop off passengers in most bus lanes, even though you are not allowed to drive in them?",
+    "options": [
+      "No, you will receive a PCN",
+      "Yes, but you should avoid doing this if possible.",
+      "Yes, you are also allowed to wait for up to 5 minutes"
+    ],
+    "answer": "Yes, but you should avoid doing this if possible."
+  },
+  {
+    "id": 37,
+    "question": "Ultra Low Emission Zone (ULEZ) operates in London to:",
+    "options": [
+      "Raise extra funds for TfL",
+      "To help improve air quality",
+      "To force all drivers to upgrade to electric vehicles"
+    ],
+    "answer": "To help improve air quality"
+  },
+  {
+    "id": 38,
+    "question": "Is the following statement true or false? PHVs are allowed to use or park on electric taxi charge points.",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "id": 39,
+    "question": "If there are waiting or parking restrictions, you cannot stop for longer than is needed for the passenger to:",
+    "options": [
+      "Get in or out of the vehicle",
+      "Use their mobile phone",
+      "Complete their shopping"
+    ],
+    "answer": "Get in or out of the vehicle"
+  },
+  {
+    "id": 40,
+    "question": "PHVs need to meet the ULEZ emissions standards or drivers must:",
+    "options": [
+      "Reuse their vehicles",
+      "Pay a daily charge to drive within the zone",
+      "Avoid using the vehicle during peak hours"
+    ],
+    "answer": "Pay a daily charge to drive within the zone"
+  },
+  {
+    "id": 41,
+    "question": "Operators must report to the police any:",
+    "options": [
+      "Crimes that involve possible complaints",
+      "Complaints that involve possible crimes",
+      "Issues that involve fare disputes"
+    ],
+    "answer": "Complaints that involve possible crimes"
+  },
+  {
+    "id": 42,
+    "question": "As a PHV driver, you are expected to be fully aware of and to obey the rules of the road, as explained in The Highway Code. You should avoid behaviour that causes any danger to you, your passengers and other road users.",
+    "options": [
+      "More advice on driving safely is on the operator website",
+      "You should avoid behaviour that causes any danger to you, your passengers and other road users.",
+      "As a PHV driver, you are not expected to be fully aware of all the rules"
+    ],
+    "answer": "You should avoid behaviour that causes any danger to you, your passengers and other road users."
+  },
+  {
+    "id": 43,
+    "question": "If you do need to answer or make a call you?",
+    "options": [
+      "Need to stop safely",
+      "Just answer the phone while driving",
+      "Park your vehicle and turn off the engine"
+    ],
+    "answer": "Need to stop safely"
+  },
+  {
+    "id": 44,
+    "question": "If you put a cradled device in the windscreen swept area you?",
+    "options": [
+      "Are committing an offence",
+      "Should be more careful while driving",
+      "Should not drive when the wipers are working"
+    ],
+    "answer": "Are committing an offence"
+  },
+  {
+    "id": 45,
+    "question": "As a PHV driver, you are expected to be fully aware of and to obey the rules of the road as explained in the?",
+    "options": ["DVLA Driver Code", "Traffic Code", "Highway Code"],
+    "answer": "Highway Code"
+  },
+  {
+    "id": 46,
+    "question": "What is the best description of safe speed?",
+    "options": [
+      "Always driving at least 10mph slower than the speed limit",
+      "Driving at a speed within the speed limit and one that is appropriate for the situation, environment and weather conditions",
+      "Driving above the speed limit is allowed as long as the speed is appropriate for the situation, environment and weather conditions"
+    ],
+    "answer": "Driving at a speed within the speed limit and one that is appropriate for the situation, environment and weather conditions"
+  },
+  {
+    "id": 47,
+    "question": "Most collisions in London are caused by a small number of easy-to-avoid behaviours. These include?",
+    "options": [
+      "Speeding or driving too fast for the conditions",
+      "Driving within the speed limits",
+      "Not following the rules of the road"
+    ],
+    "answer": "Speeding or driving too fast for the conditions"
+  },
+  {
+    "id": 48,
+    "question": "Drive at a speed within the speed limit and one that is appropriate for the situation, environment and weather conditions. The faster you drive, the less time you have to do something to avoid a collision. The resulting injuries also become more serious as speed increases.",
+    "options": [
+      "Always drive at a speed that will make passengers happy.",
+      "The faster you drive, the less time you have to do something to avoid a collision.",
+      "It's fine to drive above the speed limit"
+    ],
+    "answer": "The faster you drive, the less time you have to do something to avoid a collision."
+  },
+  {
+    "id": 49,
+    "question": "When the tread pattern has worn down to the level of the tyre wear bar indicators you?",
+    "options": [
+      "Must retread the tyre",
+      "Can keep driving until the next MOT or inspection",
+      "Must replace the tyre"
+    ],
+    "answer": "Must replace the tyre"
+  },
+  {
+    "id": 50,
+    "question": "You should be especially aware of cyclists and motorcyclists when you are?",
+    "options": ["Waiting for a booking", "Turning", "In slow-moving traffic"],
+    "answer": "Turning"
+  }
+]
