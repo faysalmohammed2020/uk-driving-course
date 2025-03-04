@@ -41,7 +41,7 @@ const cards = [
     description:
       "Easily renew your PCO licence and keep driving without any hassle.",
     icon: <FaFileAlt className="text-white text-3xl" />,
-    link: "/pco-renewals",
+    link: "/en/guidelines/pco-renewals",
   },
 ];
 
