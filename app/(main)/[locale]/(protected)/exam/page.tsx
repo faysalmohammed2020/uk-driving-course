@@ -15,6 +15,8 @@ import questions7 from "@/app/(main)/[locale]/data/questions7.json";
 import questions8 from "@/app/(main)/[locale]/data/questions8.json";
 import questions9 from "@/app/(main)/[locale]/data/questions9.json";
 import questions10 from "@/app/(main)/[locale]/data/questions10.json";
+import questions11 from "@/app/(main)/[locale]/data/questions11.json";
+import questions12 from "@/app/(main)/[locale]/data/questions12.json";
 
 interface MockTest {
   id: number;
@@ -46,6 +48,8 @@ const ExamPage = () => {
       ...questions8,
       ...questions9,
       ...questions10,
+      ...questions11,
+      ...questions12,
     ]);
   }, []);
 
