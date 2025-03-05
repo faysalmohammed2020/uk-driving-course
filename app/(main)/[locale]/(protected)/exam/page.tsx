@@ -1,5 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
+import { useLocale, useTranslations } from "next-intl";
 import React, { useEffect, useState } from "react";
 import { FaFileAlt } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
@@ -15,8 +16,12 @@ import questions7 from "@/app/(main)/[locale]/data/questions7.json";
 import questions8 from "@/app/(main)/[locale]/data/questions8.json";
 import questions9 from "@/app/(main)/[locale]/data/questions9.json";
 import questions10 from "@/app/(main)/[locale]/data/questions10.json";
-import questions11 from "@/app/(main)/[locale]/data/questions11.json";
-import questions12 from "@/app/(main)/[locale]/data/questions12.json";
+
+
+
+
+
+
 
 interface MockTest {
   id: number;
@@ -35,26 +40,16 @@ const ExamPage = () => {
   const router = useRouter();
   const [mockTests, setMockTests] = useState<MockTest[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
+  const locale = useLocale();
+ 
 
   useEffect(() => {
-    setMockTests([
-      ...questions1,
-      ...questions2,
-      ...questions3,
-      ...questions4,
-      ...questions5,
-      ...questions6,
-      ...questions7,
-      ...questions8,
-      ...questions9,
-      ...questions10,
-      ...questions11,
-      ...questions12,
-    ]);
+    setMockTests([...questions1, ...questions2, ...questions3, ...questions4, ...questions5, ...questions6, ...questions7, ...questions8, ...questions9, ...questions10]);
   }, []);
 
+ 
   const startExam = (id: number) => {
-    router.push(`/en/exam/${id}`);
+   router.push(`/${locale}/exam/${id}`);
   };
 
   const totalPages = Math.ceil(mockTests.length / ITEMS_PER_PAGE);
@@ -62,15 +57,15 @@ const ExamPage = () => {
     (currentPage - 1) * ITEMS_PER_PAGE,
     currentPage * ITEMS_PER_PAGE
   );
+  const t =useTranslations();
 
   return (
     <section className="bg-gradient-to-b from-gray-900 to-gray-700 text-white py-16 text-center px-4">
-      <h2 className="text-4xl font-extrabold">Topographical Theory Test</h2>
+      <h2 className="text-4xl font-extrabold">{t('exam.exams.shortTitle')}</h2>
       <p className="mt-3 text-lg max-w-3xl mx-auto">
-        We strongly advise you to read the handbook before starting our practice
-        tests.
+      {t('exam.exams.title')}
       </p>
-
+      
       {/* Exam Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-10">
         {currentTests.map((test) => (
@@ -82,13 +77,13 @@ const ExamPage = () => {
               <div className="bg-green-500 text-white p-3 rounded-lg shadow-md">
                 <FaFileAlt className="text-2xl" />
               </div>
-              <h3 className="font-semibold text-lg text-left w-full line-clamp-2 hover:whitespace-normal hover:absolute hover:bg-white hover:p-3 hover:rounded-lg hover:shadow-lg">
+              <h3
+                className="font-semibold text-lg text-left w-full line-clamp-2 hover:whitespace-normal hover:absolute hover:bg-white hover:p-3 hover:rounded-lg hover:shadow-lg"
+              >
                 {test.title}
               </h3>
             </div>
-            <p className="text-sm text-gray-600 text-left">
-              {test.questions.length} Questions
-            </p>
+            <p className="text-sm text-gray-600 text-left">{test.questions.length} Questions</p>
             <button
               onClick={() => startExam(test.id)}
               className="mt-6 bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-700 transition-all duration-300 ease-in-out w-full shadow-md hover:shadow-xl"
@@ -98,17 +93,13 @@ const ExamPage = () => {
           </div>
         ))}
       </div>
-
+      
       {/* Pagination Controls */}
       <div className="mt-10 flex justify-center items-center gap-4">
         <button
           onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
           disabled={currentPage === 1}
-          className={`p-3 rounded-full transition-all duration-300 ease-in-out shadow-md hover:shadow-xl flex items-center justify-center w-12 h-12 ${
-            currentPage === 1
-              ? "bg-gray-500 cursor-not-allowed"
-              : "bg-blue-700 hover:bg-blue-800"
-          }`}
+          className={`p-3 rounded-full transition-all duration-300 ease-in-out shadow-md hover:shadow-xl flex items-center justify-center w-12 h-12 ${currentPage === 1 ? "bg-gray-500 cursor-not-allowed" : "bg-blue-700 hover:bg-blue-800"}`}
         >
           <IoIosArrowBack size={24} className="text-white" />
         </button>
@@ -116,15 +107,9 @@ const ExamPage = () => {
           Page {currentPage} of {totalPages}
         </span>
         <button
-          onClick={() =>
-            setCurrentPage((prev) => Math.min(prev + 1, totalPages))
-          }
+          onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
           disabled={currentPage === totalPages}
-          className={`p-3 rounded-full transition-all duration-300 ease-in-out shadow-md hover:shadow-xl flex items-center justify-center w-12 h-12 ${
-            currentPage === totalPages
-              ? "bg-gray-500 cursor-not-allowed"
-              : "bg-blue-700 hover:bg-blue-800"
-          }`}
+          className={`p-3 rounded-full transition-all duration-300 ease-in-out shadow-md hover:shadow-xl flex items-center justify-center w-12 h-12 ${currentPage === totalPages ? "bg-gray-500 cursor-not-allowed" : "bg-blue-700 hover:bg-blue-800"}`}
         >
           <IoIosArrowForward size={24} className="text-white" />
         </button>
