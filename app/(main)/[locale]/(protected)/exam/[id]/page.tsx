@@ -17,6 +17,7 @@ import questions11 from "@/app/(main)/[locale]/data/questions11.json";
 import questions12 from "@/app/(main)/[locale]/data/questions12.json";
 
 import QuestionCard from "@/app/components/QuestionCard";
+import { useTranslations } from "next-intl";
 // import ResultCard from "@/app/components/ResultCard";
 
 const ExamPage = () => {
@@ -121,13 +122,13 @@ const ExamPage = () => {
     const secs = seconds % 60;
     return `${mins}:${secs < 10 ? "0" : ""}${secs}`;
   };
-
+const t = useTranslations();
   return (
     <div className="min-h-screen p-10 bg-gray-100">
       {!hasStarted && !isSubmitted ? (
         <div className="relative bg-opacity-50 backdrop-blur-md border border-gray-200 rounded-3xl shadow-xl p-8 max-w-4xl mx-auto mt-10 text-center bg-white">
           <h1 className="text-4xl font-extrabold mb-6 text-gray-800">
-            Exam Guidelines
+           {t('exam.exams.Guidelines')}
           </h1>
           <div className="flex justify-center mb-6">
             <img
@@ -137,48 +138,38 @@ const ExamPage = () => {
             />
           </div>
           <p className="text-red-600 text-lg font-semibold mb-4">
-            Please read the guidelines carefully before starting the exam.
+          {t('exam.exams.PleaseRead')}
           </p>
           <ul className="text-left text-gray-700 list-none space-y-4 mb-8 mx-8">
             <li className="flex items-start bg-gray-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
               <span className="material-icons text-blue-600 font-bold text-lg mr-3">
-                Schedule:
+              {t('exam.exams.Schedule')}
               </span>
               <span>
-                You will have <span className="font-semibold">30 minutes</span>{" "}
-                to complete the exam.
+              {t('exam.exams.Mint')}
               </span>
             </li>
             <li className="flex items-start bg-gray-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
               <span className="material-icons text-green-600 text-lg font-bold mr-3">
-                Fact_check:
+              {t('exam.exams.FactCheck')}
               </span>
               <span>
-                Each question has{" "}
-                <span className="font-semibold">4 options</span>. Only one is
-                correct.
+              {t('exam.exams.options')}
               </span>
             </li>
             <li className="flex items-start bg-gray-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
               <span className="material-icons text-red-600 text-lg font-bold mr-3">
-                Cancel:
+              {t('exam.exams.Cancel')}
               </span>
               <span>
-                Once you submit,{" "}
-                <span className="font-semibold">
-                  you cannot change your answers
-                </span>
-                .
+              {t('exam.exams.answers')}
               </span>
             </li>
             <li className="flex items-start bg-gray-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
               <span className="material-icons text-yellow-600 text-lg font-bold mr-3">
-                Insights:
+              {t('exam.exams.Insights')}
               </span>
-              <span>
-                Your results will be displayed{" "}
-                <span className="font-semibold">after submission</span>.
-              </span>
+              {t('exam.exams.submission')}
             </li>
           </ul>
           <button

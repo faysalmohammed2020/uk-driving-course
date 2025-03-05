@@ -331,22 +331,54 @@
 "exam":{
   "exams":{
     "shortTitle":"Topographical Theory Test",
-    "title": "We strongly advise you to read the handbook before starting our practice tests."
+    "title": "We strongly advise you to read the handbook before starting our practice tests.",
+    "Guidelines" : " Exam Guidelines",
+    "Schedule": "Schedule",
+    "FactCheck" : "Fact Check",
+    "Cancel" : " Cancel",
+    "Insights" : " Insights",
+    "Mint" : "You will have 30 minutes to complete the exam.",
+    "options" : "Each question has 4 options. Only one is correct.",
+    "answers" : "Once you submit, you cannot change your answers.",
+    "submission" : "Your results will be displayed after submission.",
+    "PleaseRead" :"Please Read"
   }
 },
- "questions": {
-  "PHV": {
-    "id": 100,
-    "title": "PHV Driver’s Licence - Basic Knowledge",
-    "questions": [
-      {
-        "id": 1,
-        "question": "What is the minimum age required to apply for a London PHV driver’s licence?",
-        "options": ["18", "21", "25", "30"],
-        "answer": "21"
-      }
-    ]
-  }
+
+
+
+
+
+
+
+"quiz": {
+  "title": "PHV Driver’s Licence - Basic Knowledge",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the minimum age required to apply for a London PHV driver’s licence?",
+      "options": ["18", "21", "25", "30"],
+      "answer": "21"
+    },
+    {
+      "id": 2,
+      "question": "Which document is required to prove the right to live and work in the UK?",
+      "options": ["National Insurance Card", "Passport", "Utility Bill", "Driving Licence"],
+      "answer": "Passport"
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of the Topographical Skills Assessment?",
+      "options": [
+        "To test driving skills",
+        "To check vehicle maintenance knowledge",
+        "To assess route planning and map reading",
+        "To evaluate customer service skills"
+      ],
+      "answer": "To assess route planning and map reading"
+    }
+   
+  ]
 }
 
 

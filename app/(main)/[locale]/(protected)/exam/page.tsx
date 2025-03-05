@@ -58,6 +58,7 @@ const ExamPage = () => {
     currentPage * ITEMS_PER_PAGE
   );
   const t =useTranslations();
+ 
 
   return (
     <section className="bg-gradient-to-b from-gray-900 to-gray-700 text-white py-16 text-center px-4">
