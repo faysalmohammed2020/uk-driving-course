@@ -16,6 +16,25 @@ import questions10 from "@/app/(main)/[locale]/data/questions10.json";
 import questions11 from "@/app/(main)/[locale]/data/questions11.json";
 import questions12 from "@/app/(main)/[locale]/data/questions12.json";
 
+import questions13 from "@/app/(main)/[locale]/data/questions13.json";
+import questions14 from "@/app/(main)/[locale]/data/questions14.json";
+import questions15 from "@/app/(main)/[locale]/data/questions15.json";
+import questions16 from "@/app/(main)/[locale]/data/questions16.json";
+import questions17 from "@/app/(main)/[locale]/data/questions17.json";
+import questions18 from "@/app/(main)/[locale]/data/questions18.json";
+import questions19 from "@/app/(main)/[locale]/data/questions19.json";
+import questions20 from "@/app/(main)/[locale]/data/questions20.json";
+import questions21 from "@/app/(main)/[locale]/data/questions21.json";
+import questions22 from "@/app/(main)/[locale]/data/questions22.json";
+import questions23 from "@/app/(main)/[locale]/data/questions23.json";
+import questions24 from "@/app/(main)/[locale]/data/questions24.json";
+import questions25 from "@/app/(main)/[locale]/data/questions25.json";
+import questions26 from "@/app/(main)/[locale]/data/questions26.json";
+import questions27 from "@/app/(main)/[locale]/data/questions27.json";
+import questions28 from "@/app/(main)/[locale]/data/questions28.json";
+import questions29 from "@/app/(main)/[locale]/data/questions29.json";
+import questions30 from "@/app/(main)/[locale]/data/questions30.json";
+
 import QuestionCard from "@/app/components/QuestionCard";
 // import ResultCard from "@/app/components/ResultCard";
 
@@ -47,6 +66,25 @@ const ExamPage = () => {
       ...questions10,
       ...questions11,
       ...questions12,
+
+       ...questions13,
+      ...questions14,
+      ...questions15,
+      ...questions16,
+      ...questions17,
+      ...questions18,
+      ...questions19,
+      ...questions20,
+      ...questions21,
+      ...questions22,
+      ...questions23,
+      ...questions24,
+      ...questions25,
+      ...questions26,
+      ...questions27,
+      ...questions28,
+      ...questions29,
+      ...questions30,
     ],
     []
   );

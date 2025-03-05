@@ -1,0 +1,558 @@
+[
+  {
+    "id": 2100,
+    "title": "Advanced PHV Driver Proficiency",
+    "questions": [
+      {
+        "id": 1,
+        "question": "A passenger insists on being dropped off in a known high-crime area at night. What should the PHV driver do?",
+        "options": [
+          "Comply with the passenger's request without question.",
+          "Refuse the request and explain the safety concerns.",
+          "Contact the operator for guidance before proceeding.",
+          "Inform the passenger they will be charged extra for the dangerous location."
+        ],
+        "answer": "Contact the operator for guidance before proceeding."
+      },
+      {
+        "id": 2,
+        "question": "What is the PHV driver's responsibility regarding the maintenance of their vehicle's license discs?",
+        "options": [
+          "To remove them when using the vehicle for personal use.",
+          "To ensure they are clearly displayed and undamaged.",
+          "To replace them every six months regardless of condition.",
+          "To cover them with a protective film to prevent damage."
+        ],
+        "answer": "To ensure they are clearly displayed and undamaged."
+      },
+      {
+        "id": 3,
+        "question": "A passenger with a guide dog is refused service by a PHV driver. What potential legal implications could arise?",
+        "options": [
+          "None, as the driver has the right to refuse any passenger.",
+          "A fine from the operator but not from TfL.",
+          "A potential violation of the Equality Act 2010.",
+          "Only a verbal warning from TfL."
+        ],
+        "answer": "A potential violation of the Equality Act 2010."
+      },
+      {
+        "id": 4,
+        "question": "What is the correct procedure if a PHV driver suspects a passenger is involved in illegal activity?",
+        "options": [
+          "Confront the passenger and demand an explanation.",
+          "Ignore the suspicion to avoid personal involvement.",
+          "Report the suspicion to the police and their operator.",
+          "Inform other passengers in the vehicle of the suspicion."
+        ],
+        "answer": "Report the suspicion to the police and their operator."
+      },
+      {
+        "id": 5,
+        "question": "How should a PHV driver handle a situation where a passenger is heavily intoxicated and unable to provide a destination?",
+        "options": [
+          "Leave the passenger at the nearest safe location.",
+          "Contact the police or emergency services for assistance.",
+          "Attempt to find the passenger's home address through their phone.",
+          "Continue driving until the passenger becomes coherent."
+        ],
+        "answer": "Contact the police or emergency services for assistance."
+      },
+      {
+        "id": 6,
+        "question": "What is the PHV driver's responsibility regarding data protection of passenger information?",
+        "options": [
+          "To share passenger information with other drivers for safety.",
+          "To keep passenger information confidential and secure.",
+          "To publicly display passenger information to deter crime.",
+          "To sell passenger information to third-party marketing companies."
+        ],
+        "answer": "To keep passenger information confidential and secure."
+      },
+      {
+        "id": 7,
+        "question": "What action should a PHV driver take if they discover a weapon left behind by a passenger?",
+        "options": [
+          "Keep the weapon for personal protection.",
+          "Immediately report it to the police and operator.",
+          "Attempt to locate the passenger and return the weapon.",
+          "Discreetly dispose of the weapon to avoid trouble."
+        ],
+        "answer": "Immediately report it to the police and operator."
+      },
+      {
+        "id": 8,
+        "question": "How should a PHV driver handle a passenger who is consistently making discriminatory remarks during a journey?",
+        "options": [
+          "Engage in a debate to correct the passenger's views.",
+          "Ignore the remarks to avoid confrontation.",
+          "Politely ask the passenger to stop and, if necessary, terminate the journey.",
+          "Join in with the remarks to create a friendly atmosphere."
+        ],
+        "answer": "Politely ask the passenger to stop and, if necessary, terminate the journey."
+      },
+      {
+        "id": 9,
+        "question": "What are the environmental responsibilities of a PHV driver operating in a city?",
+        "options": [
+          "To drive as fast as possible to reduce travel time.",
+          "To idle the engine to keep the vehicle cool.",
+          "To minimize emissions and avoid unnecessary idling.",
+          "To dispose of waste from the vehicle in public bins."
+        ],
+        "answer": "To minimize emissions and avoid unnecessary idling."
+      },
+      {
+        "id": 10,
+        "question": "A passenger requests that a PHV driver run a red light to save time. What should the driver do?",
+        "options": [
+          "Comply with the request if the passenger insists.",
+          "Refuse the request and explain the legal and safety risks.",
+          "Agree to run the light if no other vehicles are present.",
+          "Demand extra payment for taking the risk."
+        ],
+        "answer": "Refuse the request and explain the legal and safety risks."
+      },
+      {
+        "id": 11,
+        "question": "What is the correct way for a PHV driver to handle a fare dispute with a passenger?",
+        "options": [
+          "Demand immediate payment and threaten legal action.",
+          "Politely explain the fare and contact the operator for resolution.",
+          "Refuse to release the passenger's belongings until payment is made.",
+          "Take the passenger to the nearest police station immediately."
+        ],
+        "answer": "Politely explain the fare and contact the operator for resolution."
+      },
+      {
+        "id": 12,
+        "question": "How should a PHV driver respond to a passenger who is clearly distressed or showing signs of a mental health crisis?",
+        "options": [
+          "Ignore the passenger's behavior to avoid becoming involved.",
+          "Attempt to diagnose the passenger's condition and offer advice.",
+          "Remain calm, offer support, and contact emergency services if necessary.",
+          "Inform other passengers in the vehicle of the situation."
+        ],
+        "answer": "Remain calm, offer support, and contact emergency services if necessary."
+      },
+      {
+        "id": 13,
+        "question": "What is the PHV driver's responsibility regarding the reporting of any changes in their medical fitness?",
+        "options": [
+          "To report any changes only during license renewal.",
+          "To report any changes that may affect their ability to drive safely immediately to TfL.",
+          "To only inform their personal doctor of any changes.",
+          "To ignore minor changes in medical fitness."
+        ],
+        "answer": "To report any changes that may affect their ability to drive safely immediately to TfL."
+      },
+      {
+        "id": 14,
+        "question": "How should a PHV driver handle a situation where they suspect a child passenger is being neglected or abused?",
+        "options": [
+          "Ignore the suspicion to avoid becoming involved.",
+          "Report the suspicion to the police and relevant safeguarding authorities.",
+          "Confront the child's guardian about the suspicion.",
+          "Discuss the suspicion with other passengers in the vehicle."
+        ],
+        "answer": "Report the suspicion to the police and relevant safeguarding authorities."
+      },
+      {
+        "id": 15,
+        "question": "What is the correct procedure for a PHV driver to follow if they are involved in a collision with a cyclist?",
+        "options": [
+          "Leave the scene immediately to avoid liability.",
+          "Exchange contact information only if the cyclist is injured.",
+          "Stop, provide assistance, and report the incident to the police and operator.",
+          "Admit fault immediately to expedite the process."
+        ],
+        "answer": "Stop, provide assistance, and report the incident to the police and operator."
+      },
+      {
+        "id": 16,
+        "question": "How should a PHV driver deal with a passenger who is eating and making a mess in the vehicle?",
+        "options": [
+          "Ignore it to avoid confrontation.",
+          "Politely ask them to refrain from eating in the vehicle.",
+          "Demand they clean up the mess immediately.",
+          "Charge them an extra cleaning fee."
+        ],
+        "answer": "Politely ask them to refrain from eating in the vehicle."
+      },
+      {
+        "id": 17,
+        "question": "What should a PHV driver do if they encounter road rage from another driver?",
+        "options": [
+          "Engage in aggressive driving to assert dominance.",
+          "Ignore the other driver and continue as normal.",
+          "Avoid escalation, remain calm, and if necessary, report the incident.",
+          "Challenge the other driver to a physical confrontation."
+        ],
+        "answer": "Avoid escalation, remain calm, and if necessary, report the incident."
+      },
+      {
+        "id": 18,
+        "question": "How should a PHV driver handle a passenger who is attempting to distract them while driving?",
+        "options": [
+          "Engage in conversation to keep the passenger entertained.",
+          "Politely ask the passenger to refrain from distracting behavior.",
+          "Ignore the passenger and focus solely on driving.",
+          "Tell the passenger to be quiet or leave the vehicle."
+        ],
+        "answer": "Politely ask the passenger to refrain from distracting behavior."
+      },
+      {
+        "id": 19,
+        "question": "What is the PHV driver's responsibility regarding the security of their personal belongings while on duty?",
+        "options": [
+          "To leave valuables visible to deter theft.",
+          "To secure personal belongings and avoid leaving valuables unattended.",
+          "To assume the operator is responsible for their personal belongings.",
+          "To ask passengers to watch their belongings during stops."
+        ],
+        "answer": "To secure personal belongings and avoid leaving valuables unattended."
+      },
+      {
+        "id": 20,
+        "question": "How should a PHV driver handle a situation where they are running late for a pick-up due to unforeseen traffic?",
+        "options": [
+          "Ignore the delay and proceed as normal.",
+          "Contact the passenger and operator to inform them of the delay.",
+          "Drive recklessly to make up for lost time.",
+          "Blame the traffic and refuse to apologize."
+        ],
+        "answer": "Contact the passenger and operator to inform them of the delay."
+      },
+      {
+        "id": 21,
+        "question": "What is the PHV driver's responsibility regarding the cleanliness of their vehicle?",
+        "options": [
+          "To clean the vehicle only when passengers complain.",
+          "To maintain a clean and presentable vehicle at all times.",
+          "To assume the operator is responsible for vehicle cleanliness.",
+          "To charge passengers a cleaning fee for minor messes."
+        ],
+        "answer": "To maintain a clean and presentable vehicle at all times."
+      },
+      {
+        "id": 22,
+        "question": "How should a PHV driver handle a passenger who is excessively complaining about minor issues?",
+        "options": [
+          "Ignore the complaints to avoid engaging in negativity.",
+          "Listen attentively, address concerns, and offer solutions where possible.",
+          "Tell the passenger to stop complaining or leave the vehicle.",
+          "Argue with the passenger to defend their actions."
+        ],
+        "answer": "Listen attentively, address concerns, and offer solutions where possible."
+      },
+      {
+        "id": 23,
+        "question": "What is the PHV driver's responsibility regarding the maintenance of their driving skills?",
+        "options": [
+          "To assume their driving skills are sufficient after obtaining a license.",
+          "To regularly update their knowledge and skills through training and practice.",
+          "To rely solely on GPS navigation and ignore traffic signs.",
+          "To only practice driving in familiar areas."
+        ],
+        "answer": "To regularly update their knowledge and skills through training and practice."
+      },
+      {
+        "id": 24,
+        "question": "How should a PHV driver handle a situation where they are approached by a police officer while on duty?",
+        "options": [
+          "Refuse to cooperate with the officer.",
+          "Cooperate fully and provide necessary information.",
+          "Attempt to bribe the officer to avoid a ticket.",
+          "Ignore the officer and continue driving."
+        ],
+        "answer": "Cooperate fully and provide necessary information."
+      },
+      {
+        "id": 25,
+        "question": "What is the PHV driver's responsibility regarding the security of their login credentials for ride-hailing apps?",
+        "options": [
+          "To share their login credentials with other drivers for convenience.",
+          "To keep their login credentials confidential and secure.",
+          "To assume the app provider is responsible for their account security.",
+          "To write their login credentials on a visible note in the vehicle."
+        ],
+        "answer": "To keep their login credentials confidential and secure."
+      },
+      {
+        "id": 26,
+        "question": "How should a PHV driver handle a passenger who is attempting to solicit them for illegal activities?",
+        "options": [
+          "Agree to the request if the payment is high enough.",
+          "Refuse the request and report the incident to the police and operator.",
+          "Ignore the request and continue the journey.",
+          "Attempt to negotiate a different illegal activity."
+        ],
+        "answer": "Refuse the request and report the incident to the police and operator."
+      },
+      {
+        "id": 27,
+        "question": "What is the PHV driver's responsibility regarding the reporting of any traffic violations they witness?",
+        "options": [
+          "To ignore traffic violations to avoid getting involved.",
+          "To report serious traffic violations to the police when safe to do so.",
+          "To attempt to apprehend the traffic violator themselves.",
+          "To post videos of traffic violations on social media."
+        ],
+        "answer": "To report serious traffic violations to the police when safe to do so."
+      },
+      {
+        "id": 28,
+        "question": "How should a PHV driver handle a situation where they are involved in a dispute with another driver at a traffic light?",
+        "options": [
+          "Engage in a physical altercation to settle the dispute.",
+          "Avoid escalation, remain calm, and if necessary, report the incident.",
+          "Block the other driver's vehicle to prevent them from leaving.",
+          "Challenge the other driver to a race."
+        ],
+        "answer": "Avoid escalation, remain calm, and if necessary, report the incident."
+      },
+      {
+        "id": 29,
+        "question": "What is the PHV driver's responsibility regarding the maintenance of their vehicle's safety equipment?",
+        "options": [
+          "To ignore safety equipment maintenance to save money.",
+          "To ensure all safety equipment is in working order and regularly inspected.",
+          "To assume the operator is responsible for safety equipment maintenance.",
+          "To remove safety equipment to create more space in the vehicle."
+        ],
+        "answer": "To ensure all safety equipment is in working order and regularly inspected."
+      },
+      {
+        "id": 30,
+        "question": "How should a PHV driver handle a passenger who is attempting to bring an unauthorized pet into the vehicle?",
+        "options": [
+          "Allow the pet to enter if the passenger insists.",
+          "Politely explain the vehicle's pet policy and offer alternative solutions.",
+          "Demand extra payment for allowing the pet to enter.",
+          "Refuse service and leave the passenger stranded."
+        ],
+        "answer": "Politely explain the vehicle's pet policy and offer alternative solutions."
+      },
+      {
+        "id": 31,
+        "question": "What is the PHV driver's responsibility regarding the reporting of any suspicious activity they observe while on duty?",
+        "options": [
+          "To ignore suspicious activity to avoid getting involved.",
+          "To report suspicious activity to the police and operator when appropriate.",
+          "To attempt to investigate the suspicious activity themselves.",
+          "To inform other passengers of the suspicious activity."
+        ],
+        "answer": "To report suspicious activity to the police and operator when appropriate."
+      },
+      {
+        "id": 32,
+        "question": "How should a PHV driver handle a situation where they are experiencing technical difficulties with their ride-hailing app?",
+        "options": [
+          "Continue accepting bookings despite the technical difficulties.",
+          "Contact the app support team and inform passengers of potential delays.",
+          "Blame the app for any issues and refuse to take responsibility.",
+          "Attempt to fix the app themselves while driving."
+        ],
+        "answer": "Contact the app support team and inform passengers of potential delays."
+      },
+      {
+        "id": 33,
+        "question": "What is the PHV driver's responsibility regarding the maintenance of their vehicle's insurance documentation?",
+        "options": [
+          "To assume the operator is responsible for insurance documentation.",
+          "To ensure their vehicle insurance documentation is valid and readily available.",
+          "To only carry insurance documentation when requested by a passenger.",
+          "To dispose of insurance documentation after obtaining a license."
+        ],
+        "answer": "To ensure their vehicle insurance documentation is valid and readily available."
+      },
+      {
+        "id": 34,
+        "question": "How should a PHV driver handle a passenger who is making unwanted sexual advances?",
+        "options": [
+          "Ignore the advances to avoid confrontation.",
+          "Politely but firmly reject the advances and, if necessary, terminate the journey.",
+          "Reciprocate the advances if they are comfortable with it.",
+          "Report the advances to the operator but continue the journey."
+        ],
+        "answer": "Politely but firmly reject the advances and, if necessary, terminate the journey."
+      },
+      {
+        "id": 35,
+        "question": "What is the PHV driver's responsibility regarding the use of mobile phones while driving?",
+        "options": [
+          "To use their mobile phone freely for communication and entertainment.",
+          "To only use their mobile phone for emergencies.",
+          "To use a hands-free device for essential communication only.",
+          "To ignore calls and messages while driving."
+        ],
+        "answer": "To use a hands-free device for essential communication only."
+      },
+      {
+        "id": 36,
+        "question": "How should a PHV driver handle a passenger who is verbally abusive towards them?",
+        "options": [
+          "Respond with equal aggression to assert dominance.",
+          "Ignore the abuse and continue the journey.",
+          "Remain calm, de-escalate the situation, and if necessary, terminate the journey.",
+          "Threaten the passenger with legal action."
+        ],
+        "answer": "Remain calm, de-escalate the situation, and if necessary, terminate the journey."
+      },
+      {
+        "id": 37,
+        "question": "What is the PHV driver's responsibility regarding the reporting of any mechanical issues with their vehicle?",
+        "options": [
+          "To ignore minor mechanical issues to avoid downtime.",
+          "To report any mechanical issues to the operator and ensure they are addressed.",
+          "To attempt to fix mechanical issues themselves to save money.",
+          "To continue driving with mechanical issues if they are not severe."
+        ],
+        "answer": "To report any mechanical issues to the operator and ensure they are addressed."
+      },
+      {
+        "id": 38,
+        "question": "How should a PHV driver handle a passenger who is smoking or vaping in the vehicle?",
+        "options": [
+          "Allow smoking or vaping if the passenger insists.",
+          "Politely inform the passenger that smoking or vaping is not permitted in the vehicle.",
+          "Demand extra payment for allowing smoking or vaping.",
+          "Ignore the smoking or vaping to avoid confrontation."
+        ],
+        "answer": "Politely inform the passenger that smoking or vaping is not permitted in the vehicle."
+      },
+      {
+        "id": 39,
+        "question": "What is the PHV driver's responsibility regarding the use of navigation systems while driving?",
+        "options": [
+          "To rely solely on navigation systems and ignore road signs.",
+          "To use navigation systems as a guide but remain aware of their surroundings.",
+          "To avoid using navigation systems to improve their map-reading skills.",
+          "To only use navigation systems in unfamiliar areas."
+        ],
+        "answer": "To use navigation systems as a guide but remain aware of their surroundings."
+      },
+      {
+        "id": 40,
+        "question": "How should a PHV driver handle a passenger who is requesting to transport illegal or dangerous items?",
+        "options": [
+          "Agree to the request if the payment is high enough.",
+          "Refuse the request and report the incident to the police and operator.",
+          "Ignore the request and continue the journey.",
+          "Attempt to negotiate a different illegal or dangerous item."
+        ],
+        "answer": "Refuse the request and report the incident to the police and operator."
+      },
+      {
+        "id": 41,
+        "question": "What is the PHV driver's responsibility regarding the reporting of any accidents or incidents involving their vehicle?",
+        "options": [
+          "To only report accidents or incidents that result in serious injuries.",
+          "To report all accidents or incidents to the operator and police as required.",
+          "To attempt to resolve accidents or incidents themselves without involving authorities.",
+          "To downplay the severity of accidents or incidents to avoid penalties."
+        ],
+        "answer": "To report all accidents or incidents to the operator and police as required."
+      },
+      {
+        "id": 42,
+        "question": "How should a PHV driver handle a passenger who is making them feel uncomfortable with inappropriate personal questions or comments?",
+        "options": [
+          "Answer the questions or engage in conversation to be polite.",
+          "Politely but firmly set boundaries and redirect the conversation.",
+          "Ignore the passenger and focus solely on driving.",
+          "Threaten the passenger with legal action."
+        ],
+        "answer": "Politely but firmly set boundaries and redirect the conversation."
+      },
+      {
+        "id": 43,
+        "question": "What is the PHV driver's responsibility regarding the maintenance of their vehicle's cleanliness and hygiene standards, especially during a pandemic?",
+        "options": [
+          "To ignore cleanliness and hygiene standards to save time.",
+          "To follow government guidelines and implement appropriate cleaning and sanitization measures.",
+          "To assume passengers are responsible for their own hygiene.",
+          "To only clean the vehicle when requested by a passenger."
+        ],
+        "answer": "To follow government guidelines and implement appropriate cleaning and sanitization measures."
+      },
+      {
+        "id": 44,
+        "question": "How should a PHV driver handle a passenger who is refusing to wear a seatbelt?",
+        "options": [
+          "Allow the passenger to ride without a seatbelt if they insist.",
+          "Politely explain the legal requirement for seatbelt use and refuse to proceed until they comply.",
+          "Demand extra payment for allowing the passenger to ride without a seatbelt.",
+          "Ignore the passenger's refusal to wear a seatbelt."
+        ],
+        "answer": "Politely explain the legal requirement for seatbelt use and refuse to proceed until they comply."
+      },
+      {
+        "id": 45,
+        "question": "What is the PHV driver's responsibility regarding the transportation of passengers with disabilities?",
+        "options": [
+          "To refuse service to passengers with disabilities if they require assistance.",
+          "To provide reasonable assistance to passengers with disabilities.",
+          "To charge extra for transporting passengers with disabilities.",
+          "To assume passengers with disabilities are responsible for their own assistance."
+        ],
+        "answer": "To provide reasonable assistance to passengers with disabilities."
+      },
+      {
+        "id": 46,
+        "question": "How should a PHV driver handle a passenger who is experiencing a medical emergency during a journey?",
+        "options": [
+          "Ignore the emergency and continue the journey.",
+          "Attempt to diagnose the medical condition and provide treatment.",
+          "Pull over to a safe location and call for emergency medical assistance.",
+          "Inform other passengers of the emergency and ask for their help."
+        ],
+        "answer": "Pull over to a safe location and call for emergency medical assistance."
+      },
+      {
+        "id": 47,
+        "question": "What is the PHV driver's responsibility regarding the reporting of any lost or stolen property found in their vehicle?",
+        "options": [
+          "To keep the lost or stolen property for themselves.",
+          "To attempt to locate the owner of the lost or stolen property themselves.",
+          "To report the lost or stolen property to the operator and police as required.",
+          "To dispose of the lost or stolen property to avoid any involvement."
+        ],
+        "answer": "To report the lost or stolen property to the operator and police as required."
+      },
+      {
+        "id": 48,
+        "question": "How should a PHV driver handle a passenger who is making them feel unsafe with aggressive or threatening behavior?",
+        "options": [
+          "Respond with aggression to defend themselves.",
+          "Ignore the behavior and continue the journey.",
+          "Remain calm, de-escalate the situation, and if necessary, terminate the journey and report the incident.",
+          "Attempt to physically restrain the passenger."
+        ],
+        "answer": "Remain calm, de-escalate the situation, and if necessary, terminate the journey and report the incident."
+      },
+      {
+        "id": 49,
+        "question": "What is the PHV driver's responsibility regarding the maintenance of their vehicle's roadworthiness?",
+        "options": [
+          "To ignore vehicle maintenance to save money.",
+          "To ensure their vehicle is roadworthy and meets all safety standards.",
+          "To assume the operator is responsible for vehicle roadworthiness.",
+          "To only address vehicle maintenance issues when they become severe."
+        ],
+        "answer": "To ensure their vehicle is roadworthy and meets all safety standards."
+      },
+      {
+        "id": 50,
+        "question": "How should a PHV driver handle a passenger who is requesting a detour to a location that is significantly out of the way?",
+        "options": [
+          "Agree to the detour without question.",
+          "Refuse the detour and continue on the original route.",
+          "Discuss the detour with the passenger, considering safety, time constraints, and fare adjustments.",
+          "Demand extra payment for the detour before agreeing."
+        ],
+        "answer": "Discuss the detour with the passenger, considering safety, time constraints, and fare adjustments."
+      }
+    ]
+  }
+]

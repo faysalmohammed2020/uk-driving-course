@@ -1,0 +1,558 @@
+[
+  {
+    "id": 1400,
+    "title": "New Question Set 3 (from Knowledge Base)",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the primary purpose of the SERU assessment?",
+        "options": [
+          "To test driving skills in London traffic.",
+          "To assess knowledge of private hire regulations and best practices.",
+          "To evaluate English language proficiency.",
+          "To examine vehicle maintenance knowledge."
+        ],
+        "answer": "To assess knowledge of private hire regulations and best practices."
+      },
+      {
+        "id": 2,
+        "question": "Which organization is responsible for licensing and regulating private hire vehicles in London?",
+        "options": [
+          "The Driver and Vehicle Standards Agency (DVSA)",
+          "The Metropolitan Police Service",
+          "Transport for London (TfL)",
+          "The Department for Transport (DfT)"
+        ],
+        "answer": "Transport for London (TfL)"
+      },
+      {
+        "id": 3,
+        "question": "What type of insurance is mandatory for all private hire vehicles?",
+        "options": [
+          "Third-party only insurance",
+          "Fully comprehensive insurance",
+          "Hire and reward insurance",
+          "Public liability insurance"
+        ],
+        "answer": "Hire and reward insurance"
+      },
+      {
+        "id": 4,
+        "question": "What is the minimum age requirement to obtain a private hire driver's license in London?",
+        "options": [
+          "18 years old",
+          "21 years old",
+          "25 years old",
+          "30 years old"
+        ],
+        "answer": "21 years old"
+      },
+      {
+        "id": 5,
+        "question": "Which document is NOT required when applying for a private hire driver's license?",
+        "options": [
+          "A valid UK driving license",
+          "Proof of residency in London",
+          "A National Insurance number",
+          "A degree certificate"
+        ],
+        "answer": "A degree certificate"
+      },
+      {
+        "id": 6,
+        "question": "What does the topographical skills assessment evaluate?",
+        "options": [
+          "Knowledge of London's landmarks and routes",
+          "Ability to read and interpret maps",
+          "Skill in planning efficient routes",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 7,
+        "question": "What is the purpose of a DBS check for private hire drivers?",
+        "options": [
+          "To verify driving skills and experience",
+          "To assess knowledge of traffic regulations",
+          "To check for criminal records that may pose a risk to passengers",
+          "To confirm financial stability"
+        ],
+        "answer": "To check for criminal records that may pose a risk to passengers"
+      },
+      {
+        "id": 8,
+        "question": "Which of these is NOT a requirement for a licensed private hire vehicle?",
+        "options": [
+          "Must be less than 10 years old",
+          "Must have a valid MOT certificate",
+          "Must be wheelchair accessible",
+          "Must display license discs"
+        ],
+        "answer": "Must be wheelchair accessible"
+      },
+      {
+        "id": 9,
+        "question": "What is the maximum number of passengers a private hire vehicle can carry?",
+        "options": [
+          "4",
+          "6",
+          "8",
+          "This depends on the vehicle's designated capacity"
+        ],
+        "answer": "This depends on the vehicle's designated capacity"
+      },
+      {
+        "id": 10,
+        "question": "What is the correct procedure if a passenger leaves property in your vehicle?",
+        "options": [
+          "Keep the property for personal use",
+          "Dispose of the property appropriately",
+          "Contact the passenger to arrange return",
+          "Report the lost property to your operator"
+        ],
+        "answer": "Report the lost property to your operator"
+      },
+      {
+        "id": 11,
+        "question": "Which of these actions is considered unprofessional conduct for a private hire driver?",
+        "options": [
+          "Greeting passengers politely",
+          "Assisting with luggage",
+          "Driving safely and following traffic rules",
+          "Smoking in the vehicle"
+        ],
+        "answer": "Smoking in the vehicle"
+      },
+      {
+        "id": 12,
+        "question": "What should a driver do if they feel unwell while driving?",
+        "options": [
+          "Continue the journey to avoid inconvenience",
+          "Pull over safely and inform the operator",
+          "Ask the passenger for assistance",
+          "Ignore the feeling and hope it subsides"
+        ],
+        "answer": "Pull over safely and inform the operator"
+      },
+      {
+        "id": 13,
+        "question": "Are private hire drivers allowed to use bus lanes?",
+        "options": [
+          "Yes, at any time",
+          "Yes, but only when carrying passengers",
+          "No, never",
+          "Only with specific authorization"
+        ],
+        "answer": "No, never"
+      },
+      {
+        "id": 14,
+        "question": "What is the correct protocol when approaching a pedestrian crossing?",
+        "options": [
+          "Speed up to clear the crossing quickly",
+          "Slow down and be prepared to stop if necessary",
+          "Sound the horn to alert pedestrians",
+          "Proceed without caution"
+        ],
+        "answer": "Slow down and be prepared to stop if necessary"
+      },
+      {
+        "id": 15,
+        "question": "What should a driver do if they witness a road traffic accident?",
+        "options": [
+          "Stop and offer assistance if safe to do so",
+          "Report the accident to the authorities",
+          "Both A and B",
+          "Neither A nor B"
+        ],
+        "answer": "Both A and B"
+      },
+      {
+        "id": 16,
+        "question": "Which of these is a key principle of equality and diversity in private hire services?",
+        "options": [
+          "Treating all passengers with respect and courtesy",
+          "Providing services without discrimination",
+          "Meeting the needs of diverse passengers",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 17,
+        "question": "What is the purpose of safeguarding training for private hire drivers?",
+        "options": [
+          "To learn how to protect children and vulnerable adults from harm",
+          "To understand how to report concerns about passenger safety",
+          "To develop skills in identifying signs of abuse or exploitation",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 18,
+        "question": "What should a driver do if a passenger makes them feel uncomfortable or unsafe?",
+        "options": [
+          "End the journey as quickly and safely as possible",
+          "Report the incident to their operator and/or the police",
+          "Both A and B",
+          "Neither A nor B"
+        ],
+        "answer": "Both A and B"
+      },
+      {
+        "id": 19,
+        "question": "Which of these is NOT a type of assistance dog recognized in the UK?",
+        "options": [
+          "Guide dog for the blind",
+          "Hearing dog for the deaf",
+          "Medical alert dog",
+          "Emotional support dog"
+        ],
+        "answer": "Emotional support dog"
+      },
+      {
+        "id": 20,
+        "question": "What should a driver do if they are unsure about a particular regulation or procedure?",
+        "options": [
+          "Make an educated guess",
+          "Ask a fellow driver for advice",
+          "Consult the official TfL guidance or contact TfL directly",
+          "Ignore the uncertainty and proceed"
+        ],
+        "answer": "Consult the official TfL guidance or contact TfL directly"
+      },
+      {
+        "id": 21,
+        "question": "Which of the following is a crucial aspect of road safety for private hire drivers?",
+        "options": [
+          "Adhering to speed limits",
+          "Maintaining a safe following distance",
+          "Being aware of vulnerable road users",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 22,
+        "question": "What is the purpose of the Congestion Charge zone in London?",
+        "options": [
+          "To reduce traffic congestion in central London",
+          "To generate revenue for public transport improvements",
+          "To discourage unnecessary car journeys in the city centre",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 23,
+        "question": "Which of these is NOT a designated taxi rank where private hire vehicles are prohibited from picking up or dropping off passengers?",
+        "options": [
+          "A marked taxi rank at a train station",
+          "A designated taxi rank at an airport",
+          "A private driveway",
+          "A clearly signed taxi rank on a public street"
+        ],
+        "answer": "A private driveway"
+      },
+      {
+        "id": 24,
+        "question": "What is the correct procedure if a passenger becomes aggressive or abusive?",
+        "options": [
+          "Retaliate in a similar manner",
+          "Remain calm and try to de-escalate the situation",
+          "End the journey immediately and report the incident",
+          "B and C"
+        ],
+        "answer": "B and C"
+      },
+      {
+        "id": 25,
+        "question": "Which of these is a potential consequence of violating private hire regulations?",
+        "options": [
+          "A warning letter",
+          "A fine",
+          "License suspension or revocation",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 26,
+        "question": "What is the purpose of the 'Knowledge of London' requirement for black cab drivers?",
+        "options": [
+          "To ensure familiarity with London's streets and landmarks",
+          "To enable efficient navigation without relying on GPS",
+          "To provide a high standard of service to passengers",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 27,
+        "question": "Which of these is NOT a characteristic of ridesharing services?",
+        "options": [
+          "Passengers share a ride with others going in the same direction",
+          "Fares are typically lower than individual private hire bookings",
+          "Rides must be pre-booked through a licensed operator",
+          "Drivers can pick up passengers from taxi ranks"
+        ],
+        "answer": "Drivers can pick up passengers from taxi ranks"
+      },
+      {
+        "id": 28,
+        "question": "What is the primary role of a private hire operator?",
+        "options": [
+          "To connect passengers with licensed drivers",
+          "To ensure driver and vehicle compliance with regulations",
+          "To manage bookings and dispatch drivers",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 29,
+        "question": "Which of these is a benefit of using a licensed private hire service compared to an unlicensed one?",
+        "options": [
+          "Guaranteed safety and security for passengers",
+          "Vehicles are regularly inspected and maintained",
+          "Drivers are vetted and background-checked",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 30,
+        "question": "What is the purpose of the PHV license discs displayed on private hire vehicles?",
+        "options": [
+          "To indicate that the vehicle is licensed and insured for private hire work",
+          "To help passengers identify legitimate private hire vehicles",
+          "To deter illegal private hire operations",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 31,
+        "question": "What is the correct procedure if a passenger refuses to pay the fare?",
+        "options": [
+          "Force the passenger to pay",
+          "Confiscate the passenger's belongings",
+          "Contact the operator and/or the police",
+          "Let the passenger go without paying"
+        ],
+        "answer": "Contact the operator and/or the police"
+      },
+      {
+        "id": 32,
+        "question": "Which of these is NOT a factor that can affect a passenger's fare?",
+        "options": [
+          "Distance travelled",
+          "Time of day",
+          "Traffic conditions",
+          "Driver's personal preference"
+        ],
+        "answer": "Driver's personal preference"
+      },
+      {
+        "id": 33,
+        "question": "What is the purpose of CCTV cameras in private hire vehicles?",
+        "options": [
+          "To enhance passenger safety and security",
+          "To deter crime and anti-social behaviour",
+          "To provide evidence in case of disputes or incidents",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 34,
+        "question": "Which of these is a potential risk associated with using unlicensed private hire services?",
+        "options": [
+          "Passengers may be uninsured in case of an accident",
+          "Drivers may not be vetted or background-checked",
+          "Vehicles may not be roadworthy or safe",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 35,
+        "question": "What is the purpose of the 'Duty of Care' principle for private hire drivers?",
+        "options": [
+          "To ensure the safety and well-being of passengers",
+          "To provide a professional and courteous service",
+          "To adhere to traffic laws and regulations",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 36,
+        "question": "Which of these is NOT a required document for a vehicle inspection at a TfL inspection center?",
+        "options": [
+          "Vehicle Registration Document (V5C)",
+          "Valid insurance certificate",
+          "A receipt for a recent car wash",
+          "MOT certificate"
+        ],
+        "answer": "A receipt for a recent car wash"
+      },
+      {
+        "id": 37,
+        "question": "What is the correct action if a passenger attempts to pay with a fraudulent credit card?",
+        "options": [
+          "Accept the payment and hope it clears",
+          "Refuse the payment and request an alternative method",
+          "Confiscate the card and report it to the police",
+          "Continue the journey and ignore the issue"
+        ],
+        "answer": "Refuse the payment and request an alternative method"
+      },
+      {
+        "id": 38,
+        "question": "What is the primary responsibility of a private hire driver regarding child safety?",
+        "options": [
+          "Ensuring children are properly restrained in the vehicle",
+          "Providing child car seats for all passengers",
+          "Verifying the age of all child passengers",
+          "Contacting social services for all child passengers"
+        ],
+        "answer": "Ensuring children are properly restrained in the vehicle"
+      },
+      {
+        "id": 39,
+        "question": "Which of these is a key aspect of maintaining customer confidentiality?",
+        "options": [
+          "Sharing passenger information with friends and family",
+          "Discussing passenger journeys on social media",
+          "Protecting passenger data and privacy",
+          "Selling passenger contact details to advertisers"
+        ],
+        "answer": "Protecting passenger data and privacy"
+      },
+      {
+        "id": 40,
+        "question": "What is the correct procedure if a passenger requests a stop in a prohibited area?",
+        "options": [
+          "Comply with the request to avoid confrontation",
+          "Explain the restrictions and offer an alternative location",
+          "Refuse the request and end the journey immediately",
+          "Ignore the request and continue to the original destination"
+        ],
+        "answer": "Explain the restrictions and offer an alternative location"
+      },
+      {
+        "id": 41,
+        "question": "What is the purpose of the London Low Emission Zone (LEZ)?",
+        "options": [
+          "To reduce noise pollution in central London",
+          "To improve air quality by discouraging older, more polluting vehicles",
+          "To promote the use of electric vehicles in the city",
+          "To generate revenue for road maintenance"
+        ],
+        "answer": "To improve air quality by discouraging older, more polluting vehicles"
+      },
+      {
+        "id": 42,
+        "question": "Which of these is a potential consequence of driving without a valid private hire license?",
+        "options": [
+          "A warning from TfL",
+          "A small fine",
+          "Vehicle seizure and prosecution",
+          "Community service"
+        ],
+        "answer": "Vehicle seizure and prosecution"
+      },
+      {
+        "id": 43,
+        "question": "What should a driver do if they suspect a passenger is involved in illegal activity?",
+        "options": [
+          "Interrogate the passenger about their activities",
+          "Report the suspicion to the police",
+          "Ignore the suspicion and continue the journey",
+          "Confront the passenger and demand an explanation"
+        ],
+        "answer": "Report the suspicion to the police"
+      },
+      {
+        "id": 44,
+        "question": "What is the purpose of the 'right to refuse' a booking for a private hire driver?",
+        "options": [
+          "To allow drivers to discriminate against certain passengers",
+          "To enable drivers to refuse bookings based on personal preferences",
+          "To protect drivers from potentially dangerous or illegal situations",
+          "To allow drivers to prioritize more profitable journeys"
+        ],
+        "answer": "To protect drivers from potentially dangerous or illegal situations"
+      },
+      {
+        "id": 45,
+        "question": "What is the correct procedure for handling a passenger complaint?",
+        "options": [
+          "Ignore the complaint and hope it goes away",
+          "Argue with the passenger to defend your actions",
+          "Listen to the complaint, apologize if necessary, and report it to your operator",
+          "Tell the passenger to contact TfL directly"
+        ],
+        "answer": "Listen to the complaint, apologize if necessary, and report it to your operator"
+      },
+      {
+        "id": 46,
+        "question": "Which of these is a key aspect of providing accessible services for passengers with disabilities?",
+        "options": [
+          "Offering assistance with boarding and alighting",
+          "Providing clear and concise communication",
+          "Being patient and understanding of individual needs",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 47,
+        "question": "What is the purpose of the 'Code of Conduct' for private hire drivers?",
+        "options": [
+          "To establish professional standards and expectations",
+          "To promote safe and responsible driving practices",
+          "To ensure fair and equitable treatment of passengers",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 48,
+        "question": "What is the correct procedure if a passenger becomes ill during the journey?",
+        "options": [
+          "Continue the journey and ignore the passenger's condition",
+          "Pull over safely and offer assistance, calling emergency services if necessary",
+          "Ask the passenger to find another form of transport",
+          "Give the passenger medication from your first aid kit"
+        ],
+        "answer": "Pull over safely and offer assistance, calling emergency services if necessary"
+      },
+      {
+        "id": 49,
+        "question": "What is the purpose of the 'Driver Handbook' provided by TfL?",
+        "options": [
+          "To provide guidance on private hire regulations and procedures",
+          "To offer tips on maximizing earnings as a driver",
+          "To promote specific private hire operators",
+          "To advertise vehicle maintenance services"
+        ],
+        "answer": "To provide guidance on private hire regulations and procedures"
+      },
+      {
+        "id": 50,
+        "question": "Which of these is a key aspect of maintaining a professional image as a private hire driver?",
+        "options": [
+          "Wearing clean and appropriate attire",
+          "Maintaining a clean and well-maintained vehicle",
+          "Providing courteous and respectful service",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      }
+    ]
+  }
+]

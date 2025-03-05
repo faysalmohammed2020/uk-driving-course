@@ -378,137 +378,125 @@
         "id": 37,
         "question": "What information has the section on Being Aware of Equality and Disability covered?",
         "options": [
-            "It has covered how a disabled driver can obtain a PHV licence.",
-            "It has covered the regulations for operators when hiring a disabled PHV driver.",
-            "It has covered PHV driver responsibilities and how to provide the best service to all passengers."
+          "It has covered how a disabled driver can obtain a PHV licence.",
+          "It has covered the regulations for operators when hiring a disabled PHV driver.",
+          "It has covered PHV driver responsibilities and how to provide the best service to all passengers."
         ],
         "answer": "It has covered PHV driver responsibilities and how to provide the best service to all passengers."
-    },
-    {
+      },
+      {
         "id": 38,
         "question": "What information has the section about Driver Behaviour covered?",
         "options": [
-            "How TfL expects drivers to behave towards passengers and other road users",
-            "How TfL expects drivers to behave during Topographical assessments",
-            "How TfL expects operators to manage the drivers who work for them"
+          "How TfL expects drivers to behave towards passengers and other road users",
+          "How TfL expects drivers to behave during Topographical assessments",
+          "How TfL expects operators to manage the drivers who work for them"
         ],
         "answer": "How TfL expects drivers to behave towards passengers and other road users"
-    },
-    {
+      },
+      {
         "id": 39,
         "question": "If a road marking says Taxis?",
         "options": [
-            "You are allowed only to drop off and pick up passengers",
-            "A PHV is not a taxi you are not allowed to drop off and pick up passengers",
-            "PHV's have the same rights as taxis you are allowed to drop off and pick up passengers"
+          "You are allowed only to drop off and pick up passengers",
+          "A PHV is not a taxi you are not allowed to drop off and pick up passengers",
+          "PHV's have the same rights as taxis you are allowed to drop off and pick up passengers"
         ],
         "answer": "A PHV is not a taxi you are not allowed to drop off and pick up passengers"
-    },
-    {
+      },
+      {
         "id": 40,
         "question": "Some parts of red routes are marked for parking. Parking bays can be identified by a 'P' on the signs that accompany them. The signs will tell you when parking is allowed, how long vehicles can be parked and how soon a vehicle can stop again in the same section of road. Which one of the following statements is correct?",
         "options": [
-            "There are no parking bays along the red routes.",
-            "Parking bays can be identified by a 'P' on the signs that accompany them.",
-            "Parking bays can be identified the cost of parking"
+          "There are no parking bays along the red routes.",
+          "Parking bays can be identified by a 'P' on the signs that accompany them.",
+          "Parking bays can be identified the cost of parking"
         ],
         "answer": "Parking bays can be identified by a 'P' on the signs that accompany them."
-    },
-    {
+      },
+      {
         "id": 41,
         "question": "What can you expect when someone has taken drugs or alcohol?",
         "options": [
-            "They will behave normal",
-            "They will be aggressive",
-            "It can make it difficult for them to think clearly or communicate properly, and it can also affect both. In certain cases, they might act violently."
+          "They will behave normal",
+          "They will be aggressive",
+          "It can make it difficult for them to think clearly or communicate properly, and it can also affect both. In certain cases, they might act violently."
         ],
         "answer": "It can make it difficult for them to think clearly or communicate properly, and it can also affect both. In certain cases, they might act violently."
-    },
-    {
+      },
+      {
         "id": 42,
         "question": "If the passenger cannot communicate clearly to confirm their destination, or is unable to walk because of drink or drugs",
         "options": [
-            "You must take them free of charge to the nearest hospital",
-            "You have the right to refuse to take them in your vehicle",
-            "You must report it to the police"
+          "You must take them free of charge to the nearest hospital",
+          "You have the right to refuse to take them in your vehicle",
+          "You must report it to the police"
         ],
         "answer": "You have the right to refuse to take them in your vehicle"
-    },
-    {
+      },
+      {
         "id": 43,
         "question": "If necessary, find somewhere safe to stop the vehicle, turn off the engine, take the keys then get out of the vehicle. If the passenger is planning to hurt you, they will probably get out of the vehicle too. This gives you the opportunity to quickly get back in and lock the doors then drive away if it is safe to do so. Which one of the following statements is correct?",
         "options": [
-            "If necessary, then don't find somewhere safe to stop the vehicle, turn off the engine, take the keys then get out of the vehicle.",
-            "If necessary, choose a secure location to stop the car, turn off the ignition, take the keys, and exit the vehicle.",
-            "If necessary, attempt to not find a secure location to stop the car, turn off the ignition, grab the keys, and exit."
+          "If necessary, then don't find somewhere safe to stop the vehicle, turn off the engine, take the keys then get out of the vehicle.",
+          "If necessary, choose a secure location to stop the car, turn off the ignition, take the keys, and exit the vehicle.",
+          "If necessary, attempt to not find a secure location to stop the car, turn off the ignition, grab the keys, and exit."
         ],
         "answer": "If necessary, choose a secure location to stop the car, turn off the ignition, take the keys, and exit the vehicle."
-    },
-    {
+      },
+      {
         "id": 44,
         "question": "If there are waiting or parking restrictions, what can you do?",
         "options": [
-            "You can stop for up to 5 minutes",
-            "You can stop for no longer than is needed for the passenger to get in or out of the vehicle",
-            "You can stop for up to 2 minutes"
+          "You can stop for up to 5 minutes",
+          "You can stop for no longer than is needed for the passenger to get in or out of the vehicle",
+          "You can stop for up to 2 minutes"
         ],
         "answer": "You can stop for no longer than is needed for the passenger to get in or out of the vehicle"
-    },
-    {
+      },
+      {
         "id": 45,
         "question": "If the passenger cannot communicate clearly to confirm their destination, or is unable to walk because of drink or drugs, you have the right to refuse to take them in your vehicle. You can do this because you cannot be sure that they have given you the correct address or that they will be able to get out of your vehicle without help. Which one of the following statements is correct?",
         "options": [
-            "You have no authority to turn away passengers.",
-            "You can do this since you can't be certain that they gave you the right address or that they will be able to exit your car without assistance.",
-            "You cannot do this because you cannot be sure that they have given you the correct address or that they will be able to get out of your vehicle without help."
+          "You have no authority to turn away passengers.",
+          "You can do this since you can't be certain that they gave you the right address or that they will be able to exit your car without assistance.",
+          "You cannot do this because you cannot be sure that they have given you the correct address or that they will be able to get out of your vehicle without help."
         ],
         "answer": "You can do this since you can't be certain that they gave you the right address or that they will be able to exit your car without assistance."
-    },
-    {
+      },
+      {
         "id": 46,
         "question": "Once a PHV has been licensed, the registered ______ is given a vehicle licence and licence discs will be fixed to the front and rear ______ of the vehicle. The registered keeper also receives a leaflet which briefly describes the ______ of the licence.",
-        "options": [
-            "Keeper, Windscreens, Conditions",
-            "Knowledge, Doors, Car"
-        ],
+        "options": ["Keeper, Windscreens, Conditions", "Knowledge, Doors, Car"],
         "answer": "Keeper, Windscreens, Conditions"
-    },
-    {
+      },
+      {
         "id": 47,
         "question": "If your passenger ______ to change the destination of their journey, asks you to pick up extra ______, or has extra luggage, you should tell your operator as soon as it is safe for you to do so. Your operator will then be able to update the fare or estimated fare for the ______.",
         "options": [
-            "Decides, Passengers, Journey",
-            "Licence, Charges, Passenger"
+          "Decides, Passengers, Journey",
+          "Licence, Charges, Passenger"
         ],
         "answer": "Decides, Passengers, Journey"
-    },
-    {
+      },
+      {
         "id": 48,
         "question": "When carrying a violent or aggressive passenger you should have a pre-planned way to excuse ______ from a difficult situation, for example, you can’t help them but ______ someone at the address you are ______ them to can sort the problem out for them.",
-        "options": [
-            "Yourself, It, Taking",
-            "Yourselves, Took, Perhaps"
-        ],
+        "options": ["Yourself, It, Taking", "Yourselves, Took, Perhaps"],
         "answer": "Yourself, It, Taking"
-    },
-    {
+      },
+      {
         "id": 49,
         "question": "Tiredness can have a ______ effect on a driver as drinking alcohol and can result in ______ or serious injury. Plan your day to include regular breaks from driving and do not begin a ______ journey if you are already tired.",
-        "options": [
-            "Similar, Death, Long",
-            "Same, Kill, Journey"
-        ],
+        "options": ["Similar, Death, Long", "Same, Kill, Journey"],
         "answer": "Similar, Death, Long"
-    },
-    {
+      },
+      {
         "id": 50,
         "question": "All ridesharing ______ must be booked with a licensed London PHV operator. As a London PHV ______, you can only carry out ridesharing booking that you ______ received from a licensed London PHV operator.",
-        "options": [
-            "Journeys, Driver, Have",
-            "Trip, Taxi Driver, Has"
-        ],
+        "options": ["Journeys, Driver, Have", "Trip, Taxi Driver, Has"],
         "answer": "Journeys, Driver, Have"
-    }
+      }
     ]
   }
 ]

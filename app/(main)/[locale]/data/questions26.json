@@ -1,0 +1,558 @@
+[
+  {
+    "id": 2600,
+    "title": "PHV Driver: Real-World Scenarios and Compliance",
+    "questions": [
+      {
+        "id": 1,
+        "question": "You arrive at a pick-up location and find a group of intoxicated individuals arguing loudly. What should you do?",
+        "options": [
+          "Attempt to calm them down and proceed with the booking.",
+          "Assess the situation, and if it feels unsafe, cancel the booking and report it to your operator.",
+          "Ignore the argument and ask which one is the booked passenger.",
+          "Tell them to stop arguing or you will call the police."
+        ],
+        "answer": "Assess the situation, and if it feels unsafe, cancel the booking and report it to your operator."
+      },
+      {
+        "id": 2,
+        "question": "A passenger asks you to drop them off in a bus lane to avoid traffic. What is the correct course of action?",
+        "options": [
+          "Comply with their request to avoid an argument.",
+          "Explain that you cannot stop in a bus lane and offer an alternative drop-off point.",
+          "Drop them off quickly and leave.",
+          "Tell them to get out and walk."
+        ],
+        "answer": "Explain that you cannot stop in a bus lane and offer an alternative drop-off point."
+      },
+      {
+        "id": 3,
+        "question": "You find a passenger's medication in your vehicle. How should you handle this?",
+        "options": [
+          "Keep it in case they contact you later.",
+          "Hand it in to your operator or the nearest lost property office, and inform your operator.",
+          "Dispose of it, as it's not your responsibility.",
+          "Give it to the next passenger."
+        ],
+        "answer": "Hand it in to your operator or the nearest lost property office, and inform your operator."
+      },
+      {
+        "id": 4,
+        "question": "A passenger is visibly upset and discloses they are experiencing a personal crisis. What is your role as a PHV driver?",
+        "options": [
+          "Offer personal advice based on your own experiences.",
+          "Listen empathetically, offer reassurance, and suggest they seek professional help if needed.",
+          "Ignore their distress and focus on completing the journey.",
+          "Tell them to calm down."
+        ],
+        "answer": "Listen empathetically, offer reassurance, and suggest they seek professional help if needed."
+      },
+      {
+        "id": 5,
+        "question": "You are asked to transport a large, unsecured item that could pose a safety risk. What should you do?",
+        "options": [
+          "Agree, as long as the passenger promises to hold it securely.",
+          "Refuse and explain the safety risks, suggesting alternative transportation.",
+          "Transport it, but drive very slowly.",
+          "Tell them to leave it behind."
+        ],
+        "answer": "Refuse and explain the safety risks, suggesting alternative transportation."
+      },
+      {
+        "id": 6,
+        "question": "A passenger attempts to distract you while you are driving. What should you do?",
+        "options": [
+          "Engage in conversation to keep them entertained.",
+          "Politely ask them to refrain from distracting you and focus on driving safely.",
+          "Ignore them and continue driving.",
+          "Tell them to be quiet."
+        ],
+        "answer": "Politely ask them to refrain from distracting you and focus on driving safely."
+      },
+      {
+        "id": 7,
+        "question": "You suspect a passenger is attempting to use your vehicle for illegal activities. What is your responsibility?",
+        "options": [
+          "Confront them directly about your suspicions.",
+          "Refuse to continue the journey and report your concerns to the police and your operator.",
+          "Ignore your suspicions and complete the journey.",
+          "Tell them to stop or you will call the police."
+        ],
+        "answer": "Refuse to continue the journey and report your concerns to the police and your operator."
+      },
+      {
+        "id": 8,
+        "question": "A passenger with a guide dog is refused entry to a restaurant you are passing. What should you do?",
+        "options": [
+          "Ignore it, as it's not your concern.",
+          "Offer to provide information about disability rights and suggest contacting relevant authorities.",
+          "Tell the passenger to ignore it.",
+          "Join in with the argument."
+        ],
+        "answer": "Offer to provide information about disability rights and suggest contacting relevant authorities."
+      },
+      {
+        "id": 9,
+        "question": "You find a passenger's passport in your vehicle. How should you handle this?",
+        "options": [
+          "Keep it safe until they contact you.",
+          "Hand it in to your operator or the nearest police station immediately, and inform your operator.",
+          "Dispose of it, as it's not your responsibility.",
+          "Give it to the next passenger."
+        ],
+        "answer": "Hand it in to your operator or the nearest police station immediately, and inform your operator."
+      },
+      {
+        "id": 10,
+        "question": "A passenger becomes verbally abusive and makes discriminatory remarks. What should you do?",
+        "options": [
+          "Respond with equal aggression.",
+          "Politely but firmly ask them to stop, and if necessary, terminate the journey at a safe location.",
+          "Ignore the remarks and continue the journey.",
+          "Tell them to be quiet."
+        ],
+        "answer": "Politely but firmly ask them to stop, and if necessary, terminate the journey at a safe location."
+      },
+      {
+        "id": 11,
+        "question": "What is the PHV driver's responsibility when they change their vehicle?",
+        "options": [
+          "Inform the operator only",
+          "Inform TfL within 21 days",
+          "Ignore it unless asked",
+          "Inform the passenger"
+        ],
+        "answer": "Inform TfL within 21 days"
+      },
+      {
+        "id": 12,
+        "question": "A passenger wishes to pay with a cheque, but you don't accept them. What should you do?",
+        "options": [
+          "Accept the cheque and hope it clears",
+          "Tell them to find a bank",
+          "Politely explain you only accept other payment methods, and suggest alternatives",
+          "Insist they find another way to pay."
+        ],
+        "answer": "Politely explain you only accept other payment methods, and suggest alternatives"
+      },
+      {
+        "id": 13,
+        "question": "You are asked to transport a passenger with a bird in a cage, what should you do?",
+        "options": [
+          "Refuse the fare",
+          "Confirm the cage is secure, and there is no risk to driver or passengers",
+          "Agree, but charge extra",
+          "Tell them to leave it behind"
+        ],
+        "answer": "Confirm the cage is secure, and there is no risk to driver or passengers"
+      },
+      {
+        "id": 14,
+        "question": "You are driving through a residential area late at night, and the passenger asks you to sound your horn loudly, what should you do?",
+        "options": [
+          "Sound your horn loudly.",
+          "Politely explain that you cannot sound your horn in a residential area late at night, and find an alternative way to notify the person they are meeting.",
+          "Tell them to do it themselves.",
+          "Ignore their request and continue driving."
+        ],
+        "answer": "Politely explain that you cannot sound your horn in a residential area late at night, and find an alternative way to notify the person they are meeting."
+      },
+      {
+        "id": 15,
+        "question": "A passenger asks you to wait in a double yellow line zone while they run a quick errand. What should you do?",
+        "options": [
+          "Agree, as long as it's only a few minutes.",
+          "Politely explain that you cannot wait in a double yellow line zone and suggest an alternative drop-off/pick-up point.",
+          "Wait, but keep the engine running to move quickly if necessary.",
+          "Ignore the request and drive off."
+        ],
+        "answer": "Politely explain that you cannot wait in a double yellow line zone and suggest an alternative drop-off/pick-up point."
+      },
+      {
+        "id": 16,
+        "question": "You suspect a passenger is carrying a weapon. What is your primary responsibility?",
+        "options": [
+          "Search the passenger's belongings.",
+          "Refuse to continue the journey and report your suspicions to the police.",
+          "Ignore your suspicions and continue the journey.",
+          "Ask the passenger directly what they are carrying."
+        ],
+        "answer": "Refuse to continue the journey and report your suspicions to the police."
+      },
+      {
+        "id": 17,
+        "question": "A passenger becomes unwell during the journey and requests to stop urgently. What should you do?",
+        "options": [
+          "Continue to their destination, as they might be exaggerating.",
+          "Stop at the nearest safe location and offer assistance, calling emergency services if necessary.",
+          "Ask them to wait until you reach a service station.",
+          "Tell them to get out and find help themselves."
+        ],
+        "answer": "Stop at the nearest safe location and offer assistance, calling emergency services if necessary."
+      },
+      {
+        "id": 18,
+        "question": "You are involved in a minor traffic accident. What is the first thing you should do?",
+        "options": [
+          "Exchange insurance details and leave the scene.",
+          "Ensure everyone is safe and call the police if necessary, also exchange details with the other driver.",
+          "Apologize and offer to pay for any damage.",
+          "Drive away quickly to avoid being blamed."
+        ],
+        "answer": "Ensure everyone is safe and call the police if necessary, also exchange details with the other driver."
+      },
+      {
+        "id": 19,
+        "question": "A passenger requests a detour to a location that is significantly off your planned route. How should you handle this?",
+        "options": [
+          "Agree without discussing the fare or time implications.",
+          "Discuss the potential impact on the fare and journey time, and get the passenger's agreement before proceeding.",
+          "Refuse the detour and insist on sticking to the original route.",
+          "Agree, but charge them double the fare."
+        ],
+        "answer": "Discuss the potential impact on the fare and journey time, and get the passenger's agreement before proceeding."
+      },
+      {
+        "id": 20,
+        "question": "You are asked to transport a package without knowing its contents. What should you do?",
+        "options": [
+          "Agree, as long as the package is sealed.",
+          "Ask the passenger about the contents and refuse if you have any concerns.",
+          "Agree, but open the package to check its contents.",
+          "Refuse to transport the package."
+        ],
+        "answer": "Ask the passenger about the contents and refuse if you have any concerns."
+      },
+      {
+        "id": 21,
+        "question": "A passenger leaves a child's toy in your vehicle. What should you do?",
+        "options": [
+          "Keep the toy for your own children.",
+          "Hand it in to your operator or the nearest lost property office.",
+          "Throw it away.",
+          "Leave it in the vehicle for the next passenger."
+        ],
+        "answer": "Hand it in to your operator or the nearest lost property office."
+      },
+      {
+        "id": 22,
+        "question": "You witness a passenger behaving in a way that suggests they are intending to harm themselves. What should you do?",
+        "options": [
+          "Ignore it, as it's not your concern.",
+          "Stop at a safe location, offer support, and call emergency services if necessary.",
+          "Tell them to stop and continue the journey.",
+          "Drop them off at the next available location."
+        ],
+        "answer": "Stop at a safe location, offer support, and call emergency services if necessary."
+      },
+      {
+        "id": 23,
+        "question": "A passenger is visibly intoxicated and becomes aggressive. How should you respond?",
+        "options": [
+          "Engage in an argument to assert control.",
+          "Stop at a safe location, ask them to leave the vehicle, and call the police if necessary.",
+          "Continue the journey, hoping they will calm down.",
+          "Drive faster to reach their destination quickly."
+        ],
+        "answer": "Stop at a safe location, ask them to leave the vehicle, and call the police if necessary."
+      },
+      {
+        "id": 24,
+        "question": "You are asked to transport a passenger to a location that is known for frequent criminal activity. What should you do?",
+        "options": [
+          "Agree without hesitation.",
+          "Refuse the fare and explain your concerns for safety.",
+          "Agree, but charge a higher fare.",
+          "Ask the passenger why they are going there."
+        ],
+        "answer": "Refuse the fare and explain your concerns for safety."
+      },
+      {
+        "id": 25,
+        "question": "A passenger claims they have left their wallet at home and asks to pay later. What should you do?",
+        "options": [
+          "Trust them and agree to wait for payment.",
+          "Politely explain that you require payment before or at the end of the journey, and suggest they find an alternative payment method.",
+          "Drive them home to get their wallet.",
+          "Tell them to leave the vehicle."
+        ],
+        "answer": "Politely explain that you require payment before or at the end of the journey, and suggest they find an alternative payment method."
+      },
+      {
+        "id": 26,
+        "question": "You notice a potential fire hazard in your vehicle. What should you do?",
+        "options": [
+          "Ignore it, hoping it won't cause a problem.",
+          "Stop at a safe location, investigate, and address the issue immediately.",
+          "Continue the journey, but drive carefully.",
+          "Ask the passenger to deal with it."
+        ],
+        "answer": "Stop at a safe location, investigate, and address the issue immediately."
+      },
+      {
+        "id": 27,
+        "question": "A passenger requests that you break a traffic law, such as speeding or running a red light. What should you do?",
+        "options": [
+          "Agree, if they promise to pay any fines.",
+          "Refuse and explain that you must adhere to traffic laws for everyone's safety.",
+          "Agree, but only if they are in a real hurry.",
+          "Pretend you didn't hear them."
+        ],
+        "answer": "Refuse and explain that you must adhere to traffic laws for everyone's safety."
+      },
+      {
+        "id": 28,
+        "question": "You suspect a passenger is engaging in illegal activity during the journey. What should you do?",
+        "options": [
+          "Ignore it, as it's not your concern.",
+          "Stop at a safe location, ask them to leave the vehicle, and report your suspicions to the police.",
+          "Confront the passenger directly.",
+          "Continue the journey and report them later."
+        ],
+        "answer": "Stop at a safe location, ask them to leave the vehicle, and report your suspicions to the police."
+      },
+      {
+        "id": 29,
+        "question": "A passenger with a service animal is refused entry to a public place you drive past. What should you do?",
+        "options": [
+          "Ignore it, as it's not your concern.",
+          "Offer to provide information about disability rights and suggest contacting relevant authorities or organizations.",
+          "Tell the passenger to ignore it.",
+          "Join in with the argument."
+        ],
+        "answer": "Offer to provide information about disability rights and suggest contacting relevant authorities or organizations."
+      },
+      {
+        "id": 30,
+        "question": "You find a wallet containing a large amount of cash and identification. What is the correct procedure?",
+        "options": [
+          "Keep the cash and discard the identification.",
+          "Hand it in to your operator or the nearest police station immediately.",
+          "Try to find the owner yourself using the identification.",
+          "Leave it in the vehicle for the next passenger."
+        ],
+        "answer": "Hand it in to your operator or the nearest police station immediately."
+      },
+      {
+        "id": 31,
+        "question": "A passenger becomes increasingly agitated and threatens to harm you. What should you do?",
+        "options": [
+          "Attempt to physically restrain the passenger.",
+          "Stop at a safe location, exit the vehicle, and call the police immediately.",
+          "Continue driving and try to calm them down.",
+          "Threaten them back."
+        ],
+        "answer": "Stop at a safe location, exit the vehicle, and call the police immediately."
+      },
+      {
+        "id": 32,
+        "question": "You are asked to transport a passenger who is clearly under the influence of drugs. What should you do?",
+        "options": [
+          "Agree, as long as they are not aggressive.",
+          "Assess their condition and refuse if you believe they pose a risk to themselves or others, and offer to contact emergency services if needed.",
+          "Agree, but charge them extra.",
+          "Tell them to sober up first."
+        ],
+        "answer": "Assess their condition and refuse if you believe they pose a risk to themselves or others, and offer to contact emergency services if needed."
+      },
+      {
+        "id": 33,
+        "question": "A passenger leaves a valuable electronic device in your vehicle. How do you ensure its safe return?",
+        "options": [
+          "Keep it until the passenger contacts you.",
+          "Hand it in to your operator or the nearest lost property office, and inform your operator immediately.",
+          "Sell it and keep the money.",
+          "Give it to the next passenger."
+        ],
+        "answer": "Hand it in to your operator or the nearest lost property office, and inform your operator immediately."
+      },
+      {
+        "id": 34,
+        "question": "You witness a potential hate crime occurring outside your vehicle. What should you do?",
+        "options": [
+          "Ignore it, as it's not your concern.",
+          "Report the incident to the police immediately, providing any relevant details.",
+          "Attempt to intervene physically.",
+          "Tell the victim to ignore it."
+        ],
+        "answer": "Report the incident to the police immediately, providing any relevant details."
+      },
+      {
+        "id": 35,
+        "question": "A passenger requests that you take a route that involves driving through a known high-risk flood area during a heavy storm. What should you do?",
+        "options": [
+          "Agree, as long as they are willing to take the risk.",
+          "Refuse and explain the safety risks, suggesting an alternative route or waiting until the storm subsides.",
+          "Agree, but drive very fast.",
+          "Tell them it's their problem."
+        ],
+        "answer": "Refuse and explain the safety risks, suggesting an alternative route or waiting until the storm subsides."
+      },
+      {
+        "id": 36,
+        "question": "You are asked to transport a passenger who is visibly distressed and mentions they are fleeing domestic abuse. What is your primary responsibility?",
+        "options": [
+          "Advise them to contact the police later.",
+          "Offer to drive them to a safe location, such as a women's shelter or police station, and provide information on support services.",
+          "Drive to their destination as quickly as possible.",
+          "Ignore the situation, as it's not your concern."
+        ],
+        "answer": "Offer to drive them to a safe location, such as a women's shelter or police station, and provide information on support services."
+      },
+      {
+        "id": 37,
+        "question": "A passenger attempts to pay with a credit card that is declined. What should you do?",
+        "options": [
+          "Insist they find another way to pay immediately.",
+          "Politely explain the situation and request an alternative payment method, offering to wait a reasonable time.",
+          "Tell them to leave the vehicle without paying.",
+          "Tell them to complain to their bank."
+        ],
+        "answer": "Politely explain the situation and request an alternative payment method, offering to wait a reasonable time."
+      },
+      {
+        "id": 38,
+        "question": "You notice a potential gas leak in your vehicle. What should you do?",
+        "options": [
+          "Ignore it, hoping it will dissipate.",
+          "Stop at a safe location, evacuate the vehicle, and call emergency services immediately.",
+          "Continue driving, but open the windows.",
+          "Ask the passenger if they can smell gas."
+        ],
+        "answer": "Stop at a safe location, evacuate the vehicle, and call emergency services immediately."
+      },
+      {
+        "id": 39,
+        "question": "A passenger requests that you drive through a red light to avoid being late. What should you do?",
+        "options": [
+          "Agree, if they promise to pay any fines.",
+          "Refuse and explain that you must adhere to traffic laws for everyone's safety.",
+          "Agree, but only if they are in a real hurry.",
+          "Tell them to get out and walk."
+        ],
+        "answer": "Refuse and explain that you must adhere to traffic laws for everyone's safety."
+      },
+      {
+        "id": 40,
+        "question": "You suspect a passenger is involved in a potential act of terrorism. What should you do?",
+        "options": [
+          "Ignore it, as it's not your concern.",
+          "Report your concerns to the police immediately, providing any relevant details.",
+          "Confront the passenger directly.",
+          "Tell your operator and let them handle it."
+        ],
+        "answer": "Report your concerns to the police immediately, providing any relevant details."
+      },
+      {
+        "id": 41,
+        "question": "A passenger leaves a bag containing what appears to be a large sum of money. What should you do?",
+        "options": [
+          "Keep the money and discard the bag.",
+          "Hand it in to your operator or the nearest police station immediately.",
+          "Try to find the owner yourself using any identification within the bag.",
+          "Leave it in the vehicle for the next passenger."
+        ],
+        "answer": "Hand it in to your operator or the nearest police station immediately."
+      },
+      {
+        "id": 42,
+        "question": "You witness a passenger being harassed by another individual outside your vehicle. What should you do?",
+        "options": [
+          "Ignore it, as it's not your concern.",
+          "Offer assistance to the harassed passenger and, if necessary, call the police.",
+          "Attempt to intervene physically.",
+          "Tell the harassed passenger to ignore it."
+        ],
+        "answer": "Offer assistance to the harassed passenger and, if necessary, call the police."
+      },
+      {
+        "id": 43,
+        "question": "A passenger requests that you drive through a road closure due to a reported gas leak. What should you do?",
+        "options": [
+          "Agree, if they insist.",
+          "Refuse and explain the safety risks, suggesting an alternative route or waiting until the road is reopened.",
+          "Agree, but drive very fast.",
+          "Tell them it's their problem."
+        ],
+        "answer": "Refuse and explain the safety risks, suggesting an alternative route or waiting until the road is reopened."
+      },
+      {
+        "id": 44,
+        "question": "You are asked to transport a passenger who is visibly injured and bleeding. What is your primary responsibility?",
+        "options": [
+          "Advise them to seek medical attention later.",
+          "Offer to drive them to the nearest hospital and provide first aid if you are trained to do so.",
+          "Drive to their destination as quickly as possible.",
+          "Ignore the situation, as it's not your concern."
+        ],
+        "answer": "Offer to drive them to the nearest hospital and provide first aid if you are trained to do so."
+      },
+      {
+        "id": 45,
+        "question": "A passenger attempts to pay with a debit card that is repeatedly declined. What should you do?",
+        "options": [
+          "Insist they find another way to pay immediately.",
+          "Politely explain the situation and request an alternative payment method, offering to wait a reasonable time.",
+          "Tell them to leave the vehicle without paying.",
+          "Tell them to complain to their bank."
+        ],
+        "answer": "Politely explain the situation and request an alternative payment method, offering to wait a reasonable time."
+      },
+      {
+        "id": 46,
+        "question": "You notice a strong smell of petrol inside your vehicle. What should you do?",
+        "options": [
+          "Ignore it, hoping it will dissipate.",
+          "Stop at a safe location, evacuate the vehicle, and call emergency services immediately.",
+          "Continue driving, but open the windows.",
+          "Ask the passenger if they can smell petrol."
+        ],
+        "answer": "Stop at a safe location, evacuate the vehicle, and call emergency services immediately."
+      },
+      {
+        "id": 47,
+        "question": "A passenger requests that you drive through a school zone at high speed during school hours. What should you do?",
+        "options": [
+          "Agree, if they promise to pay any fines.",
+          "Refuse and explain that you must adhere to traffic laws and school zone speed limits for everyone's safety.",
+          "Agree, but only if they are in a real hurry.",
+          "Tell them to walk."
+        ],
+        "answer": "Refuse and explain that you must adhere to traffic laws and school zone speed limits for everyone's safety."
+      },
+      {
+        "id": 48,
+        "question": "You suspect a passenger is involved in a potential act of fraud. What should you do?",
+        "options": [
+          "Ignore it, as it's not your concern.",
+          "Report your concerns to the police immediately, providing any relevant details.",
+          "Confront the passenger directly.",
+          "Tell your operator and let them handle it."
+        ],
+        "answer": "Report your concerns to the police immediately, providing any relevant details."
+      },
+      {
+        "id": 49,
+        "question": "A passenger leaves a package containing what appears to be a controlled substance. What should you do?",
+        "options": [
+          "Keep the package and discard the contents.",
+          "Hand it in to your operator or the nearest police station immediately.",
+          "Try to find the owner yourself using any identification within the package.",
+          "Leave it in the vehicle for the next passenger."
+        ],
+        "answer": "Hand it in to your operator or the nearest police station immediately."
+      },
+      {
+        "id": 50,
+        "question": "You witness a potential act of animal cruelty outside your vehicle. What should you do?",
+        "options": [
+          "Ignore it, as it's not your concern.",
+          "Report the incident to the police or animal welfare organization immediately, providing any relevant details.",
+          "Attempt to intervene physically.",
+          "Tell the animal to run away."
+        ],
+        "answer": "Report the incident to the police or animal welfare organization immediately, providing any relevant details."
+      }
+    ]
+  }
+]

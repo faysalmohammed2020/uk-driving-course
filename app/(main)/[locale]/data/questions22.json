@@ -1,0 +1,558 @@
+[
+  {
+    "id": 2200,
+    "title": "Advanced PHV Driver Scenarios and Judgments",
+    "questions": [
+      {
+        "id": 1,
+        "question": "A passenger requests that you transport a sealed package to a different address without providing details of its contents. How should you proceed, considering potential legal implications?",
+        "options": [
+          "Accept the package and deliver it as requested, assuming no liability.",
+          "Refuse to transport the package due to the lack of information about its contents.",
+          "Ask the passenger to open the package for inspection before agreeing to transport it.",
+          "Inform the operator and seek their guidance on how to proceed."
+        ],
+        "answer": "Inform the operator and seek their guidance on how to proceed."
+      },
+      {
+        "id": 2,
+        "question": "While waiting for a booking in a designated PHV parking area, you witness a potential act of vandalism against another PHV. What is your ethical and legal responsibility?",
+        "options": [
+          "Ignore the incident to avoid becoming involved.",
+          "Attempt to intervene and stop the vandalism yourself.",
+          "Record the incident and report it to the police and the PHV driver if possible.",
+          "Inform the operator and let them handle the situation."
+        ],
+        "answer": "Record the incident and report it to the police and the PHV driver if possible."
+      },
+      {
+        "id": 3,
+        "question": "A passenger, who appears to be a minor, requests a ride to an address known to be associated with illegal activities. How should you handle this situation, considering safeguarding responsibilities?",
+        "options": [
+          "Accept the ride but monitor the passenger's behavior closely.",
+          "Refuse the ride and explain your concerns about the passenger's safety.",
+          "Contact the police and report the situation immediately.",
+          "Contact the operator and have them contact the guardian of the minor."
+        ],
+        "answer": "Contact the police and report the situation immediately."
+      },
+      {
+        "id": 4,
+        "question": "You receive a booking from an area known for frequent traffic congestion during peak hours. How should you plan your route and communicate potential delays to the passenger?",
+        "options": [
+          "Use the shortest route regardless of traffic conditions and inform the passenger of potential delays upon arrival.",
+          "Use a navigation app to find the fastest route and proactively communicate potential delays to the passenger.",
+          "Inform the passenger that you will be late due to traffic and offer no alternative solutions.",
+          "Cancel the booking to avoid dealing with traffic congestion."
+        ],
+        "answer": "Use a navigation app to find the fastest route and proactively communicate potential delays to the passenger."
+      },
+      {
+        "id": 5,
+        "question": "A passenger with a service animal requests a ride, but you have a severe allergy to the animal. How should you balance your health needs with your legal obligations?",
+        "options": [
+          "Refuse the ride and explain your allergy to the passenger.",
+          "Accept the ride but request that the passenger keep the animal confined to a carrier.",
+          "Contact the operator and request an alternative driver who can accommodate the service animal.",
+          "Ask the passenger to find a different mode of transportation."
+        ],
+        "answer": "Contact the operator and request an alternative driver who can accommodate the service animal."
+      },
+      {
+        "id": 6,
+        "question": "You are operating in an area with limited mobile network coverage, and your ride-hailing app is experiencing connectivity issues. How should you handle existing bookings and potential new requests?",
+        "options": [
+          "Continue accepting bookings and hope that the connectivity issues resolve themselves.",
+          "Inform passengers of the connectivity issues and request alternative contact methods.",
+          "Cancel all bookings and wait for the app to function properly.",
+          "Rely on your knowledge of the area and attempt to complete the bookings without the app."
+        ],
+        "answer": "Inform passengers of the connectivity issues and request alternative contact methods."
+      },
+      {
+        "id": 7,
+        "question": "A passenger requests that you stop at multiple locations during a single journey, significantly extending the travel time. How should you address fare adjustments and potential conflicts?",
+        "options": [
+          "Agree to the multiple stops without discussing fare adjustments.",
+          "Inform the passenger that additional stops will incur extra charges and discuss the fare adjustments before proceeding.",
+          "Refuse to make any additional stops and continue to the original destination.",
+          "Inform the operator and ask them to handle the fare adjustments."
+        ],
+        "answer": "Inform the passenger that additional stops will incur extra charges and discuss the fare adjustments before proceeding."
+      },
+      {
+        "id": 8,
+        "question": "While driving in an area with increased security measures, you are stopped by law enforcement for a routine check. How should you handle the interaction and ensure compliance with regulations?",
+        "options": [
+          "Refuse to cooperate and demand to speak to a supervisor.",
+          "Cooperate fully with the officers and provide all necessary documentation and information.",
+          "Attempt to bribe the officers to avoid further inspection.",
+          "Inform the operator and ask them to intervene on your behalf."
+        ],
+        "answer": "Cooperate fully with the officers and provide all necessary documentation and information."
+      },
+      {
+        "id": 9,
+        "question": "You observe a passenger leaving a suspicious item in your vehicle after completing a journey. What actions should you take to ensure safety and compliance?",
+        "options": [
+          "Ignore the item and continue with your next booking.",
+          "Attempt to identify the passenger and return the item.",
+          "Report the suspicious item to the police and operator immediately.",
+          "Move the item to the trunk of the car and continue working."
+        ],
+        "answer": "Report the suspicious item to the police and operator immediately."
+      },
+      {
+        "id": 10,
+        "question": "A passenger, who appears to be under the influence, becomes agitated and threatens to damage your vehicle. How should you handle the situation to ensure your safety and the safety of others?",
+        "options": [
+          "Attempt to calm the passenger down and continue the journey.",
+          "Pull over to a safe location, terminate the journey, and contact the police if necessary.",
+          "Drive to the nearest police station and report the passenger's behavior.",
+          "Physically restrain the passenger to prevent them from causing damage."
+        ],
+        "answer": "Pull over to a safe location, terminate the journey, and contact the police if necessary."
+      },
+      {
+        "id": 11,
+        "question": "You receive a booking to pick up a passenger from a location that is difficult to access due to construction or road closures. How should you communicate with the passenger and adjust the pick-up location?",
+        "options": [
+          "Cancel the booking and inform the passenger that the location is inaccessible.",
+          "Attempt to reach the pick-up location regardless of the difficulties and inform the passenger of any delays.",
+          "Contact the passenger and suggest an alternative pick-up location that is easily accessible.",
+          "Inform the operator and ask them to communicate with the passenger."
+        ],
+        "answer": "Contact the passenger and suggest an alternative pick-up location that is easily accessible."
+      },
+      {
+        "id": 12,
+        "question": "A passenger requests that you exceed the speed limit to reach their destination on time. How should you respond, considering legal and safety implications?",
+        "options": [
+          "Agree to exceed the speed limit if it is safe to do so.",
+          "Refuse the request and explain the legal and safety risks of speeding.",
+          "Attempt to negotiate a compromise with the passenger.",
+          "Inform the passenger that you will report their request to the police."
+        ],
+        "answer": "Refuse the request and explain the legal and safety risks of speeding."
+      },
+      {
+        "id": 13,
+        "question": "You observe a passenger engaging in illegal activities inside your vehicle. What are your responsibilities regarding reporting these activities?",
+        "options": [
+          "Ignore the activities to avoid becoming involved.",
+          "Confront the passenger and demand that they stop the illegal activities.",
+          "Report the illegal activities to the police and operator as soon as possible.",
+          "Inform other passengers in the vehicle of the illegal activities."
+        ],
+        "answer": "Report the illegal activities to the police and operator as soon as possible."
+      },
+      {
+        "id": 14,
+        "question": "A passenger requests that you transport an open container of alcohol in your vehicle. How should you handle this request, considering legal regulations?",
+        "options": [
+          "Agree to transport the open container of alcohol if the passenger promises to be discreet.",
+          "Refuse the request and explain the legal restrictions on open containers of alcohol in vehicles.",
+          "Attempt to negotiate a compromise with the passenger.",
+          "Inform the passenger that you will report their request to the police."
+        ],
+        "answer": "Refuse the request and explain the legal restrictions on open containers of alcohol in vehicles."
+      },
+      {
+        "id": 15,
+        "question": "You are involved in a minor accident with another vehicle, and the other driver insists on settling the matter without involving insurance companies. How should you proceed, considering potential risks and legal implications?",
+        "options": [
+          "Agree to settle the matter privately to avoid increased insurance premiums.",
+          "Exchange contact information with the other driver and report the accident to your insurance company.",
+          "Refuse to exchange any information with the other driver and leave the scene.",
+          "Inform the operator and ask them to handle the situation."
+        ],
+        "answer": "Exchange contact information with the other driver and report the accident to your insurance company."
+      },
+      {
+        "id": 16,
+        "question": "A passenger becomes verbally abusive towards you due to a misunderstanding about the fare. How should you de-escalate the situation and resolve the conflict?",
+        "options": [
+          "Respond with equal aggression to assert your authority.",
+          "Ignore the passenger's abuse and continue the journey.",
+          "Remain calm, explain the fare calculation clearly, and offer to contact the operator for assistance.",
+          "Terminate the journey and demand that the passenger leave the vehicle."
+        ],
+        "answer": "Remain calm, explain the fare calculation clearly, and offer to contact the operator for assistance."
+      },
+      {
+        "id": 17,
+        "question": "You receive a booking to pick up a passenger from a remote location with limited street lighting. How should you ensure your safety and the safety of the passenger during the pick-up?",
+        "options": [
+          "Proceed with the pick-up as usual, assuming no additional risks.",
+          "Contact the passenger and confirm the pick-up location and any specific instructions.",
+          "Cancel the booking due to safety concerns.",
+          "Inform the operator and ask them to handle the pick-up."
+        ],
+        "answer": "Contact the passenger and confirm the pick-up location and any specific instructions."
+      },
+      {
+        "id": 18,
+        "question": "A passenger requests that you play music with explicit lyrics in your vehicle. How should you respond, considering the potential discomfort of other passengers?",
+        "options": [
+          "Agree to play the music as requested, assuming no objections from other passengers.",
+          "Refuse the request and explain your policy on playing explicit music in the vehicle.",
+          "Attempt to find a compromise by playing censored versions of the requested music.",
+          "Inform the passenger that you will report their request to the operator."
+        ],
+        "answer": "Refuse the request and explain your policy on playing explicit music in the vehicle."
+      },
+      {
+        "id": 19,
+        "question": "You witness a passenger engaging in fare evasion by attempting to leave the vehicle without paying. How should you address the situation and prevent future occurrences?",
+        "options": [
+          "Confront the passenger and demand payment.",
+          "Follow the passenger and attempt to apprehend them.",
+          "Report the incident to the operator and provide any relevant information, such as passenger details or vehicle description.",
+          "Let the passenger go and absorb the loss to avoid confrontation."
+        ],
+        "answer": "Report the incident to the operator and provide any relevant information, such as passenger details or vehicle description."
+      },
+      {
+        "id": 20,
+        "question": "A passenger requests that you make an unscheduled stop at a drive-through restaurant. How should you handle this request, considering potential delays and hygiene concerns?",
+        "options": [
+          "Agree to the stop without considering potential delays or hygiene concerns.",
+          "Refuse the stop and explain the potential delays and hygiene concerns.",
+          "Attempt to negotiate a compromise with the passenger.",
+          "Inform the passenger that you will report their request to the operator."
+        ],
+        "answer": "Refuse the stop and explain the potential delays and hygiene concerns."
+      },
+      {
+        "id": 21,
+        "question": "You are experiencing fatigue or drowsiness while driving. What steps should you take to ensure your safety and the safety of your passengers?",
+        "options": [
+          "Continue driving and try to stay awake.",
+          "Pull over to a safe location, take a break, and rest until you feel alert enough to continue driving.",
+          "Consume caffeine or energy drinks to combat fatigue.",
+          "Inform the passenger of your fatigue and ask them to keep you awake."
+        ],
+        "answer": "Pull over to a safe location, take a break, and rest until you feel alert enough to continue driving."
+      },
+      {
+        "id": 22,
+        "question": "A passenger requests that you transport a large and bulky item that may obstruct your view or pose a safety hazard. How should you assess the situation and respond to the request?",
+        "options": [
+          "Agree to transport the item without assessing its size or potential hazards.",
+          "Refuse to transport the item and explain the safety concerns.",
+          "Attempt to negotiate a compromise with the passenger.",
+          "Inform the passenger that you will report their request to the operator."
+        ],
+        "answer": "Refuse to transport the item and explain the safety concerns."
+      },
+      {
+        "id": 23,
+        "question": "You receive a booking to pick up a passenger from a location that is known for high crime rates. How should you approach the pick-up to ensure your safety and the safety of the passenger?",
+        "options": [
+          "Proceed with the pick-up as usual, assuming no additional risks.",
+          "Contact the passenger and confirm the pick-up location and any specific instructions.",
+          "Cancel the booking due to safety concerns.",
+          "Inform the operator and ask them to handle the pick-up."
+        ],
+        "answer": "Contact the passenger and confirm the pick-up location and any specific instructions."
+      },
+      {
+        "id": 24,
+        "question": "A passenger requests that you take a specific route that is significantly longer than the optimal route. How should you handle this request, considering fare adjustments and potential conflicts?",
+        "options": [
+          "Agree to take the requested route without discussing fare adjustments.",
+          "Refuse to take the requested route and insist on using the optimal route.",
+          "Discuss the requested route with the passenger, explaining potential fare adjustments and time implications.",
+          "Inform the passenger that you will report their request to the operator."
+        ],
+        "answer": "Discuss the requested route with the passenger, explaining potential fare adjustments and time implications."
+      },
+      {
+        "id": 25,
+        "question": "You observe a passenger behaving suspiciously, possibly concealing illegal substances or weapons. How should you address the situation without jeopardizing your safety?",
+        "options": [
+          "Confront the passenger and demand an explanation.",
+          "Subtly alert the authorities and provide them with relevant information.",
+          "Ignore the suspicious behavior to avoid confrontation.",
+          "Inform other passengers in the vehicle of your suspicions."
+        ],
+        "answer": "Subtly alert the authorities and provide them with relevant information."
+      },
+      {
+        "id": 26,
+        "question": "A passenger requests that you help them transport a large amount of cash to a different location. How should you respond to this request, considering potential legal and safety risks?",
+        "options": [
+          "Agree to transport the cash if the passenger offers a generous reward.",
+          "Refuse the request and explain the potential legal and safety risks involved.",
+          "Attempt to negotiate a compromise with the passenger.",
+          "Inform the passenger that you will report their request to the operator."
+        ],
+        "answer": "Refuse the request and explain the potential legal and safety risks involved."
+      },
+      {
+        "id": 27,
+        "question": "You are involved in an accident where another driver is clearly at fault. How should you document the incident and protect your interests?",
+        "options": [
+          "Leave the scene as quickly as possible to avoid further complications.",
+          "Gather evidence, such as photos and witness statements, and report the accident to the police and your insurance company.",
+          "Admit partial fault to expedite the insurance claim process.",
+          "Inform the operator and ask them to handle the situation."
+        ],
+        "answer": "Gather evidence, such as photos and witness statements, and report the accident to the police and your insurance company."
+      },
+      {
+        "id": 28,
+        "question": "A passenger requests that you make an unscheduled stop at a location that is known for illegal activities. How should you respond to this request, considering your safety and legal obligations?",
+        "options": [
+          "Agree to the stop if the passenger offers a generous reward.",
+          "Refuse the stop and explain your concerns about the location.",
+          "Attempt to negotiate a compromise with the passenger.",
+          "Inform the passenger that you will report their request to the operator."
+        ],
+        "answer": "Refuse the stop and explain your concerns about the location."
+      },
+      {
+        "id": 29,
+        "question": "You receive a booking to pick up a passenger from a location that is experiencing a protest or demonstration. How should you assess the situation and ensure your safety and the safety of the passenger?",
+        "options": [
+          "Proceed with the pick-up as usual, assuming no additional risks.",
+          "Contact the passenger and confirm the pick-up location and any specific instructions.",
+          "Cancel the booking due to safety concerns.",
+          "Inform the operator and ask them to handle the pick-up."
+        ],
+        "answer": "Contact the passenger and confirm the pick-up location and any specific instructions."
+      },
+      {
+        "id": 30,
+        "question": "A passenger requests that you help them transport a prohibited item, such as firearms or drugs. How should you respond to this request, considering legal consequences?",
+        "options": [
+          "Agree to transport the prohibited item if the passenger offers a generous reward.",
+          "Refuse the request and explain the legal consequences of transporting prohibited items.",
+          "Attempt to negotiate a compromise with the passenger.",
+          "Inform the passenger that you will report their request to the police."
+        ],
+        "answer": "Refuse the request and explain the legal consequences of transporting prohibited items."
+      },
+      {
+        "id": 31,
+        "question": "You observe a fellow PHV driver engaging in reckless driving that endangers other road users. What is your ethical and legal responsibility in this situation?",
+        "options": [
+          "Ignore the reckless driving to avoid conflict with the other driver.",
+          "Attempt to intervene and stop the reckless driving yourself.",
+          "Report the reckless driving to the operator and provide relevant information, such as the driver's details and vehicle description.",
+          "Confront the driver at a later time and warn them about their reckless driving."
+        ],
+        "answer": "Report the reckless driving to the operator and provide relevant information, such as the driver's details and vehicle description."
+      },
+      {
+        "id": 32,
+        "question": "A passenger requests that you use a toll road to reach their destination faster, but they refuse to pay the toll charges. How should you handle this situation, considering fare adjustments and potential conflicts?",
+        "options": [
+          "Agree to use the toll road and absorb the toll charges yourself.",
+          "Refuse to use the toll road and explain the fare implications to the passenger.",
+          "Attempt to negotiate a compromise with the passenger.",
+          "Inform the passenger that you will report their request to the operator."
+        ],
+        "answer": "Refuse to use the toll road and explain the fare implications to the passenger."
+      },
+      {
+        "id": 33,
+        "question": "You are experiencing a personal emergency that requires you to terminate a journey abruptly. How should you communicate the situation to the passenger and ensure their safety?",
+        "options": [
+          "End the journey immediately without explanation and leave the passenger stranded.",
+          "Explain the emergency to the passenger, apologize for the inconvenience, and help them find alternative transportation.",
+          "Continue the journey despite the emergency and hope that it resolves itself.",
+          "Inform the operator and ask them to handle the situation."
+        ],
+        "answer": "Explain the emergency to the passenger, apologize for the inconvenience, and help them find alternative transportation."
+      },
+      {
+        "id": 34,
+        "question": "A passenger requests that you make an unscheduled stop at a location that is known for prostitution or drug activity. How should you respond to this request, considering your safety and legal obligations?",
+        "options": [
+          "Agree to the stop if the passenger offers a generous reward.",
+          "Refuse the stop and explain your concerns about the location.",
+          "Attempt to negotiate a compromise with the passenger.",
+          "Inform the passenger that you will report their request to the operator."
+        ],
+        "answer": "Refuse the stop and explain your concerns about the location."
+      },
+      {
+        "id": 35,
+        "question": "You receive a booking to pick up a passenger from a location that is experiencing a natural disaster or severe weather event. How should you assess the situation and prioritize safety?",
+        "options": [
+          "Proceed with the pick-up as usual, assuming no additional risks.",
+          "Contact the passenger and confirm the pick-up location and any specific instructions.",
+          "Cancel the booking due to safety concerns.",
+          "Inform the operator and ask them to handle the pick-up."
+        ],
+        "answer": "Cancel the booking due to safety concerns."
+      },
+      {
+        "id": 36,
+        "question": "A passenger requests that you help them transport a stolen item. How should you respond to this request, considering legal consequences and ethical implications?",
+        "options": [
+          "Agree to transport the stolen item if the passenger offers a generous reward.",
+          "Refuse the request and explain the legal consequences of transporting stolen goods.",
+          "Attempt to negotiate a compromise with the passenger.",
+          "Inform the passenger that you will report their request to the police."
+        ],
+        "answer": "Refuse the request and explain the legal consequences of transporting stolen goods."
+      },
+      {
+        "id": 37,
+        "question": "You observe a passenger engaging in self-harm or exhibiting suicidal tendencies. How should you respond to this situation, considering your duty of care and potential liability?",
+        "options": [
+          "Ignore the passenger's behavior to avoid becoming involved.",
+          "Attempt to provide counseling or advice to the passenger.",
+          "Contact the emergency services and report the situation, providing relevant information about the passenger's location and condition.",
+          "Inform the operator and ask them to handle the situation."
+        ],
+        "answer": "Contact the emergency services and report the situation, providing relevant information about the passenger's location and condition."
+      },
+      {
+        "id": 38,
+        "question": "A passenger requests that you drive them to a location that is outside of your licensed operating area. How should you handle this request, considering legal restrictions and potential conflicts?",
+        "options": [
+          "Agree to the request if the passenger offers a generous reward.",
+          "Refuse the request and explain the legal restrictions on operating outside of your licensed area.",
+          "Attempt to negotiate a compromise with the passenger.",
+          "Inform the passenger that you will report their request to the operator."
+        ],
+        "answer": "Refuse the request and explain the legal restrictions on operating outside of your licensed area."
+      },
+      {
+        "id": 39,
+        "question": "You are approached by a passenger who is clearly intoxicated and attempts to enter your vehicle without a booking. How should you handle this situation, considering safety concerns and potential liability?",
+        "options": [
+          "Allow the passenger to enter the vehicle and hope that they can provide a destination.",
+          "Refuse the passenger entry and explain that you cannot accept unbooked rides.",
+          "Contact the operator and ask them to handle the situation.",
+          "Call the police and report the intoxicated individual."
+        ],
+        "answer": "Refuse the passenger entry and explain that you cannot accept unbooked rides."
+      },
+      {
+        "id": 40,
+        "question": "A passenger requests that you transport a pet that is not properly secured or contained. How should you respond to this request, considering safety concerns and potential damage to your vehicle?",
+        "options": [
+          "Agree to transport the pet without considering safety concerns or potential damage.",
+          "Refuse to transport the pet and explain the safety concerns and potential damage.",
+          "Attempt to negotiate a compromise with the passenger.",
+          "Inform the passenger that you will report their request to the operator."
+        ],
+        "answer": "Refuse to transport the pet and explain the safety concerns and potential damage."
+      },
+      {
+        "id": 41,
+        "question": "You witness a passenger engaging in verbal or physical abuse towards another passenger. How should you intervene and de-escalate the situation?",
+        "options": [
+          "Ignore the abuse to avoid becoming involved.",
+          "Verbally intervene and attempt to de-escalate the situation.",
+          "Physically intervene to separate the passengers.",
+          "Contact the police and report the abuse."
+        ],
+        "answer": "Verbally intervene and attempt to de-escalate the situation."
+      },
+      {
+        "id": 42,
+        "question": "A passenger requests that you make an unscheduled stop at a location that is known for traffic congestion or road closures. How should you handle this request, considering potential delays and alternative routes?",
+        "options": [
+          "Agree to the stop without considering potential delays or alternative routes.",
+          "Refuse the stop and explain the potential delays and suggest alternative routes.",
+          "Attempt to negotiate a compromise with the passenger.",
+          "Inform the passenger that you will report their request to the operator."
+        ],
+        "answer": "Refuse the stop and explain the potential delays and suggest alternative routes."
+      },
+      {
+        "id": 43,
+        "question": "You are experiencing a medical emergency while driving. How should you prioritize your safety and the safety of your passengers?",
+        "options": [
+          "Continue driving and try to reach your destination.",
+          "Pull over to a safe location, assess your condition, and call for medical assistance if necessary.",
+          "Inform the passenger of your medical emergency and ask for their assistance.",
+          "Contact the operator and ask them to handle the situation."
+        ],
+        "answer": "Pull over to a safe location, assess your condition, and call for medical assistance if necessary."
+      },
+      {
+        "id": 44,
+        "question": "A passenger requests that you transport a large amount of luggage that exceeds the capacity of your vehicle. How should you respond to this request, considering safety concerns and potential damage to your vehicle?",
+        "options": [
+          "Agree to transport the luggage without considering safety concerns or potential damage.",
+          "Refuse to transport the luggage and explain the safety concerns and potential damage.",
+          "Attempt to negotiate a compromise with the passenger.",
+          "Inform the passenger that you will report their request to the operator."
+        ],
+        "answer": "Refuse to transport the luggage and explain the safety concerns and potential damage."
+      },
+      {
+        "id": 45,
+        "question": "You observe a passenger engaging in discriminatory or offensive behavior towards another passenger. How should you intervene and address the situation?",
+        "options": [
+          "Ignore the behavior to avoid becoming involved.",
+          "Politely address the passenger and request that they stop the discriminatory or offensive behavior.",
+          "Confront the passenger and demand that they apologize.",
+          "Contact the police and report the discriminatory or offensive behavior."
+        ],
+        "answer": "Politely address the passenger and request that they stop the discriminatory or offensive behavior."
+      },
+      {
+        "id": 46,
+        "question": "A passenger requests that you make an unscheduled stop at a location that is known for high crime rates or gang activity. How should you respond to this request, considering your safety and the safety of your passengers?",
+        "options": [
+          "Agree to the stop if the passenger offers a generous reward.",
+          "Refuse the stop and explain your concerns about the location.",
+          "Attempt to negotiate a compromise with the passenger.",
+          "Inform the passenger that you will report their request to the operator."
+        ],
+        "answer": "Refuse the stop and explain your concerns about the location."
+      },
+      {
+        "id": 47,
+        "question": "You are involved in an accident where you are clearly at fault. How should you handle the situation and minimize potential legal consequences?",
+        "options": [
+          "Leave the scene as quickly as possible to avoid responsibility.",
+          "Take responsibility for your actions, exchange information with the other driver, and report the accident to the police and your insurance company.",
+          "Attempt to blame the other driver to avoid responsibility.",
+          "Inform the operator and ask them to handle the situation."
+        ],
+        "answer": "Take responsibility for your actions, exchange information with the other driver, and report the accident to the police and your insurance company."
+      },
+      {
+        "id": 48,
+        "question": "A passenger requests that you transport a large and fragile item that may be damaged during transit. How should you assess the situation and respond to the request?",
+        "options": [
+          "Agree to transport the item without considering its fragility or potential damage.",
+          "Refuse to transport the item and explain the potential for damage.",
+          "Attempt to negotiate a compromise with the passenger.",
+          "Inform the passenger that you will report their request to the operator."
+        ],
+        "answer": "Refuse to transport the item and explain the potential for damage."
+      },
+      {
+        "id": 49,
+        "question": "You observe a passenger engaging in behavior that suggests they may be a victim of human trafficking. How should you respond to this situation, considering ethical and legal obligations?",
+        "options": [
+          "Ignore the behavior to avoid becoming involved.",
+          "Subtly alert the authorities and provide them with relevant information.",
+          "Confront the passenger and demand an explanation.",
+          "Inform other passengers in the vehicle of your suspicions."
+        ],
+        "answer": "Subtly alert the authorities and provide them with relevant information."
+      },
+      {
+        "id": 50,
+        "question": "A passenger requests that you help them evade a police checkpoint or roadblock. How should you respond to this request, considering legal consequences and safety risks?",
+        "options": [
+          "Agree to help the passenger evade the checkpoint or roadblock.",
+          "Refuse the request and explain the legal consequences and safety risks involved.",
+          "Attempt to negotiate a compromise with the passenger.",
+          "Inform the passenger that you will report their request to the police."
+        ],
+        "answer": "Refuse the request and explain the legal consequences and safety risks involved."
+      }
+    ]
+  }
+]

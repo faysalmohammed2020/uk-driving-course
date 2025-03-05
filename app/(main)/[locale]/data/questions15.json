@@ -1,0 +1,558 @@
+[
+  {
+    "id": 302,
+    "title": "Knowledge Base Question Set (set 15)",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the primary identifier that must be displayed on a licensed PHV?",
+        "options": [
+          "A promotional advertisement",
+          "The vehicle's license disc",
+          "A 'Taxi' sign",
+          "The driver's personal contact details"
+        ],
+        "answer": "The vehicle's license disc"
+      },
+      {
+        "id": 2,
+        "question": "In the event of a booking cancellation by the driver, what is the mandatory communication protocol?",
+        "options": [
+          "Directly inform the next passenger",
+          "Notify the licensing authority",
+          "Immediately contact the operator",
+          "Post a public announcement"
+        ],
+        "answer": "Immediately contact the operator"
+      },
+      {
+        "id": 3,
+        "question": "What is a fundamental responsibility of a PHV operator regarding driver background checks?",
+        "options": [
+          "Verifying driver's social media activity",
+          "Conducting comprehensive criminal record checks",
+          "Assessing driver's personal finances",
+          "Evaluating driver's vehicle maintenance skills"
+        ],
+        "answer": "Conducting comprehensive criminal record checks"
+      },
+      {
+        "id": 4,
+        "question": "What is the essential insurance coverage required for legal PHV operation?",
+        "options": [
+          "Personal vehicle insurance",
+          "Third-party liability insurance",
+          "Hire and reward insurance",
+          "Basic comprehensive insurance"
+        ],
+        "answer": "Hire and reward insurance"
+      },
+      {
+        "id": 5,
+        "question": "Which form of passenger interaction is strictly against professional standards for PHV drivers?",
+        "options": [
+          "Providing route assistance",
+          "Engaging in unsolicited debates on controversial topics",
+          "Assisting with luggage handling",
+          "Offering general directions"
+        ],
+        "answer": "Engaging in unsolicited debates on controversial topics"
+      },
+      {
+        "id": 6,
+        "question": "What is the recommended approach for PHV drivers when addressing passenger grievances?",
+        "options": [
+          "Escalating the issue to law enforcement",
+          "Adopting a calm and professional demeanor",
+          "Ignoring the complaint if it seems trivial",
+          "Immediately terminating the ride"
+        ],
+        "answer": "Adopting a calm and professional demeanor"
+      },
+      {
+        "id": 7,
+        "question": "Which of these is NOT a standard prerequisite for PHV vehicle licensing?",
+        "options": [
+          "Passing a vehicle roadworthiness test",
+          "Installation of a personal entertainment system",
+          "Displaying the vehicle's license document",
+          "Maintaining vehicle cleanliness"
+        ],
+        "answer": "Installation of a personal entertainment system"
+      },
+      {
+        "id": 8,
+        "question": "What is the key requirement for a PHV to legally transport passengers?",
+        "options": [
+          "The passenger must be a regular customer",
+          "The booking must originate through a licensed operator",
+          "The driver must have a direct line of sight to the operator",
+          "The journey must be within a specific radius"
+        ],
+        "answer": "The booking must originate through a licensed operator"
+      },
+      {
+        "id": 9,
+        "question": "What are the legal ramifications of operating a PHV without valid insurance?",
+        "options": [
+          "A temporary driving ban",
+          "A formal reprimand",
+          "Financial penalties and driving license endorsements",
+          "Mandatory attendance at a traffic safety course"
+        ],
+        "answer": "Financial penalties and driving license endorsements"
+      },
+      {
+        "id": 10,
+        "question": "Which document is essential for the renewal of a PHV driver's license?",
+        "options": [
+          "A character reference from a community leader",
+          "A statement of no criminal convictions",
+          "A certificate of medical fitness",
+          "Proof of continuous professional development"
+        ],
+        "answer": "A certificate of medical fitness"
+      },
+      {
+        "id": 11,
+        "question": "What is a mandatory legal obligation for all PHV drivers regarding assistance animals?",
+        "options": [
+          "Charging an additional fee for transporting assistance dogs",
+          "Refusing service to passengers with assistance animals during peak hours",
+          "Accepting passengers accompanied by assistance dogs",
+          "Requiring a veterinary health certificate for assistance animals"
+        ],
+        "answer": "Accepting passengers accompanied by assistance dogs"
+      },
+      {
+        "id": 12,
+        "question": "Which action is considered a demonstration of professional conduct by a PHV driver?",
+        "options": [
+          "Using a mobile phone for personal calls during the journey",
+          "Assisting passengers with entry and exit from the vehicle",
+          "Playing personal music at high volume",
+          "Intentionally taking a longer route to increase the fare"
+        ],
+        "answer": "Assisting passengers with entry and exit from the vehicle"
+      },
+      {
+        "id": 13,
+        "question": "What information must PHV operators provide to passengers before a journey?",
+        "options": [
+          "The driver's personal financial details",
+          "The estimated fare and driver identification",
+          "The operator's internal business strategy",
+          "The vehicle's maintenance history"
+        ],
+        "answer": "The estimated fare and driver identification"
+      },
+      {
+        "id": 14,
+        "question": "What is a primary safeguarding responsibility for a PHV driver?",
+        "options": [
+          "Conducting background checks on passengers",
+          "Reporting observed suspicious activities",
+          "Refusing service to unaccompanied minors",
+          "Collecting and storing passenger biometric data"
+        ],
+        "answer": "Reporting observed suspicious activities"
+      },
+      {
+        "id": 15,
+        "question": "Which safety item is mandatory in a PHV?",
+        "options": [
+          "A first-aid kit and fire extinguisher",
+          "A spare tire and tool kit",
+          "A GPS navigation system",
+          "A dashcam with audio recording"
+        ],
+        "answer": "A first-aid kit and fire extinguisher"
+      },
+      {
+        "id": 16,
+        "question": "What is the appropriate response for a PHV driver involved in an accident while on duty?",
+        "options": [
+          "Continuing the journey if the vehicle is still operational",
+          "Immediately reporting the incident to the operator and relevant authorities",
+          "Attempting to resolve the matter directly with other parties involved",
+          "Ignoring minor damage and proceeding with the booking"
+        ],
+        "answer": "Immediately reporting the incident to the operator and relevant authorities"
+      },
+      {
+        "id": 17,
+        "question": "What is a standard requirement for maintaining a PHV license?",
+        "options": [
+          "Passing an advanced driving test every six months",
+          "Completing periodic criminal background checks",
+          "Upgrading the vehicle every year",
+          "Operating exclusively during daylight hours"
+        ],
+        "answer": "Completing periodic criminal background checks"
+      },
+      {
+        "id": 18,
+        "question": "What is the necessary action when a PHV driver changes their vehicle?",
+        "options": [
+          "Informing passengers of the change via social media",
+          "Updating the vehicle's license details with TfL",
+          "Continuing to use the previous vehicle's license display",
+          "Adjusting fare rates to reflect the new vehicle"
+        ],
+        "answer": "Updating the vehicle's license details with TfL"
+      },
+      {
+        "id": 19,
+        "question": "What is the legal restriction on PHV drivers regarding mobile phone usage?",
+        "options": [
+          "Permitted only when using a hands-free device",
+          "Allowed solely for emergency calls",
+          "Prohibited while the vehicle is in motion",
+          "Restricted to when the vehicle is stationary"
+        ],
+        "answer": "Prohibited while the vehicle is in motion"
+      },
+      {
+        "id": 20,
+        "question": "What should a PHV driver do if they experience sudden illness while driving?",
+        "options": [
+          "Continue the journey if symptoms are mild",
+          "Stop the vehicle safely and inform the operator",
+          "Ask a passenger to take over driving",
+          "Increase speed to reach the destination quickly"
+        ],
+        "answer": "Stop the vehicle safely and inform the operator"
+      },
+      {
+        "id": 21,
+        "question": "Where must a PHV driver display their identification badge while on duty?",
+        "options": [
+          "On the vehicle's dashboard",
+          "On the driver's person at all times",
+          "On the vehicle's exterior",
+          "In the vehicle's glove compartment"
+        ],
+        "answer": "On the driver's person at all times"
+      },
+      {
+        "id": 22,
+        "question": "What is a key consideration regarding assistance dogs in PHVs?",
+        "options": [
+          "All assistance dogs wear identifiable jackets",
+          "Assistance dogs can be of various breeds and may not always be visibly marked",
+          "Assistance dogs should be treated as pets during the journey",
+          "PHV drivers can request proof of assistance dog certification"
+        ],
+        "answer": "Assistance dogs can be of various breeds and may not always be visibly marked"
+      },
+      {
+        "id": 23,
+        "question": "Can a PHV driver face licensing action for stopping or parking in a designated taxi rank?",
+        "options": [
+          "Only if the parking is for more than 10 minutes",
+          "Yes, at all times",
+          "Only if the vehicle is unattended",
+          "Only during peak hours"
+        ],
+        "answer": "Yes, at all times"
+      },
+      {
+        "id": 24,
+        "question": "What are two critical indicators of a potentially at-risk child or vulnerable adult?",
+        "options": [
+          "Signs of abuse or neglect, and poor personal hygiene",
+          "Frequent travel, and possession of large sums of money",
+          "Regular attendance at social events, and well-maintained clothing",
+          "Consistent use of public transport, and polite demeanor"
+        ],
+        "answer": "Signs of abuse or neglect, and poor personal hygiene"
+      },
+      {
+        "id": 25,
+        "question": "What is the recommended course of action for a PHV driver who witnesses a concerning incident?",
+        "options": [
+          "Directly intervene to resolve the situation",
+          "Document the incident with detailed notes and descriptions",
+          "Immediately leave the scene to avoid involvement",
+          "Publicly discuss the incident on social media"
+        ],
+        "answer": "Document the incident with detailed notes and descriptions"
+      },
+      {
+        "id": 26,
+        "question": "What does a Topographical Skills assessment primarily evaluate?",
+        "options": [
+          "Driving proficiency in adverse weather conditions",
+          "Ability to plan routes and navigate using maps",
+          "Knowledge of vehicle maintenance and repair",
+          "Proficiency in emergency first aid procedures"
+        ],
+        "answer": "Ability to plan routes and navigate using maps"
+      },
+      {
+        "id": 27,
+        "question": "Who is responsible for the fare agreement with the passenger in a pre-booked PHV journey?",
+        "options": [
+          "The driver",
+          "The passenger",
+          "The PHV operator",
+          "The local council"
+        ],
+        "answer": "The PHV operator"
+      },
+      {
+        "id": 28,
+        "question": "What is the correct policy regarding PHV use of taxi ranks?",
+        "options": [
+          "PHVs can use taxi ranks for short pick-ups and drop-offs",
+          "PHVs must never park or wait in taxi ranks",
+          "PHVs can use taxi ranks when no taxis are present",
+          "PHVs can use electric taxi charging points"
+        ],
+        "answer": "PHVs must never park or wait in taxi ranks"
+      },
+      {
+        "id": 29,
+        "question": "Can a PHV driver receive a parking fine for waiting in a restricted area for a delayed passenger?",
+        "options": [
+          "No, if the booking is confirmed",
+          "Yes, regardless of the booking",
+          "Only during certain hours",
+          "Only if the wait exceeds 15 minutes"
+        ],
+        "answer": "Yes, regardless of the booking"
+      },
+      {
+        "id": 30,
+        "question": "Is it possible for a PHV driver's license to be immediately suspended or revoked?",
+        "options": [
+          "Only after a court hearing",
+          "Yes, under certain circumstances",
+          "Only with prior written notice",
+          "No, never"
+        ],
+        "answer": "Yes, under certain circumstances"
+      },
+      {
+        "id": 31,
+        "question": "Can a PHV driver conduct bookings if the vehicle license discs are not displayed?",
+        "options": [
+          "Yes, for pre-booked journeys only",
+          "No, under any circumstances",
+          "Yes, if reported within 7 days",
+          "Yes, if reported within 14 days"
+        ],
+        "answer": "No, under any circumstances"
+      },
+      {
+        "id": 32,
+        "question": "What is the purpose of a PHV vehicle inspection?",
+        "options": [
+          "To check the vehicle's entertainment system",
+          "To ensure the vehicle meets licensing requirements",
+          "To provide a general service check",
+          "To assess the vehicle's fuel efficiency"
+        ],
+        "answer": "To ensure the vehicle meets licensing requirements"
+      },
+      {
+        "id": 33,
+        "question": "Can TfL revoke a PHV vehicle license if the driver's license is revoked?",
+        "options": [
+          "No, unless the vehicle is owned by the driver",
+          "Yes, if public safety is at risk, regardless of vehicle ownership",
+          "Only if the vehicle is rented",
+          "Only after a formal warning"
+        ],
+        "answer": "Yes, if public safety is at risk, regardless of vehicle ownership"
+      },
+      {
+        "id": 34,
+        "question": "What information must a PHV operator record for each booking?",
+        "options": [
+          "Passenger's social media accounts",
+          "Destination, fare, driver, and vehicle details",
+          "Passenger's financial history",
+          "Driver's personal travel plans"
+        ],
+        "answer": "Destination, fare, driver, and vehicle details"
+      },
+      {
+        "id": 35,
+        "question": "What is the correct policy regarding accepting fares for PHV drivers?",
+        "options": [
+          "Accept fares from anyone on the street",
+          "Only accept fares through a licensed operator",
+          "Approach people outside venues for fares",
+          "Accept fares only in cash"
+        ],
+        "answer": "Only accept fares through a licensed operator"
+      },
+      {
+        "id": 36,
+        "question": "Where should a PHV driver wait for a booking at Heathrow Airport?",
+        "options": [
+          "In residential streets near the airport",
+          "In any available local car park",
+          "In designated airport car parks or the PHV Authorized Vehicle Area",
+          "On the airport access roads"
+        ],
+        "answer": "In designated airport car parks or the PHV Authorized Vehicle Area"
+      },
+      {
+        "id": 37,
+        "question": "What is the rule regarding PHV drivers and assistance dogs?",
+        "options": [
+          "Drivers can refuse passengers with assistance dogs",
+          "Drivers must accept passengers with assistance dogs",
+          "Drivers can charge extra for assistance dogs",
+          "Drivers can request a medical certificate for the dog"
+        ],
+        "answer": "Drivers must accept passengers with assistance dogs"
+      },
+      {
+        "id": 38,
+        "question": "Does TfL regulate the fares charged by PHV operators?",
+        "options": [
+          "Yes, for all journeys",
+          "Yes, for airport journeys only",
+          "No, TfL does not regulate fares",
+          "Only during peak hours"
+        ],
+        "answer": "No, TfL does not regulate fares"
+      },
+      {
+        "id": 39,
+        "question": "Under what circumstances can a PHV driver use a private vehicle for bookings?",
+        "options": [
+          "When the licensed PHV breaks down",
+          "If the operator permits it for pre-booked jobs",
+          "Never, only licensed PHVs can be used",
+          "During off-peak hours only"
+        ],
+        "answer": "Never, only licensed PHVs can be used"
+      },
+      {
+        "id": 40,
+        "question": "How should a PHV driver verify the legitimacy of a booking from an operator?",
+        "options": [
+          "Trust the operator without verification",
+          "Request the operator's license number and verify it with TfL",
+          "Only accept bookings from well-known operators",
+          "Ask the passenger for proof of booking"
+        ],
+        "answer": "Request the operator's license number and verify it with TfL"
+      },
+      {
+        "id": 41,
+        "question": "What is the correct procedure for handling lost property found in a PHV?",
+        "options": [
+          "Sell the property and donate the proceeds",
+          "Return the property to the operator",
+          "Keep the property until the passenger contacts you",
+          "Dispose of the property if unclaimed after 24 hours"
+        ],
+        "answer": "Return the property to the operator"
+      },
+      {
+        "id": 42,
+        "question": "Is it mandatory for a PHV operator to agree on a fare or provide an estimate before a journey?",
+        "options": [
+          "Only for airport journeys",
+          "Only if the passenger requests it",
+          "Yes, for all journeys",
+          "No, fares can be determined after the journey"
+        ],
+        "answer": "Yes, for all journeys"
+      },
+      {
+        "id": 43,
+        "question": "Who is authorized to accept bookings for PHV journeys?",
+        "options": [
+          "Any licensed PHV driver",
+          "Only licensed London PHV operators",
+          "Any PHV driver with advance communication",
+          "Only PHV drivers with a direct contract with passengers"
+        ],
+        "answer": "Only licensed London PHV operators"
+      },
+      {
+        "id": 44,
+        "question": "What is the appropriate action for a PHV driver when refusing a booking?",
+        "options": [
+          "Refuse without explanation",
+          "Be polite and provide a clear explanation",
+          "Refuse only if the passenger is unknown",
+          "Refuse only if the destination is outside London"
+        ],
+        "answer": "Be polite and provide a clear explanation"
+      },
+      {
+        "id": 45,
+        "question": "Are PHV drivers permitted to pick up passengers from train stations?",
+        "options": [
+          "Only if there are no taxis available",
+          "Yes, but only with a pre-booked journey through a licensed operator",
+          "No, only taxis are allowed",
+          "Yes, if the passenger is a regular customer"
+        ],
+        "answer": "Yes, but only with a pre-booked journey through a licensed operator"
+      },
+      {
+        "id": 46,
+        "question": "What is the primary focus of the 'Carrying out Private Hire Journeys' section in PHV driver guidance?",
+        "options": [
+          "Customer feedback and complaints",
+          "Fare calculation and pricing strategies",
+          "Basic requirements for drivers fulfilling bookings",
+          "Vehicle maintenance and cleaning procedures"
+        ],
+        "answer": "Basic requirements for drivers fulfilling bookings"
+      },
+      {
+        "id": 47,
+        "question": "Private hire services _____ an important part of London’s transport network, _____ a wide range of services for residents and visitors. This section covers the basic requirements _____ drivers when carrying out private hire bookings.",
+        "options": [
+          "is, providing, for",
+          "are, providing, for",
+          "is, providing, on",
+          "are, providing, on"
+        ],
+        "answer": "are, providing, for"
+      },
+      {
+        "id": 48,
+        "question": "TfL’s website _____ a license checker tool which contains the _____ of all licensed private hire drivers, vehicles and operators. _____ is a public register which you and anyone else can use.",
+        "options": [
+          "have, information, It",
+          "has, details, This",
+          "have, details, This",
+          "has, information, It"
+        ],
+        "answer": "has, details, This"
+      },
+      {
+        "id": 49,
+        "question": "Remember, if TfL or the police get a _____ about driver behaviour, _____ will investigate and, depending on the sort of complaint they _____, it could result in licensing action or prosecution.",
+        "options": [
+          "complaint, they, receive",
+          "complaints, they, received",
+          "complaint, they, received",
+          "complaints, they, receive"
+        ],
+        "answer": "complaint, they, receive"
+      },
+      {
+        "id": 50,
+        "question": "TfL has no _____ to set or control the fares charged by PHV operators. _____, it is important that all customers understand the fare they are _____ to be charged.",
+        "options": [
+          "powers, However, going",
+          "power, however, about",
+          "powers, however, about",
+          "power, However, going"
+        ],
+        "answer": "powers, However, going"
+      }
+    ]
+  }
+]
