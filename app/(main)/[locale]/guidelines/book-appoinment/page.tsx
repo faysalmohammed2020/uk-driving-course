@@ -132,6 +132,7 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import { FaCalendarCheck, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaClock, FaLinkedin, FaFacebook, FaGoogle } from "react-icons/fa";
+import { useTranslations } from "next-intl";
 
 const BookAppointmentInfo: React.FC = () => {
   const router = useRouter();
@@ -151,6 +152,7 @@ const BookAppointmentInfo: React.FC = () => {
     e.preventDefault();
     setIsSubmitted(true);
   };
+  
 
   return (
     <div className="flex w-full min-h-screen items-center justify-center bg-gray-100 p-6">

@@ -1,5 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
+import { useLocale } from "next-intl";
 import React, { useEffect, useState } from "react";
 import { FaFileAlt } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
@@ -10,6 +11,7 @@ import questions2 from "@/app/(main)/[locale]/data/questions2.json";
 import questions3 from "@/app/(main)/[locale]/data/questions3.json";
 import questions4 from "@/app/(main)/[locale]/data/questions4.json";
 import { useTranslations } from 'next-intl';
+
 
 interface MockTest {
   id: number;
@@ -25,6 +27,7 @@ interface MockTest {
 const MockTestSection = () => {
    
   const router = useRouter();
+  const locale = useLocale();
   const [mockTests, setMockTests] = useState<MockTest[]>([]);
 
   // Load all question sets
@@ -33,7 +36,7 @@ const MockTestSection = () => {
   }, []);
 
   const startExam = (id: number) => {
-    router.push(`/en/exam/${id}`);
+     router.push(`/${locale}/exam/${id}`);
   };
   const t =useTranslations();
   return (
