@@ -2810,6 +2810,1064 @@
         "answer": "Not have to pay the Congestion Charge if you are entering the zone to carry out a booking from a London licensed PHV operator"
       }
     ]
+    },
+    "quiz6" : {
+      "id": 600,
+      "title": "PHV Driver’s Licence - Responsibilities and Road Safety",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary duty of a PHV driver towards passengers?",
+          "options": [
+            "To drive as fast as possible",
+            "To ensure safety, comfort, and professionalism",
+            "To decide the best route without consultation",
+            "To negotiate fares with passengers"
+          ],
+          "answer": "To ensure safety, comfort, and professionalism"
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is a legal requirement for PHV drivers?",
+          "options": [
+            "Wearing a company uniform",
+            "Holding a valid PHV driver’s licence",
+            "Offering discounts on fares",
+            "Providing passengers with water bottles"
+          ],
+          "answer": "Holding a valid PHV driver’s licence"
+        },
+        {
+          "id": 3,
+          "question": "What must a PHV driver do if they receive a penalty notice while driving?",
+          "options": [
+            "Ignore it",
+            "Report it to their operator and pay if required",
+            "Wait until licence renewal to address it",
+            "Ask the passenger to pay it"
+          ],
+          "answer": "Report it to their operator and pay if required"
+        },
+        {
+          "id": 4,
+          "question": "Under which circumstance can a PHV driver refuse service?",
+          "options": [
+            "If the passenger is abusive or poses a threat",
+            "If the journey is too short",
+            "If the passenger requests a different route",
+            "If the passenger is carrying luggage"
+          ],
+          "answer": "If the passenger is abusive or poses a threat"
+        },
+        {
+          "id": 5,
+          "question": "Which of the following is an example of unprofessional conduct?",
+          "options": [
+            "Speaking politely to passengers",
+            "Overcharging passengers without justification",
+            "Driving carefully and legally",
+            "Assisting passengers with mobility issues"
+          ],
+          "answer": "Overcharging passengers without justification"
+        },
+        {
+          "id": 6,
+          "question": "How should PHV drivers assist visually impaired passengers?",
+          "options": [
+            "Refuse service to those with guide dogs",
+            "Offer guidance and allow guide dogs in the vehicle",
+            "Charge extra for service animals",
+            "Ignore them and wait for another passenger"
+          ],
+          "answer": "Offer guidance and allow guide dogs in the vehicle"
+        },
+        {
+          "id": 7,
+          "question": "What is the purpose of displaying a PHV licence disc?",
+          "options": [
+            "To inform passengers of the driver’s personal details",
+            "To show proof of licensing and compliance",
+            "To indicate the driver’s preferred fares",
+            "To allow the driver to work anywhere in the UK"
+          ],
+          "answer": "To show proof of licensing and compliance"
+        },
+        {
+          "id": 8,
+          "question": "What should a PHV driver do if a passenger requests an unplanned stop?",
+          "options": [
+            "Refuse immediately",
+            "Assess safety, legality, and inform the operator if necessary",
+            "Charge extra without notifying the passenger",
+            "Only allow stops at petrol stations"
+          ],
+          "answer": "Assess safety, legality, and inform the operator if necessary"
+        },
+        {
+          "id": 9,
+          "question": "What is the consequence of failing to renew a PHV licence on time?",
+          "options": [
+            "A small fine but continued operation",
+            "Immediate suspension from work",
+            "A warning letter with no penalty",
+            "Extension until renewal is processed"
+          ],
+          "answer": "Immediate suspension from work"
+        },
+        {
+          "id": 10,
+          "question": "What should PHV drivers do if their vehicle’s insurance expires?",
+          "options": [
+            "Continue working until caught",
+            "Renew the insurance before accepting passengers",
+            "Only accept cash payments to avoid detection",
+            "Use a different vehicle without notifying authorities"
+          ],
+          "answer": "Renew the insurance before accepting passengers"
+        },
+        {
+          "id": 11,
+          "question": "What must PHV drivers do if their vehicle is involved in an accident?",
+          "options": [
+            "Immediately leave the scene",
+            "Exchange details and report to authorities if necessary",
+            "Continue the journey if the vehicle is still working",
+            "Blame the passenger if they were distracting the driver"
+          ],
+          "answer": "Exchange details and report to authorities if necessary"
+        },
+        {
+          "id": 12,
+          "question": "Which of these actions is NOT a professional expectation of PHV drivers?",
+          "options": [
+            "Keeping their vehicle clean and roadworthy",
+            "Providing a professional and polite service",
+            "Engaging in long personal conversations with passengers",
+            "Following traffic rules at all times"
+          ],
+          "answer": "Engaging in long personal conversations with passengers"
+        },
+        {
+          "id": 13,
+          "question": "When is a PHV driver allowed to use a mobile phone?",
+          "options": [
+            "Only when making personal calls",
+            "Only when using a hands-free device",
+            "While stationary at a red light",
+            "Whenever they need to check directions"
+          ],
+          "answer": "Only when using a hands-free device"
+        },
+        {
+          "id": 14,
+          "question": "Which of the following actions can lead to a PHV driver’s licence being revoked?",
+          "options": [
+            "Receiving multiple customer complaints",
+            "Having an unclean vehicle",
+            "Using a hands-free navigation system",
+            "Following speed limits too strictly"
+          ],
+          "answer": "Receiving multiple customer complaints"
+        },
+        {
+          "id": 15,
+          "question": "What should a PHV driver do if their vehicle is stolen?",
+          "options": [
+            "Wait to see if it is returned",
+            "Report it immediately to the police and their operator",
+            "Claim insurance first before reporting",
+            "Borrow another vehicle without informing authorities"
+          ],
+          "answer": "Report it immediately to the police and their operator"
+        },
+        {
+          "id": 16,
+          "question": "What must a PHV driver do before working with a new operator?",
+          "options": [
+            "Ensure they are registered with TfL",
+            "Only notify their previous employer",
+            "Stop working until a new badge is issued",
+            "Submit a complaint against their previous operator"
+          ],
+          "answer": "Ensure they are registered with TfL"
+        },
+        {
+          "id": 17,
+          "question": "Which of these is a key environmental responsibility of PHV drivers?",
+          "options": [
+            "Driving as fast as possible to reduce journey times",
+            "Minimizing unnecessary engine idling",
+            "Using the air conditioning at all times",
+            "Only driving at night to avoid traffic"
+          ],
+          "answer": "Minimizing unnecessary engine idling"
+        },
+        {
+          "id": 18,
+          "question": "How can PHV drivers reduce their carbon footprint?",
+          "options": [
+            "Driving aggressively to reach destinations quickly",
+            "Maintaining proper vehicle servicing and smooth driving",
+            "Only driving petrol vehicles",
+            "Avoiding public transport users"
+          ],
+          "answer": "Maintaining proper vehicle servicing and smooth driving"
+        },
+        {
+          "id": 19,
+          "question": "What must a PHV driver do if a passenger becomes ill during a journey?",
+          "options": [
+            "Continue driving unless asked to stop",
+            "Stop safely and offer assistance",
+            "Ignore the passenger’s condition",
+            "Drop them off immediately, regardless of location"
+          ],
+          "answer": "Stop safely and offer assistance"
+        },
+        {
+          "id": 20,
+          "question": "Which of the following must a PHV driver report to TfL?",
+          "options": [
+            "A minor argument with a passenger",
+            "A conviction or any legal penalty",
+            "A lost item found in the vehicle",
+            "A passenger changing their destination"
+          ],
+          "answer": "A conviction or any legal penalty"
+        },
+        {
+          "id": 21,
+          "question": "What may affect the environment around the operating centre?",
+          "options": [
+            "Noise",
+            "Traffic & customer movement",
+            "Reading a book in your vehicle while stationary with engine off",
+            "None of the above"
+          ],
+          "answer": "Traffic & customer movement"
+        },
+        {
+          "id": 22,
+          "question": "Vehicles must be kept in good condition. If you own your PHV, you must tell TfL within 72 hours of any collision that affects the safety, performance, appearance or comfort of the vehicle. Which one of the following statements is correct?",
+          "options": [
+            "You don’t need to inform TfL of any collision",
+            "You must tell TfL within 72 hours of any collision that affects the safety, performance, appearance or comfort of the vehicle.",
+            "You must inform your insurance and the operator of any collision",
+            "You only need to inform TfL if the vehicle cannot be driven"
+          ],
+          "answer": "You must tell TfL within 72 hours of any collision that affects the safety, performance, appearance or comfort of the vehicle."
+        },
+        {
+          "id": 23,
+          "question": "Ridesharing is when?",
+          "options": [
+            "People who do not know each other pay separate fares and travel in different vehicles",
+            "People who do not know each other pay separate fares and travel together in the same vehicle",
+            "Passengers change to another PHV during their trip",
+            "Passengers share one vehicle and split the cost between themselves"
+          ],
+          "answer": "People who do not know each other pay separate fares and travel together in the same vehicle"
+        },
+        {
+          "id": 24,
+          "question": "Is it illegal to keep your engine running while you are waiting?",
+          "options": [
+            "Yes, this can be illegal on a public road",
+            "No, you can keep your engine running at all times",
+            "Yes, this is a criminal offense",
+            "Only in certain areas, such as near schools"
+          ],
+          "answer": "Yes, this can be illegal on a public road"
+        },
+        {
+          "id": 25,
+          "question": "TfL believes it is important to provide a public transport system which?",
+          "options": [
+            "Is the fastest in the world",
+            "Is most expensive in the world",
+            "All people can use, so that older and disabled people have the same opportunities to travel as all other people",
+            "Only serves people in major cities"
+          ],
+          "answer": "All people can use, so that older and disabled people have the same opportunities to travel as all other people"
+        },
+        {
+          "id": 26,
+          "question": "You must never, for any reason, stop within?",
+          "options": [
+            "Pedestrian clearways & zig-zag lines",
+            "Bus stops with wide red lines",
+            "Designated parking bays",
+            "Private driveways"
+          ],
+          "answer": "Pedestrian clearways & zig-zag lines"
+        },
+        {
+          "id": 27,
+          "question": "Do you need a British Passport to apply to PHV Driver's License?",
+          "options": [
+            "Yes",
+            "No, but you must have the right to live and work in the UK",
+            "Only British or European Union Passports are accepted",
+            "Yes, and it must be valid for at least 5 years"
+          ],
+          "answer": "No, but you must have the right to live and work in the UK"
+        },
+        {
+          "id": 28,
+          "question": "Safeguarding means protecting children and adults at risk (sometimes called vulnerable adults) from?",
+          "options": [
+            "Debt",
+            "Everyday life",
+            "Harm and abuse",
+            "Traffic accidents"
+          ],
+          "answer": "Harm and abuse"
+        },
+        {
+          "id": 29,
+          "question": "Not to behave in an anti-social manner means?",
+          "options": [
+            "Not to leave litter in the street or road, not to go to the toilet in a public place",
+            "Not to leave your engine running",
+            "To accept bookings from strangers on the street",
+            "To always refuse bookings from passengers"
+          ],
+          "answer": "Not to leave litter in the street or road, not to go to the toilet in a public place"
+        },
+        {
+          "id": 30,
+          "question": "All ridesharing journeys must be booked with:",
+          "options": [
+            "Uber",
+            "A licensed London PHV operator",
+            "Bolt",
+            "Any taxi or PHV driver on the street"
+          ],
+          "answer": "A licensed London PHV operator"
+        },
+        {
+          "id": 31,
+          "question": "TfL expects PHV drivers to deliver?",
+          "options": [
+            "Parcels",
+            "A high standard of customer service to all passengers, whatever their needs",
+            "Uber eats orders",
+            "Free rides to elderly passengers"
+          ],
+          "answer": "A high standard of customer service to all passengers, whatever their needs"
+        },
+        {
+          "id": 32,
+          "question": "Can TfL take licensing action against you if you stop or park on a taxi rank?",
+          "options": [
+            "Only if parked for longer than 5 minutes",
+            "Yes",
+            "Only if you leave your vehicle unattended",
+            "No, taxi ranks can be used by PHVs after 10pm"
+          ],
+          "answer": "Yes"
+        },
+        {
+          "id": 33,
+          "question": "Red route signs - meaning?",
+          "options": [
+            "Only loading may take place at the time shown for up to a maximum",
+            "No stopping at any time",
+            "No stopping between 10am and 4pm",
+            "Stopping is allowed only for taxis"
+          ],
+          "answer": "No stopping at any time"
+        },
+        {
+          "id": 34,
+          "question": "As a PHV driver, you are expected to be fully aware of and to obey the rules of the road as explained in the?",
+          "options": [
+            "DVLA Driver Code",
+            "Traffic Code",
+            "Highway Code",
+            "TfL PHV Driver Guide"
+          ],
+          "answer": "Highway Code"
+        },
+        {
+          "id": 35,
+          "question": "In what circumstances are you allowed to use your private car when your London licensed PHV vehicle breaks down?",
+          "options": [
+            "Only if your operator allows you to do so",
+            "Only if your operator allows you to do so and the job was pre-booked",
+            "You are not allowed to use any unlicensed vehicles to carry out bookings",
+            "You can use your private car for emergency bookings only"
+          ],
+          "answer": "You are not allowed to use any unlicensed vehicles to carry out bookings"
+        },
+        {
+          "id": 36,
+          "question": "When driving, you must be aware of your responsibilities under?",
+          "options": [
+            "The Code of Conduct",
+            "The Driver Code",
+            "The Highway Code",
+            "PHV Operating Rules"
+          ],
+          "answer": "The Highway Code"
+        },
+        {
+          "id": 37,
+          "question": "A child is a person under the age of?",
+          "options": ["17 Years", "16 Years", "18 Years", "14 Years"],
+          "answer": "18 Years"
+        },
+        {
+          "id": 38,
+          "question": "Name the road sign?",
+          "options": ["Taxi Lane", "Bus Lane", "Cycle Lane", "No Entry"],
+          "answer": "Bus Lane"
+        },
+        {
+          "id": 39,
+          "question": "Can you get a PCN if you wait for a late passenger somewhere where there are restrictions?",
+          "options": [
+            "No, as long as you have a booking",
+            "Yes, at all times",
+            "Only between 6am and 10pm",
+            "Only if you leave your vehicle unattended"
+          ],
+          "answer": "Yes, at all times"
+        },
+        {
+          "id": 40,
+          "question": "TfL expects all licensed drivers to offer Londoners and visitors?",
+          "options": [
+            "Bottled water",
+            "Professional and safe service",
+            "Free rides",
+            "Discounted fares"
+          ],
+          "answer": "Professional and safe service"
+        },
+        {
+          "id": 41,
+          "question": "If there are waiting or parking restrictions, what can you do?",
+          "options": [
+            "You can stop for up to 5 minutes",
+            "You can stop for no longer than is needed for the passenger to get in or out of the vehicle",
+            "You can stop for up to 2 minutes",
+            "You can stop for as long as needed if you keep the engine running"
+          ],
+          "answer": "You can stop for no longer than is needed for the passenger to get in or out of the vehicle"
+        },
+        {
+          "id": 42,
+          "question": "When can a replacement vehicle licence disc be issued?",
+          "options": [
+            "When you take the original discs off for holiday",
+            "When the original discs are lost or stolen",
+            "When the original discs are damaged",
+            "When your PHV is off-road for maintenance"
+          ],
+          "answer": "When the original discs are lost or stolen"
+        },
+        {
+          "id": 43,
+          "question": "You can only carry out ridesharing bookings that you have received from?",
+          "options": [
+            "Directly from the passenger",
+            "Uber",
+            "A licensed London PHV operator",
+            "Any ride-sharing app"
+          ],
+          "answer": "A licensed London PHV operator"
+        },
+        {
+          "id": 44,
+          "question": "Do operators need to keep details of complaints made to them?",
+          "options": [
+            "Yes, details of all complaints",
+            "Yes, but only details of complaints involving violent or aggressive behaviour",
+            "No",
+            "Only for complaints from corporate clients"
+          ],
+          "answer": "Yes, details of all complaints"
+        },
+        {
+          "id": 45,
+          "question": "How to recognise a London licensed PHV vehicle?",
+          "options": [
+            "By PHV licence discs on display",
+            "By a Taxi sign on the roof",
+            "By Uber logo on the doors",
+            "By the vehicle's registration number"
+          ],
+          "answer": "By PHV licence discs on display"
+        },
+        {
+          "id": 46,
+          "question": "What type of behaviour should be avoided?",
+          "options": [
+            "That causes any danger to you or others around you",
+            "That causes any danger to you only",
+            "That is safe and follows the rules from The Highway Code",
+            "That causes minor inconvenience to other drivers"
+          ],
+          "answer": "That causes any danger to you or others around you"
+        },
+        {
+          "id": 47,
+          "question": "To provide the best services to your passengers you should?",
+          "options": [
+            "Drive fast",
+            "Always ask your passengers if they need any help and wait for your offer to be accepted",
+            "Play loud music",
+            "Offer them discounts on their rides"
+          ],
+          "answer": "Always ask your passengers if they need any help and wait for your offer to be accepted"
+        },
+        {
+          "id": 48,
+          "question": "Operators must report the following types of complaints to the police?",
+          "options": [
+            "Operators are not required to notify the police about any type of complaints",
+            "They must report all complaints to the police",
+            "Any complaints that involve possible crimes",
+            "Only complaints involving damage to vehicles"
+          ],
+          "answer": "Any complaints that involve possible crimes"
+        },
+        {
+          "id": 49,
+          "question": "You can only carry out bookings received from?",
+          "options": [
+            "Any UK licensed operator",
+            "London licensed PHV operator",
+            "Anyone looking for a cab on the street or at stations or airports",
+            "Customers who contact you directly"
+          ],
+          "answer": "London licensed PHV operator"
+        },
+        {
+          "id": 50,
+          "question": "How many years must you have held your driving license before applying for PHV Driver's license?",
+          "options": ["3 Years", "5 Years", "There is no limit", "1 Year"],
+          "answer": "3 Years"
+        }
+      ]
+    },
+    "quiz7" : {
+    "id": 700,
+    "title": "PHV Driver’s Licence - Passenger Safety and Ethical Conduct",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What should a PHV driver do if a passenger forgets their belongings in the vehicle?",
+        "options": [
+          "Ignore it and continue working",
+          "Return it to the operator or police station",
+          "Sell the item if unclaimed",
+          "Keep it and wait for the passenger to call"
+        ],
+        "answer": "Return it to the operator or police station"
+      },
+      {
+        "id": 2,
+        "question": "What is the maximum number of passengers a PHV can legally carry?",
+        "options": [
+          "Only one at a time",
+          "As many as can fit",
+          "The number specified in the vehicle’s licence",
+          "Five passengers, regardless of vehicle type"
+        ],
+        "answer": "The number specified in the vehicle’s licence"
+      },
+      {
+        "id": 3,
+        "question": "When should a PHV driver report a traffic violation they received while on duty?",
+        "options": [
+          "Immediately to TfL and their operator",
+          "Only if caught by police",
+          "Never, unless asked",
+          "Only if a passenger witnessed it"
+        ],
+        "answer": "Immediately to TfL and their operator"
+      },
+      {
+        "id": 4,
+        "question": "Which of the following is a PHV driver required to do under the Equality Act 2010?",
+        "options": [
+          "Ensure fair and equal treatment of all passengers",
+          "Refuse service to passengers with guide dogs",
+          "Only assist passengers if they ask for help",
+          "Charge extra for passengers with disabilities"
+        ],
+        "answer": "Ensure fair and equal treatment of all passengers"
+      },
+      {
+        "id": 5,
+        "question": "Which behavior is considered unprofessional for a PHV driver?",
+        "options": [
+          "Making inappropriate jokes or personal remarks",
+          "Providing a clean and safe vehicle",
+          "Following traffic laws",
+          "Helping passengers with their luggage"
+        ],
+        "answer": "Making inappropriate jokes or personal remarks"
+      },
+      {
+        "id": 6,
+        "question": "How should a PHV driver respond if a passenger becomes abusive?",
+        "options": [
+          "Remain calm, avoid confrontation, and report it if necessary",
+          "Stop the vehicle and demand they leave immediately",
+          "Argue with the passenger",
+          "Ignore the behavior and continue driving"
+        ],
+        "answer": "Remain calm, avoid confrontation, and report it if necessary"
+      },
+      {
+        "id": 7,
+        "question": "What should a PHV driver do if they receive a customer complaint?",
+        "options": [
+          "Respond professionally and take steps to resolve the issue",
+          "Ignore it unless contacted by TfL",
+          "Argue with the passenger about the complaint",
+          "Stop driving for the day"
+        ],
+        "answer": "Respond professionally and take steps to resolve the issue"
+      },
+      {
+        "id": 8,
+        "question": "Which of the following must a PHV driver do before accepting a fare?",
+        "options": [
+          "Ensure the passenger has exact change",
+          "Only accept bookings from family and friends",
+          "Ask the passenger for cash payment upfront",
+          "Confirm the booking through an operator"
+        ],
+        "answer": "Confirm the booking through an operator"
+      },
+      {
+        "id": 9,
+        "question": "What should a PHV driver do if their vehicle develops a mechanical fault mid-journey?",
+        "options": [
+          "Stop safely and arrange alternative transport for the passenger",
+          "Ignore the issue and complete the trip",
+          "Ask the passenger to wait while they fix it",
+          "Continue driving if possible"
+        ],
+        "answer": "Stop safely and arrange alternative transport for the passenger"
+      },
+      {
+        "id": 10,
+        "question": "What is the penalty for a PHV driver operating without valid insurance?",
+        "options": [
+          "No penalty if no accident occurs",
+          "A warning letter from TfL",
+          "Immediate licence suspension and possible prosecution",
+          "A minor fine with no further action"
+        ],
+        "answer": "Immediate licence suspension and possible prosecution"
+      },
+      {
+        "id": 11,
+        "question": "Which of the following must be kept up to date for a PHV driver to continue working?",
+        "options": [
+          "Their PHV licence, insurance, and medical fitness certificate",
+          "The car's air freshener",
+          "The driver's social media account",
+          "The driver's choice of working hours"
+        ],
+        "answer": "Their PHV licence, insurance, and medical fitness certificate"
+      },
+      {
+        "id": 12,
+        "question": "When should a PHV driver refuse service to a passenger?",
+        "options": [
+          "If the passenger has a baby stroller",
+          "If the passenger is aggressive or poses a safety risk",
+          "If the passenger requests a long journey",
+          "If the passenger wants to pay by card"
+        ],
+        "answer": "If the passenger is aggressive or poses a safety risk"
+      },
+      {
+        "id": 13,
+        "question": "What must a PHV driver do if they change their phone number?",
+        "options": [
+          "Ignore it",
+          "Wait until licence renewal to update it",
+          "Inform TfL and their operator immediately",
+          "Only tell their passengers"
+        ],
+        "answer": "Inform TfL and their operator immediately"
+      },
+      {
+        "id": 14,
+        "question": "What must a PHV driver do if they witness a crime while on duty?",
+        "options": [
+          "Report it to the police as soon as possible",
+          "Ignore it",
+          "Discuss it with passengers first",
+          "Take photos and post them online"
+        ],
+        "answer": "Report it to the police as soon as possible"
+      },
+      {
+        "id": 15,
+        "question": "What is the correct action if a passenger does not have the means to pay for the journey?",
+        "options": [
+          "Politely request an alternative form of payment and report to the operator if needed",
+          "Lock the passenger in the car until they pay",
+          "Take the passenger to a police station immediately",
+          "Threaten legal action"
+        ],
+        "answer": "Politely request an alternative form of payment and report to the operator if needed"
+      },
+      {
+        "id": 16,
+        "question": "Which of the following is NOT a PHV driver's responsibility?",
+        "options": [
+          "Ensuring the vehicle is safe and roadworthy",
+          "Providing passengers with personal contact details",
+          "Providing a professional and courteous service",
+          "Following traffic laws"
+        ],
+        "answer": "Providing passengers with personal contact details"
+      },
+      {
+        "id": 17,
+        "question": "What should a PHV driver do if they receive a request for an illegal journey?",
+        "options": [
+          "Refuse and report it to the operator or authorities if necessary",
+          "Take the passenger as far as possible and then stop",
+          "Ask another driver to take the journey instead",
+          "Accept it if the fare is high enough"
+        ],
+        "answer": "Refuse and report it to the operator or authorities if necessary"
+      },
+      {
+        "id": 18,
+        "question": "If a road marking says Taxis, what does it mean?",
+        "options": [
+          "You are allowed only to drop off and pick up passengers",
+          "A PHV is not a taxi you are not allowed to drop off and pick up passengers",
+          "PHVs have the same rights as taxis you are allowed to drop off and pick up passengers",
+          "Only licensed taxis can stop here, PHVs cannot"
+        ],
+        "answer": "A PHV is not a taxi you are not allowed to drop off and pick up passengers"
+      },
+      {
+        "id": 19,
+        "question": "Most collisions in London are caused by a small number of easy-to-avoid behaviours. These include?",
+        "options": [
+          "Speeding or driving too fast for the conditions",
+          "Driving within the speed limits",
+          "Not following the rules of the road",
+          "Stopping at pedestrian crossings"
+        ],
+        "answer": "Speeding or driving too fast for the conditions"
+      },
+      {
+        "id": 20,
+        "question": "To work as a London PHV driver PHV, you must be physically fit. This will mean that you will need to have a medical examination with a doctor who has access to all of your medical records. The medical requirements are the DVLA Group 2 medical standards.",
+        "options": [
+          "This will mean that you don't need to have a medical examination with a doctor who has access to all of your medical records.",
+          "This will mean that you will need to have a medical examination with a doctor who has access to all of your medical records.",
+          "The medical requirements are the Tfl Group 2 medical standards"
+        ],
+        "answer": "This will mean that you will need to have a medical examination with a doctor who has access to all of your medical records."
+      },
+      {
+        "id": 21,
+        "question": "What driving license do you need to have in order to apply for PHV driver's license?",
+        "options": [
+          "Full DVLA or Northern Ireland",
+          "Doesn't matter as long as it's valid (issued anywhere in the world)",
+          "EU or EEA"
+        ],
+        "answer": "Full DVLA or Northern Ireland"
+      },
+      {
+        "id": 22,
+        "question": "Do you need a British Passport to apply to PHV Driver's License?",
+        "options": [
+          "Yes",
+          "No, but you must have the right to live and work in the UK",
+          "Only British or European Union Passports are accepted"
+        ],
+        "answer": "No, but you must have the right to live and work in the UK"
+      },
+      {
+        "id": 23,
+        "question": "Is it possible to have a license issued for a period shorter than 3 years?",
+        "options": [
+          "Yes, the letter that comes with the license will explain why",
+          "No",
+          "Yes, but only if over 65"
+        ],
+        "answer": "Yes, the letter that comes with the license will explain why"
+      },
+      {
+        "id": 24,
+        "question": "What to do if you're exempt from wearing a badge?",
+        "options": [
+          "Keep your badge in a safe place at home - no other actions are necessary",
+          "There are no exemptions from wearing a badge",
+          "You must carry the exemption notice with you at all times when working as a PHV driver"
+        ],
+        "answer": "You must carry the exemption notice with you at all times when working as a PHV driver"
+      },
+      {
+        "id": 25,
+        "question": "What does a medical condition on your license mean?",
+        "options": [
+          "You may be required to have extra medical checks if you have a medical condition",
+          "That your license will be only valid for 6 months",
+          "That you can only work 4 hours a day"
+        ],
+        "answer": "You may be required to have extra medical checks if you have a medical condition"
+      },
+      {
+        "id": 26,
+        "question": "What is the minimum age to apply for a PHV Drivers license?",
+        "options": ["19", "21", "25"],
+        "answer": "21"
+      },
+      {
+        "id": 27,
+        "question": "What does the letter which comes with your license contain?",
+        "options": [
+          "Important information about the operator you must work with",
+          "Important responsibilities as a London PHV driver, including any conditions you must meet",
+          "License will be sent on its own there are no additional letters"
+        ],
+        "answer": "Important responsibilities as a London PHV driver, including any conditions you must meet"
+      },
+      {
+        "id": 28,
+        "question": "Is there an upper age limit to apply for a PHV Driver's license?",
+        "options": ["Yes - 65", "No", "Yes - 70"],
+        "answer": "No"
+      },
+      {
+        "id": 29,
+        "question": "What information is displayed on the PHV driver's badge?",
+        "options": [
+          "License number, Photograph, Name and the date your license period ends",
+          "License number, Name and the date your license period ends",
+          "License number, Photograph, Name, Date of birth and the date your license period end"
+        ],
+        "answer": "License number, Photograph, Name and the date your license period ends"
+      },
+      {
+        "id": 30,
+        "question": "How will I know that my application has been approved?",
+        "options": [
+          "You don't need to wait for a license to arrive, you can start working after passing the topographical assessment",
+          "TfL will contact you by phone",
+          "TfL will send you a London PHV driver's license"
+        ],
+        "answer": "TfL will send you a London PHV driver's license"
+      },
+      {
+        "id": 31,
+        "question": "What medical standards do you need to meet to apply for a PHV driver's license?",
+        "options": [
+          "You don't need to do any medical checks",
+          "DVLA Group 2 standards",
+          "DVLA Group 1 standards"
+        ],
+        "answer": "DVLA Group 2 standards"
+      },
+      {
+        "id": 32,
+        "question": "What type of criminal records check is required as part of the application process?",
+        "options": [
+          "Basic",
+          "Enhanced obtained via any DBS provider",
+          "Enhanced obtained via TfL's chosen provider"
+        ],
+        "answer": "Enhanced obtained via TfL's chosen provider"
+      },
+      {
+        "id": 33,
+        "question": "Can you share your badge with someone else?",
+        "options": [
+          "Yes, but only with family members living at the same address that are insured to drive your vehicle",
+          "Yes, but only with your spouse",
+          "No, the badge is for your use only"
+        ],
+        "answer": "No, the badge is for your use only"
+      },
+      {
+        "id": 34,
+        "question": "Is the operator that you work for required to keep your original driving license?",
+        "options": [
+          "No, the operator your work for must keep a copy of your driving license and PHV driver's license",
+          "No, the operator you work for must only keep a copy of your PHV driver's license",
+          "Yes"
+        ],
+        "answer": "No, the operator your work for must keep a copy of your driving license and PHV driver's license"
+      },
+      {
+        "id": 35,
+        "question": "If your application is approved, TfL will send you a London PHV driver’s licence. Your licence may have some conditions attached to it. For example, if you have a medical condition, you may be required to have extra medical checks. Any conditions added to your licence will be explained in the letter sent to you with your licence. It is very important that you keep the letter and comply with any conditions that come with your licence. If you do not, then your licence may be revoked.",
+        "options": [
+          "There could be conditions attached to your licence.",
+          "Your licence may have medical and DVLA conditions attached",
+          "Your licence may have some DVLA conditions attached"
+        ],
+        "answer": "There could be conditions attached to your licence."
+      },
+      {
+        "id": 36,
+        "question": "How should the badge be displayed?",
+        "options": [
+          "You don't have to wear it but it must be in your car at all times",
+          "You must wear it at all times when working",
+          "It should be hanged on your rear-view mirror"
+        ],
+        "answer": "You must wear it at all times when working"
+      },
+      {
+        "id": 37,
+        "question": "What is a Topographical Skills assessment?",
+        "options": [
+          "A driving test with a TfL instructor",
+          "A test to check your ability to select and plan a route, read a map and identify locations",
+          "A test to check your knowledge of London"
+        ],
+        "answer": "A test to check your ability to select and plan a route, read a map and identify locations"
+      },
+      {
+        "id": 38,
+        "question": "What to do if a visually impaired passenger asks for your license number?",
+        "options": [
+          "Allow them to touch your badge, it includes text in Braille",
+          "Tell them what your license number",
+          "You don't need to share your license details with passengers"
+        ],
+        "answer": "Tell them what your license number"
+      },
+      {
+        "id": 39,
+        "question": "Your badge was stolen - you reported this fact to the police and TfL - Can you continue working as a PHV driver?",
+        "options": [
+          "Yes as long as you have a crime reference letter from the police",
+          "No, you cannot continue working without your badge",
+          "Yes, but you need to have your paper license with you at all times instead of the badge"
+        ],
+        "answer": "No, you cannot continue working without your badge"
+      },
+      {
+        "id": 40,
+        "question": "From what age must you have a medical examination every year (unless exempt)?",
+        "options": [
+          "From the age of 50",
+          "From the age of 65",
+          "From the age of 70"
+        ],
+        "answer": "From the age of 65"
+      },
+      {
+        "id": 41,
+        "question": "Your PHV driver’s badge displays your name, photograph, licence number and the date your licence period ends. Remember, your operator must give passengers your name, photograph and vehicle details.",
+        "options": [
+          "Your operator must not give passengers your name, photograph and vehicle details.",
+          "Your name, photograph, licence number, and expiry date are all displayed on your PHV driver's badge.",
+          "Keep your badge in a safe place at home - no other actions are necessary."
+        ],
+        "answer": "Your name, photograph, licence number, and expiry date are all displayed on your PHV driver's badge."
+      },
+      {
+        "id": 42,
+        "question": "What happens when TfL receives a complaint made against you or becomes aware of any behaviour that is not satisfactory?",
+        "options": [
+          "Your license will be revoked immediately",
+          "You will have to surrender your license on its expiry date",
+          "TfL may write to you with the details and ask for your comments. It's important that you respond to this request"
+        ],
+        "answer": "TfL may write to you with the details and ask for your comments. It's important that you respond to this request"
+      },
+      {
+        "id": 43,
+        "question": "What to do if you develop a new medical condition that may affect your ability to drive?",
+        "options": [
+          "You should tell TfL immediately if between medical examinations",
+          "Wait until the next renewal application",
+          "You only need to consult your GP"
+        ],
+        "answer": "You should tell TfL immediately if between medical examinations"
+      },
+      {
+        "id": 44,
+        "question": "You may be exempt from supplying a medical form in support of your new PHV driver application if you:",
+        "options": [
+          "Have a provisional DVLA Group 2 license or a valid, current pilot's license issued by the Joint Aviation Authorities",
+          "Have a current London taxi license",
+          "Are under the age of 45"
+        ],
+        "answer": "Have a current London taxi license"
+      },
+      {
+        "id": 45,
+        "question": "You must tell TfL immediately if you are arrested, charged with, convicted or cautioned for any crime. This includes any fixed penalty notices or road traffic offences that result in penalty points on your driving licence.",
+        "options": [
+          "Police will inform TfL if you are arrested, charged with, convicted or cautioned for any crime",
+          "This includes any fixed penalty notices or road traffic offences that result in penalty points on your driving licence.",
+          "No need to inform TfL if you are arrested, charged with, convicted or cautioned for any crime"
+        ],
+        "answer": "This includes any fixed penalty notices or road traffic offences that result in penalty points on your driving licence."
+      },
+      {
+        "id": 46,
+        "question": "Do you need to notify TfL about a change of email address or a phone number?",
+        "options": [
+          "Yes",
+          "No, it's not required",
+          "Yes, but only on your next renewal application"
+        ],
+        "answer": "Yes"
+      },
+      {
+        "id": 47,
+        "question": "What is the DBS?",
+        "options": [
+          "The DBS is a private company that does checks on people's backgrounds",
+          "The DBS is a public body that does checks on people's backgrounds",
+          "The DBS is a private company authorized by TfL to rent private hire vehicles"
+        ],
+        "answer": "The DBS is a public body that does checks on people's backgrounds"
+      },
+      {
+        "id": 48,
+        "question": "What age must you be to have a medical examination each time you apply to renew your licence (unless exempt)?",
+        "options": [
+          "From the age of 50",
+          "From the age of 40",
+          "From the age of 45"
+        ],
+        "answer": "From the age of 45"
+      },
+      {
+        "id": 49,
+        "question": "If TfL receives a complaint about you or becomes aware of any behaviour that is not satisfactory, TfL may write to you with the details and ask for your comments.",
+        "options": [
+          "It is not important that you respond to TfL’s request.",
+          "It is important that you respond to TfL’s request.",
+          "It is important that you respond to TfL’s request within 5 days."
+        ],
+        "answer": "It is important that you respond to TfL’s request."
+      },
+      {
+        "id": 50,
+        "question": "What to do if you have a private hire or taxi driver's license with another licensing authority and that authority has suspended or revoked your license, or refused new applications you have made?",
+        "options": [
+          "Carry on working as normal - only the license issued by another licensing authority will be affected",
+          "Report to TfL immediately",
+          "Report it to DVLA within 21 days"
+        ],
+        "answer": "Report to TfL immediately"
+      }
+    ]
     }
 
 

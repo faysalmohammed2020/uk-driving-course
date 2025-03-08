@@ -25,15 +25,19 @@ const ExamPage = () => {
     let quizQuestions = []
 
     if (examId === 100) {
-      quizQuestions = t.raw("quiz.questions") // Load Quiz 1
+      quizQuestions = t.raw("quiz.questions") 
     } else if (examId === 200) {
-      quizQuestions = t.raw("quiz2.questions") // Load Quiz 2
+      quizQuestions = t.raw("quiz2.questions") 
     } else if (examId === 300){
       quizQuestions = t.raw("quiz3.questions")
     } else if (examId === 400){
       quizQuestions = t.raw("quiz4.questions")
     } else if (examId === 500){
       quizQuestions = t.raw("quiz5.questions")
+    } else if (examId === 600){
+      quizQuestions = t.raw("quiz6.questions")
+    } else if (examId === 700){
+      quizQuestions = t.raw("quiz7.questions")
     } 
 
     if (quizQuestions) {
