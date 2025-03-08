@@ -30,7 +30,11 @@ const ExamPage = () => {
       quizQuestions = t.raw("quiz2.questions") // Load Quiz 2
     } else if (examId === 300){
       quizQuestions = t.raw("quiz3.questions")
-    }
+    } else if (examId === 400){
+      quizQuestions = t.raw("quiz4.questions")
+    } else if (examId === 500){
+      quizQuestions = t.raw("quiz5.questions")
+    } 
 
     if (quizQuestions) {
       setSelectedQuestions(quizQuestions)
@@ -135,7 +139,7 @@ const ExamPage = () => {
       ) : hasStarted && !isSubmitted ? (
         <div>
           <div className="flex justify-between mb-4">
-            <h1 className="text-2xl font-bold">{t("quiz.title")}</h1>
+            <h1 className="text-2xl font-bold">MCQ Exam</h1>
             <div className="text-red-600 font-bold">Time Left: {formatTime(timeLeft)}</div>
           </div>
           {selectedQuestions.map((q) => (
