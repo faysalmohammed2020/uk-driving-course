@@ -1,17 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { notFound } from "next/navigation";
 import { blogspageblogs } from "../../data/home";
-
-// Type for Blog Post
-// interface BlogPost {
-//   id: number;
-//   title: string;
-//   description: string;
-//   image: string;
-//   content: string;
-// }
 
 // Generate Static Params for Dynamic Routing
 export async function generateStaticParams() {
@@ -43,7 +34,7 @@ const BlogPage = ({ params }: { params: { id: string } }) => {
 
         <div className="rounded-lg overflow-hidden shadow-lg mb-6">
           <Image
-            src={blog.image}
+            src={`/images/${blog.image}`}
             alt={blog.title}
             className="w-full h-auto object-cover"
             width={1200}
