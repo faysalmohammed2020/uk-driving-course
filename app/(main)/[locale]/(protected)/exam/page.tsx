@@ -38,6 +38,7 @@ import questions29 from "@/app/(main)/[locale]/data/questions29.json";
 import questions30 from "@/app/(main)/[locale]/data/questions30.json";
 import { useSession } from "@/lib/auth-client";
 import { setErrorMap } from "better-auth";
+import { useLocale } from "next-intl";
 
 interface MockTest {
   id: number;
@@ -60,6 +61,7 @@ const ExamPage = () => {
   const [examResults, setExamResults] = useState<any[]>([]);
   const { data: session } = useSession();
   const userId = session?.user.id;
+  const locale = useLocale();
 
   console.log("PassedExams::", examResults);
 
@@ -118,7 +120,7 @@ const ExamPage = () => {
   }, []);
 
   const startExam = (id: number) => {
-    router.push(`/en/exam/${id}`);
+    router.push(`/${locale}/exam/${id}`);
   };
 
   const totalPages = Math.ceil(mockTests.length / ITEMS_PER_PAGE);
@@ -127,8 +129,8 @@ const ExamPage = () => {
     currentPage * ITEMS_PER_PAGE
   );
 
-   // Check if the user has passed the exam with the given examId
-   const hasPassed = (examId: number) => {
+  // Check if the user has passed the exam with the given examId
+  const hasPassed = (examId: number) => {
     return examResults.some(
       (result) => result.examId === examId && result.status === "Passed"
     );
@@ -163,8 +165,10 @@ const ExamPage = () => {
             <h3 className="font-semibold text-lg text-left w-full line-clamp-2">
               {/* Display checkmark if the exam has been passed */}
               {hasPassed(test.id) && (
-                <div className="flex gap-2"><span className="text-green-600 font-semibold">Passed:</span><FaCheckCircle className="text-green-500 inline ml-2 size-6 mb-0" /></div>
-                
+                <div className="flex gap-2">
+                  <span className="text-green-600 font-semibold">Passed:</span>
+                  <FaCheckCircle className="text-green-500 inline ml-2 size-6 mb-0" />
+                </div>
               )}
             </h3>
 
