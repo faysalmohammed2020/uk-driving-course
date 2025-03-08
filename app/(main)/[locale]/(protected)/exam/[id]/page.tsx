@@ -113,37 +113,58 @@ const ExamPage = () => {
       {!hasStarted && !isSubmitted ? (
         <div className="relative bg-opacity-50 backdrop-blur-md border border-gray-200 rounded-3xl shadow-xl p-8 max-w-4xl mx-auto mt-10 text-center bg-white">
           <h1 className="text-4xl font-extrabold mb-6 text-gray-800">
-            {t("exam.exams.Guidelines")}
+            Exam Guidelines
           </h1>
+          <div className="flex justify-center mb-6">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1484/1484916.png"
+              alt="Guidelines"
+              className="w-28 h-28 animate-pulse"
+            />
+          </div>
           <p className="text-red-600 text-lg font-semibold mb-4">
-            {t("exam.exams.PleaseRead")}
+            Please read the guidelines carefully before starting the exam.
           </p>
-
           <ul className="text-left text-gray-700 list-none space-y-4 mb-8 mx-8">
             <li className="flex items-start bg-gray-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
               <span className="material-icons text-blue-600 font-bold text-lg mr-3">
-                {t("exam.exams.Schedule")}
+                Schedule:
               </span>
-              <span>{t("exam.exams.Mint")}</span>
+              <span>
+                You will have <span className="font-semibold">30 minutes</span>{" "}
+                to complete the exam.
+              </span>
             </li>
-
             <li className="flex items-start bg-gray-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
               <span className="material-icons text-green-600 text-lg font-bold mr-3">
-                {t("exam.exams.FactCheck")}
+                Fact_check:
               </span>
-              <span>{t("exam.exams.options")}</span>
+              <span>
+                Each question has{" "}
+                <span className="font-semibold">4 options</span>. Only one is
+                correct.
+              </span>
             </li>
             <li className="flex items-start bg-gray-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
               <span className="material-icons text-red-600 text-lg font-bold mr-3">
-                {t("exam.exams.Cancel")}
+                Cancel:
               </span>
-              <span>{t("exam.exams.answers")}</span>
+              <span>
+                Once you submit,{" "}
+                <span className="font-semibold">
+                  you cannot change your answers
+                </span>
+                .
+              </span>
             </li>
             <li className="flex items-start bg-gray-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
               <span className="material-icons text-yellow-600 text-lg font-bold mr-3">
-                {t("exam.exams.Insights")}
+                Insights:
               </span>
-              {t("exam.exams.submission")}
+              <span>
+                Your results will be displayed{" "}
+                <span className="font-semibold">after submission</span>.
+              </span>
             </li>
           </ul>
           <button
@@ -152,6 +173,8 @@ const ExamPage = () => {
           >
             Start Exam
           </button>
+          <div className="absolute -top-5 -right-5 w-24 h-24 bg-blue-200 rounded-full opacity-30 blur-lg"></div>
+          <div className="absolute -bottom-5 -left-5 w-32 h-32 bg-purple-200 rounded-full opacity-30 blur-lg"></div>
         </div>
       ) : hasStarted && !isSubmitted ? (
         <div>
