@@ -3868,6 +3868,1051 @@
         "answer": "Report to TfL immediately"
       }
     ]
+    },
+    "quiz8" : {
+    "id": 800,
+    "title": "PHV Driver’s Licence - Compliance, Safety, and Customer Service",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What should a PHV driver do if a passenger requests to modify the drop-off location mid-journey?",
+        "options": [
+          "Ignore the request and continue the original route",
+          "Comply only if the new location is convenient",
+          "Assess safety and legality before agreeing to the change",
+          "Ask the passenger to book another ride"
+        ],
+        "answer": "Assess safety and legality before agreeing to the change"
+      },
+      {
+        "id": 2,
+        "question": "Which document must a PHV driver carry while on duty?",
+        "options": [
+          "Birth certificate",
+          "Bank statement",
+          "Photographic ID badge",
+          "College ID card"
+        ],
+        "answer": "Photographic ID badge"
+      },
+      {
+        "id": 3,
+        "question": "What is the correct action for a PHV driver if their licence is about to expire?",
+        "options": [
+          "Continue driving until notified",
+          "Renew it before expiry to avoid suspension",
+          "Ignore the expiry until caught",
+          "Stop working immediately"
+        ],
+        "answer": "Renew it before expiry to avoid suspension"
+      },
+      {
+        "id": 4,
+        "question": "What must PHV drivers do when entering a Congestion Charge Zone?",
+        "options": [
+          "Request an exemption from TfL",
+          "Avoid it at all costs",
+          "Pay the required charge unless exempt",
+          "Ignore it if they are only passing through"
+        ],
+        "answer": "Pay the required charge unless exempt"
+      },
+      {
+        "id": 5,
+        "question": "What should a PHV driver do if they are involved in a minor accident while on duty?",
+        "options": [
+          "Continue the journey and ignore minor damage",
+          "Report it to the operator and authorities if necessary",
+          "Only report if a passenger was injured",
+          "Fix the issue later without reporting"
+        ],
+        "answer": "Report it to the operator and authorities if necessary"
+      },
+      {
+        "id": 6,
+        "question": "When is it acceptable for a PHV driver to refuse a passenger?",
+        "options": [
+          "If the passenger is carrying luggage",
+          "If the passenger requests a card payment",
+          "If the passenger is aggressive or poses a safety risk",
+          "If the journey is too short"
+        ],
+        "answer": "If the passenger is aggressive or poses a safety risk"
+      },
+      {
+        "id": 7,
+        "question": "Which behavior is considered unprofessional for a PHV driver?",
+        "options": [
+          "Making personal comments to passengers",
+          "Helping passengers with their luggage",
+          "Maintaining vehicle cleanliness",
+          "Driving safely and legally"
+        ],
+        "answer": "Making personal comments to passengers"
+      },
+      {
+        "id": 8,
+        "question": "Which of the following is a legal requirement for PHV drivers?",
+        "options": [
+          "Offering a free ride to disabled passengers",
+          "Holding a valid PHV driver’s licence",
+          "Carrying cash for change",
+          "Wearing a uniform at all times"
+        ],
+        "answer": "Holding a valid PHV driver’s licence"
+      },
+      {
+        "id": 9,
+        "question": "What must a PHV driver do if they change their home address?",
+        "options": [
+          "Update it with TfL within 21 days",
+          "Only inform their operator",
+          "Ignore it unless contacted by TfL",
+          "Change it when renewing their licence"
+        ],
+        "answer": "Update it with TfL within 21 days"
+      },
+      {
+        "id": 10,
+        "question": "Where are PHV drivers prohibited from picking up passengers?",
+        "options": [
+          "At bus stops",
+          "Only in rural areas",
+          "Anywhere, as long as the passenger agrees",
+          "In private parking areas"
+        ],
+        "answer": "At bus stops"
+      },
+      {
+        "id": 11,
+        "question": "Which action should a PHV driver take if a passenger leaves an item in the vehicle?",
+        "options": [
+          "Sell the item after 24 hours",
+          "Return it to the operator or police",
+          "Keep it and wait for the passenger to call",
+          "Ignore it and continue working"
+        ],
+        "answer": "Return it to the operator or police"
+      },
+      {
+        "id": 12,
+        "question": "How can a PHV driver ensure passenger safety?",
+        "options": [
+          "Driving safely and following all traffic rules",
+          "Locking the doors while driving",
+          "Taking the shortest route always",
+          "Only allowing cash payments"
+        ],
+        "answer": "Driving safely and following all traffic rules"
+      },
+      {
+        "id": 13,
+        "question": "Which of the following is prohibited for PHV drivers?",
+        "options": [
+          "Accepting direct street hails",
+          "Providing assistance to disabled passengers",
+          "Using GPS for navigation",
+          "Using a hands-free phone"
+        ],
+        "answer": "Accepting direct street hails"
+      },
+      {
+        "id": 14,
+        "question": "What should a PHV driver do if they witness a crime while working?",
+        "options": [
+          "Ignore it and continue driving",
+          "Record it and post on social media",
+          "Report it to the police as soon as possible",
+          "Only report it if they know the suspect"
+        ],
+        "answer": "Report it to the police as soon as possible"
+      },
+      {
+        "id": 15,
+        "question": "Which insurance is required for PHV vehicles?",
+        "options": [
+          "Comprehensive insurance",
+          "Hire or reward insurance",
+          "Fire and theft insurance",
+          "Personal accident insurance"
+        ],
+        "answer": "Hire or reward insurance"
+      },
+      {
+        "id": 16,
+        "question": "What must PHV drivers do to comply with safeguarding responsibilities?",
+        "options": [
+          "Discuss passenger details with others",
+          "Report concerns to the appropriate authorities",
+          "Ignore suspicious behavior",
+          "Take photos of passengers for security"
+        ],
+        "answer": "Report concerns to the appropriate authorities"
+      },
+      {
+        "id": 17,
+        "question": "What should a PHV driver do if they feel drowsy while driving?",
+        "options": [
+          "Take a break and rest",
+          "Drink coffee and continue",
+          "Reduce speed but keep driving",
+          "Ignore the fatigue and complete the journey"
+        ],
+        "answer": "Take a break and rest"
+      },
+      {
+        "id": 18,
+        "question": "What is the consequence of driving a PHV without valid insurance?",
+        "options": [
+          "A warning from TfL",
+          "Licence suspension and possible prosecution",
+          "A small fine",
+          "A caution from the operator"
+        ],
+        "answer": "Licence suspension and possible prosecution"
+      },
+      {
+        "id": 19,
+        "question": "Which of the following must a PHV driver report to TfL?",
+        "options": [
+          "A minor passenger complaint",
+          "A criminal conviction",
+          "A lost wallet found in the vehicle",
+          "A traffic jam causing delays"
+        ],
+        "answer": "A criminal conviction"
+      },
+      {
+        "id": 20,
+        "question": "How should a PHV driver respond if a passenger refuses to pay?",
+        "options": [
+          "Politely request payment and report to the operator if necessary",
+          "Lock the doors and refuse to let the passenger leave",
+          "Demand payment aggressively",
+          "Take the passenger directly to the police station"
+        ],
+        "answer": "Politely request payment and report to the operator if necessary"
+      },
+      {
+        "id": 21,
+        "question": "Can you be granted a PHV driver's license while on a student visa?",
+        "options": [
+          "No",
+          "Yes, without any restrictions",
+          "Yes, you will only be allowed to work for a limited number of hours each week and you will not be allowed to be self-employed"
+        ],
+        "answer": "Yes, you will only be allowed to work for a limited number of hours each week and you will not be allowed to be self-employed"
+      },
+      {
+        "id": 22,
+        "question": "Do you need to notify TfL about convictions, cautions or arrests?",
+        "options": [
+          "No, the police will inform TfL",
+          "Yes, you must tell TfL immediately if you are arrested, charged with, convicted or cautioned for any crime. This includes any fixed notices or road traffic offences that result in penalty points on your driving license.",
+          "Yes, but only on your next renewal application"
+        ],
+        "answer": "Yes, you must tell TfL immediately if you are arrested, charged with, convicted or cautioned for any crime. This includes any fixed notices or road traffic offences that result in penalty points on your driving license."
+      },
+      {
+        "id": 23,
+        "question": "If you lose your PHV driver’s badge or licence, or somebody steals it, report it immediately to TfL. If your badge has been stolen you should also report it to the police and get a crime reference number from them. Without your badge you cannot continue working as a PHV driver.",
+        "options": [
+          "Without your badge you still can continue working as a PHV driver.",
+          "If your badge has been stolen you should also report it to the police and get a crime reference number from them.",
+          "TfL will not replace your lost or stolen badge or licence."
+        ],
+        "answer": "If your badge has been stolen you should also report it to the police and get a crime reference number from them."
+      },
+      {
+        "id": 24,
+        "question": "What other changes of personal circumstances must be reported to TfL immediately?",
+        "options": [
+          "You have applied for a PHV driver's license with another licensing authority",
+          "You are subject of a sexual offences order",
+          "If you have broken the law and have been disqualified from driving"
+        ],
+        "answer": "If you have broken the law and have been disqualified from driving"
+      },
+      {
+        "id": 25,
+        "question": "Can a license be suspended or revoked with immediate effect?",
+        "options": ["Yes", "No"],
+        "answer": "Yes"
+      },
+      {
+        "id": 26,
+        "question": "It is important that TfL has your correct home address and email address so that you can be contacted with any information about your licence. If you change your home address, you should tell TfL within 21 days. You should also tell us about any change to your email address or telephone number.",
+        "options": [
+          "If you change your home address, you should tell TfL immediately",
+          "If you change your home address, you should tell TfL within 21 days.",
+          "If you change your home address, you should tell TfL within 48 days."
+        ],
+        "answer": "If you change your home address, you should tell TfL within 21 days."
+      },
+      {
+        "id": 27,
+        "question": "What information has the section on London PHV Driver Licensing covered?",
+        "options": [
+          "Information on how to keep passengers safe.",
+          "What you need to do to register a private hire vehicle in London.",
+          "The rules and policies that a London PHV driver needs to know about"
+        ],
+        "answer": "The rules and policies that a London PHV driver needs to know about"
+      },
+      {
+        "id": 28,
+        "question": "The licence discs must not be damaged or changed in any way. You should not remove the discs, even if you are using the vehicle for private purposes. The licence discs contain security features which mean that the discs will be permanently damaged if you try to remove them.",
+        "options": [
+          "You should not remove the discs, even if you are using the vehicle for private purposes.",
+          "You should always remove the discs, when using the vehicle for private purposes.",
+          "The discs will not be damaged if you try to remove them."
+        ],
+        "answer": "You should not remove the discs, even if you are using the vehicle for private purposes."
+      },
+      {
+        "id": 29,
+        "question": "Do you need to carry your insurance certificate with you?",
+        "options": [
+          "You should carry details of the vehicle's valid hire or reward insurance policy whenever you are working.",
+          "You should carry details of the vehicle's valid hire or reward insurance policy at all times.",
+          "You don't need to carry any proof of your vehicle insurance."
+        ],
+        "answer": "You should carry details of the vehicle's valid hire or reward insurance policy whenever you are working."
+      },
+      {
+        "id": 30,
+        "question": "What is a PHV licence disc?",
+        "options": [
+          "Proof that your vehicle has a valid PHV licence.",
+          "Special sticker that allows you to park on red routes.",
+          "Congestion charge exemption sticker."
+        ],
+        "answer": "Proof that your vehicle has a valid PHV licence."
+      },
+      {
+        "id": 31,
+        "question": "What happens if you try to remove a licence disc?",
+        "options": [
+          "It will peel off easily.",
+          "It will get permanently damaged.",
+          "It will damage your windscreen."
+        ],
+        "answer": "It will get permanently damaged."
+      },
+      {
+        "id": 32,
+        "question": "Can you remove the licence discs when you're going for holiday?",
+        "options": [
+          "No, you should not remove the discs, even if you are using the vehicle for private purposes.",
+          "Yes, you can remove the discs if you are using the vehicle for private purposes but you must remember to put them back.",
+          "Yes, but only the front disc."
+        ],
+        "answer": "No, you should not remove the discs, even if you are using the vehicle for private purposes."
+      },
+      {
+        "id": 33,
+        "question": "When can a replacement vehicle licence disc be issued?",
+        "options": [
+          "When the original discs are lost or stolen.",
+          "When you take the original discs off for holiday.",
+          "When the original discs are damaged."
+        ],
+        "answer": "When the original discs are lost or stolen."
+      },
+      {
+        "id": 34,
+        "question": "Please remember, you cannot use a vehicle for private hire purposes if the licence discs are missing, have been badly damaged or their appearance has been spoilt in any way.",
+        "options": [
+          "You can use a vehicle for private hire purposes if the licence discs are missing.",
+          "You cannot use a vehicle for private hire purposes if the licence discs are missing.",
+          "You do not have to display the disc."
+        ],
+        "answer": "You cannot use a vehicle for private hire purposes if the licence discs are missing."
+      },
+      {
+        "id": 35,
+        "question": "So that the booking is valid - your passenger at a late night venue must book the journey with?",
+        "options": [
+          "The bartender.",
+          "Licensed London operator.",
+          "Security guard outside the venue."
+        ],
+        "answer": "Licensed London operator."
+      },
+      {
+        "id": 36,
+        "question": "Not to behave in an anti-social manner means?",
+        "options": [
+          "Not to leave litter in the street or road, not to go to the toilet in a public place.",
+          "Not to leave your engine running.",
+          "To accept bookings from strangers on the street."
+        ],
+        "answer": "Not to leave litter in the street or road, not to go to the toilet in a public place."
+      },
+      {
+        "id": 37,
+        "question": "Where are licence discs fixed?",
+        "options": [
+          "To the front and rear windscreens of the vehicle.",
+          "To the front windscreen of the vehicle.",
+          "To the rear windscreen of the vehicle."
+        ],
+        "answer": "To the front and rear windscreens of the vehicle."
+      },
+      {
+        "id": 38,
+        "question": "As a London PHV driver, you can only carry out bookings that you have received from a licensed London PHV operator. You must carry out these bookings in a London licensed PHV that has PHV licence discs on display (unless exempt).",
+        "options": [
+          "You must carry out these bookings in a London licensed Toyota Prius.",
+          "You must carry out these bookings in a London licensed PHV that has PHV licence discs.",
+          "You must carry out these bookings in MPV cars."
+        ],
+        "answer": "You must carry out these bookings in a London licensed PHV that has PHV licence discs."
+      },
+      {
+        "id": 39,
+        "question": "You are not sure if the operator you're looking to work for is licensed. What should you do?",
+        "options": [
+          "Trust them without checking.",
+          "Only ask them for their licence number.",
+          "Ask them for their licence number and check it using TfL's online licence checker tool."
+        ],
+        "answer": "Ask them for their licence number and check it using TfL's online licence checker tool."
+      },
+      {
+        "id": 40,
+        "question": "Where do you need to park to wait for a booking from Heathrow Airport?",
+        "options": [
+          "At McDonald's.",
+          "At any local petrol station.",
+          "Only in an official car park or the PHV Authorised Vehicle Area."
+        ],
+        "answer": "Only in an official car park or the PHV Authorised Vehicle Area."
+      },
+      {
+        "id": 41,
+        "question": "When your passenger is disabled or travelling with assistance dogs you:",
+        "options": [
+          "Can refuse to carry out the booking if you don't like dogs.",
+          "Must not refuse to take them.",
+          "Can refuse to carry out the booking - only licensed taxis are required to carry disabled passengers."
+        ],
+        "answer": "Must not refuse to take them."
+      },
+      {
+        "id": 42,
+        "question": "Where you should not wait for passengers?",
+        "options": [
+          "In local car parks or residential streets.",
+          "At taxi ranks.",
+          "At official car parks."
+        ],
+        "answer": "At taxi ranks."
+      },
+      {
+        "id": 43,
+        "question": "You cannot enter Heathrow Airport to pick up passengers:",
+        "options": [
+          "On Christmas Day.",
+          "Unless you have a booking from your operator.",
+          "On Sundays."
+        ],
+        "answer": "Unless you have a booking from your operator."
+      },
+      {
+        "id": 44,
+        "question": "TfL’s website has a licence checker tool which contains the details of all licensed private hire drivers, vehicles and operators. This is a public register which you and anyone else can use.",
+        "options": [
+          "TfL’s website has no licence checker.",
+          "There is a feature on TfL's website called a licensing checker that provides a list of all licensed private hire companies, drivers, and vehicles.",
+          "Licensing checker is only for TfL Officials."
+        ],
+        "answer": "There is a feature on TfL's website called a licensing checker that provides a list of all licensed private hire companies, drivers, and vehicles."
+      },
+      {
+        "id": 45,
+        "question": "Can you update a fare if the passengers change the destination?",
+        "options": [
+          "Yes, but only within Greater London.",
+          "No, you must inform your operator and they will be able to do it.",
+          "Yes, within and outside Greater London."
+        ],
+        "answer": "No, you must inform your operator and they will be able to do it."
+      },
+      {
+        "id": 46,
+        "question": "Airports are private property - are they allowed to make their own rules (byelaws) about taxis and PHVs?",
+        "options": [
+          "Yes, but only about taxis.",
+          "Yes, about both taxis and PHVs.",
+          "No, they are not allowed to make any own rules."
+        ],
+        "answer": "Yes, about both taxis and PHVs."
+      },
+      {
+        "id": 47,
+        "question": "What may affect the environment and people living around the operating centre?",
+        "options": [
+          "Noise.",
+          "You reading a book in your vehicle while waiting for a booking.",
+          "Traffic & customer movement."
+        ],
+        "answer": "Noise."
+      },
+      {
+        "id": 48,
+        "question": "You as a driver are responsible for:",
+        "options": [
+          "For the members of the public around your vehicle.",
+          "For parking your vehicle & the noise it makes.",
+          "For your own behaviour."
+        ],
+        "answer": "For your own behaviour."
+      },
+      {
+        "id": 49,
+        "question": "What should you do if a passenger disagrees with the fare or is unable to pay at the end of the journey?",
+        "options": [
+          "You should check with your operator what to do.",
+          "You should call and wait for the police without informing your operator.",
+          "You should allow the passenger to walk away without paying."
+        ],
+        "answer": "You should check with your operator what to do."
+      },
+      {
+        "id": 50,
+        "question": "You are not allowed to pick people up on the street or at stations or airports unless they have booked you through a licensed operator. This includes the street outside your operator’s centre.",
+        "options": [
+          "You can pick a passenger up on the street or at stations or airports without a booking.",
+          "If a passenger has not booked you through a London licensed operator, you aren't allowed to pick them up off the street, at a station, or at an airport.",
+          "You can pick a passenger up without a booking only at the airport."
+        ],
+        "answer": "If a passenger has not booked you through a London licensed operator, you aren't allowed to pick them up off the street, at a station, or at an airport."
+      }
+      
+    ]
+    },
+    "quiz9" : {
+      "id": 900,
+    "title": "PHV Driver’s Licence - Safety, Regulations, and Customer Service",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What should a PHV driver do before starting their shift?",
+        "options": [
+          "Check phone notifications",
+          "Refuel the vehicle every time",
+          "Check the vehicle’s roadworthiness",
+          "Pick up the first passenger"
+        ],
+        "answer": "Check the vehicle’s roadworthiness"
+      },
+      {
+        "id": 2,
+        "question": "Which behavior is considered unprofessional for a PHV driver?",
+        "options": [
+          "Engaging in personal conversations with passengers",
+          "Helping passengers with disabilities",
+          "Following traffic laws",
+          "Keeping the vehicle clean"
+        ],
+        "answer": "Engaging in personal conversations with passengers"
+      },
+      {
+        "id": 3,
+        "question": "What is required when renewing a PHV driver’s licence?",
+        "options": [
+          "Medical fitness certificate",
+          "Passenger feedback",
+          "Photocopy of the vehicle",
+          "Receipt of previous journeys"
+        ],
+        "answer": "Medical fitness certificate"
+      },
+      {
+        "id": 4,
+        "question": "What should a PHV driver do if they experience a medical emergency while driving?",
+        "options": [
+          "Ignore it and complete the journey",
+          "Ask the passenger to drive",
+          "Continue driving",
+          "Stop driving immediately and seek help"
+        ],
+        "answer": "Stop driving immediately and seek help"
+      },
+      {
+        "id": 5,
+        "question": "Which of the following must be checked before starting a PHV shift?",
+        "options": [
+          "Personal messages",
+          "Social media updates",
+          "Vehicle's roadworthiness",
+          "Weather forecast"
+        ],
+        "answer": "Vehicle's roadworthiness"
+      },
+      {
+        "id": 6,
+        "question": "Which of the following behaviors is unacceptable under the Code of Conduct?",
+        "options": [
+          "Making personal comments",
+          "Driving safely",
+          "Using navigation tools",
+          "Helping passengers with luggage"
+        ],
+        "answer": "Making personal comments"
+      },
+      {
+        "id": 7,
+        "question": "Which document must a PHV driver carry while on duty?",
+        "options": [
+          "Photographic ID badge",
+          "Bank statement",
+          "Birth certificate",
+          "College ID card"
+        ],
+        "answer": "Photographic ID badge"
+      },
+      {
+        "id": 8,
+        "question": "What must a PHV driver do if their licence is suspended?",
+        "options": [
+          "Drive only during non-peak hours",
+          "Continue working until notified by TfL",
+          "Stop working immediately",
+          "Work under another operator"
+        ],
+        "answer": "Stop working immediately"
+      },
+      {
+        "id": 9,
+        "question": "Which of the following is considered professional attire for PHV drivers?",
+        "options": [
+          "Smart casual clothing",
+          "Slippers",
+          "Gym wear",
+          "T-shirt and shorts"
+        ],
+        "answer": "Smart casual clothing"
+      },
+      {
+        "id": 10,
+        "question": "Which of the following is required when accepting a booking?",
+        "options": [
+          "Confirming the booking through an operator",
+          "Ensuring the passenger has the correct change",
+          "Asking the passenger for personal details",
+          "Confirming the fare in advance"
+        ],
+        "answer": "Confirming the booking through an operator"
+      },
+      {
+        "id": 11,
+        "question": "What must a PHV driver do if they change their residential address?",
+        "options": [
+          "Inform TfL within 21 days",
+          "Ignore it",
+          "Change the address on the vehicle",
+          "Only tell the operator"
+        ],
+        "answer": "Inform TfL within 21 days"
+      },
+      {
+        "id": 12,
+        "question": "Where are PHV drivers prohibited from picking up passengers?",
+        "options": [
+          "Taxi ranks",
+          "Red routes",
+          "Bus stops",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "id": 13,
+        "question": "Which of the following is a safeguarding responsibility for PHV drivers?",
+        "options": [
+          "Ignoring suspicious behavior",
+          "Taking photos of passengers",
+          "Discussing passengers' personal details",
+          "Reporting concerns to authorities"
+        ],
+        "answer": "Reporting concerns to authorities"
+      },
+      {
+        "id": 14,
+        "question": "Which of the following is prohibited for PHV drivers?",
+        "options": [
+          "Accepting direct street hails",
+          "Using a hands-free device",
+          "Helping passengers with wheelchairs",
+          "Using GPS for navigation"
+        ],
+        "answer": "Accepting direct street hails"
+      },
+      {
+        "id": 15,
+        "question": "Which of the following must a PHV driver report to TfL?",
+        "options": [
+          "A traffic jam causing delays",
+          "A lost wallet found in the vehicle",
+          "A minor passenger complaint",
+          "A criminal conviction"
+        ],
+        "answer": "A criminal conviction"
+      },
+      {
+        "id": 16,
+        "question": "What is required to drive a PHV in a Congestion Charge Zone?",
+        "options": [
+          "Yellow badge",
+          "Special permit",
+          "Daily charge payment",
+          "Free pass from TfL"
+        ],
+        "answer": "Daily charge payment"
+      },
+      {
+        "id": 17,
+        "question": "Which insurance is mandatory for PHVs?",
+        "options": [
+          "Comprehensive insurance",
+          "Life insurance",
+          "Hire or reward insurance",
+          "Third-party only"
+        ],
+        "answer": "Hire or reward insurance"
+      },
+      {
+        "id": 18,
+        "question": "Which of the following is a legal requirement for PHV drivers?",
+        "options": [
+          "Holding a valid PHV driver’s licence",
+          "Wearing a uniform at all times",
+          "Carrying cash for change",
+          "Offering a free ride to disabled passengers"
+        ],
+        "answer": "Holding a valid PHV driver’s licence"
+      },
+      {
+        "id": 19,
+        "question": "What must a PHV driver do if they are involved in an accident while on duty?",
+        "options": [
+          "Report it to the operator and authorities",
+          "Ignore minor damage",
+          "Continue the journey",
+          "Fix it themselves"
+        ],
+        "answer": "Report it to the operator and authorities"
+      },
+      {
+        "id": 20,
+        "question": "What should a PHV driver do if a passenger requests a receipt?",
+        "options": [
+          "Ignore the request",
+          "Refuse politely",
+          "Charge extra",
+          "Provide a detailed receipt"
+        ],
+        "answer": "Provide a detailed receipt"
+      },
+      {
+        "id": 21,
+        "question": "What information has the section on Carrying out Private Hire Journeys covered?",
+        "options": [
+          "Advice for customers on what they should do when using a private hire service.",
+          "How much you should charge for different journeys.",
+          "The basic requirements for drivers when carrying out private hire bookings."
+        ],
+        "answer": "The basic requirements for drivers when carrying out private hire bookings."
+      },
+      {
+        "id": 22,
+        "question": "Can you inform members of the public that you are available for hire without a booking?",
+        "options": [
+          "Yes, same as Taxis (black cabs).",
+          "Yes, but only after 6pm.",
+          "No, PHVs are not allowed to do so."
+        ],
+        "answer": "No, PHVs are not allowed to do so."
+      },
+      {
+        "id": 23,
+        "question": "Are you required to inform your operator about any changes to the booking, for example, if the final destination changes?",
+        "options": [
+          "No, it's not required",
+          "No, it's the passenger’s responsibility",
+          "Yes, you should let the operator know about any changes"
+        ],
+        "answer": "Yes, you should let the operator know about any changes"
+      },
+      {
+        "id": 24,
+        "question": "Are PHV drivers allowed to pick up people from stations?",
+        "options": [
+          "No, only Taxis (black cabs) are allowed to pick up from stations",
+          "Yes, but only if they have booked you through a licensed operator",
+          "Yes, but only if there are no Taxis (black cabs) outside the station"
+        ],
+        "answer": "Yes, but only if they have booked you through a licensed operator"
+      },
+      {
+        "id": 25,
+        "question": "What should you do at the end of each journey?",
+        "options": [
+          "Remind passengers to make sure they have not left anything behind",
+          "Share your private number with the passenger",
+          "Check your vehicle for lost property"
+        ],
+        "answer": "Remind passengers to make sure they have not left anything behind"
+      },
+      {
+        "id": 26,
+        "question": "You must not encourage any member of the public to approach you or your PHV if they don’t have a valid booking. If someone does come up to you, you are allowed to hand out a business card with the number of your operator on it or you can provide other contact details such as a website.",
+        "options": [
+          "You must encourage any member of the public to travel with you",
+          "If someone does come up to you, you are allowed to hand out a business card with the number of your operator on it",
+          "You can pick a passenger up without a booking only on the street if they approach you"
+        ],
+        "answer": "If someone does come up to you, you are allowed to hand out a business card with the number of your operator on it"
+      },
+      {
+        "id": 27,
+        "question": "If while driving around anything seems different, unusual or doesn’t feel right, or you think that someone is acting suspiciously including someone you know or a passenger, you should:",
+        "options": [
+          "Ignore it, don't waste police time",
+          "Report your concerns about suspicious activity to the confidential police anti-terrorist hotline on 0800 789 321",
+          "Report it to your operator"
+        ],
+        "answer": "Report your concerns about suspicious activity to the confidential police anti-terrorist hotline on 0800 789 321"
+      },
+      {
+        "id": 28,
+        "question": "If you approach people on the street outside a late-night venue to offer them private hire services, you may:",
+        "options": [
+          "Be committing an offence",
+          "Be prosecuted",
+          "Get a better price than if booked through the operator"
+        ],
+        "answer": "Be committing an offence"
+      },
+      {
+        "id": 29,
+        "question": "Should you give out receipts to your passengers?",
+        "options": [
+          "You should always carry a receipt book with you",
+          "You are not required to give out receipts to passengers",
+          "You should check with your operator what the arrangements for giving out receipts are"
+        ],
+        "answer": "You should check with your operator what the arrangements for giving out receipts are"
+      },
+      {
+        "id": 30,
+        "question": "What to do if you're suspicious about any item left behind by a passenger?",
+        "options": [
+          "Call the police immediately and follow their instructions",
+          "Throw it away on the street",
+          "Take it to your operator's office"
+        ],
+        "answer": "Call the police immediately and follow their instructions"
+      },
+      {
+        "id": 31,
+        "question": "Are PHVs the same thing as Taxis (black cabs)?",
+        "options": [
+          "Yes, the only difference is the vehicles - but they have the same rights",
+          "No, PHVs are not Taxis",
+          "Yes, the only differences are the vehicles and black cabs are also allowed to use bus lanes"
+        ],
+        "answer": "No, PHVs are not Taxis"
+      },
+      {
+        "id": 32,
+        "question": "Before the start of each journey, your operator is required to record certain information about the booking. Although you are not personally responsible for collecting or recording these details, you should know about this requirement and let your operator know about any changes. For example, tell your operator if the final destination changes.",
+        "options": [
+          "No need to let your operator know about any changes",
+          "Although you are not personally responsible for collecting or recording these details, you should know about this requirement and let your operator know about any changes",
+          "It is the responsibility of the passenger to inform the operator of any changes"
+        ],
+        "answer": "Although you are not personally responsible for collecting or recording these details, you should know about this requirement and let your operator know about any changes"
+      },
+      {
+        "id": 33,
+        "question": "What are the main reasons to refuse to carry out a booking?",
+        "options": [
+          "If the fare is too low",
+          "When you do not feel able or safe enough to take passengers",
+          "If the passengers are acting in a violent or offensive way"
+        ],
+        "answer": "When you do not feel able or safe enough to take passengers"
+      },
+      {
+        "id": 34,
+        "question": "At Heathrow & City Airport Taxi ranks you are:",
+        "options": [
+          "Only allowed to drop passengers off safely",
+          "Not allowed to use any taxi ranks - these are for licensed taxis only",
+          "Only allowed to pick up passengers safely"
+        ],
+        "answer": "Not allowed to use any taxi ranks - these are for licensed taxis only"
+      },
+      {
+        "id": 35,
+        "question": "You can only carry out bookings received from:",
+        "options": [
+          "Any UK licensed operator",
+          "London licensed PHV operator",
+          "Anyone looking for a cab on the street or at stations or airports"
+        ],
+        "answer": "London licensed PHV operator"
+      },
+      {
+        "id": 36,
+        "question": "If you have any doubts about whether a journey outside Greater London (pickup or destination) is legal or not, you should:",
+        "options": [
+          "Call TfL driver's helpline",
+          "Ask your operator",
+          "Do nothing"
+        ],
+        "answer": "Ask your operator"
+      },
+      {
+        "id": 37,
+        "question": "To behave in an anti-social manner means:",
+        "options": [
+          "To leave litter in the street and to go to the toilet in a public place",
+          "To leave your engine running",
+          "To sit in your vehicle with your engine off"
+        ],
+        "answer": "To leave litter in the street and to go to the toilet in a public place"
+      },
+      {
+        "id": 38,
+        "question": "You must not approach people on the pavement or outside a late night venue to offer them private hire services. If a customer approaches you, then you should tell them to contact a licensed private hire operator to make a booking.",
+        "options": [
+          "You can approach people outside a nightclub to offer them private hire services",
+          "You must not approach people on the pavement or outside a late night venue to offer them private hire services",
+          "If a customer approaches you, don't tell them to contact a licensed private hire operator"
+        ],
+        "answer": "You must not approach people on the pavement or outside a late night venue to offer them private hire services"
+      },
+      {
+        "id": 39,
+        "question": "Are PHV drivers allowed to pick people up on the street?",
+        "options": [
+          "No, unless they have booked you through a licensed operator",
+          "Yes, without any limitation",
+          "Yes, but only on the street outside your operator's centre"
+        ],
+        "answer": "No, unless they have booked you through a licensed operator"
+      },
+      {
+        "id": 40,
+        "question": "You should tell your operator as soon as your passenger:",
+        "options": [
+          "Decides to change the destination of the journey",
+          "Asks you to pick up extra passengers or has extra luggage",
+          "Wants to use your WIFI"
+        ],
+        "answer": "Decides to change the destination of the journey"
+      },
+      {
+        "id": 41,
+        "question": "What to do if you refused to carry out a booking?",
+        "options": [
+          "Tell your operator the full reasons",
+          "Carry on and wait for another booking",
+          "Only inform the passenger about the reasons of refusal"
+        ],
+        "answer": "Tell your operator the full reasons"
+      },
+      {
+        "id": 42,
+        "question": "Are passengers allowed to enter your vehicle before you have received the booking from your operator?",
+        "options": [
+          "Yes, but they must make a booking before you start the journey",
+          "Yes, but they must make a booking before arriving at their destination",
+          "No, you must not allow any passenger to enter your vehicle before you have received the booking from your operator"
+        ],
+        "answer": "No, you must not allow any passenger to enter your vehicle before you have received the booking from your operator"
+      },
+      {
+        "id": 43,
+        "question": "You should not wait in local car parks or residential streets. Remember that the taxi ranks at Heathrow Airport and London City Airport are for licensed taxis (black cabs) only.",
+        "options": [
+          "PHVs are same as taxis",
+          "Remember that the taxi ranks at Heathrow Airport and London City Airport are for licensed taxis (black cabs) only",
+          "You can stop, wait, pick up or drop off passengers at the airport taxi ranks"
+        ],
+        "answer": "Remember that the taxi ranks at Heathrow Airport and London City Airport are for licensed taxis (black cabs) only"
+      },
+      {
+        "id": 44,
+        "question": "Are PHV drivers allowed to pick up people from airports?",
+        "options": [
+          "Yes, airport pickups are exempt and do not require booking through an operator",
+          "Yes, but only if the person you are collecting has booked you directly by email, text or phone call",
+          "Yes, but only if they have booked you through a licensed operator"
+        ],
+        "answer": "Yes, but only if they have booked you through a licensed operator"
+      },
+      {
+        "id": 45,
+        "question": "If your passenger decides to change the destination of their journey, asks you to pick up extra passengers, or has extra luggage you should:",
+        "options": [
+          "Stop your vehicle immediately and inform your operator",
+          "Tell your operator as soon as it is safe for you to do so",
+          "Charge the passenger extra without informing your operator"
+        ],
+        "answer": "Tell your operator as soon as it is safe for you to do so"
+      },
+      {
+        "id": 46,
+        "question": "Who is allowed to use the TfL's online licence checker tool?",
+        "options": [
+          "Anyone, it's a public register",
+          "Only licensed PHV drivers",
+          "Only licensed PHV operators"
+        ],
+        "answer": "Anyone, it's a public register"
+      },
+      {
+        "id": 47,
+        "question": "Are you allowed to hand out your own business card or phone number to a member of the public that approaches you without a valid booking?",
+        "options": [
+          "No, you can only hand out a business card with the number of your operator",
+          "Yes, so that they could use your services in the future without having to book through a licensed operator",
+          "Yes, so that they could use your services in the future but first you will have to make a booking with your operator"
+        ],
+        "answer": "No, you can only hand out a business card with the number of your operator"
+      },
+      {
+        "id": 48,
+        "question": "Your operator is responsible for:",
+        "options": [
+          "Servicing your private PHV vehicle",
+          "Agreeing a fare for the journey with the passenger",
+          "Giving them an accurate estimate before a journey starts"
+        ],
+        "answer": "Agreeing a fare for the journey with the passenger"
+      },
+      {
+        "id": 49,
+        "question": "If you do refuse to carry out a booking, you should:",
+        "options": [
+          "No need to explain anything",
+          "Be polite and explain why",
+          "If a passenger is disrespectful, you should be much more harsh"
+        ],
+        "answer": "Be polite and explain why"
+      },
+      {
+        "id": 50,
+        "question": "Who is responsible for collecting and recording booking details?",
+        "options": ["You and your operator", "Your operator", "Only you"],
+        "answer": "Your operator"
+      }
+    ]
     }
 
 

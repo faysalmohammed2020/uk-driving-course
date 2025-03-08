@@ -38,6 +38,10 @@ const ExamPage = () => {
       quizQuestions = t.raw("quiz6.questions")
     } else if (examId === 700){
       quizQuestions = t.raw("quiz7.questions")
+    } else if (examId === 800){
+      quizQuestions = t.raw("quiz8.questions")
+    } else if (examId === 900){
+      quizQuestions = t.raw("quiz9.questions")
     } 
 
     if (quizQuestions) {
