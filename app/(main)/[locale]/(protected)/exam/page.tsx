@@ -17,7 +17,6 @@ import questions8 from "@/app/(main)/[locale]/data/questions8.json";
 import questions9 from "@/app/(main)/[locale]/data/questions9.json";
 import questions10 from "@/app/(main)/[locale]/data/questions10.json";
 
-<<<<<<< HEAD
 import questions13 from "@/app/(main)/[locale]/data/questions13.json";
 import questions14 from "@/app/(main)/[locale]/data/questions14.json";
 import questions15 from "@/app/(main)/[locale]/data/questions15.json";
@@ -38,13 +37,7 @@ import questions29 from "@/app/(main)/[locale]/data/questions29.json";
 import questions30 from "@/app/(main)/[locale]/data/questions30.json";
 import { useSession } from "@/lib/auth-client";
 import { setErrorMap } from "better-auth";
-=======
 
-
-
-
-
->>>>>>> 6cc1ad9abb13d887f87c446892f0d8e8519fb3c7
 
 interface MockTest {
   id: number;
@@ -139,7 +132,6 @@ const ExamPage = () => {
                 {test.title}
               </h3>
             </div>
-<<<<<<< HEAD
             <p className="text-sm text-gray-600 text-left">
               {test.questions.length} Questions
             </p>
@@ -151,9 +143,7 @@ const ExamPage = () => {
               )}
             </h3>
 
-=======
             <p className="text-sm text-gray-600 text-left">{test.questions.length} Questions</p>
->>>>>>> 6cc1ad9abb13d887f87c446892f0d8e8519fb3c7
             <button
               onClick={() => startExam(test.id)}
               className="mt-6 bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-700 transition-all duration-300 ease-in-out w-full shadow-md hover:shadow-xl"
