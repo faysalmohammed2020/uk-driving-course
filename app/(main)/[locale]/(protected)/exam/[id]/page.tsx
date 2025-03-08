@@ -36,13 +36,15 @@ import questions29 from "@/app/(main)/[locale]/data/questions29.json";
 import questions30 from "@/app/(main)/[locale]/data/questions30.json";
 
 import QuestionCard from "@/app/components/QuestionCard";
+import { useSession } from "@/lib/auth-client";
 // import ResultCard from "@/app/components/ResultCard";
 
 const ExamPage = () => {
   const router = useRouter();
   const { id } = useParams();
   const examId = useMemo(() => parseInt(id as string), [id]);
-
+  const { data: session } = useSession();
+  const userId = session?.user.id;
   const [selectedQuestions, setSelectedQuestions] = useState([]);
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [timeLeft, setTimeLeft] = useState(30 * 60); // 30 minutes in seconds
@@ -50,6 +52,8 @@ const ExamPage = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [score, setScore] = useState(0);
   const [results, setResults] = useState([]);
+
+  const [examTitle, setExamTiele] = useState("");
 
   // Combine all question sets using useMemo for optimization
   const allQuestions = useMemo(
@@ -67,7 +71,7 @@ const ExamPage = () => {
       ...questions11,
       ...questions12,
 
-       ...questions13,
+      ...questions13,
       ...questions14,
       ...questions15,
       ...questions16,
@@ -92,6 +96,8 @@ const ExamPage = () => {
   // Load questions for the specific exam
   useEffect(() => {
     const selectedTest = allQuestions.find((test) => test.id === examId);
+    const title = selectedTest?.title;
+    setExamTiele(title);
     if (selectedTest) {
       setSelectedQuestions(selectedTest.questions);
     }
@@ -120,35 +126,68 @@ const ExamPage = () => {
     setAnswers((prev) => ({ ...prev, [questionId]: option }));
   }, []);
 
-  // Handle Exam Submission
-  const handleSubmit = useCallback(() => {
-    const userConfirmation = confirm(
-      "Are you sure you want to submit the exam?"
-    );
-    if (!userConfirmation) return;
 
-    // Calculate Score and Results
+  const handleSubmit = useCallback(async () => {
+    const userConfirmation = confirm("Are you sure you want to submit the exam?");
+    if (!userConfirmation) return;
+  
+    // Total questions in the exam
+    const totalQuestions = selectedQuestions.length;
     let totalScore = 0;
+  
     const calculatedResults = selectedQuestions.map((q) => {
       const userAnswer = answers[q.id] || null;
       const isCorrect = userAnswer === q.answer;
       if (isCorrect) totalScore += 1;
-
+  
       return {
         question: q.question,
         userAnswer,
         correctAnswer: q.answer,
       };
     });
-
+  
     setScore(totalScore);
     setResults(calculatedResults);
     setIsSubmitted(true);
-
-    localStorage.setItem("answers", JSON.stringify(answers));
-  }, [answers, selectedQuestions]);
-
-  // Start Exam
+  
+    // ✅ Calculate percentage and determine pass/fail
+    const percentage = (totalScore / totalQuestions) * 100;
+    const status = percentage >= 70 ? "Passed" : "Failed";
+  
+    try {
+      // Send data to the API
+      const response = await fetch("/api/exam", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          userId, // Replace with actual user ID
+          examId: Number(examId), // Ensure examId is a number
+          examTitle,
+          score: Number(totalScore), // Ensure score is a number
+          total: totalQuestions, // Send total questions
+          status, // ✅ Include pass/fail status
+        }),
+      });
+  
+      console.log("Response::::", response);
+  
+      if (response.ok) {
+        alert(`Exam submitted successfully! You ${status}.`);
+      } else {
+        const errorData = await response.json();
+        console.error("Failed to submit exam:", errorData);
+        alert("Failed to submit exam");
+      }
+    } catch (error) {
+      console.error("Error submitting exam:", error);
+      alert("An error occurred while submitting the exam");
+    }
+  }, [answers, selectedQuestions, examId, userId]); // Added userId dependency if used
+  
+  
   const startExam = useCallback(() => {
     setHasStarted(true);
   }, []);
@@ -230,6 +269,7 @@ const ExamPage = () => {
         </div>
       ) : hasStarted && !isSubmitted ? (
         <div>
+          <h1>Title: {examTitle}</h1>
           <div className="flex justify-between mb-4">
             <h1 className="text-2xl font-bold">MCQ Exam</h1>
             <div className="text-red-600 font-bold">
