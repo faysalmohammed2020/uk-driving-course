@@ -1,0 +1,558 @@
+[
+  {
+    "id": 1900,
+    "title": "PCO Licence - Ultimate SERU Preparation",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the core purpose of the SERU assessment for PCO licence applicants?",
+        "options": [
+          "To evaluate geographical knowledge",
+          "To test vehicle maintenance skills",
+          "To ensure understanding of safety, equality, and regulatory requirements",
+          "To assess driving proficiency"
+        ],
+        "answer": "To ensure understanding of safety, equality, and regulatory requirements"
+      },
+      {
+        "id": 2,
+        "question": "Under the Equality Act 2010, what must a PHV driver do for passengers with disabilities?",
+        "options": [
+          "Charge extra for assistance",
+          "Make reasonable adjustments to provide accessible service",
+          "Refuse service if assistance is required",
+          "Only assist passengers with visible disabilities"
+        ],
+        "answer": "Make reasonable adjustments to provide accessible service"
+      },
+      {
+        "id": 3,
+        "question": "What are the safeguarding responsibilities of a PHV driver regarding children?",
+        "options": [
+          "Only report visible signs of abuse",
+          "Ensure child safety during the journey and report any concerns",
+          "Avoid interaction to prevent allegations",
+          "Assume any accompanying adult is their guardian"
+        ],
+        "answer": "Ensure child safety during the journey and report any concerns"
+      },
+      {
+        "id": 4,
+        "question": "What is the correct procedure for a PHV driver who witnesses a crime or suspects illegal activity?",
+        "options": [
+          "Confront the individuals involved",
+          "Report the incident to the police and operator",
+          "Ignore the incident unless directly involved",
+          "Share information on social media"
+        ],
+        "answer": "Report the incident to the police and operator"
+      },
+      {
+        "id": 5,
+        "question": "What are the data protection requirements for a PHV driver when handling passenger information?",
+        "options": [
+          "Share data with authorities when asked",
+          "Comply with GDPR, ensure confidentiality and security",
+          "Sell data to marketing companies",
+          "Publicly share journey details"
+        ],
+        "answer": "Comply with GDPR, ensure confidentiality and security"
+      },
+      {
+        "id": 6,
+        "question": "How should a PHV driver handle an intoxicated passenger who might be a risk?",
+        "options": [
+          "Refuse and ensure their safety",
+          "Take the passenger regardless of condition",
+          "Take but charge extra",
+          "Leave at a random location"
+        ],
+        "answer": "Refuse and ensure their safety"
+      },
+      {
+        "id": 7,
+        "question": "What are the legal requirements for a PHV driver regarding mobile phone use while driving?",
+        "options": [
+          "Use handheld for calls",
+          "Use hands-free only and ensure no distraction",
+          "Use phone to check maps",
+          "Use phone to send text messages"
+        ],
+        "answer": "Use hands-free only and ensure no distraction"
+      },
+      {
+        "id": 8,
+        "question": "What is the PHV driver's responsibility regarding road safety and traffic laws?",
+        "options": [
+          "Follow laws when observed",
+          "Prioritize passenger comfort over laws",
+          "Adhere to all laws and ensure passenger safety",
+          "Ignore laws during off-peak hours"
+        ],
+        "answer": "Adhere to all laws and ensure passenger safety"
+      },
+      {
+        "id": 9,
+        "question": "How should a PHV driver handle a passenger showing signs of distress or mental health issues?",
+        "options": [
+          "Ignore and continue journey",
+          "Offer assistance and direct to support services",
+          "Ask passenger to leave immediately",
+          "Discuss condition with other drivers"
+        ],
+        "answer": "Offer assistance and direct to support services"
+      },
+      {
+        "id": 10,
+        "question": "What is the correct procedure for a PHV driver to report a change of address to TfL?",
+        "options": [
+          "Inform operator only",
+          "Ignore if temporary",
+          "Notify TfL online with proof within timeframe",
+          "Send letter to DVLA only"
+        ],
+        "answer": "Notify TfL online with proof within timeframe"
+      },
+      {
+        "id": 11,
+        "question": "What are the requirements for displaying the PHV licence disc in the vehicle?",
+        "options": [
+          "Keep in glove compartment",
+          "Display when requested",
+          "Display on front and rear windscreens",
+          "Display on driver's side window"
+        ],
+        "answer": "Display on front and rear windscreens"
+      },
+      {
+        "id": 12,
+        "question": "What are the legal implications of accepting direct street hails as a PHV driver?",
+        "options": [
+          "Allowed during off-peak hours",
+          "Allowed if passenger pays extra",
+          "Illegal, leading to prosecution and licence revocation",
+          "Allowed near taxi ranks"
+        ],
+        "answer": "Illegal, leading to prosecution and licence revocation"
+      },
+      {
+        "id": 13,
+        "question": "What should a PHV driver do if a passenger leaves an item in the vehicle?",
+        "options": [
+          "Keep valuable items",
+          "Return to operator or police",
+          "Dispose after 24 hours",
+          "Ignore non-valuable items"
+        ],
+        "answer": "Return to operator or police"
+      },
+      {
+        "id": 14,
+        "question": "What are the legal requirements for a PHV driver to ensure the safety of children in their vehicle?",
+        "options": [
+          "Allow front seat",
+          "Ensure appropriate child seats or restraints",
+          "Let children decide seating",
+          "Assume safety if accompanied by adult"
+        ],
+        "answer": "Ensure appropriate child seats or restraints"
+      },
+      {
+        "id": 15,
+        "question": "What are the legal requirements for a PHV driver to handle complaints from passengers?",
+        "options": [
+          "Ignore complaints",
+          "Listen, provide contact details, and report",
+          "Argue to defend actions",
+          "Offer discount without reporting"
+        ],
+        "answer": "Listen, provide contact details, and report"
+      },
+      {
+        "id": 16,
+        "question": "What are the detailed requirements for a PHV driver to maintain the cleanliness of their vehicle?",
+        "options": [
+          "Only clean the outside of the vehicle",
+          "Maintain a clean and tidy interior and exterior, ensuring passenger comfort and hygiene",
+          "Only clean the vehicle once a week",
+          "Only clean the vehicle if a passenger complains"
+        ],
+        "answer": "Maintain a clean and tidy interior and exterior, ensuring passenger comfort and hygiene"
+      },
+      {
+        "id": 17,
+        "question": "What are the legal implications of a PHV driver refusing to transport a passenger with a guide dog?",
+        "options": [
+          "It is allowed if the driver has allergies",
+          "It is illegal and constitutes discrimination under the Equality Act 2010",
+          "It is allowed with a written notice",
+          "It is allowed if the passenger pays extra"
+        ],
+        "answer": "It is illegal and constitutes discrimination under the Equality Act 2010"
+      },
+      {
+        "id": 18,
+        "question": "What are the specific procedures a PHV driver should follow in the event of a vehicle breakdown?",
+        "options": [
+          "Leave the vehicle and walk away",
+          "Ensure passenger safety, contact the operator, and arrange for alternative transport if necessary",
+          "Ask passengers to push the vehicle",
+          "Attempt to fix the vehicle immediately"
+        ],
+        "answer": "Ensure passenger safety, contact the operator, and arrange for alternative transport if necessary"
+      },
+      {
+        "id": 19,
+        "question": "What are the legal requirements for a PHV driver to handle cash payments from passengers?",
+        "options": [
+          "Refuse cash payments",
+          "Provide an accurate receipt and handle cash securely",
+          "Keep all cash payments without recording them",
+          "Charge extra for cash payments"
+        ],
+        "answer": "Provide an accurate receipt and handle cash securely"
+      },
+      {
+        "id": 20,
+        "question": "What are the specific procedures a PHV driver should follow when encountering road closures or diversions?",
+        "options": [
+          "Ignore road closures and continue on the original route",
+          "Follow official diversion signs and inform the passenger of any delays",
+          "Ask passengers to direct the route",
+          "Turn around and return to the starting point"
+        ],
+        "answer": "Follow official diversion signs and inform the passenger of any delays"
+      },
+      {
+        "id": 21,
+        "question": "What are the legal implications of a PHV driver being convicted of a driving offence?",
+        "options": [
+          "It has no impact on their PHV licence",
+          "They must inform TfL, and it could lead to licence suspension or revocation",
+          "They only need to inform their operator",
+          "They can continue driving as long as they pay the fine"
+        ],
+        "answer": "They must inform TfL, and it could lead to licence suspension or revocation"
+      },
+      {
+        "id": 22,
+        "question": "What are the requirements for a PHV driver to maintain their vehicle in a roadworthy condition?",
+        "options": [
+          "Only carry out repairs when something breaks down",
+          "Regularly service and maintain the vehicle to ensure safety and reliability",
+          "Rely on the operator to maintain the vehicle",
+          "Ignore minor issues as long as the vehicle is running"
+        ],
+        "answer": "Regularly service and maintain the vehicle to ensure safety and reliability"
+      },
+      {
+        "id": 23,
+        "question": "What should a PHV driver do if they are involved in an accident?",
+        "options": [
+          "Leave the scene as quickly as possible",
+          "Exchange details with other parties involved and report the accident to the police and their operator",
+          "Only report the accident if there are injuries",
+          "Wait for the police to arrive before contacting the operator"
+        ],
+        "answer": "Exchange details with other parties involved and report the accident to the police and their operator"
+      },
+      {
+        "id": 24,
+        "question": "What are the legal requirements for PHV drivers regarding working hours and rest breaks?",
+        "options": [
+          "There are no restrictions on working hours",
+          "Drivers can work as many hours as they want without breaks",
+          "Drivers must take regular breaks to avoid fatigue and ensure safety",
+          "Drivers can only work during daylight hours"
+        ],
+        "answer": "Drivers must take regular breaks to avoid fatigue and ensure safety"
+      },
+      {
+        "id": 25,
+        "question": "What should a PHV driver do if they experience a medical condition that could affect their ability to drive safely?",
+        "options": [
+          "Continue driving as long as they feel able to",
+          "Inform TfL and stop driving until they are medically cleared",
+          "Only inform their operator about the condition",
+          "Ignore the condition if it is temporary"
+        ],
+        "answer": "Inform TfL and stop driving until they are medically cleared"
+      },
+      {
+        "id": 26,
+        "question": "What are the legal requirements for a PHV driver to display their badge in the vehicle?",
+        "options": [
+          "Keep the badge hidden from view",
+          "Display the badge clearly so passengers can identify the driver",
+          "Only display the badge when requested by passengers",
+          "Display the badge only during night-time hours"
+        ],
+        "answer": "Display the badge clearly so passengers can identify the driver"
+      },
+      {
+        "id": 27,
+        "question": "What are the legal implications of a PHV driver's licence being revoked?",
+        "options": [
+          "They can continue driving until they receive a new licence",
+          "They can reapply for a licence immediately",
+          "They are prohibited from working as a PHV driver",
+          "They can appeal the decision but continue driving in the meantime"
+        ],
+        "answer": "They are prohibited from working as a PHV driver"
+      },
+      {
+        "id": 28,
+        "question": "What are the requirements for a PHV driver to carry insurance documents in their vehicle?",
+        "options": [
+          "No insurance documents are required to be carried",
+          "Carry a copy of the insurance certificate at all times",
+          "Only carry the insurance documents when requested by passengers",
+          "Keep the insurance documents at home for safekeeping"
+        ],
+        "answer": "Carry a copy of the insurance certificate at all times"
+      },
+      {
+        "id": 29,
+        "question": "What should a PHV driver do if they receive a complaint from a passenger?",
+        "options": [
+          "Ignore the complaint if it seems trivial",
+          "Argue with the passenger to defend their actions",
+          "Listen to the complaint, apologize if necessary, and report it to their operator",
+          "Offer a discount to the passenger to resolve the complaint without reporting it"
+        ],
+        "answer": "Listen to the complaint, apologize if necessary, and report it to their operator"
+      },
+      {
+        "id": 30,
+        "question": "What are the legal requirements for a PHV driver regarding vehicle signage and branding?",
+        "options": [
+          "No specific signage or branding is required",
+          "Display the operator's logo and contact information clearly on the vehicle",
+          "Only display signage or branding during daylight hours",
+          "Use any signage or branding the driver prefers"
+        ],
+        "answer": "Display the operator's logo and contact information clearly on the vehicle"
+      },
+      {
+        "id": 31,
+        "question": "What are the legal implications of a PHV driver operating a vehicle without a valid MOT certificate?",
+        "options": [
+          "It is allowed if the vehicle is new",
+          "It is allowed if the driver has a valid PHV licence",
+          "It is illegal and can result in fines and licence suspension",
+          "It is only illegal if the vehicle is involved in an accident"
+        ],
+        "answer": "It is illegal and can result in fines and licence suspension"
+      },
+      {
+        "id": 32,
+        "question": "What are the legal requirements for a PHV driver to keep records of their journeys and earnings?",
+        "options": [
+          "No record-keeping is required",
+          "Keep records for tax purposes and potential audits",
+          "Only keep records of cash payments",
+          "Only keep records if requested by the operator"
+        ],
+        "answer": "Keep records for tax purposes and potential audits"
+      },
+      {
+        "id": 33,
+        "question": "What should a PHV driver do if they suspect a passenger is being abusive or exploiting another passenger?",
+        "options": [
+          "Ignore the situation to avoid conflict",
+          "Intervene directly to stop the abuse",
+          "Report the concern to the police and their operator",
+          "Ask the other passengers to intervene"
+        ],
+        "answer": "Report the concern to the police and their operator"
+      },
+      {
+        "id": 34,
+        "question": "What are the legal requirements for a PHV driver regarding the carriage of dangerous goods?",
+        "options": [
+          "They can carry any dangerous goods as long as they are properly secured",
+          "They are prohibited from carrying dangerous goods unless they have a special licence",
+          "They can carry small quantities of dangerous goods for personal use",
+          "They can carry dangerous goods if the passenger declares them"
+        ],
+        "answer": "They are prohibited from carrying dangerous goods unless they have a special licence"
+      },
+      {
+        "id": 35,
+        "question": "What are the legal implications of a PHV driver failing to comply with a police request while on duty?",
+        "options": [
+          "It is a minor offence with no consequences",
+          "It can result in fines and licence suspension",
+          "It is only an offence if the driver is involved in illegal activity",
+          "It is only an offence if the police officer is in uniform"
+        ],
+        "answer": "It can result in fines and licence suspension"
+      },
+      {
+        "id": 36,
+        "question": "What are the legal requirements for a PHV driver regarding the display of licence plates?",
+        "options": [
+          "No licence plates are required for PHVs",
+          "Display licence plates clearly on the front and rear of the vehicle",
+          "Only display licence plates on the rear of the vehicle",
+          "Use personalized licence plates to promote their business"
+        ],
+        "answer": "Display licence plates clearly on the front and rear of the vehicle"
+      },
+      {
+        "id": 37,
+        "question": "What should a PHV driver do if they are approached by a passenger who is soliciting sexual services?",
+        "options": [
+          "Accept the offer if they agree on a price",
+          "Refuse the offer and report the incident to the police and their operator",
+          "Ignore the offer and continue the journey",
+          "Negotiate a price but report the incident later"
+        ],
+        "answer": "Refuse the offer and report the incident to the police and their operator"
+      },
+      {
+        "id": 38,
+        "question": "What are the legal implications of a PHV driver using a vehicle that does not meet the required emission standards?",
+        "options": [
+          "It is allowed if the vehicle is old",
+          "It is allowed if the driver has a valid PHV licence",
+          "It is illegal and can result in fines and licence suspension",
+          "It is only illegal if the vehicle is visibly polluting"
+        ],
+        "answer": "It is illegal and can result in fines and licence suspension"
+      },
+      {
+        "id": 39,
+        "question": "What are the legal requirements for a PHV driver regarding the use of child locks in their vehicle?",
+        "options": [
+          "Child locks must be deactivated at all times",
+          "Child locks must be activated whenever children are in the vehicle",
+          "Child locks can be used at the driver's discretion",
+          "Child locks are not required in PHVs"
+        ],
+        "answer": "Child locks can be used at the driver's discretion"
+      },
+      {
+        "id": 40,
+        "question": "What should a PHV driver do if they witness a road traffic accident?",
+        "options": [
+          "Stop and offer assistance if it is safe to do so",
+          "Continue driving to avoid delays",
+          "Only stop if someone is injured",
+          "Only stop if the police request assistance"
+        ],
+        "answer": "Stop and offer assistance if it is safe to do so"
+      },
+      {
+        "id": 41,
+        "question": "What are the legal implications of a PHV driver failing to display a valid insurance disc?",
+        "options": [
+          "It is a minor offence with no consequences",
+          "It can result in fines and licence suspension",
+          "It is only an offence if the vehicle is involved in an accident",
+          "It is only an offence if the insurance disc is expired"
+        ],
+        "answer": "It can result in fines and licence suspension"
+      },
+      {
+        "id": 42,
+        "question": "What are the legal requirements for a PHV driver regarding the use of horns and sirens?",
+        "options": [
+          "They can use horns and sirens freely to alert other road users",
+          "They can only use horns in emergencies and sirens are prohibited",
+          "They can use horns and sirens to navigate through traffic",
+          "They can use horns and sirens to warn pedestrians"
+        ],
+        "answer": "They can only use horns in emergencies and sirens are prohibited"
+      },
+      {
+        "id": 43,
+        "question": "What should a PHV driver do if they are unsure about a particular route or destination?",
+        "options": [
+          "Guess the route and hope for the best",
+          "Ask the passenger for directions",
+          "Use a GPS navigation system to confirm the route",
+          "Contact their operator for assistance"
+        ],
+        "answer": "Use a GPS navigation system to confirm the route"
+      },
+      {
+        "id": 44,
+        "question": "What are the legal implications of a PHV driver carrying excess passengers?",
+        "options": [
+          "It is allowed if the passengers agree",
+          "It is allowed if the passengers are children",
+          "It is illegal and can result in fines and licence suspension",
+          "It is only illegal if the vehicle is overloaded"
+        ],
+        "answer": "It is illegal and can result in fines and licence suspension"
+      },
+      {
+        "id": 45,
+        "question": "What are the legal requirements for a PHV driver regarding the use of seatbelts?",
+        "options": [
+          "Only the driver is required to wear a seatbelt",
+          "All passengers must wear seatbelts, and the driver is responsible for ensuring compliance",
+          "Seatbelts are optional for adult passengers",
+          "Seatbelts are only required for children"
+        ],
+        "answer": "All passengers must wear seatbelts, and the driver is responsible for ensuring compliance"
+      },
+      {
+        "id": 46,
+        "question": "What should a PHV driver do if they are approached by a passenger who is behaving aggressively or threateningly?",
+        "options": [
+          "Confront the passenger and try to de-escalate the situation",
+          "Refuse to carry the passenger and report the incident to the police and their operator",
+          "Ignore the passenger's behavior and continue the journey",
+          "Attempt to restrain the passenger physically"
+        ],
+        "answer": "Refuse to carry the passenger and report the incident to the police and their operator"
+      },
+      {
+        "id": 47,
+        "question": "What are the legal implications of a PHV driver driving under the influence of drugs?",
+        "options": [
+          "It is allowed if the drugs are prescribed medication",
+          "It is allowed if the drugs do not impair driving ability",
+          "It is illegal and can result in severe penalties, including imprisonment",
+          "It is only illegal if the driver is involved in an accident"
+        ],
+        "answer": "It is illegal and can result in severe penalties, including imprisonment"
+      },
+      {
+        "id": 48,
+        "question": "What are the legal requirements for a PHV driver regarding the use of bus lanes?",
+        "options": [
+          "They can use bus lanes freely to avoid traffic",
+          "They can only use bus lanes during specific hours",
+          "They are prohibited from using bus lanes unless indicated otherwise",
+          "They can use bus lanes if they are carrying a passenger"
+        ],
+        "answer": "They are prohibited from using bus lanes unless indicated otherwise"
+      },
+      {
+        "id": 49,
+        "question": "What should a PHV driver do if they are lost or unsure of their current location?",
+        "options": [
+          "Continue driving until they recognize a landmark",
+          "Ask the passenger for directions",
+          "Use a GPS navigation system to re-orient themselves",
+          "Stop the vehicle and ask a passerby for help"
+        ],
+        "answer": "Use a GPS navigation system to re-orient themselves"
+      },
+      {
+        "id": 50,
+        "question": "What are the legal implications of a PHV driver failing to renew their licence on time?",
+        "options": [
+          "They can continue driving until they receive a reminder from TfL",
+          "They can renew the licence at any time without penalty",
+          "They are prohibited from working as a PHV driver until the licence is renewed",
+          "They can renew the licence with a late fee"
+        ],
+        "answer": "They are prohibited from working as a PHV driver until the licence is renewed"
+      }
+    ]
+  }
+]

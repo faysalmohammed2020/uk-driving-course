@@ -1,0 +1,558 @@
+[
+  {
+    "id": 2300,
+    "title": "Contemporary PHV Driver Challenges",
+    "questions": [
+      {
+        "id": 1,
+        "question": "With the increasing prevalence of electric vehicles (EVs) in PHV fleets, how should a driver manage range anxiety and ensure timely completion of bookings, especially during peak hours?",
+        "options": [
+          "Accept bookings without considering the vehicle's remaining range.",
+          "Rely solely on the vehicle's navigation system for range estimations.",
+          "Plan routes strategically, utilize charging infrastructure, and communicate potential delays to passengers.",
+          "Avoid accepting long-distance bookings to conserve battery life."
+        ],
+        "answer": "Plan routes strategically, utilize charging infrastructure, and communicate potential delays to passengers."
+      },
+      {
+        "id": 2,
+        "question": "In an era of increased data privacy concerns, how should a PHV driver handle passenger data collected through ride-hailing apps, especially regarding sharing information with third parties?",
+        "options": [
+          "Share passenger data with third-party marketing companies for targeted advertising.",
+          "Assume that the ride-hailing app is solely responsible for data privacy.",
+          "Adhere to data protection regulations, limit data sharing, and inform passengers about data usage policies.",
+          "Delete all passenger data immediately after completing a journey."
+        ],
+        "answer": "Adhere to data protection regulations, limit data sharing, and inform passengers about data usage policies."
+      },
+      {
+        "id": 3,
+        "question": "With the rise of autonomous vehicles (AVs), how should PHV drivers adapt their skills and prepare for potential shifts in the transportation industry?",
+        "options": [
+          "Ignore the development of AVs and continue operating as usual.",
+          "Assume that AVs will never replace human drivers.",
+          "Acquire skills in vehicle maintenance, customer service, and data management to remain relevant in the evolving industry.",
+          "Seek employment in other industries to avoid being displaced by AVs."
+        ],
+        "answer": "Acquire skills in vehicle maintenance, customer service, and data management to remain relevant in the evolving industry."
+      },
+      {
+        "id": 4,
+        "question": "During a period of economic downturn, how should a PHV driver manage fluctuating demand and ensure financial stability?",
+        "options": [
+          "Continue operating as usual without adjusting strategies.",
+          "Increase fares to compensate for reduced demand.",
+          "Diversify income streams, optimize operating hours, and explore cost-saving measures.",
+          "Quit driving and search for other employment."
+        ],
+        "answer": "Diversify income streams, optimize operating hours, and explore cost-saving measures."
+      },
+      {
+        "id": 5,
+        "question": "In the face of increasing environmental awareness, how should a PHV driver contribute to sustainability and reduce their carbon footprint?",
+        "options": [
+          "Continue using traditional fuel vehicles without considering environmental impact.",
+          "Increase vehicle idling to maintain passenger comfort.",
+          "Adopt eco-friendly driving practices, utilize fuel-efficient vehicles, and support sustainable transportation initiatives.",
+          "Ignore environmental concerns and focus solely on maximizing profits."
+        ],
+        "answer": "Adopt eco-friendly driving practices, utilize fuel-efficient vehicles, and support sustainable transportation initiatives."
+      },
+      {
+        "id": 6,
+        "question": "How should a PHV driver address the challenge of balancing work-life balance and managing stress, especially with the demanding nature of the job?",
+        "options": [
+          "Work excessively long hours to maximize income.",
+          "Ignore stress and potential burnout.",
+          "Establish boundaries, prioritize self-care, and seek support when needed.",
+          "Quit driving and seek less demanding employment."
+        ],
+        "answer": "Establish boundaries, prioritize self-care, and seek support when needed."
+      },
+      {
+        "id": 7,
+        "question": "With the increasing prevalence of cybersecurity threats, how should a PHV driver protect their personal and professional data from potential breaches or attacks?",
+        "options": [
+          "Share login credentials and personal information freely.",
+          "Assume that ride-hailing apps are immune to cyberattacks.",
+          "Use strong passwords, enable two-factor authentication, and avoid clicking on suspicious links or emails.",
+          "Ignore cybersecurity concerns and hope for the best."
+        ],
+        "answer": "Use strong passwords, enable two-factor authentication, and avoid clicking on suspicious links or emails."
+      },
+      {
+        "id": 8,
+        "question": "In a scenario where a PHV driver witnesses an act of social injustice or discrimination while on duty, what is their ethical responsibility to intervene or report the incident?",
+        "options": [
+          "Ignore the incident to avoid becoming involved.",
+          "Attempt to intervene physically and stop the injustice.",
+          "Report the incident to the appropriate authorities or organizations, providing relevant information.",
+          "Share the incident on social media to raise awareness."
+        ],
+        "answer": "Report the incident to the appropriate authorities or organizations, providing relevant information."
+      },
+      {
+        "id": 9,
+        "question": "How should a PHV driver navigate the complexities of dynamic pricing and fare adjustments during periods of high demand or special events?",
+        "options": [
+          "Charge passengers arbitrary fares without considering market conditions.",
+          "Assume that dynamic pricing is always fair and accurate.",
+          "Understand the factors influencing dynamic pricing, communicate fare adjustments transparently, and address passenger concerns.",
+          "Avoid accepting bookings during periods of high demand to avoid fare disputes."
+        ],
+        "answer": "Understand the factors influencing dynamic pricing, communicate fare adjustments transparently, and address passenger concerns."
+      },
+      {
+        "id": 10,
+        "question": "In a situation where a PHV driver is faced with conflicting instructions from a passenger and their ride-hailing app, how should they prioritize and resolve the conflict?",
+        "options": [
+          "Follow the passenger's instructions without question.",
+          "Follow the app's instructions without considering the passenger's preferences.",
+          "Communicate with both the passenger and the app support to clarify instructions and find a mutually agreeable solution.",
+          "Cancel the booking to avoid dealing with conflicting instructions."
+        ],
+        "answer": "Communicate with both the passenger and the app support to clarify instructions and find a mutually agreeable solution."
+      },
+      {
+        "id": 11,
+        "question": "How should a PHV driver adapt to the increasing diversity of passengers, including those with different cultural backgrounds, languages, and accessibility needs?",
+        "options": [
+          "Assume that all passengers have the same needs and preferences.",
+          "Avoid interacting with passengers from diverse backgrounds.",
+          "Develop cultural sensitivity, learn basic communication skills, and provide reasonable accommodations to meet diverse passenger needs.",
+          "Only accept bookings from passengers who speak the same language."
+        ],
+        "answer": "Develop cultural sensitivity, learn basic communication skills, and provide reasonable accommodations to meet diverse passenger needs."
+      },
+      {
+        "id": 12,
+        "question": "In a scenario where a PHV driver is faced with a passenger who is exhibiting signs of mental distress or emotional instability, what is their ethical responsibility to provide support or seek assistance?",
+        "options": [
+          "Ignore the passenger's behavior to avoid becoming involved.",
+          "Attempt to provide counseling or advice to the passenger.",
+          "Contact emergency services or mental health professionals, providing relevant information about the passenger's condition.",
+          "Inform other passengers of the situation and ask for their assistance."
+        ],
+        "answer": "Contact emergency services or mental health professionals, providing relevant information about the passenger's condition."
+      },
+      {
+        "id": 13,
+        "question": "How should a PHV driver manage the challenge of maintaining vehicle cleanliness and hygiene, especially during outbreaks of contagious diseases or pandemics?",
+        "options": [
+          "Ignore vehicle cleanliness and hygiene to save time.",
+          "Assume that passengers are responsible for their own hygiene.",
+          "Implement rigorous cleaning and sanitization protocols, following health guidelines and using appropriate disinfectants.",
+          "Only clean the vehicle when requested by a passenger."
+        ],
+        "answer": "Implement rigorous cleaning and sanitization protocols, following health guidelines and using appropriate disinfectants."
+      },
+      {
+        "id": 14,
+        "question": "In a situation where a PHV driver is faced with a passenger who is attempting to solicit them for illegal activities, how should they respond to protect themselves and uphold ethical standards?",
+        "options": [
+          "Agree to the request if the payment is high enough.",
+          "Refuse the request and report the incident to the police and operator immediately.",
+          "Ignore the request and continue the journey.",
+          "Attempt to negotiate a different illegal activity."
+        ],
+        "answer": "Refuse the request and report the incident to the police and operator immediately."
+      },
+      {
+        "id": 15,
+        "question": "How should a PHV driver handle passengers who are resistant to or refuse to comply with safety regulations, such as wearing seatbelts or following traffic laws?",
+        "options": [
+          "Ignore the passenger's refusal and continue the journey.",
+          "Attempt to physically force the passenger to comply.",
+          "Politely explain the safety regulations and refuse to proceed until the passenger complies.",
+          "Inform other passengers of the situation and ask for their assistance in persuading the non-compliant passenger."
+        ],
+        "answer": "Politely explain the safety regulations and refuse to proceed until the passenger complies."
+      },
+      {
+        "id": 16,
+        "question": "In a scenario where a PHV driver is faced with a passenger who is experiencing a mental health crisis during a journey, how should they respond to ensure the passenger's safety and well-being?",
+        "options": [
+          "Ignore the passenger's behavior and continue the journey.",
+          "Attempt to provide counseling or advice to the passenger.",
+          "Pull over to a safe location, contact emergency services or mental health professionals, and provide relevant information about the passenger's condition.",
+          "Inform other passengers of the situation and ask for their assistance."
+        ],
+        "answer": "Pull over to a safe location, contact emergency services or mental health professionals, and provide relevant information about the passenger's condition."
+      },
+      {
+        "id": 17,
+        "question": "How should a PHV driver manage the challenge of dealing with aggressive or abusive passengers while maintaining professionalism and ensuring their own safety?",
+        "options": [
+          "Respond with equal aggression to assert dominance.",
+          "Ignore the passenger's behavior and continue the journey.",
+          "Remain calm, de-escalate the situation, and if necessary, terminate the journey and report the incident to the operator and authorities.",
+          "Attempt to physically restrain the passenger."
+        ],
+        "answer": "Remain calm, de-escalate the situation, and if necessary, terminate the journey and report the incident to the operator and authorities."
+      },
+      {
+        "id": 18,
+        "question": "In a situation where a PHV driver is faced with a passenger who is attempting to transport illegal or dangerous items, how should they respond to protect themselves and uphold legal obligations?",
+        "options": [
+          "Agree to transport the items if the passenger offers a generous reward.",
+          "Refuse to transport the items and report the incident to the police and operator immediately.",
+          "Ignore the request and continue the journey.",
+          "Attempt to negotiate a different illegal or dangerous item."
+        ],
+        "answer": "Refuse to transport the items and report the incident to the police and operator immediately."
+      },
+      {
+        "id": 19,
+        "question": "How should a PHV driver navigate the complexities of providing accessible transportation to passengers with disabilities, including those with mobility impairments, visual impairments, or hearing impairments?",
+        "options": [
+          "Assume that passengers with disabilities are responsible for their own transportation arrangements.",
+          "Avoid accepting bookings from passengers with disabilities.",
+          "Provide reasonable accommodations, such as assisting with boarding and alighting, providing clear communication, and ensuring the vehicle is accessible.",
+          "Charge extra for providing accessible transportation to passengers with disabilities."
+        ],
+        "answer": "Provide reasonable accommodations, such as assisting with boarding and alighting, providing clear communication, and ensuring the vehicle is accessible."
+      },
+      {
+        "id": 20,
+        "question": "In a scenario where a PHV driver witnesses a crime or suspicious activity while on duty, what is their ethical and legal responsibility to report the incident to the authorities?",
+        "options": [
+          "Ignore the incident to avoid becoming involved.",
+          "Attempt to apprehend the suspects themselves.",
+          "Report the incident to the police as soon as possible, providing relevant information and details.",
+          "Share the incident on social media to raise awareness."
+        ],
+        "answer": "Report the incident to the police as soon as possible, providing relevant information and details."
+      },
+      {
+        "id": 21,
+        "question": "How should a PHV driver manage the challenge of maintaining their professional reputation and online presence, especially in the age of social media and online reviews?",
+        "options": [
+          "Ignore online reviews and feedback.",
+          "Respond to negative reviews with aggression or defensiveness.",
+          "Maintain a professional online presence, respond to reviews constructively, and address any concerns or complaints promptly.",
+          "Delete negative reviews to maintain a positive image."
+        ],
+        "answer": "Maintain a professional online presence, respond to reviews constructively, and address any concerns or complaints promptly."
+      },
+      {
+        "id": 22,
+        "question": "In a situation where a PHV driver is faced with a passenger who is attempting to solicit them for sexual favors or engage in inappropriate behavior, how should they respond to protect themselves and uphold ethical standards?",
+        "options": [
+          "Agree to the passenger's advances if they are comfortable with it.",
+          "Politely but firmly reject the advances, terminate the journey if necessary, and report the incident to the operator and authorities.",
+          "Ignore the passenger's advances and continue the journey.",
+          "Attempt to negotiate a different form of compensation."
+        ],
+        "answer": "Politely but firmly reject the advances, terminate the journey if necessary, and report the incident to the operator and authorities."
+      },
+      {
+        "id": 23,
+        "question": "How should a PHV driver navigate the complexities of operating in areas with limited infrastructure or challenging road conditions, such as rural areas or areas with frequent construction?",
+        "options": [
+          "Avoid operating in areas with limited infrastructure or challenging road conditions.",
+          "Assume that passengers are responsible for navigating difficult areas.",
+          "Plan routes strategically, utilize navigation tools, and communicate potential delays or challenges to passengers.",
+          "Increase fares to compensate for the challenges of operating in difficult areas."
+        ],
+        "answer": "Plan routes strategically, utilize navigation tools, and communicate potential delays or challenges to passengers."
+      },
+      {
+        "id": 24,
+        "question": "In a scenario where a PHV driver is faced with a passenger who is attempting to evade law enforcement or avoid arrest, how should they respond to protect themselves and uphold legal obligations?",
+        "options": [
+          "Agree to help the passenger evade law enforcement.",
+          "Refuse to assist the passenger and report the incident to the police immediately.",
+          "Ignore the request and continue the journey.",
+          "Attempt to negotiate a different form of compensation."
+        ],
+        "answer": "Refuse to assist the passenger and report the incident to the police immediately."
+      },
+      {
+        "id": 25,
+        "question": "How should a PHV driver manage the challenge of maintaining their physical and mental well-being, especially with the long hours and demanding nature of the job?",
+        "options": [
+          "Ignore physical and mental health concerns to maximize income.",
+          "Assume that physical and mental health issues will resolve themselves.",
+          "Prioritize self-care, establish healthy habits, and seek support when needed.",
+          "Quit driving and seek less demanding employment."
+        ],
+        "answer": "Prioritize self-care, establish healthy habits, and seek support when needed."
+      },
+      {
+        "id": 26,
+        "question": "In a situation where a PHV driver is faced with a passenger who is attempting to damage or vandalize their vehicle, how should they respond to protect their property and ensure their safety?",
+        "options": [
+          "Allow the passenger to damage or vandalize the vehicle.",
+          "Attempt to physically restrain the passenger.",
+          "Pull over to a safe location, terminate the journey, and contact the police immediately.",
+          "Inform other passengers of the situation and ask for their assistance."
+        ],
+        "answer": "Pull over to a safe location, terminate the journey, and contact the police immediately."
+      },
+      {
+        "id": 27,
+        "question": "How should a PHV driver navigate the complexities of operating during periods of civil unrest or political instability, ensuring their safety and the safety of their passengers?",
+        "options": [
+          "Continue operating as usual without considering the risks.",
+          "Assume that passengers are responsible for their own safety.",
+          "Assess the situation, avoid high-risk areas, and communicate with passengers about potential risks and safety precautions.",
+          "Increase fares to compensate for the risks of operating during civil unrest."
+        ],
+        "answer": "Assess the situation, avoid high-risk areas, and communicate with passengers about potential risks and safety precautions."
+      },
+      {
+        "id": 28,
+        "question": "In a scenario where a PHV driver is faced with a passenger who is attempting to steal their personal belongings or vehicle, how should they respond to protect themselves and their property?",
+        "options": [
+          "Allow the passenger to steal their belongings or vehicle.",
+          "Attempt to physically restrain the passenger.",
+          "Prioritize their safety, attempt to de-escalate the situation, and contact the police immediately.",
+          "Inform other passengers of the situation and ask for their assistance."
+        ],
+        "answer": "Prioritize their safety, attempt to de-escalate the situation, and contact the police immediately."
+      },
+      {
+        "id": 29,
+        "question": "How should a PHV driver manage the challenge of operating in areas with limited or unreliable internet connectivity, ensuring they can still receive bookings and navigate effectively?",
+        "options": [
+          "Avoid operating in areas with limited internet connectivity.",
+          "Assume that passengers are responsible for providing internet connectivity.",
+          "Utilize offline navigation tools, download maps and relevant information, and communicate with passengers about potential connectivity issues.",
+          "Increase fares to compensate for the challenges of operating in areas with limited connectivity."
+        ],
+        "answer": "Utilize offline navigation tools, download maps and relevant information, and communicate with passengers about potential connectivity issues."
+      },
+      {
+        "id": 30,
+        "question": "In a situation where a PHV driver is faced with a passenger who is attempting to manipulate or deceive them for personal gain, how should they respond to protect themselves and uphold ethical standards?",
+        "options": [
+          "Agree to the passenger's requests without question.",
+          "Attempt to manipulate or deceive the passenger in return.",
+          "Remain vigilant, verify information, and refuse to comply with any requests that seem suspicious or unethical.",
+          "Inform other passengers of the situation and ask for their assistance."
+        ],
+        "answer": "Remain vigilant, verify information, and refuse to comply with any requests that seem suspicious or unethical."
+      },
+      {
+        "id": 31,
+        "question": "How should a PHV driver navigate the complexities of operating during periods of economic recession or financial hardship, ensuring they can still earn a sustainable income?",
+        "options": [
+          "Continue operating as usual without adjusting strategies.",
+          "Increase fares significantly to compensate for reduced demand.",
+          "Optimize operating hours, explore cost-saving measures, and seek additional income streams if necessary.",
+          "Quit driving and seek alternative employment."
+        ],
+        "answer": "Optimize operating hours, explore cost-saving measures, and seek additional income streams if necessary."
+      },
+      {
+        "id": 32,
+        "question": "In a scenario where a PHV driver is faced with a passenger who is attempting to bribe them to violate traffic laws or regulations, how should they respond to uphold legal and ethical obligations?",
+        "options": [
+          "Accept the bribe and comply with the passenger's request.",
+          "Refuse the bribe and report the incident to the police and operator immediately.",
+          "Attempt to negotiate a higher bribe.",
+          "Ignore the bribe and continue the journey."
+        ],
+        "answer": "Refuse the bribe and report the incident to the police and operator immediately."
+      },
+      {
+        "id": 33,
+        "question": "How should a PHV driver manage the challenge of maintaining their vehicle's cleanliness and hygiene, especially during periods of increased public health concerns or outbreaks of infectious diseases?",
+        "options": [
+          "Ignore vehicle cleanliness and hygiene to save time.",
+          "Assume that passengers are responsible for their own hygiene.",
+          "Implement rigorous cleaning and sanitization protocols, following health guidelines and using appropriate disinfectants.",
+          "Only clean the vehicle when requested by a passenger."
+        ],
+        "answer": "Implement rigorous cleaning and sanitization protocols, following health guidelines and using appropriate disinfectants."
+      },
+      {
+        "id": 34,
+        "question": "In a situation where a PHV driver is faced with a passenger who is attempting to coerce or intimidate them into performing illegal or unethical actions, how should they respond to protect themselves and uphold their integrity?",
+        "options": [
+          "Comply with the passenger's demands to avoid confrontation.",
+          "Attempt to coerce or intimidate the passenger in return.",
+          "Refuse to comply, document the incident, and report it to the police and operator immediately.",
+          "Inform other passengers of the situation and ask for their assistance."
+        ],
+        "answer": "Refuse to comply, document the incident, and report it to the police and operator immediately."
+      },
+      {
+        "id": 35,
+        "question": "How should a PHV driver navigate the complexities of operating in areas with diverse cultural and religious customs, ensuring they provide respectful and inclusive service to all passengers?",
+        "options": [
+          "Assume that all passengers have the same cultural and religious customs.",
+          "Avoid interacting with passengers from diverse cultural and religious backgrounds.",
+          "Develop cultural sensitivity, respect diverse customs, and provide inclusive service to all passengers.",
+          "Only accept bookings from passengers who share the same cultural and religious customs."
+        ],
+        "answer": "Develop cultural sensitivity, respect diverse customs, and provide inclusive service to all passengers."
+      },
+      {
+        "id": 36,
+        "question": "In a scenario where a PHV driver is faced with a passenger who is attempting to distribute or sell illegal substances from their vehicle, how should they respond to protect themselves and uphold legal obligations?",
+        "options": [
+          "Allow the passenger to distribute or sell illegal substances from their vehicle.",
+          "Attempt to purchase or confiscate the illegal substances.",
+          "Refuse to allow the activity and report the incident to the police immediately.",
+          "Inform other passengers of the situation and ask for their assistance."
+        ],
+        "answer": "Refuse to allow the activity and report the incident to the police immediately."
+      },
+      {
+        "id": 37,
+        "question": "How should a PHV driver manage the challenge of maintaining their professional development and staying up-to-date with industry trends and regulations?",
+        "options": [
+          "Assume that their current knowledge and skills are sufficient.",
+          "Ignore industry trends and regulations.",
+          "Engage in continuous learning, attend training sessions, and stay informed about industry developments.",
+          "Rely solely on information provided by other drivers."
+        ],
+        "answer": "Engage in continuous learning, attend training sessions, and stay informed about industry developments."
+      },
+      {
+        "id": 38,
+        "question": "In a situation where a PHV driver is faced with a passenger who is attempting to impersonate a law enforcement officer or government official, how should they respond to protect themselves and ensure public safety?",
+        "options": [
+          "Comply with the passenger's demands without question.",
+          "Attempt to impersonate a law enforcement officer or government official in return.",
+          "Request identification, verify credentials, and report any suspicious activity to the authorities immediately.",
+          "Inform other passengers of the situation and ask for their assistance."
+        ],
+        "answer": "Request identification, verify credentials, and report any suspicious activity to the authorities immediately."
+      },
+      {
+        "id": 39,
+        "question": "How should a PHV driver navigate the complexities of operating during periods of increased social unrest or political instability, ensuring their safety and the safety of their passengers?",
+        "options": [
+          "Continue operating as usual without considering the risks.",
+          "Assume that passengers are responsible for their own safety.",
+          "Assess the situation, avoid high-risk areas, and communicate with passengers about potential risks and safety precautions.",
+          "Increase fares significantly to compensate for the risks."
+        ],
+        "answer": "Assess the situation, avoid high-risk areas, and communicate with passengers about potential risks and safety precautions."
+      },
+      {
+        "id": 40,
+        "question": "In a scenario where a PHV driver is faced with a passenger who is attempting to sabotage or damage their vehicle's equipment or systems, how should they respond to protect their property and ensure their safety?",
+        "options": [
+          "Allow the passenger to sabotage or damage their vehicle.",
+          "Attempt to physically restrain the passenger.",
+          "Pull over to a safe location, terminate the journey, and contact the police immediately.",
+          "Inform other passengers of the situation and ask for their assistance."
+        ],
+        "answer": "Pull over to a safe location, terminate the journey, and contact the police immediately."
+      },
+      {
+        "id": 41,
+        "question": "How should a PHV driver manage the challenge of providing exceptional customer service while dealing with demanding or difficult passengers?",
+        "options": [
+          "Ignore passenger complaints and concerns.",
+          "Respond to difficult passengers with aggression or rudeness.",
+          "Remain calm, empathetic, and professional, addressing concerns and resolving issues to the best of their ability.",
+          "Terminate the journey immediately and leave the passenger stranded."
+        ],
+        "answer": "Remain calm, empathetic, and professional, addressing concerns and resolving issues to the best of their ability."
+      },
+      {
+        "id": 42,
+        "question": "In a situation where a PHV driver is faced with a passenger who is attempting to hack or gain unauthorized access to their personal devices or ride-hailing app, how should they respond to protect their data and privacy?",
+        "options": [
+          "Allow the passenger to access their devices or app.",
+          "Attempt to hack the passenger's devices in return.",
+          "Refuse access, secure their devices, and report the incident to the authorities and app support immediately.",
+          "Inform other passengers of the situation and ask for their assistance."
+        ],
+        "answer": "Refuse access, secure their devices, and report the incident to the authorities and app support immediately."
+      },
+      {
+        "id": 43,
+        "question": "How should a PHV driver navigate the complexities of operating during periods of increased public health emergencies or pandemics, ensuring their safety and the safety of their passengers?",
+        "options": [
+          "Continue operating as usual without considering the risks.",
+          "Assume that passengers are responsible for their own safety.",
+          "Implement health and safety protocols, utilize protective equipment, and communicate with passengers about safety measures.",
+          "Increase fares significantly to compensate for the risks."
+        ],
+        "answer": "Implement health and safety protocols, utilize protective equipment, and communicate with passengers about safety measures."
+      },
+      {
+        "id": 44,
+        "question": "In a scenario where a PHV driver is faced with a passenger who is attempting to distribute or share copyrighted material from their vehicle, how should they respond to uphold legal obligations and protect intellectual property?",
+        "options": [
+          "Allow the passenger to distribute or share copyrighted material from their vehicle.",
+          "Attempt to purchase or confiscate the copyrighted material.",
+          "Refuse to allow the activity and report the incident to the authorities and copyright holders immediately.",
+          "Inform other passengers of the situation and ask for their assistance."
+        ],
+        "answer": "Refuse to allow the activity and report the incident to the authorities and copyright holders immediately."
+      },
+      {
+        "id": 45,
+        "question": "How should a PHV driver manage the challenge of maintaining their vehicle's efficiency and reducing operational costs, especially with fluctuating fuel prices or maintenance expenses?",
+        "options": [
+          "Ignore vehicle maintenance and efficiency to save money.",
+          "Assume that operational costs are beyond their control.",
+          "Implement fuel-efficient driving practices, utilize vehicle maintenance schedules, and explore cost-saving measures.",
+          "Increase fares significantly to compensate for operational costs."
+        ],
+        "answer": "Implement fuel-efficient driving practices, utilize vehicle maintenance schedules, and explore cost-saving measures."
+      },
+      {
+        "id": 46,
+        "question": "In a situation where a PHV driver is faced with a passenger who is attempting to create a disturbance or incite violence within their vehicle, how should they respond to protect themselves and ensure the safety of others?",
+        "options": [
+          "Allow the passenger to create a disturbance or incite violence.",
+          "Attempt to physically restrain the passenger.",
+          "Pull over to a safe location, terminate the journey, and contact the police immediately.",
+          "Inform other passengers of the situation and ask for their assistance."
+        ],
+        "answer": "Pull over to a safe location, terminate the journey, and contact the police immediately."
+      },
+      {
+        "id": 47,
+        "question": "How should a PHV driver navigate the complexities of operating in areas with diverse demographics and socioeconomic backgrounds, ensuring they provide equitable and inclusive service to all passengers?",
+        "options": [
+          "Assume that all passengers have the same needs and preferences.",
+          "Avoid operating in areas with diverse demographics and socioeconomic backgrounds.",
+          "Develop cultural sensitivity, respect diverse backgrounds, and provide equitable and inclusive service to all passengers.",
+          "Increase fares significantly in areas with lower socioeconomic backgrounds."
+        ],
+        "answer": "Develop cultural sensitivity, respect diverse backgrounds, and provide equitable and inclusive service to all passengers."
+      },
+      {
+        "id": 48,
+        "question": "In a scenario where a PHV driver is faced with a passenger who is attempting to distribute or share misinformation or propaganda from their vehicle, how should they respond to uphold ethical standards and protect public safety?",
+        "options": [
+          "Allow the passenger to distribute or share misinformation or propaganda from their vehicle.",
+          "Attempt to counter the misinformation or propaganda with their own views.",
+          "Refuse to allow the activity and report the incident to the authorities and relevant organizations immediately.",
+          "Inform other passengers of the situation and ask for their assistance."
+        ],
+        "answer": "Refuse to allow the activity and report the incident to the authorities and relevant organizations immediately."
+      },
+      {
+        "id": 49,
+        "question": "How should a PHV driver manage the challenge of maintaining their professional network and building relationships with other drivers and industry professionals?",
+        "options": [
+          "Assume that professional networking is unnecessary.",
+          "Avoid interacting with other drivers and industry professionals.",
+          "Engage in professional networking, attend industry events, and build relationships with other drivers and industry professionals.",
+          "Rely solely on information provided by ride-hailing apps."
+        ],
+        "answer": "Engage in professional networking, attend industry events, and build relationships with other drivers and industry professionals."
+      },
+      {
+        "id": 50,
+        "question": "In a situation where a PHV driver is faced with a passenger who is attempting to use their vehicle as a getaway vehicle for a crime, how should they respond to protect themselves and uphold legal obligations?",
+        "options": [
+          "Agree to assist the passenger in their criminal activity.",
+          "Attempt to apprehend the passenger themselves.",
+          "Refuse to assist the passenger and report the incident to the police immediately.",
+          "Inform other passengers of the situation and ask for their assistance."
+        ],
+        "answer": "Refuse to assist the passenger and report the incident to the police immediately."
+      }
+    ]
+  }
+]

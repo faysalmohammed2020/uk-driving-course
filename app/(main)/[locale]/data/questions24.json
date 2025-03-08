@@ -1,0 +1,558 @@
+[
+  {
+    "id": 2400,
+    "title": "Navigating the Modern PHV Landscape",
+    "questions": [
+      {
+        "id": 1,
+        "question": "You notice a passenger behaving erratically, possibly under the influence of drugs. They become agitated and start making threats. How do you ensure your safety while managing the situation?",
+        "options": [
+          "Confront the passenger and demand they calm down.",
+          "Pull over in a safe, well-lit area, discreetly contact the authorities, and try to de-escalate the situation verbally.",
+          "Ignore the passenger's behavior and hope they calm down.",
+          "Speed up to reach the destination quickly and end the ride."
+        ],
+        "answer": "Pull over in a safe, well-lit area, discreetly contact the authorities, and try to de-escalate the situation verbally."
+      },
+      {
+        "id": 2,
+        "question": "A passenger asks you to take a shortcut through a residential area known for its narrow roads and poor lighting.  What factors should you consider before deciding?",
+        "options": [
+          "Always prioritize the passenger's request and take the shortcut.",
+          "Assess the safety of the route, considering road conditions, visibility, and potential risks, and inform the passenger of your decision.",
+          "Refuse the request without explanation.",
+          "Use the shortcut but drive at a higher speed to compensate for the extra time."
+        ],
+        "answer": "Assess the safety of the route, considering road conditions, visibility, and potential risks, and inform the passenger of your decision."
+      },
+      {
+        "id": 3,
+        "question": "You receive a booking request for a pick-up at a location known for frequent protests and demonstrations. How do you ensure your safety and that of the passenger?",
+        "options": [
+          "Accept the booking and proceed to the location without hesitation.",
+          "Contact the passenger to confirm the pick-up location and assess the situation before proceeding.",
+          "Cancel the booking immediately due to potential safety risks.",
+          "Drive to the location but remain in your vehicle until the passenger arrives."
+        ],
+        "answer": "Contact the passenger to confirm the pick-up location and assess the situation before proceeding."
+      },
+      {
+        "id": 4,
+        "question": "A passenger with a young child boards your vehicle but doesn't have a car seat. How do you handle this situation, considering legal requirements and child safety?",
+        "options": [
+          "Allow the passenger to travel without a car seat.",
+          "Refuse the ride and explain the legal requirements for child safety seats.",
+          "Offer to hold the child on your lap during the journey.",
+          "Improvise a car seat using cushions and blankets."
+        ],
+        "answer": "Refuse the ride and explain the legal requirements for child safety seats."
+      },
+      {
+        "id": 5,
+        "question": "You are driving in heavy rain and notice a motorcyclist struggling to maintain control. How can you adjust your driving to ensure their safety and yours?",
+        "options": [
+          "Overtake the motorcyclist quickly to avoid being in their path.",
+          "Maintain a safe distance, reduce your speed, and avoid sudden maneuvers that could startle the motorcyclist.",
+          "Ignore the motorcyclist and continue driving as usual.",
+          "Flash your headlights to warn the motorcyclist about the dangerous conditions."
+        ],
+        "answer": "Maintain a safe distance, reduce your speed, and avoid sudden maneuvers that could startle the motorcyclist."
+      },
+      {
+        "id": 6,
+        "question": "A passenger leaves behind a valuable item in your vehicle. How do you ensure its safe return and maintain passenger trust?",
+        "options": [
+          "Keep the item for yourself.",
+          "Attempt to contact the passenger and arrange for the item's return.",
+          "Hand the item over to the police.",
+          "Leave the item in the vehicle for the next passenger to find."
+        ],
+        "answer": "Attempt to contact the passenger and arrange for the item's return."
+      },
+      {
+        "id": 7,
+        "question": "You encounter a road closure due to an accident. Your passenger becomes anxious about being late for an important meeting. How do you manage the situation and alleviate their concerns?",
+        "options": [
+          "Ignore the passenger's anxiety and focus on finding an alternative route.",
+          "Inform the passenger about the situation, provide updates on estimated arrival times, and offer alternative solutions if possible.",
+          "Tell the passenger to relax and that you will handle everything.",
+          "Suggest that the passenger reschedule their meeting."
+        ],
+        "answer": "Inform the passenger about the situation, provide updates on estimated arrival times, and offer alternative solutions if possible."
+      },
+      {
+        "id": 8,
+        "question": "You are driving late at night and feel drowsy. How do you prioritize your safety and that of your passengers?",
+        "options": [
+          "Continue driving and try to fight off the drowsiness.",
+          "Pull over in a safe location, take a short break, and consume caffeine if necessary.",
+          "Increase the volume of the radio to stay alert.",
+          "Ask the passenger to keep you company and help you stay awake."
+        ],
+        "answer": "Pull over in a safe location, take a short break, and consume caffeine if necessary."
+      },
+      {
+        "id": 9,
+        "question": "A passenger requests a route that involves driving through a low-emission zone (LEZ).  What are your responsibilities regarding LEZ compliance?",
+        "options": [
+          "Ignore the LEZ and take the requested route.",
+          "Inform the passenger about the LEZ and any associated charges, and ensure your vehicle meets the emission standards or pay the necessary fees.",
+          "Refuse the request and suggest an alternative route.",
+          "Take the requested route but drive at a higher speed to minimize time spent in the LEZ."
+        ],
+        "answer": "Inform the passenger about the LEZ and any associated charges, and ensure your vehicle meets the emission standards or pay the necessary fees."
+      },
+      {
+        "id": 10,
+        "question": "You are unfamiliar with a passenger's requested destination. How do you ensure efficient navigation and a positive passenger experience?",
+        "options": [
+          "Attempt to navigate to the destination without using any aids.",
+          "Use a reliable navigation app, confirm the address with the passenger, and ask for any specific directions or landmarks.",
+          "Refuse the ride because you are unfamiliar with the destination.",
+          "Ask the passenger to provide turn-by-turn directions."
+        ],
+        "answer": "Use a reliable navigation app, confirm the address with the passenger, and ask for any specific directions or landmarks."
+      },
+      {
+        "id": 11,
+        "question": "You are picking up a passenger from a busy airport terminal. How do you ensure a smooth and efficient pick-up process?",
+        "options": [
+          "Wait in the general pick-up area and call the passenger when you arrive.",
+          "Park in a no-parking zone to avoid congestion.",
+          "Coordinate with the passenger beforehand, confirming the pick-up location and providing clear instructions.",
+          "Drive around the terminal until you spot the passenger."
+        ],
+        "answer": "Coordinate with the passenger beforehand, confirming the pick-up location and providing clear instructions."
+      },
+      {
+        "id": 12,
+        "question": "A passenger complains about the cleanliness of your vehicle. How do you address their concerns and maintain professionalism?",
+        "options": [
+          "Ignore the passenger's complaint and continue the journey.",
+          "Argue with the passenger and defend the cleanliness of your vehicle.",
+          "Apologize for any inconvenience, offer to rectify the situation if possible, and ensure the vehicle is cleaned thoroughly after the ride.",
+          "Offer the passenger a discount on their fare."
+        ],
+        "answer": "Apologize for any inconvenience, offer to rectify the situation if possible, and ensure the vehicle is cleaned thoroughly after the ride."
+      },
+      {
+        "id": 13,
+        "question": "You witness a passenger littering from your vehicle. How do you address this behavior while maintaining a positive passenger experience?",
+        "options": [
+          "Ignore the passenger's littering.",
+          "Confront the passenger aggressively and demand they pick up the litter.",
+          "Politely remind the passenger of the importance of keeping the environment clean and provide them with a trash bag if necessary.",
+          "Stop the vehicle and pick up the litter yourself."
+        ],
+        "answer": "Politely remind the passenger of the importance of keeping the environment clean and provide them with a trash bag if necessary."
+      },
+      {
+        "id": 14,
+        "question": "You are driving in heavy fog and visibility is significantly reduced. How do you adjust your driving to ensure safety?",
+        "options": [
+          "Increase your speed to get through the fog quickly.",
+          "Use your high beams to improve visibility.",
+          "Reduce your speed, use fog lights if available, and increase following distance.",
+          "Rely on your instincts and continue driving as usual."
+        ],
+        "answer": "Reduce your speed, use fog lights if available, and increase following distance."
+      },
+      {
+        "id": 15,
+        "question": "A passenger requests a detour to pick up a friend. How do you handle this request, considering potential delays and fare adjustments?",
+        "options": [
+          "Agree to the detour without question.",
+          "Refuse the detour and continue to the original destination.",
+          "Discuss the detour with the passenger, explaining potential delays and fare adjustments, and obtain their consent before proceeding.",
+          "Make the detour but charge the passenger a higher fare without explanation."
+        ],
+        "answer": "Discuss the detour with the passenger, explaining potential delays and fare adjustments, and obtain their consent before proceeding."
+      },
+      {
+        "id": 16,
+        "question": "You receive a booking request for a passenger with a guide dog. What are your responsibilities regarding accommodating service animals?",
+        "options": [
+          "Refuse the booking because you are uncomfortable with animals.",
+          "Accept the booking but ask the passenger to keep the dog in the trunk.",
+          "Accept the booking and ensure the dog is safely accommodated within the vehicle.",
+          "Charge the passenger an extra fee for transporting the dog."
+        ],
+        "answer": "Accept the booking and ensure the dog is safely accommodated within the vehicle."
+      },
+      {
+        "id": 17,
+        "question": "You are driving in a congested city center and encounter aggressive or reckless drivers. How do you maintain your composure and ensure safety?",
+        "options": [
+          "Engage in aggressive driving behavior yourself.",
+          "Ignore the reckless drivers and continue driving as usual.",
+          "Remain calm, avoid confrontation, and prioritize safe driving practices.",
+          "Report the reckless drivers to the authorities."
+        ],
+        "answer": "Remain calm, avoid confrontation, and prioritize safe driving practices."
+      },
+      {
+        "id": 18,
+        "question": "A passenger becomes verbally abusive towards you due to a disagreement over the route. How do you de-escalate the situation and maintain professionalism?",
+        "options": [
+          "Respond with equal aggression and defend your choice of route.",
+          "Ignore the passenger's abuse and continue driving.",
+          "Remain calm, listen to the passenger's concerns, and explain your reasoning for the chosen route.",
+          "Terminate the journey and ask the passenger to leave the vehicle."
+        ],
+        "answer": "Remain calm, listen to the passenger's concerns, and explain your reasoning for the chosen route."
+      },
+      {
+        "id": 19,
+        "question": "You are involved in a minor accident with another vehicle. How do you handle the situation and ensure proper documentation?",
+        "options": [
+          "Leave the scene of the accident to avoid involvement.",
+          "Exchange information with the other driver, take photos of the damage, and report the accident to the authorities and your insurance company.",
+          "Admit fault to expedite the process.",
+          "Argue with the other driver and blame them for the accident."
+        ],
+        "answer": "Exchange information with the other driver, take photos of the damage, and report the accident to the authorities and your insurance company."
+      },
+      {
+        "id": 20,
+        "question": "A passenger requests a ride to a location that is known for illegal activities or safety concerns. How do you assess the situation and make a responsible decision?",
+        "options": [
+          "Accept the ride without question.",
+          "Refuse the ride and explain your concerns to the passenger.",
+          "Contact the authorities and report the suspicious activity.",
+          "Increase the fare to compensate for the potential risks."
+        ],
+        "answer": "Refuse the ride and explain your concerns to the passenger."
+      },
+      {
+        "id": 21,
+        "question": "You are driving in a snowstorm and road conditions are treacherous. How do you adapt your driving to ensure safety?",
+        "options": [
+          "Maintain your usual speed and driving style.",
+          "Reduce your speed significantly, increase following distance, and use winter tires if available.",
+          "Use your high beams to improve visibility.",
+          "Avoid using brakes to prevent skidding."
+        ],
+        "answer": "Reduce your speed significantly, increase following distance, and use winter tires if available."
+      },
+      {
+        "id": 22,
+        "question": "A passenger requests a ride to a remote location with limited cell phone reception. How do you prepare for potential communication challenges?",
+        "options": [
+          "Accept the ride without considering communication challenges.",
+          "Inform the passenger about potential communication issues and agree on alternative contact methods or contingency plans.",
+          "Refuse the ride due to communication concerns.",
+          "Download offline maps and rely on your navigation skills."
+        ],
+        "answer": "Inform the passenger about potential communication issues and agree on alternative contact methods or contingency plans."
+      },
+      {
+        "id": 23,
+        "question": "You encounter a passenger who is experiencing a medical emergency. How do you respond and provide assistance?",
+        "options": [
+          "Ignore the passenger's condition and continue the journey.",
+          "Attempt to diagnose and treat the medical condition yourself.",
+          "Pull over in a safe location, assess the situation, and call for emergency medical services.",
+          "Ask other passengers in the vehicle for medical advice."
+        ],
+        "answer": "Pull over in a safe location, assess the situation, and call for emergency medical services."
+      },
+      {
+        "id": 24,
+        "question": "A passenger requests a ride to a location that requires crossing an international border. What are your responsibilities regarding border crossing regulations and documentation?",
+        "options": [
+          "Accept the ride without considering border crossing regulations.",
+          "Inform the passenger about border crossing requirements and ensure they have the necessary documentation.",
+          "Refuse the ride due to border crossing complexities.",
+          "Attempt to cross the border without proper documentation."
+        ],
+        "answer": "Inform the passenger about border crossing requirements and ensure they have the necessary documentation."
+      },
+      {
+        "id": 25,
+        "question": "You are driving in a construction zone with lane closures and detours. How do you navigate the area safely and efficiently?",
+        "options": [
+          "Ignore the construction signs and follow your usual route.",
+          "Reduce your speed, pay close attention to signage, and be prepared for unexpected changes in traffic flow.",
+          "Use your horn to alert other drivers of your presence.",
+          "Drive through closed lanes to avoid delays."
+        ],
+        "answer": "Reduce your speed, pay close attention to signage, and be prepared for unexpected changes in traffic flow."
+      },
+      {
+        "id": 26,
+        "question": "A passenger requests a ride to a location that is outside of your usual service area. How do you handle this request, considering potential challenges and fare adjustments?",
+        "options": [
+          "Accept the ride without considering the distance or potential challenges.",
+          "Refuse the ride because it is outside of your service area.",
+          "Discuss the request with the passenger, explaining potential challenges and fare adjustments, and obtain their consent before proceeding.",
+          "Accept the ride but charge the passenger a significantly higher fare."
+        ],
+        "answer": "Discuss the request with the passenger, explaining potential challenges and fare adjustments, and obtain their consent before proceeding."
+      },
+      {
+        "id": 27,
+        "question": "You encounter a passenger who is visually impaired. How do you ensure their safety and comfort during the ride?",
+        "options": [
+          "Treat the passenger as you would any other passenger.",
+          "Offer assistance with boarding and alighting, provide clear verbal instructions and descriptions, and ensure the passenger's belongings are safely stored.",
+          "Avoid making eye contact with the passenger.",
+          "Speak loudly to ensure the passenger can hear you."
+        ],
+        "answer": "Offer assistance with boarding and alighting, provide clear verbal instructions and descriptions, and ensure the passenger's belongings are safely stored."
+      },
+      {
+        "id": 28,
+        "question": "You are driving in a rural area with limited street lighting. How do you adjust your driving to ensure visibility and safety?",
+        "options": [
+          "Maintain your usual speed and driving style.",
+          "Reduce your speed, use high beams when appropriate, and be vigilant for wildlife or pedestrians.",
+          "Drive without headlights to avoid disturbing wildlife.",
+          "Rely on your instincts and continue driving as usual."
+        ],
+        "answer": "Reduce your speed, use high beams when appropriate, and be vigilant for wildlife or pedestrians."
+      },
+      {
+        "id": 29,
+        "question": "A passenger requests a ride to a location that requires driving through a toll road or bridge. How do you handle toll charges and fare adjustments?",
+        "options": [
+          "Pay the toll charges yourself and absorb the cost.",
+          "Inform the passenger about the toll charges and add them to the final fare.",
+          "Refuse to use the toll road or bridge and suggest an alternative route.",
+          "Negotiate a higher fare with the passenger to cover the toll charges."
+        ],
+        "answer": "Inform the passenger about the toll charges and add them to the final fare."
+      },
+      {
+        "id": 30,
+        "question": "You encounter a passenger who is elderly and requires assistance with mobility. How do you provide a safe and comfortable ride?",
+        "options": [
+          "Rush the passenger to board and alight the vehicle.",
+          "Offer assistance with boarding and alighting, provide a safe and stable environment within the vehicle, and adjust the driving style to ensure a smooth and comfortable ride.",
+          "Avoid making physical contact with the passenger.",
+          "Speak loudly and slowly to ensure the passenger can understand you."
+        ],
+        "answer": "Offer assistance with boarding and alighting, provide a safe and stable environment within the vehicle, and adjust the driving style to ensure a smooth and comfortable ride."
+      },
+      {
+        "id": 31,
+        "question": "You are driving in a foreign country with unfamiliar traffic laws and road signs. How do you ensure safe and responsible driving?",
+        "options": [
+          "Assume that traffic laws and road signs are the same as in your home country.",
+          "Drive cautiously, observe local driving practices, and familiarize yourself with traffic laws and road signs.",
+          "Ignore traffic laws and road signs that you don't understand.",
+          "Rely on your instincts and continue driving as usual."
+        ],
+        "answer": "Drive cautiously, observe local driving practices, and familiarize yourself with traffic laws and road signs."
+      },
+      {
+        "id": 32,
+        "question": "A passenger requests a ride to a location that is known for traffic congestion. How do you manage expectations and minimize delays?",
+        "options": [
+          "Guarantee the passenger that you will arrive on time.",
+          "Inform the passenger about potential traffic delays and provide realistic estimated arrival times.",
+          "Refuse the ride due to traffic concerns.",
+          "Use unauthorized shortcuts or maneuvers to avoid traffic."
+        ],
+        "answer": "Inform the passenger about potential traffic delays and provide realistic estimated arrival times."
+      },
+      {
+        "id": 33,
+        "question": "You encounter a passenger who is deaf or hard of hearing. How do you ensure effective communication and a positive passenger experience?",
+        "options": [
+          "Speak loudly and slowly to ensure the passenger can hear you.",
+          "Avoid communicating with the passenger altogether.",
+          "Use visual aids, written notes, or sign language if possible to communicate effectively.",
+          "Ask other passengers in the vehicle to assist with communication."
+        ],
+        "answer": "Use visual aids, written notes, or sign language if possible to communicate effectively."
+      },
+      {
+        "id": 34,
+        "question": "You are driving in a mountainous area with winding roads and steep inclines. How do you adjust your driving to ensure safety and vehicle control?",
+        "options": [
+          "Maintain your usual speed and driving style.",
+          "Reduce your speed, use lower gears when necessary, and be vigilant for sharp turns and changing road conditions.",
+          "Use your brakes frequently to control your speed.",
+          "Overtake other vehicles on blind curves to maintain momentum."
+        ],
+        "answer": "Reduce your speed, use lower gears when necessary, and be vigilant for sharp turns and changing road conditions."
+      },
+      {
+        "id": 35,
+        "question": "A passenger requests a ride to a location that requires driving through a wildlife reserve or protected area. What are your responsibilities regarding environmental conservation and wildlife protection?",
+        "options": [
+          "Ignore environmental concerns and drive through the area as quickly as possible.",
+          "Adhere to speed limits, avoid disturbing wildlife, and dispose of waste responsibly.",
+          "Feed wild animals to attract them closer to the vehicle.",
+          "Drive off-road to explore the area."
+        ],
+        "answer": "Adhere to speed limits, avoid disturbing wildlife, and dispose of waste responsibly."
+      },
+      {
+        "id": 36,
+        "question": "You encounter a passenger who is traveling with a large amount of luggage. How do you ensure the safe and secure transportation of their belongings?",
+        "options": [
+          "Allow the passenger to overload the vehicle with luggage.",
+          "Refuse to transport the luggage if it exceeds the vehicle's capacity or poses a safety risk.",
+          "Secure the luggage properly within the vehicle, ensuring it does not obstruct the driver's view or pose a hazard to passengers.",
+          "Charge the passenger an extra fee for transporting the luggage."
+        ],
+        "answer": "Secure the luggage properly within the vehicle, ensuring it does not obstruct the driver's view or pose a hazard to passengers."
+      },
+      {
+        "id": 37,
+        "question": "You are driving in an area with high pedestrian traffic. How do you adjust your driving to ensure pedestrian safety?",
+        "options": [
+          "Maintain your usual speed and driving style.",
+          "Reduce your speed, be vigilant for pedestrians, and yield the right-of-way when necessary.",
+          "Use your horn to warn pedestrians of your presence.",
+          "Drive close to the curb to discourage pedestrians from crossing the street."
+        ],
+        "answer": "Reduce your speed, be vigilant for pedestrians, and yield the right-of-way when necessary."
+      },
+      {
+        "id": 38,
+        "question": "A passenger requests a ride to a location that is known for frequent road closures or construction. How do you manage expectations and minimize delays?",
+        "options": [
+          "Guarantee the passenger that you will arrive on time.",
+          "Inform the passenger about potential road closures or construction delays and provide realistic estimated arrival times.",
+          "Refuse the ride due to potential delays.",
+          "Ignore road closures and construction signs to avoid delays."
+        ],
+        "answer": "Inform the passenger about potential road closures or construction delays and provide realistic estimated arrival times."
+      },
+      {
+        "id": 39,
+        "question": "You encounter a passenger who is traveling with a child who is prone to motion sickness. How do you ensure a comfortable and safe ride for the child?",
+        "options": [
+          "Ignore the child's discomfort and continue driving as usual.",
+          "Offer the child a sick bag and advise them to look out the window.",
+          "Adjust the driving style to minimize sudden movements and provide a smooth and comfortable ride.",
+          "Stop the vehicle frequently to allow the child to get some fresh air."
+        ],
+        "answer": "Adjust the driving style to minimize sudden movements and provide a smooth and comfortable ride."
+      },
+      {
+        "id": 40,
+        "question": "You are driving in an area with a high risk of flash floods or landslides. How do you assess the situation and ensure safety?",
+        "options": [
+          "Ignore weather warnings and continue driving as usual.",
+          "Monitor weather conditions closely, avoid high-risk areas, and be prepared to alter your route or seek shelter if necessary.",
+          "Drive through flooded areas to avoid delays.",
+          "Rely on your instincts and continue driving as usual."
+        ],
+        "answer": "Monitor weather conditions closely, avoid high-risk areas, and be prepared to alter your route or seek shelter if necessary."
+      },
+      {
+        "id": 41,
+        "question": "A passenger requests a ride to a location that requires driving through a high-crime area. How do you assess the situation and ensure your safety?",
+        "options": [
+          "Accept the ride without considering safety concerns.",
+          "Refuse the ride due to safety concerns.",
+          "Inform the passenger about potential safety risks and discuss alternative routes or pick-up/drop-off locations.",
+          "Increase the fare to compensate for the potential risks."
+        ],
+        "answer": "Inform the passenger about potential safety risks and discuss alternative routes or pick-up/drop-off locations."
+      },
+      {
+        "id": 42,
+        "question": "You encounter a passenger who is experiencing a panic attack or anxiety attack. How do you respond and provide support?",
+        "options": [
+          "Ignore the passenger's condition and continue driving as usual.",
+          "Attempt to diagnose and treat the panic attack yourself.",
+          "Pull over in a safe location, offer reassurance and support, and encourage the passenger to practice relaxation techniques.",
+          "Call for emergency medical services."
+        ],
+        "answer": "Pull over in a safe location, offer reassurance and support, and encourage the passenger to practice relaxation techniques."
+      },
+      {
+        "id": 43,
+        "question": "A passenger requests a ride to a location that requires driving through a protest or demonstration. How do you assess the situation and ensure safety?",
+        "options": [
+          "Accept the ride without considering safety concerns.",
+          "Refuse the ride due to potential safety risks.",
+          "Monitor the situation closely, avoid high-risk areas, and communicate with the passenger about potential delays or alternative routes.",
+          "Drive through the protest or demonstration to avoid delays."
+        ],
+        "answer": "Monitor the situation closely, avoid high-risk areas, and communicate with the passenger about potential delays or alternative routes."
+      },
+      {
+        "id": 44,
+        "question": "You encounter a passenger who is traveling with a pet that is not properly secured or contained. How do you address the situation and ensure safety?",
+        "options": [
+          "Ignore the situation and continue driving as usual.",
+          "Advise the passenger to secure or contain their pet properly to ensure safety and prevent distractions.",
+          "Refuse to transport the passenger and their pet.",
+          "Allow the pet to roam freely within the vehicle."
+        ],
+        "answer": "Advise the passenger to secure or contain their pet properly to ensure safety and prevent distractions."
+      },
+      {
+        "id": 45,
+        "question": "You are driving in an area with a high risk of wildfires. How do you assess the situation and ensure safety?",
+        "options": [
+          "Ignore wildfire warnings and continue driving as usual.",
+          "Monitor wildfire conditions closely, avoid high-risk areas, and be prepared to alter your route or seek shelter if necessary.",
+          "Drive through smoke or flames to avoid delays.",
+          "Rely on your instincts and continue driving as usual."
+        ],
+        "answer": "Monitor wildfire conditions closely, avoid high-risk areas, and be prepared to alter your route or seek shelter if necessary."
+      },
+      {
+        "id": 46,
+        "question": "A passenger requests a ride to a location that requires driving on unpaved or poorly maintained roads. How do you assess the situation and ensure safety?",
+        "options": [
+          "Accept the ride without considering road conditions.",
+          "Refuse the ride due to potential vehicle damage or safety risks.",
+          "Inform the passenger about potential challenges and adjust your driving style to suit the road conditions.",
+          "Increase the fare to compensate for the potential risks."
+        ],
+        "answer": "Inform the passenger about potential challenges and adjust your driving style to suit the road conditions."
+      },
+      {
+        "id": 47,
+        "question": "You encounter a passenger who is experiencing a severe allergic reaction. How do you respond and provide assistance?",
+        "options": [
+          "Ignore the passenger's condition and continue driving as usual.",
+          "Attempt to diagnose and treat the allergic reaction yourself.",
+          "Pull over in a safe location, assess the situation, and call for emergency medical services.",
+          "Ask other passengers in the vehicle for medical advice."
+        ],
+        "answer": "Pull over in a safe location, assess the situation, and call for emergency medical services."
+      },
+      {
+        "id": 48,
+        "question": "A passenger requests a ride to a location that requires driving through a military checkpoint or security zone. How do you handle the situation and ensure compliance with security protocols?",
+        "options": [
+          "Ignore the checkpoint or security zone and continue driving as usual.",
+          "Follow security personnel's instructions, provide necessary documentation, and cooperate fully with security checks.",
+          "Attempt to bypass the checkpoint or security zone.",
+          "Argue with security personnel and refuse to comply with their requests."
+        ],
+        "answer": "Follow security personnel's instructions, provide necessary documentation, and cooperate fully with security checks."
+      },
+      {
+        "id": 49,
+        "question": "You encounter a passenger who is traveling with a service animal that is behaving aggressively or disruptively. How do you address the situation and ensure the safety of all passengers?",
+        "options": [
+          "Ignore the animal's behavior and continue the journey.",
+          "Attempt to physically restrain the animal yourself.",
+          "Politely inform the passenger that the animal's behavior is disruptive and may pose a safety risk, and request that they control the animal or seek alternative transportation.",
+          "Immediately terminate the journey and ask the passenger to leave the vehicle."
+        ],
+        "answer": "Politely inform the passenger that the animal's behavior is disruptive and may pose a safety risk, and request that they control the animal or seek alternative transportation."
+      },
+      {
+        "id": 50,
+        "question": "A passenger requests a ride to a location that requires driving through an area with known gang activity or organized crime. How do you assess the situation and ensure your safety?",
+        "options": [
+          "Accept the ride without considering safety concerns.",
+          "Refuse the ride due to safety concerns.",
+          "Inform the passenger about potential safety risks and discuss alternative routes or pick-up/drop-off locations.",
+          "Increase the fare significantly to compensate for the potential risks."
+        ],
+        "answer": "Inform the passenger about potential safety risks and discuss alternative routes or pick-up/drop-off locations."
+      }
+    ]
+  }
+]
