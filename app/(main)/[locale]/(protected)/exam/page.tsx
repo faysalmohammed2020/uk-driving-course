@@ -1,7 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
-import { FaFileAlt } from "react-icons/fa";
+import { FaCheckCircle, FaFileAlt } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 // Import all question sets
@@ -36,6 +36,8 @@ import questions27 from "@/app/(main)/[locale]/data/questions27.json";
 import questions28 from "@/app/(main)/[locale]/data/questions28.json";
 import questions29 from "@/app/(main)/[locale]/data/questions29.json";
 import questions30 from "@/app/(main)/[locale]/data/questions30.json";
+import { useSession } from "@/lib/auth-client";
+import { setErrorMap } from "better-auth";
 
 interface MockTest {
   id: number;
@@ -54,6 +56,30 @@ const ExamPage = () => {
   const router = useRouter();
   const [mockTests, setMockTests] = useState<MockTest[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
+
+  const [examResults, setExamResults] = useState<any[]>([]);
+  const { data: session } = useSession();
+  const userId = session?.user.id;
+
+  console.log("PassedExams::", examResults);
+
+  useEffect(() => {
+    const fetchResults = async () => {
+      try {
+        const response = await fetch(`/api/exam?userId=${userId}`);
+        if (!response.ok) throw new Error("Failed to fetch results");
+
+        const data = await response.json();
+        setExamResults(data);
+      } catch (err: any) {
+        setErrorMap(err.message);
+      }
+    };
+
+    if (userId) {
+      fetchResults();
+    }
+  }, [userId]);
 
   useEffect(() => {
     setMockTests([
@@ -101,6 +127,13 @@ const ExamPage = () => {
     currentPage * ITEMS_PER_PAGE
   );
 
+   // Check if the user has passed the exam with the given examId
+   const hasPassed = (examId: number) => {
+    return examResults.some(
+      (result) => result.examId === examId && result.status === "Passed"
+    );
+  };
+
   return (
     <section className="bg-gradient-to-b from-gray-900 to-gray-700 text-white py-16 text-center px-4">
       <h2 className="text-4xl font-extrabold">Topographical Theory Test</h2>
@@ -127,6 +160,14 @@ const ExamPage = () => {
             <p className="text-sm text-gray-600 text-left">
               {test.questions.length} Questions
             </p>
+            <h3 className="font-semibold text-lg text-left w-full line-clamp-2">
+              {/* Display checkmark if the exam has been passed */}
+              {hasPassed(test.id) && (
+                <div className="flex gap-2"><span className="text-green-600 font-semibold">Passed:</span><FaCheckCircle className="text-green-500 inline ml-2 size-6 mb-0" /></div>
+                
+              )}
+            </h3>
+
             <button
               onClick={() => startExam(test.id)}
               className="mt-6 bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-blue-700 transition-all duration-300 ease-in-out w-full shadow-md hover:shadow-xl"
