@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
   return (
     <AppBar position="static" className="bg-blue-800 shadow-md">
       {/* Top Contact Bar */}
-      <div className="hidden md:flex justify-between items-center py-3 px-4 bg-blue-900 text-white text-sm">
+      <div className="hidden md:flex justify-between items-center py-2 px-4 bg-blue-900 text-white text-sm">
         <div className="flex space-x-6">
           <div className="flex items-center space-x-1">
             <PhoneIcon fontSize="small" />
