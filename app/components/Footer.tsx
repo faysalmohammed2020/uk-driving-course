@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="mb-4">
               <Image
-                src="/images/logo.jpg"
+                src="/images/birds2.jpeg"
                 alt="SERU Online"
                 width={80}
                 height={80}
