@@ -120,7 +120,7 @@ const Navbar: React.FC = () => {
               href="/exam/dashboard"
               className="text-white hover:text-yellow-300"
             >
-              Dashboard
+              Exam Dashboard
             </Link>
           )}
         </div>
@@ -138,7 +138,11 @@ const Navbar: React.FC = () => {
 
         {/* Mobile Navigation + Vertical Language Selector */}
         {mobileMenuOpen && (
-          <div className="absolute top-24 left-0 w-full bg-blue-800 text-white py-4 px-6">
+          <div
+            className={`z-50 absolute left-0 top-full w-full bg-blue-800 text-white py-4 px-6 shadow-lg transition-transform duration-300 ${
+              mobileMenuOpen ? "block" : "hidden"
+            }`}
+          >
             {["Home", "Course", "Blog", "About", "Contact"].map(
               (key, index) => (
                 <Link
@@ -146,7 +150,7 @@ const Navbar: React.FC = () => {
                   href={
                     ["/", "/courses", "/blogs", "/about-us", "/contacts"][index]
                   }
-                  className="block py-2 hover:text-yellow-300"
+                  className="block py-3 hover:text-yellow-300 border-b border-blue-700"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {t(`home.Navigation.${key}`)}
@@ -154,14 +158,28 @@ const Navbar: React.FC = () => {
               )
             )}
 
-            {/* Mobile Language Selector (Vertical) */}
-            <div className="mt-6">
+            {/* Show Dashboard if User is Logged In */}
+            {session && (
+              <Link
+                href="/exam/dashboard"
+                className="block py-3 hover:text-yellow-300 border-b border-blue-700"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Exam Dashboard
+              </Link>
+            )}
+
+            {/* Mobile Language Selector */}
+            <div className="mt-4">
               <div className="flex flex-col space-y-3">
                 {languageOptions.map(({ code, label, flag }) => (
                   <button
                     key={code}
-                    onClick={() => changeLanguage(code)}
-                    className="flex items-center space-x-3 p-2 bg-blue-700 hover:bg-blue-600 rounded-md transition duration-200"
+                    onClick={() => {
+                      changeLanguage(code);
+                      setMobileMenuOpen(false);
+                    }}
+                    className="flex items-center space-x-3 p-3 bg-blue-700 hover:bg-blue-600 rounded-md transition duration-200"
                   >
                     <Image
                       src={flag}
