@@ -1,15 +1,7 @@
-// import Image from "next/image";
-"use client";
 import React from "react";
 import GetInTouch from "../../components/GetInTouch";
-// import {
-//   blogs,
-//   courses,
-
-// } from "./data/home";
 import Image from "next/image";
 import { FaAward } from "react-icons/fa";
-
 import BlogCard from "../../components/BlogCard";
 import { useTranslations } from "next-intl";
 import { CalendarCheck, Map, MapPinned, Stethoscope, Workflow } from "lucide-react";
@@ -20,8 +12,6 @@ import { FaBook, FaFlag, FaCompass } from "react-icons/fa";
 import MockTestSection from "@/app/components/MockTestSection";
 import VideoSection from "@/app/components/Video";
 import { Link } from "@/i18n/navigation";
-
-
 
 
 const HomePage: React.FC = () => {
