@@ -58,7 +58,7 @@ const SignupForm = () => {
           toast.loading;
         },
         onSuccess: () => {
-          toast.success("Login Successful");
+          toast.success("Account Creation Successful");
           router.push("/");
         },
         onError: (ctx) => {
