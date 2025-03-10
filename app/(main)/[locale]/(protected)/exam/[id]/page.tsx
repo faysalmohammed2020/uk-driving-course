@@ -270,6 +270,13 @@ const ExamPage = () => {
     else if (examId === 2100) quizData = t.raw("quiz21");
     else if (examId === 2200) quizData = t.raw("quiz22");
     else if (examId === 2300) quizData = t.raw("quiz23");
+    else if (examId === 2400) quizData = t.raw("quiz24");
+    else if (examId === 2500) quizData = t.raw("quiz25");
+    else if (examId === 2600) quizData = t.raw("quiz26");
+    else if (examId === 2700) quizData = t.raw("quiz27");
+    else if (examId === 2800) quizData = t.raw("quiz28");
+    else if (examId === 2900) quizData = t.raw("quiz29");
+    else if (examId === 3000) quizData = t.raw("quiz30");
 
     if (quizData) {
       setSelectedQuestions(quizData.questions); // Set questions
