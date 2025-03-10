@@ -8,29 +8,6 @@ import {
   FaClipboardCheck,
 } from "react-icons/fa";
 
-// const cards = [
- 
-//   {
-    
-     
-   
-//   },
-//   {
-    
-    
-    
-//   },
-//   {
-   
-   
-    
-//   },
-//   {
-    
-    
-   
-//   },
-// ];
 const icons: JSX.Element[] = [
  <FaCalendarCheck className="text-white text-3xl" />,
  <FaStethoscope className="text-white text-3xl" />,
