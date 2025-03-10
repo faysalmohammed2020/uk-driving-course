@@ -120,7 +120,7 @@ const Navbar: React.FC = () => {
               href="/exam/dashboard"
               className="text-white hover:text-yellow-300"
             >
-             {t('home.Navigation.ED')}
+              {t("home.Navigation.ED")}
             </Link>
           )}
         </div>
