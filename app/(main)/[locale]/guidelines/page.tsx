@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import React from "react";
 import {
   FaCalendarCheck,
@@ -16,8 +16,8 @@ const icons: JSX.Element[] = [
  <FaFileAlt className="text-white text-3xl" />
 ];
 
-const GuidelinesCard: React.FC = () => {
-  const t =useTranslations();
+const GuidelinesCard: React.FC = async() => {
+  const t =await getTranslations();
   const guide = t.raw("guides.Guidline.GuidlinesDetails");
   return (
     <div className="flex justify-center items-center h-auto py-20">

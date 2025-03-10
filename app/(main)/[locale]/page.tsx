@@ -3,7 +3,6 @@ import GetInTouch from "../../components/GetInTouch";
 import Image from "next/image";
 import { FaAward } from "react-icons/fa";
 import BlogCard from "../../components/BlogCard";
-import { useTranslations } from "next-intl";
 import { CalendarCheck, Map, MapPinned, Stethoscope, Workflow } from "lucide-react";
 import { LineChart } from 'lucide-react';
 import { Book } from 'lucide-react';
@@ -12,10 +11,28 @@ import { FaBook, FaFlag, FaCompass } from "react-icons/fa";
 import MockTestSection from "@/app/components/MockTestSection";
 import VideoSection from "@/app/components/Video";
 import { Link } from "@/i18n/navigation";
+import { getTranslations } from "next-intl/server";
+import { Metadata } from "next";
 
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations();
+  const title = t("home.metadata.title");
+  const description = t("home.metadata.description");
+ 
+  
 
-const HomePage: React.FC = () => {
-  const t = useTranslations();
+  return {
+    title: title,
+    description: description,
+    openGraph: {
+      title: title,
+      description: description,
+    },
+  };
+}
+
+const HomePage: React.FC = async() => {
+  const t = await getTranslations();
   const steps = t.raw("home.Steps.StepSection");
   const promises = t.raw("home.promiseCards.promiseCardContent");
   const states = t.raw("home.StatesSection.StateContent");
