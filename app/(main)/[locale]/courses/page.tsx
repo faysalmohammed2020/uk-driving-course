@@ -1,9 +1,26 @@
 import { Button } from "@/app/components/ui/button";
 import { Card, CardContent } from "@/app/components/ui/card";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
+import { Metadata } from 'next';
 
-const CoursePage: React.FC = () => {
-  const t = useTranslations();
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations();
+  const title = t("Courses.metadata.title");
+  const description = t("Courses.metadata.description");
+  
+
+  return {
+    title: title,
+    description: description,
+    openGraph: {
+      title: title,
+      description: description,
+    },
+  };
+}
+
+const CoursePage: React.FC = async () => {
+  const t = await getTranslations();
   const courses = t.raw('Courses.courseContent.features');
   console.log(courses)
   return (

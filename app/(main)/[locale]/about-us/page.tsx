@@ -1,9 +1,25 @@
 
 import GetInTouch from "@/app/components/GetInTouch";
-import { useTranslations } from "next-intl";
+import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 
-const AboutPage = () => {
-  const t =useTranslations();
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations();
+  const title = t("About.AboutUs.metadata.title");
+  const description = t("About.AboutUs.metadata.description");
+
+  return {
+    title: title,
+    description: description,
+    openGraph: {
+      title: title,
+      description: description,
+    },
+  };
+}
+
+const AboutPage = async () => {
+  const t =await getTranslations();
   return (
     <>
       <div className="bg-white text-gray-900">

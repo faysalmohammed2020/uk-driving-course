@@ -209,7 +209,12 @@
     }
   },
   "Courses": {
+    "metadata": {
+    "title": "Courses | Birds Of Eden",
+    "description": "Explore the various courses available at Birds Of Eden License & Training Center and enhance your skills."
+    },
     "coursePage": {
+      
       "Seru": "SERU Assessment Online Course",
       "includes": "This course includes over 500 SERU assessment questions including MultiChoice, Drag & Drop, and reading & understanding exercises.",
       "payBtn": "Pay Now £39.99",
@@ -247,6 +252,10 @@
   },
   "About": {
     "AboutUs": {
+      "metadata": {
+      "title": "About Our Company",
+      "description": "Learn more about our history, mission, and values."
+    },
       "Who": "Who We Are",
       "acceleration": "Accelerating the private hire licence application process and delivering high-quality training to ensure first-time exam success.",
       "support": "At London PCO Licence and Training Centre, we have supported over 500 individuals in obtaining their PHV drivers' licence.",
@@ -279,6 +288,12 @@
       "SERUExam": "SERU Exam Training",
       "Advanced": "Advanced TFL-guided software ensuring structured and effective learning.",
       "Aim": "Our Aim"
+    }
+  },
+  "contactPage": {
+    "metadata": {
+      "title": "Contact Us | Birds Of Eden",
+      "description": "Get in touch with Birds Of Eden Liecnse & Training Center for inquiries, support, or collaboration opportunities."
     }
   },
   "video": {

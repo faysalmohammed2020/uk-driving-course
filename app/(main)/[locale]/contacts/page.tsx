@@ -1,8 +1,23 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
+import { Metadata } from 'next';
 
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations();
+  const title = t("contactPage.metadata.title");
+  const description = t("contactPage.metadata.description");
 
-const ContactPage = () => {
-  const t =useTranslations();
+  return {
+    title: title,
+    description: description,
+    openGraph: {
+      title: title,
+      description: description,
+    },
+  };
+}
+
+const ContactPage = async () => {
+  const t = await getTranslations();
   return (
     <>
       <div className="bg-gray-100 text-gray-900 py-16 px-6">
