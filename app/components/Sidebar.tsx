@@ -22,11 +22,11 @@ const Sidebar = () => {
         } md:relative`}
       >
         <h2 className="text-xl font-bold mb-5">Admin Panel</h2>
-        <nav>
+        <nav className="mt-16">
           <ul className="space-y-4">
             <li>
               <Link
-                href="/admin/dashboard"
+                href="/admin"
                 className="flex items-center gap-2 p-2 rounded hover:bg-gray-100"
               >
                 <Home size={20} /> Dashboard
