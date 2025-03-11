@@ -8,7 +8,7 @@ const Header = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <header className="bg-white shadow-md p-4 flex justify-between items-center">
+    <header className="bg-white shadow-md p-4 flex justify-between items-center z-50">
       <h1 className="text-lg font-bold">Admin Dashboard</h1>
       <div className="relative">
         <button
