@@ -107,7 +107,7 @@ const AdminDashboard = () => {
 
       {/* Stats cards */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 p-6">
-        <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-5 rounded-lg shadow-sm border border-blue-100 hover:shadow-md transition duration-300">
+        <div className="bg-gradient-to-br from-[#ddf8fa] to-[#5bf5fd] p-5 rounded-lg shadow-sm border border-blue-100 hover:shadow-md transition duration-300">
           <div className="flex justify-between items-center mb-4">
             <span className="text-sm text-gray-600 font-medium">
               Total Users
@@ -119,7 +119,7 @@ const AdminDashboard = () => {
           <div className="text-3xl font-bold text-gray-800">1550</div>
         </div>
 
-        <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-5 rounded-lg shadow-sm border border-purple-100 hover:shadow-md transition duration-300">
+        <div className="bg-gradient-to-br from-[#FCF3FB] to-[#fa93ee] p-5 rounded-lg shadow-sm border border-purple-100 hover:shadow-md transition duration-300">
           <div className="flex justify-between items-center mb-4">
             <span className="text-sm text-gray-600 font-medium">
               Active users
@@ -133,7 +133,7 @@ const AdminDashboard = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-green-50 to-teal-50 p-5 rounded-lg shadow-sm border border-green-100 hover:shadow-md transition duration-300">
+        <div className="bg-gradient-to-br from-[#F0FDF8] to-[#8dffd3] p-5 rounded-lg shadow-sm border border-green-100 hover:shadow-md transition duration-300">
           <div className="flex justify-between items-center mb-4">
             <span className="text-sm text-gray-600 font-medium">Muck Test</span>
             <button className="text-gray-400 hover:text-gray-600">
@@ -145,7 +145,7 @@ const AdminDashboard = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-amber-50 to-yellow-50 p-5 rounded-lg shadow-sm border border-amber-100 hover:shadow-md transition duration-300">
+        <div className="bg-gradient-to-br from-[#FFFCEA] to-[#ffea76] p-5 rounded-lg shadow-sm border border-amber-100 hover:shadow-md transition duration-300">
           <div className="flex justify-between items-center mb-4">
             <span className="text-sm text-gray-600 font-medium">
               Muck Test Success Rate
@@ -202,7 +202,7 @@ const AdminDashboard = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-indigo-50 to-violet-50 p-5 rounded-lg shadow-sm border border-indigo-100 hover:shadow-md transition duration-300 h-52 overflow-hidden overflow-y-auto">
+        <div className="bg-gradient-to-br from-indigo-50 to-indigo-700 p-5 rounded-lg shadow-sm border border-indigo-100 hover:shadow-md transition duration-300 h-52 overflow-hidden overflow-y-auto">
           <div className="flex justify-between items-center mb-4">
             <span className="text-sm text-gray-600 font-medium">
               Notification
@@ -247,9 +247,23 @@ const AdminDashboard = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-rose-50 to-red-50 p-5 rounded-lg shadow-sm border border-rose-100 hover:shadow-md transition duration-300">
+        <div className="bg-gradient-to-br from-rose-50 to-red-500 p-5 rounded-lg shadow-sm border border-rose-100 hover:shadow-md transition duration-300">
           <div className="flex justify-between items-center mb-4">
             <span className="text-sm text-gray-600 font-medium">Licenses</span>
+            <button className="text-gray-400 hover:text-gray-600">
+              <HelpCircle className="w-4 h-4" />
+            </button>
+          </div>
+          <div className="text-3xl font-bold text-gray-800">
+            {stats.scoresCreated}
+          </div>
+        </div>
+
+        <div className="bg-gradient-to-br from-[#c2e6ff] to-[#29daa5] p-5 rounded-lg shadow-sm border border-rose-100 hover:shadow-md transition duration-300">
+          <div className="flex justify-between items-center mb-4">
+            <span className="text-sm text-gray-600 font-medium">
+              Total Blog
+            </span>
             <button className="text-gray-400 hover:text-gray-600">
               <HelpCircle className="w-4 h-4" />
             </button>

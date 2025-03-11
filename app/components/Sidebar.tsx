@@ -1,14 +1,34 @@
 "use client";
 
 import { useState } from "react";
-
-import { usePathname } from "next/navigation"; // ✅ Import usePathname
 import { Menu, X, Home, Users, Bell, UserRoundPlus, Rss } from "lucide-react";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const pathname = usePathname(); // ✅ Get the current route
+  const pathname = usePathname();
+  const t = useTranslations("sidebar");
+
+  const sidebarLinks = [
+    { href: "/admin", label: t("Dashboard"), icon: <Home size={20} /> },
+    { href: "/admin/users", label: t("Users"), icon: <Users size={20} /> },
+    {
+      href: "/admin/register",
+      label: t("Register"),
+      icon: <UserRoundPlus size={20} />,
+    },
+    {
+      href: "/admin/notification",
+      label: t("Notification"),
+      icon: <Bell size={20} />,
+    },
+    {
+      href: "/admin/blog",
+      label: t("BlogManagement"),
+      icon: <Rss size={20} />,
+    },
+  ];
 
   return (
     <div className="flex">
@@ -19,49 +39,31 @@ const Sidebar = () => {
 
       {/* Sidebar */}
       <aside
-        className={`bg-white w-64 min-h-screen p-5 fixed top-0 left-0 border-2 shadow-md transition-transform ${
+        className={`bg-[#0d1b2a] w-64 min-h-screen p-5 fixed top-0 left-0 shadow-md transition-transform ${
           isOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
         } md:relative`}
       >
-        <h2 className="text-xl font-bold mb-5">Admin Panel</h2>
+        <h2 className="text-xl text-white font-bold mb-5">{t("AdminPanel")}</h2>
         <nav className="mt-16">
           <ul className="space-y-4">
-            {[
-              { href: "/admin", label: "Dashboard", icon: <Home size={20} /> },
-              {
-                href: "/admin/users",
-                label: "Users",
-                icon: <Users size={20} />,
-              },
-              {
-                href: "/admin/register",
-                label: "Register",
-                icon: <UserRoundPlus size={20} />,
-              },
-              {
-                href: "/admin/notification",
-                label: "Notification",
-                icon: <Bell size={20} />,
-              },
-              {
-                href: "/admin/blog",
-                label: "Blog Management",
-                icon: <Rss size={20} />,
-              },
-            ].map((item) => (
-              <li key={item.href}>
-                <Link
-                  href={item.href}
-                  className={`flex items-center gap-2 p-2 rounded transition duration-300 ${
-                    pathname === item.href
-                      ? "bg-[#6366F1] text-white font-semibold shadow-lg"
-                      : "hover:bg-[#D1D3FE] text-gray-700"
-                  }`}
-                >
-                  {item.icon} {item.label}
-                </Link>
-              </li>
-            ))}
+            {sidebarLinks.map((item) => {
+              const isActive = pathname === item.href;
+
+              return (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className={`flex items-center gap-2 p-2 rounded transition duration-300 ${
+                      isActive
+                        ? "bg-[#4F46E5] text-white font-semibold shadow-lg"
+                        : "hover:bg-[#86a2fc] text-white"
+                    }`}
+                  >
+                    {item.icon} {item.label}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </nav>
       </aside>
