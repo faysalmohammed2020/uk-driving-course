@@ -58,7 +58,7 @@ const Sidebar = () => {
             </li>
             <li>
               <Link
-                href="/admin/blog"
+                href="/admin/blogs"
                 className="flex items-center gap-2 p-2 rounded hover:bg-gray-100"
               >
                 <Rss size={20} /> Blog Management

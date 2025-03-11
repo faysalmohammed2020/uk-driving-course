@@ -1,7 +1,5 @@
-// app/(main)/layout.tsx
+// app/(admin)/layout.tsx
 
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
 import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import { routing } from "@/i18n/routing";
@@ -10,7 +8,7 @@ import { notFound } from "next/navigation";
 
 
 
-export default async function MainLayout({
+export default async function AdminLayout({
   children,
   params
 }: {
@@ -27,10 +25,7 @@ export default async function MainLayout({
   return (
     <div lang={locale}>
       <NextIntlClientProvider messages={messages}>
-        <Navbar />
-        <main className="grow shrink-0 overflow-y-auto">{children}</main>
-        {/* Footer */}
-        <Footer />
+        {children}
       </NextIntlClientProvider>
     </div>
   );
