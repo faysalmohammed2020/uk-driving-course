@@ -34,7 +34,7 @@ const UserTable: React.FC = () => {
   console.log("Filtered :" ,filteredUsers )
 
   return (
-    <div className="p-6 bg-white shadow-lg rounded-lg w-full max-w-4xl mx-auto">
+    <div className="p-6 bg-white shadow-lg rounded-lg w-full max-w-7xl mx-auto">
       {/* Filter Dropdown */}
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-semibold">User List</h2>
