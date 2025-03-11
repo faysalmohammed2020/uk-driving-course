@@ -3,8 +3,8 @@
 // components/Sidebar.tsx
 
 import { useState } from "react";
-import Link from "next/link";
 import { Menu, X, Home, Users, Bell, UserRoundPlus, Rss } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
