@@ -3,7 +3,7 @@ import Header from "../components/Header";
 
 const AdmindLayout = async ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="flex fixed size-full">
+    <div className="flex fixed size-full ">
       <Sidebar />
       <div className="w-full overflow-hidden">
         <Header />

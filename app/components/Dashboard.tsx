@@ -5,7 +5,8 @@ import { FileText, HelpCircle, ArrowDown, MoreHorizontal } from "lucide-react";
 
 const AdminDashboard = () => {
   // Demo data - you would replace this with dynamic data from your backend
-  const [activeTab, setActiveTab] = useState("This quarter");
+  const [activeTab, setActiveTab] = useState("Today");
+
   const [teachers] = useState([
     {
       id: 1,
@@ -78,18 +79,18 @@ const AdminDashboard = () => {
   };
 
   return (
-    <div className="flex-1 overflow-auto">
+    <div className="flex-1 overflow-auto ">
       {/* Tab navigation */}
-      <div className="bg-white border-b border-gray-200">
+      <div className="bg-white border-b border-gray-200 shadow-sm">
         <div className="flex justify-between items-center px-4">
           <div className="flex">
-            {["This quarter", "This year", "Last year"].map((tab) => (
+            {["Today", "This Month", "This year"].map((tab) => (
               <button
                 key={tab}
                 className={`py-4 px-4 font-medium text-sm ${
                   activeTab === tab
-                    ? "text-blue-600 border-b-2 border-blue-600"
-                    : "text-gray-500"
+                    ? "text-blue-600 border-b-2 border-blue-600 bg-gradient-to-r from-blue-50 to-indigo-50"
+                    : "text-gray-500 hover:bg-blue-50"
                 }`}
                 onClick={() => setActiveTab(tab)}
               >
@@ -97,7 +98,7 @@ const AdminDashboard = () => {
               </button>
             ))}
           </div>
-          <button className="text-sm text-gray-700 font-medium flex items-center">
+          <button className="text-sm text-gray-700 font-medium flex items-center hover:bg-gray-50 px-3 py-2 rounded-md transition duration-200">
             <FileText className="w-4 h-4 mr-1" />
             Export as PDF
           </button>
@@ -105,73 +106,51 @@ const AdminDashboard = () => {
       </div>
 
       {/* Stats cards */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-4">
-        <div className="bg-white p-4 rounded shadow">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-6 p-6">
+        <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-5 rounded-lg shadow-sm border border-blue-100 hover:shadow-md transition duration-300">
           <div className="flex justify-between items-center mb-4">
-            <span className="text-sm text-gray-600">Total Users</span>
-            <button className="text-gray-400">
-              <HelpCircle className="w-4 h-4" />
-            </button>
-          </div>
-          <div className="text-3xl font-bold">1550</div>
-        </div>
-
-        <div className="bg-white p-4 rounded shadow">
-          <div className="flex justify-between items-center mb-4">
-            <span className="text-sm text-gray-600">Active users</span>
-            <button className="text-gray-400">
-              <HelpCircle className="w-4 h-4" />
-            </button>
-          </div>
-          <div className="text-3xl font-bold">{stats.activeUsers}</div>
-        </div>
-
-        <div className="bg-white p-4 rounded shadow">
-          <div className="flex justify-between items-center mb-4">
-            <span className="text-sm text-gray-600">Muck Test</span>
-            <button className="text-gray-400">
-              <HelpCircle className="w-4 h-4" />
-            </button>
-          </div>
-          <div className="text-3xl font-bold">{stats.scoresCreated}</div>
-        </div>
-
-        {/* <div className="bg-white p-4 rounded shadow">
-          <div className="flex justify-between items-center mb-4">
-            <span className="text-sm text-gray-600">18 New assignments</span>
-            <button className="text-gray-400">
-              <HelpCircle className="w-4 h-4" />
-            </button>
-          </div>
-          <div className="text-xs text-gray-500 mb-2">Last 7 days</div>
-          <div className="space-y-2">
-            {stats.newAssignments.breakdown.map((item) => (
-              <div key={item.name} className="flex items-center">
-                <div className="w-full h-2 rounded-full bg-gray-200 mr-2">
-                  <div
-                    className={`h-2 rounded-full ${item.color}`}
-                    style={{
-                      width: `${
-                        (item.value / stats.newAssignments.total) * 100
-                      }%`,
-                    }}
-                  ></div>
-                </div>
-                <div className="flex justify-between w-full">
-                  <span className="text-xs">{item.name}</span>
-                  <span className="text-xs">{item.value}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div> */}
-
-        <div className="bg-white p-4 rounded shadow">
-          <div className="flex justify-between items-center mb-4">
-            <span className="text-sm text-gray-600">
-              Muck Test success Rate
+            <span className="text-sm text-gray-600 font-medium">
+              Total Users
             </span>
-            <button className="text-gray-400">
+            <button className="text-gray-400 hover:text-gray-600">
+              <HelpCircle className="w-4 h-4" />
+            </button>
+          </div>
+          <div className="text-3xl font-bold text-gray-800">1550</div>
+        </div>
+
+        <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-5 rounded-lg shadow-sm border border-purple-100 hover:shadow-md transition duration-300">
+          <div className="flex justify-between items-center mb-4">
+            <span className="text-sm text-gray-600 font-medium">
+              Active users
+            </span>
+            <button className="text-gray-400 hover:text-gray-600">
+              <HelpCircle className="w-4 h-4" />
+            </button>
+          </div>
+          <div className="text-3xl font-bold text-gray-800">
+            {stats.activeUsers}
+          </div>
+        </div>
+
+        <div className="bg-gradient-to-br from-green-50 to-teal-50 p-5 rounded-lg shadow-sm border border-green-100 hover:shadow-md transition duration-300">
+          <div className="flex justify-between items-center mb-4">
+            <span className="text-sm text-gray-600 font-medium">Muck Test</span>
+            <button className="text-gray-400 hover:text-gray-600">
+              <HelpCircle className="w-4 h-4" />
+            </button>
+          </div>
+          <div className="text-3xl font-bold text-gray-800">
+            {stats.scoresCreated}
+          </div>
+        </div>
+
+        <div className="bg-gradient-to-br from-amber-50 to-yellow-50 p-5 rounded-lg shadow-sm border border-amber-100 hover:shadow-md transition duration-300">
+          <div className="flex justify-between items-center mb-4">
+            <span className="text-sm text-gray-600 font-medium">
+              Muck Test Success Rate
+            </span>
+            <button className="text-gray-400 hover:text-gray-600">
               <HelpCircle className="w-4 h-4" />
             </button>
           </div>
@@ -179,6 +158,18 @@ const AdminDashboard = () => {
           <div className="flex justify-center">
             <div className="relative w-24 h-24">
               <svg className="w-full h-full" viewBox="0 0 100 100">
+                <defs>
+                  <linearGradient
+                    id="successGradient"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%"
+                  >
+                    <stop offset="0%" stopColor="#10b981" />
+                    <stop offset="100%" stopColor="#059669" />
+                  </linearGradient>
+                </defs>
                 <circle
                   cx="50"
                   cy="50"
@@ -192,7 +183,7 @@ const AdminDashboard = () => {
                   cy="50"
                   r="40"
                   fill="none"
-                  stroke="#10b981"
+                  stroke="url(#successGradient)"
                   strokeWidth="10"
                   strokeDasharray={2 * Math.PI * 40}
                   strokeDashoffset={
@@ -203,7 +194,7 @@ const AdminDashboard = () => {
                 />
               </svg>
               <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <span className="text-2xl font-bold">
+                <span className="text-2xl font-bold text-gray-800">
                   {stats.assignmentSuccess}%
                 </span>
               </div>
@@ -211,62 +202,88 @@ const AdminDashboard = () => {
           </div>
         </div>
 
-        <div className="bg-white p-4 rounded shadow h-52 overflow-hidden overflow-y-auto">
+        <div className="bg-gradient-to-br from-indigo-50 to-violet-50 p-5 rounded-lg shadow-sm border border-indigo-100 hover:shadow-md transition duration-300 h-52 overflow-hidden overflow-y-auto">
           <div className="flex justify-between items-center mb-4">
-            <span className="text-sm text-gray-600">Notification</span>
-            <button className="text-gray-400">
+            <span className="text-sm text-gray-600 font-medium">
+              Notification
+            </span>
+            <button className="text-gray-400 hover:text-gray-600">
               <HelpCircle className="w-4 h-4" />
             </button>
           </div>
           <div>
-            <ul>
-              <li>Notification 1</li>
-              <li>Notification 2</li>
-              <li>Notification 3</li>
-              <li>Notification 4</li>
-              <li>Notification 5</li>
-              <li>Notification 5</li>
-              <li>Notification 5</li>
-              <li>Notification 5</li>
-              <li>Notification 5</li>
-              <li>Notification 5</li>
+            <ul className="space-y-2">
+              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                Notification 1
+              </li>
+              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                Notification 2
+              </li>
+              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                Notification 3
+              </li>
+              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                Notification 4
+              </li>
+              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                Notification 5
+              </li>
+              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                Notification 6
+              </li>
+              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                Notification 7
+              </li>
+              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                Notification 8
+              </li>
+              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                Notification 9
+              </li>
+              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                Notification 10
+              </li>
             </ul>
           </div>
         </div>
 
-        <div className="bg-white p-4 rounded shadow">
+        <div className="bg-gradient-to-br from-rose-50 to-red-50 p-5 rounded-lg shadow-sm border border-rose-100 hover:shadow-md transition duration-300">
           <div className="flex justify-between items-center mb-4">
-            <span className="text-sm text-gray-600">Licenses </span>
-            <button className="text-gray-400">
+            <span className="text-sm text-gray-600 font-medium">Licenses</span>
+            <button className="text-gray-400 hover:text-gray-600">
               <HelpCircle className="w-4 h-4" />
             </button>
           </div>
-          <div className="text-3xl font-bold">{stats.scoresCreated}</div>
+          <div className="text-3xl font-bold text-gray-800">
+            {stats.scoresCreated}
+          </div>
         </div>
       </div>
 
       {/* Licenses breakdown */}
-      <div className="p-4">
+      <div className="p-6">
         <div className="mb-4 flex justify-between items-center">
-          <h2 className="text-lg font-bold">Licenses breakdown</h2>
+          <h2 className="text-lg font-bold text-gray-800">
+            Licenses breakdown
+          </h2>
           <div className="flex items-center space-x-2">
             <div className="relative">
               <input
                 type="text"
                 placeholder="Search here..."
-                className="pl-10 pr-4 py-2 border border-gray-300 rounded text-sm w-64"
+                className="pl-4 pr-4 py-2 border border-gray-300 rounded-md text-sm w-64 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-300 focus:border-transparent transition duration-200"
               />
             </div>
-            <button className="text-sm text-gray-700 font-medium flex items-center px-3 py-2 border border-gray-300 rounded">
+            <button className="text-sm text-gray-700 font-medium flex items-center px-3 py-2 border border-gray-300 rounded-md bg-white hover:bg-gray-50 shadow-sm transition duration-200">
               <FileText className="w-4 h-4 mr-1" />
               Export as CSV
             </button>
           </div>
         </div>
 
-        <div className="bg-white rounded shadow overflow-hidden">
+        <div className="bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200">
           <table className="min-w-full divide-y divide-gray-200">
-            <thead className="bg-gray-50">
+            <thead className="bg-gradient-to-r from-gray-50 to-gray-100">
               <tr>
                 <th
                   scope="col"
@@ -279,7 +296,7 @@ const AdminDashboard = () => {
                   scope="col"
                   className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
                 >
-                  Students Id
+                  Student ID
                 </th>
                 <th
                   scope="col"
@@ -287,7 +304,6 @@ const AdminDashboard = () => {
                 >
                   Course
                 </th>
-
                 <th
                   scope="col"
                   className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
@@ -303,21 +319,28 @@ const AdminDashboard = () => {
               </tr>
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
-              {teachers.map((teacher) => (
-                <tr key={teacher.id}>
-                  <td className="px-6 py-4 text-sm font-medium text-gray-900">
+              {teachers.map((teacher, index) => (
+                <tr
+                  key={teacher.id}
+                  className={
+                    index % 2 === 0
+                      ? "bg-gradient-to-r from-white to-blue-50"
+                      : "bg-white hover:bg-gray-50"
+                  }
+                >
+                  <td className="px-6 py-4 text-sm font-medium text-gray-800">
                     {teacher.name}
                   </td>
-                  <td className="px-6 py-4 text-sm text-gray-500">
+                  <td className="px-6 py-4 text-sm text-gray-600">
                     {teacher.classes}
                   </td>
-                  <td className="px-6 py-4 text-sm text-gray-500">
+                  <td className="px-6 py-4 text-sm text-gray-600">
                     {teacher.students}
                   </td>
-                  <td className="px-6 py-4 text-sm text-gray-500">
+                  <td className="px-6 py-4 text-sm text-gray-600">
                     {teacher.seatsTaken}
                   </td>
-                  <td className="px-6 py-4 text-sm text-gray-500">
+                  <td className="px-6 py-4 text-sm text-gray-600">
                     {teacher.lastActivity}
                   </td>
                 </tr>
