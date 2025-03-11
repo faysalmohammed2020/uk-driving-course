@@ -24,7 +24,7 @@ const Sidebar = () => {
       icon: <Bell size={20} />,
     },
     {
-      href: "/admin/blog",
+      href: "/admin/blogs",
       label: t("BlogManagement"),
       icon: <Rss size={20} />,
     },
