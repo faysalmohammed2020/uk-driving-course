@@ -4,10 +4,33 @@
 
 import { useState } from "react";
 import { Menu, X, Home, Users, Bell, UserRoundPlus, Rss } from "lucide-react";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+  const t = useTranslations("sidebar");
+
+  const sidebarLinks = [
+    { href: "/admin", label: t("Dashboard"), icon: <Home size={20} /> },
+    { href: "/admin/users", label: t("Users"), icon: <Users size={20} /> },
+    {
+      href: "/admin/register",
+      label: t("Register"),
+      icon: <UserRoundPlus size={20} />,
+    },
+    {
+      href: "/admin/notification",
+      label: t("Notification"),
+      icon: <Bell size={20} />,
+    },
+    {
+      href: "/admin/blogs",
+      label: t("BlogManagement"),
+      icon: <Rss size={20} />,
+    },
+  ];
 
   return (
     <div className="flex">
@@ -17,53 +40,31 @@ const Sidebar = () => {
 
       {/* Sidebar */}
       <aside
-        className={`bg-white  w-64 min-h-screen p-5 fixed top-0 left-0 border-2 shadow-md transition-transform ${
+        className={`bg-[#0d1b2a] w-64 min-h-screen p-5 fixed top-0 left-0 shadow-md transition-transform ${
           isOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
         } md:relative`}
       >
-        <h2 className="text-xl font-bold mb-5">Admin Panel</h2>
+        <h2 className="text-xl text-white font-bold mb-5">{t("AdminPanel")}</h2>
         <nav className="mt-16">
           <ul className="space-y-4">
-            <li>
-              <Link
-                href="/admin"
-                className="flex items-center gap-2 p-2 rounded hover:bg-gray-100"
-              >
-                <Home size={20} /> Dashboard
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/admin/users"
-                className="flex items-center gap-2 p-2 rounded hover:bg-gray-100"
-              >
-                <Users size={20} /> Users
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/admin/register"
-                className="flex items-center gap-2 p-2 rounded hover:bg-gray-100"
-              >
-                <UserRoundPlus size={20} /> Register
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/admin/notification"
-                className="flex items-center gap-2 p-2 rounded hover:bg-gray-100"
-              >
-                <Bell size={20} /> Notification
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/admin/blogs"
-                className="flex items-center gap-2 p-2 rounded hover:bg-gray-100"
-              >
-                <Rss size={20} /> Blog Management
-              </Link>
-            </li>
+            {sidebarLinks.map((item) => {
+              const isActive = pathname === item.href;
+
+              return (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className={`flex items-center gap-2 p-2 rounded transition duration-300 ${
+                      isActive
+                        ? "bg-[#4F46E5] text-white font-semibold shadow-lg"
+                        : "hover:bg-[#86a2fc] text-white"
+                    }`}
+                  >
+                    {item.icon} {item.label}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </nav>
       </aside>

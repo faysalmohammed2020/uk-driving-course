@@ -21,7 +21,7 @@ const Header = () => {
         </button>
 
         {dropdownOpen && (
-          <div className="absolute right-0 mt-2 w-48 bg-white border shadow-lg rounded-lg">
+          <div className="absolute right-0 mt-2 w-48  border shadow-lg rounded-lg">
             <button className="flex w-full px-4 py-2 hover:bg-gray-100">
               <User size={18} /> Profile
             </button>
