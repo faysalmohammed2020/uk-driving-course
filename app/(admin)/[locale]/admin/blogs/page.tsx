@@ -115,7 +115,7 @@ const BlogManagement: React.FC = () => {
   console.log("Get Blogs:", blogs);
 
   return (
-    <div className="p-6 bg-gray-100 min-h-screen font-sans">
+    <div className="p-6 min-h-screen font-sans">
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-3xl font-bold">Blog Management</h1>
         <div className="flex gap-4">
