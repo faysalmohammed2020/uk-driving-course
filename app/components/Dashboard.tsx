@@ -145,7 +145,7 @@ const AdminDashboard = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-[#FFFCEA] to-[#ffea76] p-5 rounded-lg shadow-sm border border-amber-100 hover:shadow-md transition duration-300">
+        <div className="bg-gradient-to-br from-[#e4e1ff] to-[#73c4fa] p-5 rounded-lg shadow-sm border border-amber-100 hover:shadow-md transition duration-300">
           <div className="flex justify-between items-center mb-4">
             <span className="text-sm text-gray-600 font-medium">
               Muck Test Success Rate
