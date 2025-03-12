@@ -201,7 +201,7 @@ const AdminDashboard = ({ blogData, userData, activeUser }: ComponentProps) => {
 
         <div className="bg-gradient-to-br from-[#F0FDF8] to-[#8dffd3] p-5 rounded-lg shadow-sm border border-green-100 hover:shadow-md transition duration-300">
           <div className="flex justify-between items-center mb-4">
-            <span className="text-sm text-gray-600 font-medium">Muck Test</span>
+            <span className="text-sm text-gray-600 font-medium">Mock Test</span>
             <button className="text-gray-400 hover:text-gray-600">
               <HelpCircle className="w-4 h-4" />
             </button>
@@ -214,7 +214,7 @@ const AdminDashboard = ({ blogData, userData, activeUser }: ComponentProps) => {
         <div className="bg-gradient-to-br from-[#e4e1ff] to-[#73c4fa] p-5 rounded-lg shadow-sm border border-amber-100 hover:shadow-md transition duration-300">
           <div className="flex justify-between items-center mb-4">
             <span className="text-sm text-gray-600 font-medium">
-              Muck Test Success Rate
+              Mock Test Success Rate
             </span>
             <button className="text-gray-400 hover:text-gray-600">
               <HelpCircle className="w-4 h-4" />

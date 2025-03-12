@@ -7,9 +7,7 @@ import { Link } from "@/i18n/navigation";
 
 export default function StudentDashboard() {
   return (
-    <div className="flex h-screen bg-gray-100">
-
-
+    <div className="flex h-screen">
       {/* Main Content */}
       <main className="flex-1 p-6">
         <div className="grid grid-cols-3 gap-4 mb-6">
@@ -41,7 +39,9 @@ export default function StudentDashboard() {
             <CardContent className="p-4 flex items-center justify-between">
               <div>
                 <p className="font-semibold">Video Editing</p>
-                <p className="text-sm text-gray-500">Introduction to video editing</p>
+                <p className="text-sm text-gray-500">
+                  Introduction to video editing
+                </p>
               </div>
               <Button>View</Button>
             </CardContent>
@@ -50,7 +50,9 @@ export default function StudentDashboard() {
             <CardContent className="p-4 flex items-center justify-between">
               <div>
                 <p className="font-semibold">3D Rendering</p>
-                <p className="text-sm text-gray-500">Popular 3D Design course</p>
+                <p className="text-sm text-gray-500">
+                  Popular 3D Design course
+                </p>
               </div>
               <Button>View</Button>
             </CardContent>
