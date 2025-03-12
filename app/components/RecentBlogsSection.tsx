@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Link from "next/link";
 import BlogCard from "./BlogCard";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 interface Blog {
   id: number;
