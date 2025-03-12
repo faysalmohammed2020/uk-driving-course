@@ -34,6 +34,29 @@ const ExamWithId = () => {
     else if (examId === 500) quizData = t.raw("quiz5");
     else if (examId === 600) quizData = t.raw("quiz6");
     else if (examId === 700) quizData = t.raw("quiz7");
+    else if (examId === 800) quizData = t.raw("quiz8");
+    else if (examId === 900) quizData = t.raw("quiz9");
+    else if (examId === 1000) quizData = t.raw("quiz10");
+    else if (examId === 1100) quizData = t.raw("quiz11");
+    else if (examId === 1200) quizData = t.raw("quiz12");
+    else if (examId === 1300) quizData = t.raw("quiz13");
+    else if (examId === 1400) quizData = t.raw("quiz14");
+    else if (examId === 1500) quizData = t.raw("quiz15");
+    else if (examId === 1600) quizData = t.raw("quiz16");
+    else if (examId === 1700) quizData = t.raw("quiz17");
+    else if (examId === 1800) quizData = t.raw("quiz18");
+    else if (examId === 1900) quizData = t.raw("quiz19");
+    else if (examId === 2000) quizData = t.raw("quiz20");
+    else if (examId === 2100) quizData = t.raw("quiz21");
+    else if (examId === 2200) quizData = t.raw("quiz22");
+    else if (examId === 2300) quizData = t.raw("quiz23");
+    else if (examId === 2400) quizData = t.raw("quiz24");
+    else if (examId === 2500) quizData = t.raw("quiz25");
+    else if (examId === 2600) quizData = t.raw("quiz26");
+    else if (examId === 2700) quizData = t.raw("quiz27");
+    else if (examId === 2800) quizData = t.raw("quiz28");
+    else if (examId === 2900) quizData = t.raw("quiz29");
+    else if (examId === 3000) quizData = t.raw("quiz30");
 
     if (quizData) {
       setSelectedQuestions(quizData.questions); // Set questions
@@ -131,7 +154,7 @@ const ExamWithId = () => {
       {!hasStarted && !isSubmitted ? (
         <div className="relative bg-opacity-50 backdrop-blur-md border border-gray-200 rounded-3xl shadow-xl p-8 max-w-4xl mx-auto mt-10 text-center bg-white">
           <h1 className="text-4xl font-extrabold mb-6 text-gray-800">
-            Exam Guidelines
+            {t('exam.exams.Guidelines')}
           </h1>
           <div className="flex justify-center mb-6">
             <img
@@ -141,47 +164,39 @@ const ExamWithId = () => {
             />
           </div>
           <p className="text-red-600 text-lg font-semibold mb-4">
-            Please read the guidelines carefully before starting the exam.
+          {t('exam.exams.PleaseRead')}
           </p>
           <ul className="text-left text-gray-700 list-none space-y-4 mb-8 mx-8">
             <li className="flex items-start bg-gray-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
               <span className="material-icons text-blue-600 font-bold text-lg mr-3">
-                Schedule:
+              {t('exam.exams.Schedule')}:
               </span>
               <span>
-                You will have <span className="font-semibold">30 minutes</span>{" "}
-                to complete the exam.
+              {t('exam.exams.Mint')}
               </span>
             </li>
             <li className="flex items-start bg-gray-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
               <span className="material-icons text-green-600 text-lg font-bold mr-3">
-                Fact_check:
+              {t('exam.exams.FactCheck')}:
               </span>
               <span>
-                Each question has{" "}
-                <span className="font-semibold">4 options</span>. Only one is
-                correct.
+              {t('exam.exams.options')}
               </span>
             </li>
             <li className="flex items-start bg-gray-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
               <span className="material-icons text-red-600 text-lg font-bold mr-3">
-                Cancel:
+              {t('exam.exams.Cancel')}:
               </span>
               <span>
-                Once you submit,{" "}
-                <span className="font-semibold">
-                  you cannot change your answers
-                </span>
-                .
+              {t('exam.exams.answers')}
               </span>
             </li>
             <li className="flex items-start bg-gray-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300">
               <span className="material-icons text-yellow-600 text-lg font-bold mr-3">
-                Insights:
+              {t('exam.exams.Insights')}:
               </span>
               <span>
-                Your results will be displayed{" "}
-                <span className="font-semibold">after submission</span>.
+              {t('exam.exams.submission')}
               </span>
             </li>
           </ul>
