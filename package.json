@@ -16,7 +16,6 @@
     "@mui/material": "^6.4.5",
     "@prisma/client": "^6.4.1",
     "@radix-ui/react-label": "^2.1.2",
-    "@radix-ui/react-progress": "^1.1.2",
     "@radix-ui/react-slot": "^1.1.2",
     "@tinymce/tinymce-react": "^6.0.0",
     "@types/next-seo": "^1.10.0",
