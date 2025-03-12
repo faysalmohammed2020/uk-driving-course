@@ -36,7 +36,7 @@ import questions28 from "@/app/(main)/[locale]/data/questions28.json";
 import questions29 from "@/app/(main)/[locale]/data/questions29.json";
 import questions30 from "@/app/(main)/[locale]/data/questions30.json";
 import { useSession } from "@/lib/auth-client";
-import { setErrorMap } from "better-auth";
+// import { setErrorMap } from "better-auth";
 import { useLocale } from "next-intl";
 
 interface MockTest {
@@ -73,7 +73,8 @@ const ExamPage = () => {
         const data = await response.json();
         setExamResults(data);
       } catch (err: any) {
-        setErrorMap(err.message);
+        // setErrorMap(err.message);
+        console.log(err)
       }
     };
 
