@@ -19,6 +19,7 @@ import VideoSection from "@/app/components/Video";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 import { Metadata } from "next";
+import RecentBlogsSection from "@/app/components/RecentBlogsSection";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations();
@@ -325,38 +326,8 @@ const HomePage: React.FC = async () => {
       <VideoSection />
 
       {/* Our Recent Blogs Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          {/* Section Title */}
-          <div className="text-center mb-10">
-            <h3 className="text-green-600 font-semibold text-lg uppercase">
-              {t("home.BlogSectionHeader.header")}
-            </h3>
-            <h2 className="text-3xl font-bold text-gray-800">
-              {t("home.BlogSectionHeader.shortTitle")}
-            </h2>
-            <p className="text-gray-600 mt-2">
-              {t("home.BlogSectionHeader.blogHeaderDes")}
-            </p>
-          </div>
 
-          {/* Blog Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {blogs.map((blogContent, index) => (
-              <BlogCard key={index} blog={blogContent} />
-            ))}
-          </div>
-
-          {/* View All Button */}
-          <div className="text-center mt-10">
-            <Link href="/blogs">
-              <button className="bg-yellow-600 text-white py-2 px-6 rounded-md shadow hover:bg-yellow-700 transition duration-300">
-                {t("home.BlogSectionHeader.Button")}
-              </button>
-            </Link>
-          </div>
-        </div>
-      </section>
+      <RecentBlogsSection />
 
       <GetInTouch />
     </div>
