@@ -41,8 +41,6 @@ const BlogManagement: React.FC = () => {
           createdAt: item.createdAt,
         }));
 
-        console.log("Transformed Data:", transformedData);
-
         setBlogs(transformedData);
       } catch (err) {
         setError("Failed to fetch blogs. Please try again later.");
@@ -112,7 +110,6 @@ const BlogManagement: React.FC = () => {
     );
   };
 
-  console.log("Get Blogs:", blogs);
 
   return (
     <div className="p-6 min-h-screen font-sans">
