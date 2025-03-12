@@ -15,16 +15,9 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "flagcdn.com",
-      },
-      {
-        protocol: "https",
-        hostname: "www.insight-reisen.com",
-      },
-      {
-        protocol: "https",
-        hostname: "via.placeholder.com",
+        protocol: "https", // Allow images over HTTPS
+        hostname: "**", // Allow any domain
+        pathname: "/**", // Allow images from any path on the domain
       },
     ],
   },
