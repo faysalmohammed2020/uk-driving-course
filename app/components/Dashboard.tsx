@@ -2,9 +2,70 @@
 
 import React, { useState } from "react";
 import { FileText, HelpCircle, ArrowDown, MoreHorizontal } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 
-const AdminDashboard = () => {
-  // Demo data - you would replace this with dynamic data from your backend
+interface userData {
+  id: string;
+  email: string;
+  name?: string;
+  role?: string;
+  password?: string;
+  phone?: string;
+  image?: string;
+  emailVerified?: boolean;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+interface blogData {
+  id: number;
+  post_author?: number;
+  tags?: string;
+  name?: string;
+  category?: string;
+  post_date?: Date;
+  post_date_gmt?: Date;
+  post_content?: any;
+  post_title: string;
+  post_excerpt?: string;
+  post_status?: string;
+  comment_status?: string;
+  ping_status?: string;
+  post_password?: string;
+  post_name: string;
+  to_ping?: string;
+  pinged?: string;
+  post_modified?: Date;
+  post_modified_gmt?: Date;
+  post_content_filtered?: string;
+  post_parent?: number;
+  guid?: string;
+  menu_order?: number;
+  post_type?: string;
+  post_mime_type?: string;
+  comment_count?: number;
+  createdAt?: Date;
+}
+
+interface activeUser {
+  id: string;
+  expiresAt: Date;
+  token: string;
+  role?: string;
+  createdAt: Date;
+  updatedAt: Date;
+  ipAddress?: string;
+  userAgent?: string;
+  userId: string;
+}
+
+interface ComponentProps {
+  blogData: blogData[];
+  userData: userData[];
+  activeUser: activeUser[];
+}
+
+const AdminDashboard = ({ blogData, userData, activeUser }: ComponentProps) => {
   const [activeTab, setActiveTab] = useState("Today");
 
   const [teachers] = useState([
@@ -106,18 +167,23 @@ const AdminDashboard = () => {
       </div>
 
       {/* Stats cards */}
+
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 p-6">
-        <div className="bg-gradient-to-br from-[#ddf8fa] to-[#5bf5fd] p-5 rounded-lg shadow-sm border border-blue-100 hover:shadow-md transition duration-300">
-          <div className="flex justify-between items-center mb-4">
-            <span className="text-sm text-gray-600 font-medium">
-              Total Users
-            </span>
-            <button className="text-gray-400 hover:text-gray-600">
-              <HelpCircle className="w-4 h-4" />
-            </button>
+        <Link href="/admin/users">
+          <div className="h-52 bg-gradient-to-br from-[#ddf8fa] to-[#5bf5fd] p-5 rounded-lg shadow-sm border border-blue-100 hover:shadow-md transition duration-300">
+            <div className="flex justify-between items-center mb-4">
+              <span className="text-sm text-gray-600 font-medium">
+                Total Users
+              </span>
+              <button className="text-gray-400 hover:text-gray-600">
+                <HelpCircle className="w-4 h-4" />
+              </button>
+            </div>
+            <div className="text-3xl font-bold text-gray-800">
+              {userData.length}
+            </div>
           </div>
-          <div className="text-3xl font-bold text-gray-800">1550</div>
-        </div>
+        </Link>
 
         <div className="bg-gradient-to-br from-[#FCF3FB] to-[#fa93ee] p-5 rounded-lg shadow-sm border border-purple-100 hover:shadow-md transition duration-300">
           <div className="flex justify-between items-center mb-4">
@@ -129,7 +195,7 @@ const AdminDashboard = () => {
             </button>
           </div>
           <div className="text-3xl font-bold text-gray-800">
-            {stats.activeUsers}
+            {activeUser.length}
           </div>
         </div>
 
@@ -202,50 +268,52 @@ const AdminDashboard = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-indigo-50 to-indigo-700 p-5 rounded-lg shadow-sm border border-indigo-100 hover:shadow-md transition duration-300 h-52 overflow-hidden overflow-y-auto">
-          <div className="flex justify-between items-center mb-4">
-            <span className="text-sm text-gray-600 font-medium">
-              Notification
-            </span>
-            <button className="text-gray-400 hover:text-gray-600">
-              <HelpCircle className="w-4 h-4" />
-            </button>
+        <Link href="/admin/notification">
+          <div className="bg-gradient-to-br from-indigo-50 to-indigo-700 p-5 rounded-lg shadow-sm border border-indigo-100 hover:shadow-md transition duration-300 h-52 overflow-hidden overflow-y-auto">
+            <div className="flex justify-between items-center mb-4">
+              <span className="text-sm text-gray-600 font-medium">
+                Notification
+              </span>
+              <button className="text-gray-400 hover:text-gray-600">
+                <HelpCircle className="w-4 h-4" />
+              </button>
+            </div>
+            <div>
+              <ul className="space-y-2">
+                <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                  Notification 1
+                </li>
+                <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                  Notification 2
+                </li>
+                <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                  Notification 3
+                </li>
+                <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                  Notification 4
+                </li>
+                <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                  Notification 5
+                </li>
+                <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                  Notification 6
+                </li>
+                <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                  Notification 7
+                </li>
+                <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                  Notification 8
+                </li>
+                <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                  Notification 9
+                </li>
+                <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
+                  Notification 10
+                </li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <ul className="space-y-2">
-              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
-                Notification 1
-              </li>
-              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
-                Notification 2
-              </li>
-              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
-                Notification 3
-              </li>
-              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
-                Notification 4
-              </li>
-              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
-                Notification 5
-              </li>
-              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
-                Notification 6
-              </li>
-              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
-                Notification 7
-              </li>
-              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
-                Notification 8
-              </li>
-              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
-                Notification 9
-              </li>
-              <li className="py-1 px-2 rounded hover:bg-white hover:shadow-sm transition duration-200">
-                Notification 10
-              </li>
-            </ul>
-          </div>
-        </div>
+        </Link>
 
         <div className="bg-gradient-to-br from-rose-50 to-red-500 p-5 rounded-lg shadow-sm border border-rose-100 hover:shadow-md transition duration-300">
           <div className="flex justify-between items-center mb-4">
@@ -259,26 +327,28 @@ const AdminDashboard = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-[#c2e6ff] to-[#29daa5] p-5 rounded-lg shadow-sm border border-rose-100 hover:shadow-md transition duration-300">
-          <div className="flex justify-between items-center mb-4">
-            <span className="text-sm text-gray-600 font-medium">
-              Total Blog
-            </span>
-            <button className="text-gray-400 hover:text-gray-600">
-              <HelpCircle className="w-4 h-4" />
-            </button>
+        <Link href="/admin/blogs">
+          <div className="h-52 bg-gradient-to-br from-[#c2e6ff] to-[#29daa5] p-5 rounded-lg shadow-sm border border-rose-100 hover:shadow-md transition duration-300 cursor-pointer">
+            <div className="flex justify-between items-center mb-4">
+              <span className="text-sm text-gray-600 font-medium">
+                Total Blog
+              </span>
+              <button className="text-gray-400 hover:text-gray-600">
+                <HelpCircle className="w-4 h-4" />
+              </button>
+            </div>
+            <div className="text-3xl font-bold text-gray-800">
+              {blogData.length}
+            </div>
           </div>
-          <div className="text-3xl font-bold text-gray-800">
-            {stats.scoresCreated}
-          </div>
-        </div>
+        </Link>
       </div>
 
       {/* Licenses breakdown */}
       <div className="p-6">
         <div className="mb-4 flex justify-between items-center">
           <h2 className="text-lg font-bold text-gray-800">
-            Licenses breakdown
+            Licenses Collected
           </h2>
           <div className="flex items-center space-x-2">
             <div className="relative">
