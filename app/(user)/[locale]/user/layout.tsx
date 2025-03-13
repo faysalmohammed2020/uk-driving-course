@@ -11,7 +11,7 @@ const AdmindLayout = async ({ children }: { children: React.ReactNode }) => {
   });
   const locale = await getLocale();
 
-  if (session?.user?.role as string) {
+  if (session?.user?.role === ("admin" as string)) {
     redirect({ href: "/admin", locale });
   }
 
