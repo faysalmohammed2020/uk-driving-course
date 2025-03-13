@@ -6,6 +6,7 @@ export const signInSchema = yup.object().shape({
     .required("Email is required")
     .email("Invalid email address"),
   password: yup.string().required("Password is required"),
+  role: yup.string().optional(),
 });
 
 export const signUpSchema = yup.object().shape({
@@ -19,12 +20,6 @@ export const signUpSchema = yup.object().shape({
     .required("Password is required")
     .min(8, "Password must be at least 8 characters"),
   role: yup.string().optional(),
-  division: yup.string().optional(),
-  district: yup.string().optional(),
-  area: yup.string().optional(),
-  upazila: yup.string().optional(),
-  union: yup.string().optional(),
-  markaz: yup.string().optional(),
   phone: yup.string().optional(),
 });
 
@@ -34,6 +29,7 @@ export const signInSchemaUser = yup.object().shape({
     .required("Email is required")
     .email("Invalid email address"),
   password: yup.string().required("Password is required"),
+  role: yup.string().optional(),
 });
 
 export const signUpSchemaUser = yup.object().shape({
@@ -47,11 +43,5 @@ export const signUpSchemaUser = yup.object().shape({
     .required("Password is required")
     .min(8, "Password must be at least 8 characters"),
   role: yup.string().optional(),
-  division: yup.string().required("Division is required"),
-  district: yup.string().required("District is required"),
-  area: yup.string().required("Area is required"),
-  upazila: yup.string().required("Upazila is required"),
-  union: yup.string().required("Union is required"),
-  markaz: yup.string().optional(),
   phone: yup.string().required("Phone is required"),
 });

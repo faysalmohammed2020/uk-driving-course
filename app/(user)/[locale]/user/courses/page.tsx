@@ -1,12 +1,9 @@
-import UserExamResults from "./StudentResult";
-import CoursesCard from './CoursesCard';
-
+import CoursesCard from "./CoursesCard";
 
 const Page = () => {
   return (
     <div>
-    <CoursesCard />
-    
+      <CoursesCard />
     </div>
   );
 };

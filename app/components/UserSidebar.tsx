@@ -3,19 +3,34 @@
 "use client";
 
 import { useState } from "react";
-import { Menu, X, LayoutDashboard, BookOpen, BookDown, FileText, Users, MessageSquare } from "lucide-react";
+import {
+  Menu,
+  X,
+  LayoutDashboard,
+  BookOpen,
+  BookDown,
+  FileText,
+  Users,
+  MessageSquare,
+} from "lucide-react";
 import { Link, usePathname } from "@/i18n/navigation";
+import { useSession } from "@/lib/auth-client";
 
 const UserSidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
+  const session = useSession();
 
   const sidebarLinks = [
     { href: "/user", label: "Dashboard", icon: <LayoutDashboard size={20} /> },
     { href: "/user/courses", label: "Courses", icon: <BookOpen size={20} /> },
     { href: "/user/exams", label: "Mock Test", icon: <FileText size={20} /> },
     { href: "/user/result", label: "Result", icon: <BookDown size={20} /> },
-    { href: "/user/notification", label: "Notification", icon: <MessageSquare size={20} /> },
+    {
+      href: "/user/notification",
+      label: "Notification",
+      icon: <MessageSquare size={20} />,
+    },
   ];
 
   return (
@@ -30,8 +45,10 @@ const UserSidebar = () => {
           isOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
         } md:relative`}
       >
-        <h2 className="text-xl text-white font-bold mb-6">Student Panel</h2>
-        <nav className="mt-6">
+        <h2 className="text-xl text-white font-bold">
+          {session.data?.user?.name}
+        </h2>
+        <nav className="mt-16">
           <ul className="space-y-4">
             {sidebarLinks.map((item) => {
               const isActive = pathname === item.href;
@@ -40,7 +57,9 @@ const UserSidebar = () => {
                   <Link
                     href={item.href}
                     className={`flex items-center gap-2 p-2 rounded transition duration-300 ${
-                      isActive ? "bg-blue-600 text-white font-semibold shadow-lg" : "hover:bg-blue-200 text-white"
+                      isActive
+                        ? "bg-blue-600 text-white font-semibold shadow-lg"
+                        : "hover:bg-blue-200 text-white"
                     }`}
                   >
                     {item.icon} {item.label}

@@ -23,22 +23,23 @@ import {
 } from "../../../../components/ui/form";
 import { Input } from "../../../../components/ui/input";
 import { Button } from "../../../../components/ui/button";
-import Link from "next/link";
-import { signIn } from "@/lib/auth-client";
+import { signIn, useSession } from "@/lib/auth-client";
 import { FormError } from "../../../../components/FormError";
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import { toast } from "sonner";
+import { Link, useRouter } from "@/i18n/navigation";
 
 const SigninForm = () => {
   const [formError, setFormError] = useState("");
   const router = useRouter();
+  const session = useSession();
 
   const form = useForm<yup.InferType<typeof signInSchema>>({
     resolver: yupResolver(signInSchema),
     defaultValues: {
       email: "",
       password: "",
+      role: "",
     },
   });
 
@@ -53,8 +54,9 @@ const SigninForm = () => {
           setFormError("");
         },
         onSuccess: () => {
+          console.log(session.data);
           toast.success("Login Successful");
-          router.push("/");
+          router.push("/user");
         },
         onError: (ctx) => {
           setFormError(ctx.error.message);
