@@ -70,7 +70,6 @@ export default function StudentDashboard() {
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error}</p>;
-  if (passedResults.length === 0) return <p>No passed exam results found.</p>;
 
   return (
     <div className="flex h-screen">
@@ -112,13 +111,6 @@ export default function StudentDashboard() {
           </Card>
         </div>
 
-        {/* Average Percentage
-        <div className="mb-6 text-center">
-          <p className="text-xl font-semibold">Average Percentage</p>
-          <Progress value={averagePercentage} className="my-2" />
-          <p className="text-2xl font-bold">{Math.round(averagePercentage)}%</p>
-        </div> */}
-
         {/* My Courses Section */}
         <section className="mt-8">
           <h3 className="text-lg font-semibold mb-3">My Courses</h3>
@@ -140,97 +132,103 @@ export default function StudentDashboard() {
           </div>
         </section>
 
-        {/* Exam Results Table */}
-        <h3 className="text-lg font-semibold mb-3">Passed Exams</h3>
-        <div className="overflow-x-auto shadow-lg rounded-lg bg-white border border-gray-300 p-6">
-          <table className="min-w-full table-auto text-gray-700">
-            <thead className="bg-gradient-to-r from-green-400 to-green-600 text-white text-lg font-semibold">
-              <tr>
-                <th className="py-4 px-6 text-left">Exam Title</th>
-                <th className="py-4 px-6 text-left">Score</th>
-                <th className="py-4 px-6 text-left">Total</th>
-                <th className="py-4 px-6 text-left">Percentage</th>
-                <th className="py-4 px-6 text-left">Date</th>
-                <th className="py-4 px-6 text-left">Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              {passedResults.map((result) => (
-                <tr
-                  key={result.id}
-                  className="hover:bg-gradient-to-r from-green-50 to-green-100 transition duration-200"
-                >
-                  <td className="py-4 px-6 border-b">{result.examTitle}</td>
-                  <td className="py-4 px-6 border-b">{result.score}</td>
-                  <td className="py-4 px-6 border-b">{result.total}</td>
-                  <td className="py-4 px-6 border-b">
-                    <div className="relative pt-1">
-                      <div className="flex mb-2 items-center justify-between">
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600">
-                          {Math.round((result.score / result.total) * 100)}%
-                        </span>
-                      </div>
-                      <div className="flex mb-2">
-                        <div className="w-full bg-gray-200 rounded-full h-2.5">
-                          <div
-                            className="bg-green-500 h-2.5 rounded-full"
-                            style={{
-                              width: `${(result.score / result.total) * 100}%`,
-                            }}
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                  </td>
-                  <td className="py-4 px-6 border-b">
-                    {new Date(result.createdAt).toLocaleDateString()}
-                  </td>
-                  <td className="py-4 px-6 border-b text-center">
-                    <span
-                      className={`inline-block p-2 rounded-full ${
-                        result.status === "Passed"
-                          ? "bg-green-500 text-white"
-                          : "bg-red-500 text-white"
-                      }`}
+        {/* Exam Results Section */}
+        {passedResults.length > 0 ? (
+          <>
+            <h3 className="text-lg font-semibold mb-3">Passed Exams</h3>
+            <div className="overflow-x-auto shadow-lg rounded-lg bg-white border border-gray-300 p-6">
+              <table className="min-w-full table-auto text-gray-700">
+                <thead className="bg-gradient-to-r from-green-400 to-green-600 text-white text-lg font-semibold">
+                  <tr>
+                    <th className="py-4 px-6 text-left">Exam Title</th>
+                    <th className="py-4 px-6 text-left">Score</th>
+                    <th className="py-4 px-6 text-left">Total</th>
+                    <th className="py-4 px-6 text-left">Percentage</th>
+                    <th className="py-4 px-6 text-left">Date</th>
+                    <th className="py-4 px-6 text-left">Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {passedResults.map((result) => (
+                    <tr
+                      key={result.id}
+                      className="hover:bg-gradient-to-r from-green-50 to-green-100 transition duration-200"
                     >
-                      {result.status === "Passed" ? (
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-6 w-6"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
+                      <td className="py-4 px-6 border-b">{result.examTitle}</td>
+                      <td className="py-4 px-6 border-b">{result.score}</td>
+                      <td className="py-4 px-6 border-b">{result.total}</td>
+                      <td className="py-4 px-6 border-b">
+                        <div className="relative pt-1">
+                          <div className="flex mb-2 items-center justify-between">
+                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600">
+                              {Math.round((result.score / result.total) * 100)}%
+                            </span>
+                          </div>
+                          <div className="flex mb-2">
+                            <div className="w-full bg-gray-200 rounded-full h-2.5">
+                              <div
+                                className="bg-green-500 h-2.5 rounded-full"
+                                style={{
+                                  width: `${(result.score / result.total) * 100}%`,
+                                }}
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td className="py-4 px-6 border-b">
+                        {new Date(result.createdAt).toLocaleDateString()}
+                      </td>
+                      <td className="py-4 px-6 border-b text-center">
+                        <span
+                          className={`inline-block p-2 rounded-full ${
+                            result.status === "Passed"
+                              ? "bg-green-500 text-white"
+                              : "bg-red-500 text-white"
+                          }`}
                         >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M5 13l4 4L19 7"
-                          />
-                        </svg>
-                      ) : (
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-6 w-6"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M6 18L18 6M6 6l12 12"
-                          />
-                        </svg>
-                      )}
-                    </span>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+                          {result.status === "Passed" ? (
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="h-6 w-6"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M5 13l4 4L19 7"
+                              />
+                            </svg>
+                          ) : (
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="h-6 w-6"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M6 18L18 6M6 6l12 12"
+                              />
+                            </svg>
+                          )}
+                        </span>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </>
+        ) : (
+          <p>No passed exam results found.</p>
+        )}
       </main>
     </div>
   );
