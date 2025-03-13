@@ -6,11 +6,14 @@ import { useState } from "react";
 import { Menu, X, Home, Users, Bell, UserRoundPlus, Rss } from "lucide-react";
 import { Link, usePathname } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
+import { useSession } from "@/lib/auth-client";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
   const t = useTranslations("sidebar");
+  const session = useSession();
+  const userRole = session.data?.user?.role;
 
   const sidebarLinks = [
     { href: "/admin", label: t("Dashboard"), icon: <Home size={20} /> },
@@ -44,7 +47,13 @@ const Sidebar = () => {
           isOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
         } md:relative`}
       >
-        <h2 className="text-xl text-white font-bold mb-5">{t("AdminPanel")}</h2>
+        <div>
+          <h2 className="text-xl text-white font-bold">
+            {session.data?.user?.name}
+          </h2>
+          <p className="text-xl text-white mb-5">{session.data?.user?.role}</p>
+        </div>
+
         <nav className="mt-16">
           <ul className="space-y-4">
             {sidebarLinks.map((item) => {

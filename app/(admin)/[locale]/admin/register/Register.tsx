@@ -14,7 +14,7 @@ interface formData {
 
 const roleOptions = [
   { value: "admin", title: "Admin" },
-  { value: "user", title: "User" },
+  { value: "student", title: "User" },
   { value: "moderator", title: "Moderator" },
 ];
 
@@ -31,12 +31,17 @@ const Register = () => {
   const signUpSchemaUser = yup.object().shape({
     name: yup.string().required("Name is required"),
     email: yup.string().email("Invalid email").required("Email is required"),
-    password: yup.string().min(8, "Password must be at least 8 characters").required("Password is required"),
+    password: yup
+      .string()
+      .min(8, "Password must be at least 8 characters")
+      .required("Password is required"),
     role: yup.string().required("Role is required"),
     phone: yup.string().required("Phone is required"),
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
+  ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
@@ -76,13 +81,45 @@ const Register = () => {
       <div className="w-full p-8 space-y-6">
         <h2 className="text-2xl font-bold text-center">Add New User</h2>
         <form className="space-y-4" onSubmit={handleSubmit}>
-          <InputField label="Full Name" name="name" value={formData.name} onChange={handleChange} />
-          <SelectField label="Role" name="role" value={formData.role} onChange={handleChange} options={roleOptions} required />
-          <InputField label="Mobile Number" name="phone" value={formData.phone} onChange={handleChange} />
-          <InputField label="Email" name="email" value={formData.email} onChange={handleChange} />
-          <InputField type="password" label="Create New Password" name="password" value={formData.password} onChange={handleChange} />
+          <InputField
+            label="Full Name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+          />
+          <SelectField
+            label="Role"
+            name="role"
+            value={formData.role}
+            onChange={handleChange}
+            options={roleOptions}
+            required
+          />
+          <InputField
+            label="Mobile Number"
+            name="phone"
+            value={formData.phone}
+            onChange={handleChange}
+          />
+          <InputField
+            label="Email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+          />
+          <InputField
+            type="password"
+            label="Create New Password"
+            name="password"
+            value={formData.password}
+            onChange={handleChange}
+          />
           <div className="flex justify-end">
-            <button type="submit" disabled={loading} className="w-32 py-2 px-4 bg-[#155E75] text-white rounded-md hover:bg-blue-600">
+            <button
+              type="submit"
+              disabled={loading}
+              className="w-32 py-2 px-4 bg-[#155E75] text-white rounded-md hover:bg-blue-600"
+            >
               {loading ? "Processing..." : "Add User"}
             </button>
           </div>
@@ -114,13 +151,19 @@ interface SelectFieldProps {
   onChange: (e: React.ChangeEvent<HTMLSelectElement>) => void;
   required?: boolean;
 }
-const SelectField: React.FC<SelectFieldProps> = ({ label, options, ...props }) => (
+const SelectField: React.FC<SelectFieldProps> = ({
+  label,
+  options,
+  ...props
+}) => (
   <div>
     <label className="block text-sm font-medium text-gray-700">{label}</label>
     <select className="w-full p-2 border rounded-md" {...props}>
       <option value="">Select {label}</option>
       {options.map(({ value, title }) => (
-        <option key={value} value={value}>{title}</option>
+        <option key={value} value={value}>
+          {title}
+        </option>
       ))}
     </select>
   </div>
