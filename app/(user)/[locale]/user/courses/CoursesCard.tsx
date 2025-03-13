@@ -26,7 +26,7 @@ const CoursesCard = () => {
       if (response.ok) {
         console.log("Course Buying Successfull.");
       } else {
-        console.log("Email Sent Successfull");
+        alert("Course Buying Successfull. Check Your Email");
       }
     } catch (error) {
       console.error("Error buying Course:", error);
