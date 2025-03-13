@@ -146,7 +146,7 @@ const ExamPage = () => {
       {/* Exam Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-10">
         {currentTests.map((test) => (
-          <div
+          <div 
             key={test.id}
             className="relative bg-white text-gray-900 p-6 rounded-2xl shadow-lg transition-all duration-300 ease-in-out transform hover:-translate-y-2 hover:shadow-2xl flex flex-col items-start border border-gray-200 overflow-hidden"
           >
