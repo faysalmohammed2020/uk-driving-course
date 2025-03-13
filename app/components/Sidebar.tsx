@@ -3,7 +3,16 @@
 // components/Sidebar.tsx
 
 import { useState } from "react";
-import { Menu, X, Home, Users, Bell, UserRoundPlus, Rss } from "lucide-react";
+import {
+  Menu,
+  X,
+  Home,
+  Users,
+  Bell,
+  UserRoundPlus,
+  Rss,
+  BookOpenCheck,
+} from "lucide-react";
 import { Link, usePathname } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import { useSession } from "@/lib/auth-client";
@@ -32,6 +41,11 @@ const Sidebar = () => {
       href: "/admin/blogs",
       label: t("BlogManagement"),
       icon: <Rss size={20} />,
+    },
+    {
+      href: "/admin/mocktest",
+      label: t("mocktest"),
+      icon: <BookOpenCheck size={20} />,
     },
   ];
 
