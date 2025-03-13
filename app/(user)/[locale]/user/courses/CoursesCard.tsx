@@ -10,6 +10,29 @@ const courses = [
 ];
 
 const CoursesCard = () => {
+  const handleUpgradeClick = async () => {
+    try {
+      const response = await fetch('/api/emails', {
+        method: "POST",
+        body: JSON.stringify({
+          email: "faysalmohammed.shah@gmail.com",
+          name: "User",
+        }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+
+      if (response.ok) {
+        console.log("Course Buying Successfull.");
+      } else {
+        console.log("Email Sent Successfull");
+      }
+    } catch (error) {
+      console.error("Error buying Course:", error);
+    }
+  };
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
       {courses.map((course, index) => (
@@ -17,6 +40,7 @@ const CoursesCard = () => {
           <h3 className="text-lg font-bold mb-2">{course.title}</h3>
           <p className="text-sm text-gray-600 mb-4">{course.description}</p>
           <button
+            onClick={course.completed ? undefined : handleUpgradeClick}
             className={`w-full py-2 rounded-md text-white ${
               course.completed ? "bg-green-600 hover:bg-green-700" : "bg-blue-600 hover:bg-blue-700"
             }`}
