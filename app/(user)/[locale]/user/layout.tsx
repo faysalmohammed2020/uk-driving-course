@@ -1,7 +1,20 @@
 import Header from "@/app/components/Header";
 import UserSidebar from "@/app/components/UserSidebar";
+import { auth } from "@/lib/auth";
+import { headers } from "next/headers";
+import { redirect } from "@/i18n/navigation";
+import { getLocale } from "next-intl/server";
 
 const AdmindLayout = async ({ children }: { children: React.ReactNode }) => {
+  const session = await auth.api.getSession({
+    headers: await headers(),
+  });
+  const locale = await getLocale();
+
+  if (session?.user?.role as string) {
+    redirect({ href: "/admin", locale });
+  }
+
   return (
     <div className="flex fixed size-full ">
       <UserSidebar />
