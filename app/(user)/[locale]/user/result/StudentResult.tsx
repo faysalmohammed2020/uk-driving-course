@@ -2,6 +2,7 @@
 import { useRouter } from "@/i18n/navigation";
 import { useSession } from "@/lib/auth-client";
 import { useEffect, useState } from "react";
+import { Link } from "@/i18n/navigation";
 
 const UserExamResults = () => {
   const [examResults, setExamResults] = useState<any[]>([]);
@@ -39,7 +40,18 @@ const UserExamResults = () => {
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error}</p>;
-  if (examResults.length === 0) return <p>No exam results found.</p>;
+  if (examResults.length === 0)
+    return (
+      <div className="flex flex-col justify-center items-center">
+        <h2 className="text-xl font-bold mt-10">No exam results found.</h2>{" "}
+        <img src="/images/noResultFound.png" alt="No exam results found" />
+        <Link href="/user/exams">
+          <button className="bg-green-400 font-semibold mt-6 px-6 py-3 rounded-md hover:bg-green-500 hover:text-white">
+            Take a Test
+          </button>
+        </Link>
+      </div>
+    );
 
   return (
     <div className="container mx-auto py-10">

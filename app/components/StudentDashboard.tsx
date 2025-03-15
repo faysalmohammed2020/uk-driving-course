@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useSession } from "@/lib/auth-client";
-import { useRouter } from "@/i18n/navigation";
+import { Link, useRouter } from "@/i18n/navigation";
 import { Card, CardContent } from "../components/ui/card";
 import { Button } from "../components/ui/button";
 import { Progress } from "../components/ui/progress"; // Ensure you have Progress component available
@@ -227,7 +227,17 @@ export default function StudentDashboard() {
             </div>
           </>
         ) : (
-          <p>No passed exam results found.</p>
+          <div className="flex flex-col justify-center items-center">
+            <h2 className="text-xl font-bold mt-10">
+              No Pass Exam Results Found.
+            </h2>{" "}
+            <img src="/images/noResultFound.png" alt="No exam results found" />
+            <Link href="/user/exams">
+              <button className="bg-green-400 font-semibold mt-6 px-6 py-3 rounded-md hover:bg-green-500 hover:text-white">
+                Take a Test
+              </button>
+            </Link>
+          </div>
         )}
       </main>
     </div>
