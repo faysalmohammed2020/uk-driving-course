@@ -1,12 +1,17 @@
 [
   {
     "id": 200,
-    "title": "Question Set 2",
+    "title": "Question Set 2: Updated",
     "questions": [
       {
         "id": 1,
         "question": "Which vehicle feature must be checked daily before starting a PHV shift?",
-        "options": ["Fuel level", "Air conditioning", "Radio", "GPS settings"],
+        "options": [
+          "Fuel level",
+          "Air conditioning",
+          "Radio",
+          "GPS settings"
+        ],
         "answer": "Fuel level"
       },
       {
@@ -89,7 +94,12 @@
       {
         "id": 9,
         "question": "How long must PHV operators retain booking records?",
-        "options": ["3 months", "6 months", "12 months", "24 months"],
+        "options": [
+          "3 months",
+          "6 months",
+          "12 months",
+          "24 months"
+        ],
         "answer": "12 months"
       },
       {
@@ -283,11 +293,11 @@
         "id": 27,
         "question": "If passengers choose to book a ridesharing PHV they will?",
         "options": [
-          "Travel with someone they don\u2019t know",
+          "Travel with someone they don’t know",
           "Pay more for the journey",
           "Arrive faster at their destination"
         ],
-        "answer": "Travel with someone they don\u2019t know"
+        "answer": "Travel with someone they don’t know"
       },
       {
         "id": 28,
@@ -322,14 +332,18 @@
       {
         "id": 31,
         "question": "Avoid any behaviour that might be understood as",
-        "options": ["Being sexual", "Being friendly", "Being worried"],
+        "options": [
+          "Being sexual",
+          "Being friendly",
+          "Being worried"
+        ],
         "answer": "Being sexual"
       },
       {
         "id": 32,
         "question": "Which one of the following statements is correct regarding the PHV driver's badge?",
         "options": [
-          "Your PHV driver\u2019s badge displayed on the car windscreen",
+          "Your PHV driver’s badge displayed on the car windscreen",
           "You must wear this badge at all times when you are working as a PHV driver.",
           "You must have your badge with you at all times."
         ],
@@ -361,7 +375,11 @@
       {
         "id": 35,
         "question": "Do all assistance dogs always wear jackets?",
-        "options": ["Yes, but only winter", "Yes, at all times", "No"],
+        "options": [
+          "Yes, but only winter",
+          "Yes, at all times",
+          "No"
+        ],
         "answer": "No"
       },
       {
@@ -467,7 +485,10 @@
       {
         "id": 46,
         "question": "Once a PHV has been licensed, the registered ______ is given a vehicle licence and licence discs will be fixed to the front and rear ______ of the vehicle. The registered keeper also receives a leaflet which briefly describes the ______ of the licence.",
-        "options": ["Keeper, Windscreens, Conditions", "Knowledge, Doors, Car"],
+        "options": [
+          "Keeper, Windscreens, Conditions",
+          "Knowledge, Doors, Car"
+        ],
         "answer": "Keeper, Windscreens, Conditions"
       },
       {
@@ -482,19 +503,28 @@
       {
         "id": 48,
         "question": "When carrying a violent or aggressive passenger you should have a pre-planned way to excuse ______ from a difficult situation, for example, you can’t help them but ______ someone at the address you are ______ them to can sort the problem out for them.",
-        "options": ["Yourself, It, Taking", "Yourselves, Took, Perhaps"],
+        "options": [
+          "Yourself, It, Taking",
+          "Yourselves, Took, Perhaps"
+        ],
         "answer": "Yourself, It, Taking"
       },
       {
         "id": 49,
         "question": "Tiredness can have a ______ effect on a driver as drinking alcohol and can result in ______ or serious injury. Plan your day to include regular breaks from driving and do not begin a ______ journey if you are already tired.",
-        "options": ["Similar, Death, Long", "Same, Kill, Journey"],
+        "options": [
+          "Similar, Death, Long",
+          "Same, Kill, Journey"
+        ],
         "answer": "Similar, Death, Long"
       },
       {
         "id": 50,
         "question": "All ridesharing ______ must be booked with a licensed London PHV operator. As a London PHV ______, you can only carry out ridesharing booking that you ______ received from a licensed London PHV operator.",
-        "options": ["Journeys, Driver, Have", "Trip, Taxi Driver, Has"],
+        "options": [
+          "Journeys, Driver, Have",
+          "Trip, Taxi Driver, Has"
+        ],
         "answer": "Journeys, Driver, Have"
       }
     ]
