@@ -1,12 +1,17 @@
 [
   {
     "id": 100,
-    "title": "PHV Driver’s Licence - Basic Knowledge",
+    "title": "Model Question No: 01",
     "questions": [
       {
         "id": 1,
         "question": "What is the minimum age required to apply for a London PHV driver’s licence?",
-        "options": ["18", "21", "25", "30"],
+        "options": [
+          "18",
+          "21",
+          "25",
+          "30"
+        ],
         "answer": "21"
       },
       {
@@ -45,7 +50,12 @@
       {
         "id": 5,
         "question": "Which organization conducts the enhanced criminal records check for PHV drivers?",
-        "options": ["DVLA", "DBS", "TfL", "HMRC"],
+        "options": [
+          "DVLA",
+          "DBS",
+          "TfL",
+          "HMRC"
+        ],
         "answer": "DBS"
       },
       {
@@ -84,7 +94,12 @@
       {
         "id": 9,
         "question": "Which agency is responsible for licensing PHV drivers in London?",
-        "options": ["DVLA", "TfL", "DBS", "HMRC"],
+        "options": [
+          "DVLA",
+          "TfL",
+          "DBS",
+          "HMRC"
+        ],
         "answer": "TfL"
       },
       {
@@ -134,7 +149,12 @@
       {
         "id": 14,
         "question": "Where are PHV drivers prohibited from picking up passengers?",
-        "options": ["Bus stops", "Taxi ranks", "Red routes", "Parking bays"],
+        "options": [
+          "Bus stops",
+          "Taxi ranks",
+          "Red routes",
+          "Parking bays"
+        ],
         "answer": "Taxi ranks"
       },
       {
@@ -195,7 +215,12 @@
       {
         "id": 20,
         "question": "Which organization provides safeguarding awareness training for PHV drivers?",
-        "options": ["TfL", "DVLA", "HMRC", "DBS"],
+        "options": [
+          "TfL",
+          "DVLA",
+          "HMRC",
+          "DBS"
+        ],
         "answer": "TfL"
       },
       {
@@ -252,7 +277,11 @@
       {
         "id": 26,
         "question": "PHV licences last for how many years before the vehicle must have another licensing inspection?",
-        "options": ["3 years", "1 year", "3.5 Years"],
+        "options": [
+          "3 years",
+          "1 year",
+          "3.5 Years"
+        ],
         "answer": "1 year"
       },
       {
@@ -267,7 +296,7 @@
       },
       {
         "id": 28,
-        "question": "If you lose your PHV driver\u2019s badge or licence, or somebody steals it, report it immediately to?",
+        "question": "If you lose your PHV driver’s badge or licence, or somebody steals it, report it immediately to?",
         "options": [
           "The Police and TfL",
           "Your operator",
@@ -278,12 +307,16 @@
       {
         "id": 29,
         "question": "The only time when you can stop on a red route to wait for passengers to use a cashpoint is between the hours of?",
-        "options": ["07:00 to 19:00", "21:00 to 5:00", "22:00 to 6:00"],
+        "options": [
+          "07:00 to 19:00",
+          "21:00 to 5:00",
+          "22:00 to 6:00"
+        ],
         "answer": "22:00 to 6:00"
       },
       {
         "id": 30,
-        "question": "If you put a cradled device (such as a mobile phone or sat nav) on the area on your windscreen that is covered by your windscreen wipers (known as the \u2018swept area\u2019), you are committing an offence. If you are prosecuted, you may be fined and get penalty points on your driving licence. Which one of the following statement is correct?",
+        "question": "If you put a cradled device (such as a mobile phone or sat nav) on the area on your windscreen that is covered by your windscreen wipers (known as the ‘swept area’), you are committing an offence. If you are prosecuted, you may be fined and get penalty points on your driving licence. Which one of the following statement is correct?",
         "options": [
           "You can put your phone cradle in any area of the car windscreen",
           "Placing your device cradle on the windscreen swept area you are committing an offence.",
@@ -294,13 +327,21 @@
       {
         "id": 31,
         "question": "According to the law, a child is a person under the age of?",
-        "options": ["16 years", "18 Years", "21 Years"],
+        "options": [
+          "16 years",
+          "18 Years",
+          "21 Years"
+        ],
         "answer": "18 Years"
       },
       {
         "id": 32,
         "question": "If you change your home address, you should tell TfL within?",
-        "options": ["14 days", "21 days", "30 days"],
+        "options": [
+          "14 days",
+          "21 days",
+          "30 days"
+        ],
         "answer": "21 days"
       },
       {
@@ -327,7 +368,12 @@
       {
         "id": 35,
         "question": "A three-point turn or reverse parking are examples of driving?",
-        "options": ["Distractions", "Manoeuvres", "Speeds", "Violations"],
+        "options": [
+          "Distractions",
+          "Manoeuvres",
+          "Speeds",
+          "Violations"
+        ],
         "answer": "Manoeuvres"
       },
       {
@@ -354,13 +400,21 @@
       {
         "id": 38,
         "question": "If the correct child car seat is not available, children can travel without one - but only if they travel on a rear seat without a seat belt if they are under the age of?",
-        "options": ["10 Years", "14 Years", "5 years", "3 Years"],
+        "options": [
+          "10 Years",
+          "14 Years",
+          "5 years",
+          "3 Years"
+        ],
         "answer": "3 Years"
       },
       {
         "id": 39,
         "question": "You should tell the Police immediately if, in between medical examinations, you develop a new medical condition that may affect your ability to drive?",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": "True"
       },
       {
@@ -376,7 +430,10 @@
       {
         "id": 41,
         "question": "TfL has no power to set or control the fares charged by PHV operators. However, it is important that all customers understand the fare they are going to be charged?",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "answer": "True"
       },
       {
@@ -403,7 +460,12 @@
       {
         "id": 44,
         "question": "Which of these medical conditions must you inform TFL of?",
-        "options": ["Diabetes", "Asthma", "Athlete’s foot", "Psoriasis"],
+        "options": [
+          "Diabetes",
+          "Asthma",
+          "Athlete’s foot",
+          "Psoriasis"
+        ],
         "answer": "Diabetes"
       },
       {
@@ -451,7 +513,10 @@
           "About changes to the route",
           "About the weather"
         ],
-        "answer": ["About any delays", "About changes to the route"]
+        "answer": [
+          "About any delays",
+          "About changes to the route"
+        ]
       },
       {
         "id": 49,
