@@ -49,7 +49,6 @@ const Profile: React.FC = () => {
     email?: string;
     phone?: string;
     role?: string;
-    // add more if needed
   }>({});
 
   const [isEditing, setIsEditing] = useState(false);
@@ -103,7 +102,7 @@ const Profile: React.FC = () => {
   };
 
   return (
-    <div className="max-w-2xl mt-16 mx-auto p-6 bg-white shadow-2xl rounded-2xl border border-gray-100 transition-all duration-300 hover:shadow-3xl">
+    <div className="w-[80vh] mt-16 mx-auto p-6 bg-white shadow-2xl rounded-2xl border border-gray-100 transition-all duration-300 hover:shadow-3xl">
       <div className="text-center relative">
         <UserCircle className="w-24 h-24 mx-auto text-gray-300 mb-4" />
 
