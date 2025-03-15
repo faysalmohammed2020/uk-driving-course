@@ -3,18 +3,17 @@
 import { useState } from "react";
 import { ChevronDown, LogOut, User } from "lucide-react";
 import { useSession, signOut } from "@/lib/auth-client";
-import { useRouter } from "@/i18n/navigation";
+import { Link } from "@/i18n/navigation"; // Import Link from the appropriate module
 
 const Header = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const session = useSession();
-  const route = useRouter();
 
   const handleLogout = () => {
     signOut({
       fetchOptions: {
         onSuccess: () => {
-          route.push("/");
+          window.location.href = "/"; // Redirect to home page on logout
         },
       },
     });
@@ -40,9 +39,12 @@ const Header = () => {
 
         {dropdownOpen && (
           <div className="absolute right-0 mt-2 w-48  border shadow-lg rounded-lg">
-            <button className="flex w-full px-4 py-2 hover:bg-gray-100">
-              <User size={18} /> Profile
-            </button>
+            {/* Use Link to navigate to the profile page */}
+            <Link href="/admin/profile">
+              <button className="flex w-full px-4 py-2 hover:bg-gray-100">
+                <User size={18} /> Profile
+              </button>
+            </Link>
             <button
               className="flex w-full px-4 py-2 hover:bg-gray-100"
               onClick={handleLogout}
