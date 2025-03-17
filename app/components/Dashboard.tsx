@@ -1139,6 +1139,8 @@ import {
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu"
 import { Badge } from "@mui/material"
+import allQuestions from "@/app/(main)/[locale]/data/allquestions.json";
+
 
 interface userData {
   id: string
@@ -1209,11 +1211,11 @@ interface ComponentProps {
 
 const AdminDashboard = ({ blogData, userData, activeUser }: ComponentProps) => {
   const [activeTab, setActiveTab] = useState("today")
-  const [mockTests, setMockTests] = useState<MockTest[]>([])
+  // const [mockTests, setMockTests] = useState<MockTest[]>([])
   const [sidebarOpen, setSidebarOpen] = useState(true)
 
   // Calculate the total number of mock tests
-  const totalMockTests = mockTests.length || 12
+  const totalMockTests = allQuestions.length;
 
   const [teachers] = useState([
     {
@@ -1408,14 +1410,14 @@ const AdminDashboard = ({ blogData, userData, activeUser }: ComponentProps) => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
               {keyMetrics.map((metric, index) => (
-                <div key={index} className={`${metric.color} border rounded-lg p-4 flex items-center`}>
-                  <div className="mr-4 p-2 rounded-full bg-white">{metric.icon}</div>
+                <div key={index} className={`${metric.color} border rounded-lg shadow-lg px-4 py-8 flex items-center`}>
+                  <div className="mr-4 p-3 rounded-full bg-white">{metric.icon}</div>
                   <div>
-                    <div className="text-sm font-medium text-gray-500">{metric.title}</div>
+                    <div className="font-medium text-gray-500">{metric.title}</div>
                     <div className="flex items-center">
-                      <span className="text-2xl font-bold mr-2">{metric.value}</span>
+                      <span className="text-3xl font-bold mr-2">{metric.value}</span>
                       <span
-                        className={`text-xs ${metric.status === "increase" ? "text-green-500" : "text-red-500"} flex items-center`}
+                        className={`text-sm ${metric.status === "increase" ? "text-green-500" : "text-red-500"} flex items-center`}
                       >
                         {metric.status === "increase" ? (
                           <TrendingUp className="h-3 w-3 mr-1" />
@@ -1441,19 +1443,19 @@ const AdminDashboard = ({ blogData, userData, activeUser }: ComponentProps) => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {actionItems.map((item, index) => (
-                <Card key={index} className="border-l-4 border-l-primary">
+                <Card key={index} className="border-l-4 border-l-primary shadow-lg">
                   <CardHeader className="pb-2">
                     <div className="flex justify-between items-center">
                       <div className="flex items-center">
                         {item.icon}
-                        <CardTitle className="text-base ml-2">{item.title}</CardTitle>
+                        <CardTitle className="text-lg ml-2">{item.title}</CardTitle>
                       </div>
-                      <Badge>{item.value}</Badge>
+                      <Badge className="text-lg font-bold">{item.value}</Badge>
                     </div>
-                    <CardDescription>{item.description}</CardDescription>
+                    <CardDescription className="text-base">{item.description}</CardDescription>
                   </CardHeader>
                   <CardFooter className="pt-2">
-                    <Button variant="secondary" size="sm" asChild className="w-full">
+                    <Button variant="secondary" size="lg" asChild className="w-full">
                       <Link href={item.link}>{item.action}</Link>
                     </Button>
                   </CardFooter>
@@ -1463,8 +1465,8 @@ const AdminDashboard = ({ blogData, userData, activeUser }: ComponentProps) => {
           </div>
 
           <Tabs defaultValue="today" className="space-y-6">
-            <div className="flex justify-between items-center">
-              <TabsList>
+            <div className="flex justify-between items-center text-xl">
+              <TabsList className="py-3">
                 <TabsTrigger value="today" onClick={() => setActiveTab("today")}>
                   Today
                 </TabsTrigger>

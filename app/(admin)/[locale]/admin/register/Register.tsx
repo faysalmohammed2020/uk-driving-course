@@ -14,7 +14,7 @@ interface formData {
 
 const roleOptions = [
   { value: "admin", title: "Admin" },
-  { value: "student", title: "User" },
+  { value: "student", title: "Student" },
 ];
 
 const Register = () => {
@@ -76,10 +76,10 @@ const Register = () => {
   };
 
   return (
-    <div className="flex items-center justify-center lg:m-10">
+    <div className="flex items-center justify-center mx-auto max-w-6xl p-4 bg-gray-50 shadow-xl">
       <div className="w-full p-8 space-y-6">
         <h2 className="text-2xl font-bold text-center text-white bg-blue-600 py-2 rounded-md">
-          Add New Admin / Student
+          Register
         </h2>
         <form className="space-y-4" onSubmit={handleSubmit}>
           <InputField
