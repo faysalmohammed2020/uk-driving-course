@@ -19,7 +19,7 @@ const AdmindLayout = async ({ children }: { children: React.ReactNode }) => {
     <div className="flex fixed size-full ">
       <UserSidebar />
       <div className="w-full overflow-hidden">
-        <Header />
+        {/* <Header /> */}
         <main className="h-[calc(100vh-80px)] overflow-y-auto p-2 lg:p-6 ">
           {children}
         </main>
